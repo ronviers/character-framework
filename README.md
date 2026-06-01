@@ -46,6 +46,13 @@ wholesale, and each borrowing is named.
   onto it: a composite can carry protected circulation **neither part had**.
   → [character_composite.md](https://github.com/ronviers/mpa-atlas/blob/character-v0.1/framework/character_composite.md)
 
+The route to both lifts ran through the framework's **two-frame fluctuation–dissipation
+treatment** — the construction that distinguishes a system's *external* (probe) frame from its
+*intrinsic* (self-probe = affinity) frame. Working that treatment is what surfaced the lift and its
+iteration; the space of characters and emergence-under-coupling came out of it, not from positing
+them.
+→ [character_fdr_treatment.md](https://github.com/ronviers/mpa-atlas/blob/character-v0.1/framework/character_fdr_treatment.md)
+
 ## 3 · How it is kept honest
 
 Every load-bearing claim carries a pre-registered falsifier. Provisional work is quarantined in a
@@ -80,7 +87,7 @@ posture.
 | [character_prior_art.md](https://github.com/ronviers/mpa-atlas/blob/character-v0.1/framework/character_prior_art.md) | what is borrowed — the import ledger |
 | [character_receipts_engine.md](https://github.com/ronviers/mpa-atlas/blob/character-v0.1/framework/character_receipts_engine.md) | why each claim holds — derivations |
 | [character_frontier.md](https://github.com/ronviers/mpa-atlas/blob/character-v0.1/framework/character_frontier.md) | maturity — earned vs. provisional |
-| [character_fdr_treatment.md](https://github.com/ronviers/mpa-atlas/blob/character-v0.1/framework/character_fdr_treatment.md) · [character_units.md](https://github.com/ronviers/mpa-atlas/blob/character-v0.1/framework/character_units.md) | depth on specific axes — the two-frame FDR treatment; the unit standard |
+| [character_fdr_treatment.md](https://github.com/ronviers/mpa-atlas/blob/character-v0.1/framework/character_fdr_treatment.md) | the **two-frame FDR treatment** — the worked method the manifold and composite lifts came out of |
 
 ---
 
