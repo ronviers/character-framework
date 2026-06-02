@@ -1,0 +1,275 @@
+# Character — frontier (the maturity ledger)
+
+The fourth axis. The other three say *what is claimed* ([`character.md`](character.md)), *how it
+is derived* ([`character_receipts.md`](character_receipts.md)), and *what is borrowed*
+([`character_prior_art.md`](character_prior_art.md)). This one says **how settled each thing is,
+and exactly what would move it** — the single source of truth for everything not yet
+load-bearing. Its job is not to feed the core but to keep provisional work *out* of it until it
+earns in: the structure here is quarantine, not on-ramp. The value of `character.md` is that
+everything in it is committed; that guarantee survives only if the line below is strict.
+
+---
+
+## Gates — the state machine
+
+Five rungs and a hard line. An item occupies exactly one rung at a time; a rung change is an
+explicit event with a recorded trigger (no lore promotions).
+
+```
+steeping ──▶ sharpening ──▶ battery ──▶ staked ──╮
+   │             │             │           │      │  COMMIT LINE
+   ▼             ▼             ▼           ▼      ▼  ───────────────
+ discarded (tombstone) at any rung      promoted → character.md / receipts / prior-art
+```
+
+**Promotion gates** (the condition to cross each boundary):
+- `steeping → sharpening` — the speculation acquires *either* a concrete mechanism *or* a way to
+  test it. Pure intuition with neither stays steeping.
+- `sharpening → battery` — a runnable falsifier spec exists: finite operating point, a
+  forced-not-fitted target, explicit kill **and** vindicate conditions.
+- `battery → staked` — the spec is planted in the receipts as a falsifier of record (the `staked`
+  tag), un-instanced by design.
+- `staked → promoted` *(crosses the line)* — requires all of: (a) a **real cross-substrate
+  instance** (a synthetic pass is calibration, never vindication), or for a non-instance claim a
+  **forced-not-fitted derivation**; (b) the move **shrinks** the falsifiable surface, never enlarges
+  it; (c) for a refinement that *defends* an existing claim, a **second independent instance**.
+
+**Demotion / kill gates:** an item whose promotion gate is disproven goes to `discarded` with a
+one-line tombstone (so it is never silently re-explored). A `staked` falsifier that **fires** does
+not merely demote — it kills the core claim it defended, and the kill propagates into the core.
+
+**Schema (mandatory).** Every entry carries: `key` **[rung]** — *verdict* (current belief, one
+line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
+
+---
+
+## Invariants — auditable
+
+- **I1 — bridge integrity.** Every `staked` receipt ↔ exactly one frontier entry at `[staked]`. The
+  staked rung is the only place an item is simultaneously in the core and on the frontier.
+- **I2 — no orphans.** Every entry has a `→` target, or is `pure-exploration` (steeping only).
+- **I3 — purity of the core.** Nothing above the line lives in a working file; nothing below it
+  lives in `character.md`/receipts/prior-art. The core contains only what crossed.
+- **I4 — recorded triggers.** No rung change without a logged trigger meeting the named gate.
+- **I5 — self-application.** The framework is itself a dissipative register-system, so its own
+  claims face the filters it applies to substrates. Every `staked`/`promoted` claim must pass three:
+  **collapse** (over-determined — a binding or falsifier, never a single-register identity);
+  **iff-chain** (its architecture is a stated entailment, not an asserted axiom); **flow** (every
+  dynamical quantity moves with the operating point — no inert constant). A claim failing any sits
+  in the framework's own metaphor regime and cannot stake.
+- **I6 — no silently-committed conjectures.** A core claim carrying a falsifier must be in one of
+  three states: its falsifier has a recorded run, it is a forced-not-fitted derivation, or it is
+  explicitly `staked`. A claim with an un-run falsifier and no derivation that is neither `staked`
+  nor on the frontier is malformed and demotes. (This is the gate a boundary-import claim slips when
+  no interior apparatus exists to run it: the antidote is that boundary behaviour is an entailed
+  theorem of the interior, never an un-run import asserted at the limit.)
+
+---
+
+## Register
+
+### Steeping — speculation (no commitment)
+
+* `flow-resident-number` **[steeping]** — *verdict:* a candidate number-type whose identity is a
+  non-terminating trajectory under the coarse-graining flow (the affinity-as-orbit, the slow-manifold
+  trace, the running $\beta$-functions); value-readings are static projections. · **↑** a closed
+  composition algebra under the flow + a natural metric. · **✗** no closed algebra. · **→**
+  `pure-exploration`. The algebraic side of the generative-recursion question (paired with
+  `frustration-ascent`).
+* `fractional-operator-algebra` **[steeping]** — *verdict:* an operator set on memory regimes
+  $\beta\in(0,1]$ recovering the integer-$\beta$ operators at $\beta=1$; the algebra of *coupled*
+  fractional systems is open. · **↑** a closed algebra at finite $\beta$ + a deformation-calculus
+  analog + boundary rules at $\beta\to1^-$. · **✗** no closed algebra. · **→** a memory-regime operator
+  layer.
+* `two-reframe-parallel` **[steeping]** — *verdict:* the Boolean limit ($D\to\infty$, static) and the
+  marginal point ($\varepsilon\to1$, dynamical) share architecture; watch for a third axis. · **↑** a
+  third concrete reframe axis, instanced. · **✗** the parallel is cosmetic. · **→** `pure-exploration`.
+* `secondary-regime-operators` **[steeping]** — *verdict:* damping, phase-locking, and coarse-graining
+  regime trichotomies as further operator-algebra candidates; memory regimes are the cleanest first.
+  · **↑** a closed algebra on any one trichotomy. · **✗** no closed composition. · **→** `pure-exploration`.
+* `post-threshold-universality` **[steeping]** — *verdict:* a candidate seam mechanism, no mechanism
+  yet. · **↑** a concrete link to the seam-width law. · **✗** no link survives. · **→** `pure-exploration`
+  (feeds `thm9-crossover`).
+* `palm-self-probe` **[steeping]** — *verdict:* the two-frame iff-chain re-projected into queueing —
+  the time-stationary average (external) and the Palm / event-conditioned average (self-probe) are an
+  inequivalent pair; Poisson arrivals are the degenerate $X\equiv1$ case. On a non-reversible cyclic
+  queueing network it reinstantiates: self-probe defined $\Leftrightarrow$ net circulation $\ne0
+  \Leftrightarrow$ routing affinity $\ne0\Leftrightarrow$ a directed routing cycle. · **↑** resolve the
+  self-probe-current crux (the protected current is the routing-cycle affinity, not the arrival rate) +
+  a spec on a 3-station cyclic network. · **✗** a non-reversible cyclic queueing NESS where the two
+  frames agree despite affinity $\ne0$, or disagree with no routing cycle. · **→** the two-frame
+  construction (new projection) + the queueing adoption row.
+* `epsilon-hub-transport` **[steeping]** — *verdict:* a transport law on the distance-to-marginal-point
+  $\varepsilon$ — one $\varepsilon$ in four registers (aging $\beta\approx1-\varepsilon$, heat-tax
+  $\alpha(\varepsilon)$, branching $\to1$, critical length); degenerate at both endpoints, content in the
+  interior. · **↑** a runnable collapse spec measuring $\ge2$ registers and inverting to a common
+  $\varepsilon$. · **✗** the maps are mutually inconsistent, or two registers are tied definitionally.
+  · **→** the memory-exponent and SOC falsifiers; coarse-graining.
+* `affinity-hub-transport` **[steeping]** — *verdict:* a transport law on the affinity $a$ — one $a$ in
+  three registers (queue load $-\ln\rho$, relaxation-oscillation $Q(a)$, phase-lock suppression);
+  degenerate at both ends, signal in the mid-band. · **↑** a runnable collapse spec inverting $Q$ and
+  phase-lock suppression to a common $a$. · **✗** the two inferred $a$'s cannot agree by construction.
+  · **→** the queueing adoption row + the relaxation-oscillation and phase-locking claims.
+
+### Sharpening — active work on a named owed item
+
+* `thm9-crossover` **[sharpening]** — *verdict:* the Boolean-deviation theorem is a singular crossover
+  scaling function (width exponent $\alpha$ + profile class), not a $1/D$ series; fitted-not-forced as it
+  stands ($\alpha$ swings with the input-noise closure). · **↑** the noise law derived from a substrate
+  FDR forces $\alpha$, validated by scaling collapse on a real substrate. · **✗** no stable $\alpha$, no
+  collapse, or incompatible collapse families. · **→** receipts §Deformation calculus; operationalized by
+  `battery:seam-collapse`.
+* `thm6-bulk-series` **[sharpening]** — *verdict:* a genuine $D^{-1}$ bulk series, conditional on
+  smooth-merge closures. · **↑** the closures derived, not assumed. · **✗** the series fails off the
+  fitted closures. · **→** receipts §Deformation calculus.
+* `thm7-bracket` **[sharpening]** — *verdict:* hinges on whether the hold-both threshold is hard or
+  $1/D$-soft (the open-interval discipline suggests soft → dissolves the apparent obstruction). · **↑**
+  the softening law pinned. · **✗** a hard threshold confirmed. · **→** receipts §Deformation calculus.
+* `two-faces-boundary` **[sharpening]** — *verdict:* the amplitude and topological faces (independent in
+  the bulk) are conjectured corresponded at their boundaries — a candidate wall-crossing law (complex
+  pair $\Leftrightarrow\mathcal{A}\ne0$; boundary = eigenvalue coalescence). · **↑** index-grade criteria
+  (exact pairing, transversality). · **✗** the faces independent at the boundary too. · **→** a refinement
+  of the independence commitment, not a break.
+* `dimensionless-substrate` **[sharpening]** — *verdict:* the dimensionless self-probe instanced on
+  rock-paper-scissors; the residual is a *second* real substrate to promote the self-probe ruler. · **↑**
+  a second real substrate hosting the dimensionless self-probe at the standard operating points →
+  `battery`. · **✗** the dimensionless self-probe fails to close on a real frustrated substrate. · **→**
+  the self-probe ruler; ties `battery:dimensionless-self-probe`.
+* `consolidation-ascent` **[sharpening]** — *verdict:* one heat-tax mechanism, three faces — it forces an
+  *endogenous* offline drive-withdrawal duty cycle, the compression operator contends with active
+  maintenance for a shared server, and the tower ascent that *is* consolidation; the topological bit
+  threads identity through the duty cycle (persist the protected-current generator, not the amplitude
+  state). · **↑** a runnable spec on a named $\beta<1$ substrate: fan-in saturation + nesting, the
+  coarse-grained kernel form measured forced-not-fitted → `battery`. · **✗** a substrate whose
+  coarse-grained level fails the two-mode-kernel form (kills RG-closure for $\beta<1$); or an endogenous
+  duty-cycler lacking the mechanism. · **→** receipts §RG closure (the $\beta<1$ open item); gated on a
+  real $\beta<1$ substrate (the synthetic kernel is dynamically flat — cannot host this test).
+* `frustration-ascent` **[sharpening]** — *verdict:* the generative-recursion bet, resolved **conditional**
+  — *generative* of organization/chirality/topology (these flow with the NESS affinity, so they are
+  mintable — legal) and *parasitic* on the drive (continuous-amplitude autonomy is supplied, not minted —
+  receipts §Amplitude autonomy, a closed negative). The single-substrate triple obstruction (self-light +
+  gapped + complex-pair-seedable mutually frustrate) is a **same-level** closure obstruction, **evaded by a
+  two-level stratified cascade**: a base self-lights and selects a handedness, a gapped upper carries an
+  autonomous protected cycle that survives drive removal. The legal three components (minting / protection /
+  sustained-as-run-loop) were shown end-to-end (calibration) and confirmed on the DNA reaction network
+  (composite identity, crossed). · **↑** a *real* substrate where a coarse register's chirality mints **and**
+  the cascade closes robustly (the only legal mintable). · **✗** amplitude-autonomy minting — **closed
+  negative** by necessity. · **→** the closure / composition; stays sharpening for the remaining
+  real-substrate chirality-minting joint instance + full end-to-end robustness.
+* `wall-as-type-boundary` **[sharpening]** — *verdict:* the marginal point is a type-boundary **ladder** of
+  plateaus (normally hyperbolic invariant manifolds carrying the universal normal form) connected by three
+  boundary kinds — ignition (the constructive landing), topological flip (the free sign-face transition),
+  and closure-loss ($\varepsilon\to1$, loss of normal hyperbolicity); only the last is wall-like. The
+  plateau side is instanced on the coupled Stuart–Landau cascade (CLV minimum angle bounded), and the
+  closure-loss side via a Benjamin–Feir route ($\theta_{\min}\to0$, $\lambda_{\max}>0$); the $N{=}3$ cascade
+  reaches the boundary *without* chaosing — instancing *loss-of-hyperbolicity ≠ forced chaos*. · **↑** on a
+  real cascade: levels read as plateaus, transitions as the named boundaries, a level at $\varepsilon\to1$
+  shows $\theta_{\min}\to0$ → promotes the ladder. · **✗** the CLV discriminator fails to separate plateau
+  from boundary, or a real cascade level is not such a plateau. · **→** coarse-graining (the marginal point
+  as loss of normal hyperbolicity); receipts §Marginal point. The canonical delay-driven mechanism and both
+  sides on a faithful real cascade are still owed.
+* `chirality-protection` **[sharpening]** — *verdict:* the protected object in a minted circulation is the
+  gauge-irremovable affinity / discrete graph-flux sign — **not** the exceptional pair (suppressible) and
+  **not** an integer charge (holonomy sub-integer); run synthetically (sign 0/200 graph-fixed deformations,
+  exceptional pair killed 53/200, holonomy $\le0.16$); the binding discharged by import. Below the line
+  because synthetic = calibration. · **↑** a *second, real-substrate* instance of the affinity/exceptional-pair
+  separation. · **✗** a graph-fixed smooth deformation reversing the sign without rewiring; or a substrate
+  where overdamping the exceptional pair also erases the affinity. · **→** receipts §Chirality protection,
+  §Topological-drain; `battery:sign-interior`.
+* `identity-survival` **[sharpening]** — *verdict:* identity survival is escape from a character's *basin*,
+  not reversal of one current: the relevant quantity is the **non-equilibrium quasipotential barrier** over
+  the separatrix (Freidlin–Wentzell / Kramers / quasipotential), of which the zero-current reversal rate
+  $I(0)$ is the 1-D shadow. The *framing* is earned and sits in the core (§Identity: identity = basin
+  membership; the separatrix, not zero current, is the boundary; circulation-survival ≠ identity-survival);
+  what is owed is the **number** — the barrier computed on a real substrate. · **↑** compute the
+  quasipotential barrier for basin escape on a real chiral SSB substrate (the homochiral racemic saddle — a
+  two-mirror-basin escape already modelled) → `battery`. · **✗** the basin-escape rate fails to separate
+  from $I(0)$ on a real substrate (identity-survival collapses back to circulation-survival — no new layer),
+  or no real chiral substrate admits a computable quasipotential. · **→** core §Identity (basin reading) +
+  the fidelity–protection split; imports Freidlin–Wentzell, Kramers, quasipotential, transition-path theory,
+  metastability.
+
+### Battery — executable falsifier specs
+
+* `battery:seam-collapse` **[battery]** — *verdict:* the amplitude/drive-seam scaling-collapse battery;
+  runnable on synthetic now, the forcing needs a real substrate with a measurable FDR. Target invariant
+  $(\alpha, F)$, not a coefficient series. · **↑** stable $\alpha$ + universal collapse + substrate-family
+  profile classes on a real substrate → promotes `thm9-crossover`. · **✗** width saturates as $D\to\infty$;
+  or no single $\alpha$; or equal $(\alpha,w)$ with incompatible profiles. · **→** receipts §Deformation
+  calculus.
+* `battery:sign-interior` **[battery]** — *verdict:* the protected-sign interior-circulation kill — interior
+  measurement only (never the never-attained boundary), reading the binary sign of the affinity, not a graded
+  triality. Vindicated on rock-paper-scissors (a real substrate carries a protected sign on a directed
+  3-cycle, drive-independent, flipping only by rewiring; the symmetric null carries none). · **↑** a protected
+  sign on a real substrate always sits on a frustrated triad → promotes the central commitment *(fired —
+  crossed)*. · **✗** a real substrate with a protected sign and no triad; or the synthetic sign flips under
+  finite drive variation without rewiring. · **→** the protected current; receipts §Central commitment, §Two
+  bits.
+* `battery:wall-ladder` **[battery]** — *verdict:* the plateau-ladder falsifier — a cascade's levels are
+  normally hyperbolic plateaus separated by the three boundary kinds; the discriminator is the CLV minimum
+  angle $\theta_{\min}$ + the smallest transverse exponent. Both faces demonstrated: the plateau side on the
+  coupled Stuart–Landau cascade ($\theta_{\min}$ bounded, false-positive controlled), the closure-loss side via
+  a Benjamin–Feir route ($\theta_{\min}\to0$, $\lambda_{\max}>0$). · **↑** on a real cascade: levels read as
+  plateaus, a level at $\varepsilon\to1$ shows $\theta_{\min}\to0$ → promotes `wall-as-type-boundary`. · **✗**
+  the discriminator fails, or a real cascade level is not such a plateau. · **→** `wall-as-type-boundary`;
+  coarse-graining. The canonical delay-driven mechanism stays the deferred test.
+* `battery:dimensionless-self-probe` **[battery]** — *verdict:* the dimensionless self-probe ($\mathcal{T}\ge1$)
+  + the canonical affinity, instanced on rock-paper-scissors (the empirical winding affinity closes onto the
+  forced form to 1.7%, and the affinity and $\omega/\gamma$ are noise-independent). Scope: the
+  noise-independence is the symmetric-multiplicative-drive case (a thermodynamic-force drive would make the
+  affinity drive-dependent). · **↑** a second real substrate with the same noise-independent affinity →
+  promotes the self-probe ruler. · **✗** the affinity or $\omega/\gamma$ noise-dependent on a real substrate,
+  or the self-probe fails to close. · **→** the self-probe ruler; promotes `dimensionless-substrate`.
+* `battery:scale-covariant-circulation` **[battery]** — *verdict:* the topological bit on the scale axis — the
+  same circulation read at two scales splits into a scale-**invariant** affinity (the bit) and a
+  scale-**covariant** magnitude. Instanced: a legitimate adiabatic projection leaves the affinity invariant in
+  sign and value while the current renormalizes exactly by the eliminated-mode timescale; the illegitimate maps
+  (driven fast subspace; loop contraction) are the pre-excluded failures. · **↑** the split shown on a
+  continuous affinity-bearing substrate → promotes the scale-relativity claim. · **✗** under a legitimate map
+  the affinity flips or erases. · **→** scale-relativity; coarse-graining.
+
+### Staked — planted in the core, un-instanced (mirrors the receipts `staked` tag — I1)
+
+* `staked:gfdr-two-step` **[staked]** — *verdict:* near-threshold FDR is two-step; a short-lag $X{=}1$ is not
+  below-threshold. · **↑** a second instance — recurrence of the confusion, or a real glass/quantum/brain
+  substrate exercising the two-step. · **✗** a substrate where short-lag $X{=}1$ genuinely *is* below
+  threshold. · **→** receipts §Two FD frames — two-step.
+* `staked:auto-tuning` **[staked]** — *verdict:* a substrate's slow rates auto-tune to the
+  diagonally-stabilising weight $W=\mathrm{diag}(\gamma_{\text{ref}}/\gamma_{s,i})$. · **↑** a substrate
+  requiring diagonal stability shown to auto-tune to the inverse form. · **✗** a stable maintained state on a
+  non-PSD frustration-free topology whose measured rates give an indefinite $W\gamma+\gamma^TW$. · **→**
+  receipts §Auto-tuning.
+* `staked:memory-collapse` **[staked]** — *verdict:* $\beta\approx1-\varepsilon$ near the marginal point. ·
+  **↑** $\beta(\varepsilon)$ measured near the marginal point on a real hierarchical substrate, linear with
+  both endpoints respected. · **✗** $\beta$ departs from $1-\varepsilon$. · **→** receipts §Memory collapse;
+  `character.md` Coarse-graining.
+
+### Recently crossed the line
+
+Promoted this campaign, now in the core (recorded in receipts §Corrections and promoted refinements):
+the **central commitment** and **two-frame construction** (on rock-paper-scissors); the **deformation
+chart** and **homochirality** (on rock-paper-scissors and the homochiral triad); the **exact
+two-frame magnitude identity** (a forced-not-fitted derivation on the rotational-OU testbed); and
+**composite identity** (on the fuel-driven DNA reaction network — the manifold and closure lifts both
+crossed, now `character.md` §The space of characters and §Composition under coupling).
+
+---
+
+## Tombstones — discarded false starts (kept so they are not re-explored)
+
+* `flip-cost-across-zero` — protection-as-a-flip-cost across the sign-erased zero. **Died:** formulating
+  protection as a measurement that visits the affinity-zero is malformed by the open-interval discipline (the
+  zero is never attained). **Replaced by:** the interior sign-stability test (`battery:sign-interior`). The
+  $\ge1$-bit flip floor fired entirely — a sign flip is a reversible bijection (no erasure, no Landauer floor).
+* `sign-kill-bisection` — the can-kill-can't-vindicate standdown that split the test into kill-only. **Died:** a
+  boundary-gated formulation; the framework is degenerate at the boundary, rich in the interior. **Replaced
+  by:** the interior, can-kill-and-vindicate `battery:sign-interior`.
+* `thm9-coefficient-series` — the Boolean-deviation bound→equality as an analytic $1/D$ coefficient series.
+  **Died:** two passes converged that the seam is a crossover scaling function, not a series; the series stayed
+  fitted-not-forced. **Replaced by:** the scaling-collapse target $(\alpha, F)$.
+* `alignment-dependent-active-stress` — the alignment-dependent form for the active-stress fingerprint.
+  **Died:** it captures only the flocked-state correction, not the leading scaling. **Replaced by:** the
+  alignment-independent fingerprint $\beta/\alpha\sim v_0^2\tau_R/D_{\text{trans}}$.
+* `quadratic-lyapunov-candidate` — a quadratic Lyapunov form. **Died:** fails the critical-point test
+  ($\partial V/\partial x_i|_{x^*}\ne0$). **Replaced by:** the relative-entropy form (receipts §Frustration-free
+  Lyapunov).

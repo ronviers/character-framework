@@ -6,9 +6,18 @@ The Character framework — a phenomenology of driven-dissipative steady states 
 here in a clean scientific register: every result named to its established source, standard units,
 and the central claim stated as a falsifiable data-collapse test.
 
-The canonical statement (the basis for the rebuild) is **[`framework/character.md`](framework/character.md)**
-— migrated here as the seed of the new source of truth. The trio `character.md` ·
-`character_manifold.md` · `character_composite.md` follows. The legacy corpus is frozen in
+The framework is a single document — **[`framework/character.md`](framework/character.md)** —
+read in three movements: the structure at one steady state (the *point*), the geometry of the
+space of all such structures (`ℭ`, the *manifold*), and the law by which two characters compose
+(the *closure*). The single statement is supported by four further documents:
+[`character_prior_art.md`](framework/character_prior_art.md) (every imported result, named to its
+source), [`character_receipts.md`](framework/character_receipts.md) (the derivation behind each
+claim), [`character_frontier.md`](framework/character_frontier.md) (the maturity ledger — what is
+settled, and what would move it), and two depth treatments,
+[`character_fdr_treatment.md`](framework/character_fdr_treatment.md) (the two fluctuation–dissipation
+frames and the protected-current necessity) and
+[`character_translation_method.md`](framework/character_translation_method.md) (how established
+results are adopted into the NESS setting). The legacy corpus is frozen in
 [`mpa-atlas`](https://github.com/ronviers/mpa-atlas) (snapshot `character-v0.1`); all `mpa-*` repos
 are legacy.
 
