@@ -110,6 +110,20 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   degenerate at both ends, signal in the mid-band. · **↑** a runnable collapse spec inverting $Q$ and
   phase-lock suppression to a common $a$. · **✗** the two inferred $a$'s cannot agree by construction.
   · **→** the queueing adoption row + the relaxation-oscillation and phase-locking claims.
+* `cross-stratum-transduction` **[steeping]** — *verdict:* a coupling *tower* (substrates coupled across
+  strata, not within one) transduces the **topological** sector faithfully across the embedding while the
+  **metric** carrier is fungible (it modulates but cannot carry the protected bit) — the protected current
+  is the RG-relevant operator that survives the tower, metric detail the irrelevant one. Everyday tell: a
+  high-$\chi$ reader gives the same selective response to the same structure across wildly different
+  carriers (a small field gating a large stored release, not powering it). · **↑** pin the surviving
+  invariant — does per-stratum affinity $\mathcal{A}$ *compose* up a tower, or is the cross-stratum invariant
+  something else? — *plus* a runnable spec on a substrate-general tower (coupled driven systems, or a trained
+  recurrent reader as the high-$\chi$ sink) injecting topological vs metric content and reading the top.
+  NOT a human reader: the trained decoder smuggles the coupling in and makes the test anthropocentric.
+  · **✗** the top-stratum response tracks carrier-metric detail rather than the injected invariant, or no
+  injected invariant survives the tower at all. · **→** `pure-exploration` — the open cross-stratum embedding
+  problem (`character.md` §The space of characters: "comparison across strata… is open"); also the
+  rendering-discipline transparent-carrier claim's would-be falsifier.
 
 ### Sharpening — active work on a named owed item
 
