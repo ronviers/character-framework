@@ -128,11 +128,14 @@ State pointer for the next session. Thin by design; delete lines as work lands.
 
 ## Within-reach tests (ranked)
 
-1. **β-collapse 3rd register** *(strengthening; the 2-register form is banked above)* — a genuinely
-   independent FDR-aging register. On fBm aging ≡ kernel (one exponent, `α_s = β_mem`), so a true third
-   register needs an aging-rich substrate: the **East KCM** (two-time `t_w`-aging + stretched `C(τ)` +
-   heavy-tailed persistence tail = three distinct ops) or a confined **fractional-OU** (independent
-   aging-response). Parked pending appetite; not blocking.
+1. **β-collapse 3rd register** *(strengthening; 2-register form banked above)* — **DESIGN PASS DONE:**
+   `docs/beta_collapse_3rd_register_design.md`. Substrate decided = **harmonically-confined fractional
+   process** (same fGn `H` → same `β=2−2H`; confinement makes the response non-trivial, breaking the
+   free-fBm `R3≡R1` tautology). Identity under test = **`α_s = β_mem = 2−2H`** with `α_s` from a two-time
+   *response* (not the correlator). East KCM rejected for now (not fGn-driven → no clean `β=2−2H` to
+   collapse onto; gated on writing its β-identity first). **Next action = the single-`H` de-risking probe**
+   (confirm `R` is independent of the correlator and `α_s≈2−2H` in some `(k,t_w)` window) before the 3-`H`
+   collapse. Crux risk: the confinement⟂aging trade-off window. Not started; not blocking.
 2. **~~Mechanism-independent `both`~~ — DONE (banked above, `autocat_both.py`).** The soft-pitchfork `both`
    is instanced (window `ec∈[0.05,0.20]`). *Possible follow-ons (low priority):* a noisy FW/gMAM barrier on
    the autocat `both` (Step-1 had the noisy leg; Step-2 used the deterministic `ΔU∝ee*⁴`); and the
