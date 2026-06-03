@@ -138,9 +138,11 @@ R3 but not yet independently tested.
 | R3 | `experiments/rps_affinity.py` | RPS `𝒜 = 21.77` = homochiral winner; no `ΔV` |
 | R4 | `experiments/reset_redrive_test.py` | homochiral 20/20; RPS 40/40 |
 
-Substrate definitions (canonical instances): `mpa-conform/scripts/homochiral_triad.py`,
-`mpa-conform/scripts/rps_triad.py`. All runs are direct simulation (no fitting, no inversion
-pipeline); the `ΔV`/`𝒜` separation and the reclassification rest only on the four scripts above.
+Substrate definitions (canonical instances): `experiments/homochiral_triad.py`,
+`experiments/rps_triad.py` (with `rps_two_bits.py` and `two_frame_magnitude.py` — the full instance
+and validation scripts, copied into this repo from the legacy `mpa-conform` so it is self-verifying;
+they run standalone). All runs are direct simulation (no fitting, no inversion pipeline); the
+`ΔV`/`𝒜` separation and the reclassification rest only on the four session scripts above.
 
 
 -----------------------
