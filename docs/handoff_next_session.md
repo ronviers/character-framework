@@ -57,9 +57,13 @@ State pointer for the next session. Thin by design; delete lines as work lands.
 
 ## Within-reach tests (ranked)
 
-1. **Second independent "both"-corner substrate** — a spontaneously-frozen system *outside* the
-   homochiral family (`mpa-conform/scripts/{chiral_bonding,chiral_selffield,homochiral_cascade}.py`) to
-   robustify branch survival. RPS does **not** qualify (structural).
+1. **Second independent "both"-corner substrate** — the two-survivals plane has only ONE `both`
+   (`𝒜≠0 ∧ ΔV>0`) instance (the homochiral triad). A second one would robustify branch survival —
+   but it must be *outside the chiral-SSB family* (a different broken symmetry; a second chiral
+   instance is not independent). RPS does **not** qualify (structural, no `ΔV`). NB: the
+   `mpa-conform/scripts/{chiral_bonding,chiral_selffield,homochiral_cascade}.py` scripts are **not**
+   candidates — they are `frustration-ascent` cascade instances (a separate line), and
+   `homochiral_cascade` is in-family.
 2. **β-collapse 3rd register** *(strengthening; the 2-register form is banked above)* — a genuinely
    independent FDR-aging register. On fBm aging ≡ kernel (one exponent, `α_s = β_mem`), so a true third
    register needs an aging-rich substrate: the **East KCM** (two-time `t_w`-aging + stretched `C(τ)` +
