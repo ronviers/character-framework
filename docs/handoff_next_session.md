@@ -27,14 +27,20 @@ State pointer for the next session. Thin by design; delete lines as work lands.
   pitchfork-vs-competitive-exclusion question the same way under BOTH SSB types. `experiments/twin_mu_sweep.py`
   (+ PNG). NB the noisy-FW slope (7.5) ≠ 1/σ²=156 is the known `ΔV/ΔU` prefactor gap (shallow-barrier regime),
   same as homochiral — not a twin issue; the deterministic sweep is the airtight leg.
-- **Sleep lay-question → `loaded-endpoint-descent` parked `[steeping]` (2026-06-03).** An outside model's
-  sleep essay overreached *because character mis-steered it* (Ron's framing — character owns the endpoint).
-  Standard procedure (strip→skeleton→locate→steelman→park) lands a **nudge, not a battery** (the skeleton is
-  already instanced across the corners — switch=branch-only, oscillator=current-only, `both`=homochiral+twin;
-  no owed measurement). Two candidate nudges, recurrence-gated to core: **(A)** periodicity is not the hard
-  bit — only the protection test (`𝒜` noise-indep + reset-redrive sign) is, and the §Composition gate sits
-  *downstream* of the minting language instead of guarding it; **(B)** `ℭ` is degenerate at *loaded endpoints*
-  too (descend to the skeleton; the endpoint never enters a receipt). Parked in `character_frontier.md`.
+- **Sleep lay-question → first `nudge`, + a new HELD nudge track (2026-06-03).** An outside model's sleep
+  essay overreached *because character mis-steered it* (Ron's framing — character owns the endpoint). Standard
+  procedure (strip→skeleton→locate→steelman→park) lands a **nudge, not a battery** (the skeleton is already
+  instanced across the corners — switch=branch-only, oscillator=current-only, `both`=homochiral+twin; no owed
+  measurement). Built **thin nudge infrastructure** per Ron: a parallel *doc-gate* track in
+  `character_frontier.md` §Nudges (a nudge corrects how character steers a reader, not a substrate claim;
+  2-rung path `candidate → recurrence → core`; logs *trigger* = support and *shape* = failure-class).
+  **Policy: nudges are HELD** — no core promotion until the corpus is big enough to see where the shapes
+  cluster. First entry `nudge:loaded-endpoint-descent` with two misses: **(A)** periodicity ≠ the hard bit
+  (only the protection test is; the §Composition gate sits *downstream* of the minting language); **(B)** `ℭ`
+  is degenerate at *loaded endpoints* (descend to the skeleton). Its **shape** —
+  *apparent-structure ≠ the protected observable* — already recurs in-core (neither-corner corollary,
+  §Composition circularity gate, + deformer λ=0, DNA pre-fuel), i.e. looks recurrence-mature, but is HELD
+  un-promoted by policy. Watch whether the next nudges land in this shape.
 - **β-collapse falsifier run — SURVIVED (2026-06-03).** The memory-exponent transport law's *named*
   invalidator (FDR-aging vs queue-tail onto a common `β`) instanced on the Norros fBm-queue: `β=2−2H`
   recovered two independent ways — low-frequency spectral slope (aging/kernel register; `α_s=β_mem` by
@@ -123,6 +129,8 @@ State pointer for the next session. Thin by design; delete lines as work lands.
   additive vs demographic). `twin_cycle_corner.py` imports the validated `ep_affinity` (cycle_affinity) and
   the homochiral field for the measured parity-vs-exchange sign contrast (`smoke` arg for a fast probe);
   `twin_mu_sweep.py` overlays the twin and homochiral μ-sweeps to show handedness-blindness.
-- **Open core proposal (recurrence-gated, NOT applied):** the `loaded-endpoint-descent` `[steeping]` nudges —
-  a protection-test gate beside the minting claim / `both` corner, and a degeneracy-at-loaded-endpoints
-  sentence. Promote to core only on a second loaded-endpoint question tripping the same wire.
+- **Nudge track (`character_frontier.md` §Nudges) — HELD, nothing promoted to core.** Candidate steering
+  sentences accumulate here (currently one: `nudge:loaded-endpoint-descent`). Policy is to read the *shapes*
+  across the corpus before promoting any — do **not** auto-promote on the recurrence gate, even the
+  apparent-structure≠protected-observable shape that already looks mature. Next loaded-endpoint or
+  steering-miss → log it as a nudge (or add its trigger to an existing one), don't promote.

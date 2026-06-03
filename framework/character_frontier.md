@@ -124,30 +124,39 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   injected invariant survives the tower at all. · **→** `pure-exploration` — the open cross-stratum embedding
   problem (`character.md` §The space of characters: "comparison across strata… is open"); also the
   rendering-discipline transparent-carrier claim's would-be falsifier.
-* `loaded-endpoint-descent` **[steeping]** — *verdict:* a loaded macro-phenomenon (sleep, a market, a
+### Nudges — steering candidates (a parallel doc-gate track; HELD)
+
+A **nudge** corrects how character *steers a reader* — a sentence the core is missing or mis-places,
+diagnosed from a misread — not a claim about a substrate. It does **not** climb the world-rungs above (no
+substrate, no falsifier-instance); its path is two-rung: `candidate → (recurrence: a 2nd independent
+misread trips the same wire) → core`. The `↑` is recurrence; the `✗` is "the existing core text already
+steers correctly — the miss was reader sloppiness." Each entry additionally logs its *trigger(s)* (the
+misreads = its support) and the *shape* it instances (the steering-failure class).
+
+**Policy — HELD.** No nudge promotes to core yet, even one that already looks recurrence-mature.
+Accumulate the corpus and read where the shapes cluster *first*; the holding pen exists to see the shape
+before committing a sentence. Promotion is a deliberate later event, never automatic on the gate.
+
+* `nudge:loaded-endpoint-descent` **[nudge]** — *verdict:* a loaded macro-phenomenon (sleep, a market, a
   mood) is read by **descent** to its substrate-general skeleton, never directly — `ℭ` is degenerate at
-  loaded endpoints exactly as at the boundary faces $\{0,1,\infty\}$. Diagnosed from an outside model's
-  sleep essay, where the steering failed two ways character can close. **(A) Periodicity is not the hard
-  bit.** An observable oscillation establishes neither a protected current nor a minted bit — only the
-  *protection test* does (a noise-independent $\mathcal{A}$; a sign that reset-and-re-drive shows is
-  wiring-set or spontaneously re-rolled). A clock that ticks is metric-sector until that test fires; a
-  single-sense oscillator is **current-only** (structural), not a spontaneously-selected **both**. The
-  model read "it cycles" $\to$ "minted protected `both`", bypassing the §Composition gate ("the spectral
-  count is circular; the non-circular observable is the protection test") because the gate sits
-  *downstream* of the minting language rather than guarding it. **(B) Decompose before composing.** A
-  bistable switch is **branch-only**; an oscillator is at most **current-only**; their co-occurrence is
-  two corners, not a `both`, until the union graph's frustration is exhibited and the composite's current
-  *measured* (the sleep flip-flop is mutual inhibition = a toggle; the ultradian cycle is a separate
-  oscillator — the model fused them into a fictitious minted 3-cycle). Lands a **nudge, not a battery**:
-  every piece of the skeleton is already instanced across the corners (branch-only Hopfield, current-only
-  RPS, both homochiral+twin) — no owed measurement, so a sleep battery would be off-target. · **↑**
-  *recurrence* — a second loaded-endpoint question tripping the same wire promotes the sharper nudge to
-  core: a one-line protection-test gate beside the minting claim / `both` corner, and a
-  degeneracy-at-loaded-endpoints sentence beside the isolation/open-interval boundaries. · **✗** the
-  existing §Composition gate is already sufficient as written and the miss was reader sloppiness, not a
-  steering hole (then drop). · **→** `character.md` §Composition (the protection test), §The two-survivals
-  plane (corner location precedes any composite claim), the open-interval/degeneracy discipline. NOT a
-  sleep claim: sleep is the intuition pump, never the observable; nothing here is instanced *on* sleep.
+  loaded endpoints exactly as at the boundary faces $\{0,1,\infty\}$. Two steering misses. **(A) Periodicity
+  is not the hard bit** — an observable oscillation establishes neither a protected current nor a minted
+  bit; only the *protection test* does (noise-independent $\mathcal{A}$; a sign that reset-and-re-drive
+  shows is wiring-set or re-rolled). The §Composition gate ("the spectral count is circular; the
+  non-circular observable is the protection test") sits *downstream* of the minting language instead of
+  guarding it, so a reader walks past it. **(B) Decompose before composing** — a switch is **branch-only**,
+  an oscillator at most **current-only**; their co-occurrence is two corners, not a `both`, until the union
+  graph's frustration is exhibited and the composite's current *measured*. · **↑** recurrence — a 2nd
+  loaded-endpoint misread tripping the same wire (then a HELD-policy review, not auto-promotion). · **✗**
+  the existing §Composition gate already steers correctly and the miss was reader sloppiness (then drop).
+  · **→** `character.md` §Composition (the protection test), §The two-survivals plane (locate the corner
+  before any composite claim), the open-interval/degeneracy discipline.
+  · *trigger:* the outside-model sleep essay (2026-06-03) — read sleep as a minted `both`.
+  · *shape:* **apparent-structure ≠ the protected observable** (only the protection test certifies the
+  hard bit). Already recurring in-core (logged, NOT promoted): the neither-corner corollary ("soft-sector
+  capability is silent on the hard sector"), the §Composition circularity gate, and this nudge; cf. the
+  deformer $\lambda{=}0$ reciprocal case ($\mathcal{A}{=}0$) and the detailed-balanced DNA cycle
+  ($\mathcal{A}{\approx}0$ pre-fuel). Watch: whether the next nudges land in this shape or open a new one.
 
 ### Sharpening — active work on a named owed item
 
