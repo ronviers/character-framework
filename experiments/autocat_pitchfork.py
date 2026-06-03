@@ -146,9 +146,10 @@ def main():
     if len(lnT) >= 2:
         sl, _ = np.polyfit(dUn, lnT, 1); rc = np.corrcoef(dUn, lnT)[0, 1]
         print(f"    LEVEL 1 (scaling): ln MFPT ∝ ΔU, corr {rc:.3f}  +  ΔU ∝ (k1c−k1)² => ln MFPT ∝ ε² ✓")
-        print(f"    LEVEL 2 (absolute): slope {sl:.0f} vs 1/σ²={1/sig**2:.0f} — drifts because FW barrier ≠")
-        print(f"    deterministic ΔU (additive-noise / non-gradient prefactor; cf. frontier current-aids-")
-        print(f"    escape). Per the reviewer: slope drift with clean scaling is NOT a failure of the pitchfork.")
+        print(f"    LEVEL 2 (absolute): slope {sl:.0f} vs 1/σ²={1/sig**2:.0f} — a SLOPE gap = quasipotential")
+        print(f"    mismatch (ΔV≠ΔU and/or effective-noise ≠ nominal σ), NOT a Kramers prefactor (which moves")
+        print(f"    the intercept); cf. frontier current-aids-escape. Per the reviewer: clean scaling with a")
+        print(f"    drifting absolute slope is NOT a failure of the pitchfork.")
 
     # ---- LV twin contrast: ee*² STEPS (hard) ----
     al = np.linspace(0.6, 1.6, 21)

@@ -4,19 +4,21 @@ State pointer for the next session. Thin by design; delete lines as work lands.
 
 ## Banked this session
 
-- **Autocatalytic SOFT-pitchfork + QUADRATIC barrier — branch half of mechanism-independent `both` (2026-06-03).**
-  A current-free 2-species Kondepudi–Nelson substrate (`dL = k1 + (g−kd)·L·(1−(L+R)/cap) − k3·L·R`, control =
-  racemic input `k1`) gives a clean **supercritical pitchfork**, establishing a second universality class
-  vs the LV twin's hard transcritical: `ee*² = 1−k1` **LINEAR (R²=1.00000, k1c=1.0)**; racemic rate
-  `A ∝ (k1c−k1)^1.05`; barrier `ΔU ∝ (k1c−k1)^2.06` **QUADRATIC** (the scaling that FAILED in the twin,
-  which is linear); parameter-free collapse `ΔU ∝ ee*⁴` **R²=0.9994** (one Landau form for amplitude AND
-  barrier); noisy escape `ln MFPT ∝ ΔU` corr 0.998 (Level-1 scaling ✓; Level-2 absolute slope drifts
-  1320 vs 1/σ²=400 — expected FW≠ΔU, cf. `current-aids-escape`, NOT a failure). `experiments/autocat_pitchfork.py`
-  (+ PNG). **Decisive credit: the outbound review channel** — its diagnostics unlocked this (`ee*²` not `ee*`;
-  `k1` not `g` as the symmetry-breaking control; the `ee*⁴` collapse; the MFPT two-level framing).
-  **Contrast class now:** LV competition → hard/exclusion + linear barrier; autocatalysis → soft + quadratic.
-  NOT yet a `both` (no current). NEXT (within-reach #2): add the `a≠b` 3-cycle, test the pitchfork survives
-  with `𝒜≠0` — then it's the mechanism-independent `both`.
+- **MECHANISM-INDEPENDENT `both` — INSTANCED (2026-06-03), within-reach #2 paid.** Two steps:
+  **Step 1 (branch, current-free, `autocat_pitchfork.py`):** a 2-species Kondepudi–Nelson substrate
+  (`dL = k1 + (g−kd)·L·(1−(L+R)/cap) − k3·L·R`, control = racemic input `k1`) gives a clean **supercritical
+  pitchfork** — `ee*²=1−k1` LINEAR (R²=1.00000), `A∝(k1c−k1)^1.05`, barrier `ΔU∝(k1c−k1)^2.06` **QUADRATIC**,
+  parameter-free collapse `ΔU∝ee*⁴` R²=0.9994, noisy `ln MFPT∝ΔU` corr 0.998 — a different universality class
+  from the twin's hard/linear. **Step 2 (add the current, `autocat_both.py`):** each handedness → a 3-ring
+  with an internal `a≠b` cycle (strength `ec`). ec-scan finds a **coexistence window `ec∈[0.05,0.20]`** where
+  the soft pitchfork SURVIVES (`ee*²`-R²=1.0, `ΔU∝ee*⁴` R²=0.997) with a current `𝒜≈0.6–3.5` nats (complex
+  pair, noise-indep) and reset ~50/50; past `ec≈0.25` the cycle's within-group competition (the hard-exclusion
+  ingredient) kills the branch. So **`both` is independent along TWO axes: symmetry (parity/exchange) AND
+  mechanism (hard transcritical / soft pitchfork)** — the twin's linear barrier was the *saturation mechanism*,
+  not generic to `Z₂` breaking. Promoted to receipts §Branch-survival barrier + §Two-survivals plane, frontier.
+  **Decisive credit: the outbound review channel** (`ee*²` not `ee*`; `k1` not `g`; the `ee*⁴` collapse; MFPT
+  two-level framing). **Open core proposal (held):** generalize core §The two-survivals plane's `both` from
+  "two symmetry instances" to "independent along symmetry AND mechanism axes."
 - **Competitive-exclusion review returned + metabolized (2026-06-03).** 3 independent outside analyses
   (`docs/review_prompt_competitive_exclusion.md`) agree and **resolve the open review Q**: the L↔R transition
   is a **symmetric transcritical** (boundary-supported branches, exchange of stability), NOT a pitchfork; no
@@ -47,8 +49,9 @@ State pointer for the next session. Thin by design; delete lines as work lands.
   exchange and parity to machine precision (`max|Δa|=2.4e-11`), giving the same `μ_c=0.833` and the same LINEAR
   `ΔV∝(μ−μ_c)` (order parameter jumps = competitive exclusion; pitchfork falsified). Resolves the open
   pitchfork-vs-competitive-exclusion question the same way under BOTH SSB types. `experiments/twin_mu_sweep.py`
-  (+ PNG). NB the noisy-FW slope (7.5) ≠ 1/σ²=156 is the known `ΔV/ΔU` prefactor gap (shallow-barrier regime),
-  same as homochiral — not a twin issue; the deterministic sweep is the airtight leg.
+  (+ PNG). NB the noisy-FW slope (7.5) ≠ 1/σ²=156 is the known `ΔV≠ΔU` quasipotential mismatch (a *slope*
+  effect — the barrier itself differs — NOT a Kramers prefactor, which only moves the intercept), same as
+  homochiral — not a twin issue; the deterministic sweep is the airtight leg.
 - **Sleep lay-question → first `nudge`, + a new HELD nudge track (2026-06-03).** An outside model's sleep
   essay overreached *because character mis-steered it* (Ron's framing — character owns the endpoint). Standard
   procedure (strip→skeleton→locate→steelman→park) lands a **nudge, not a battery** (the skeleton is already
@@ -121,15 +124,11 @@ State pointer for the next session. Thin by design; delete lines as work lands.
    register needs an aging-rich substrate: the **East KCM** (two-time `t_w`-aging + stretched `C(τ)` +
    heavy-tailed persistence tail = three distinct ops) or a confined **fractional-OU** (independent
    aging-response). Parked pending appetite; not blocking.
-2. **Mechanism-independent `both`** *(the real frontier past the twin; BRANCH HALF DONE)* — **Step 1 banked
-   (above):** the autocatalytic soft pitchfork + quadratic barrier is instanced current-free
-   (`autocat_pitchfork.py`) — a distinct universality class from the twin's hard transcritical. **Step 2
-   (remaining):** add the internal `a≠b` 3-cycle to each handedness of the autocatalytic substrate, confirm
-   the pitchfork (`ee*²` linear, `ΔU∝ee*⁴`) **survives** while `𝒜≠0` (Lyapunov frame, complex Jacobian pair)
-   and reset re-rolls 50/50 — then it's a `both` from a soft-pitchfork mechanism, the mechanism-independent
-   instance. The 3-cycle now answers only the narrow question "pitchfork + `𝒜≠0`?" (it is no longer asked to
-   *explain* the pitchfork — that's isolated). NB **Z₃ is NOT mechanism-independent** (still competitive
-   exclusion) — skip it. Ready to build; reuses `ep_affinity` + the quasipotential apparatus.
+2. **~~Mechanism-independent `both`~~ — DONE (banked above, `autocat_both.py`).** The soft-pitchfork `both`
+   is instanced (window `ec∈[0.05,0.20]`). *Possible follow-ons (low priority):* a noisy FW/gMAM barrier on
+   the autocat `both` (Step-1 had the noisy leg; Step-2 used the deterministic `ΔU∝ee*⁴`); and the
+   `current-aids-escape` `a=b` vs `a≠b` test (frontier) — the autocat substrate is a natural place to run it
+   (the `ec`-knob tunes the current cleanly).
 
 ## Open from outside review
 
@@ -140,9 +139,10 @@ State pointer for the next session. Thin by design; delete lines as work lands.
   state at μc (forced: an interior asymmetric fixed point needs `(S_L−S_R)(c−3μ)=0`). The exact 2D totals
   reduction holds because `a+b=1.5<2` keeps the May–Leonard modes stable. **No regime of the bare LV gives a
   soft pitchfork** — folded into receipts §Branch-survival barrier.
-- `ΔV / ΔU` prefactor — **mechanism identified, value still owed.** The slope gap (≈7.5 vs `1/σ²`=156) is a
-  genuine non-gradient signature (`ΔV≪ΔU`), the true barrier computable by **gMAM** (E–Ren–Vanden-Eijnden;
-  Maier–Stein). The reviewers split on the *source* (internal current vs LV metric) → the `current-aids-escape`
+- `ΔV ≠ ΔU` **quasipotential mismatch** (was loosely called the "prefactor" — corrected: a Kramers prefactor
+  moves the *intercept*; a *slope* gap means the barrier differs and/or the effective noise ≠ nominal σ) —
+  **mechanism identified, value still owed.** The slope gap (≈7.5 vs `1/σ²`=156) is a genuine non-gradient
+  signature (`ΔV≪ΔU`), the true barrier computable by **gMAM** (E–Ren–Vanden-Eijnden; Maier–Stein). The reviewers split on the *source* (internal current vs LV metric) → the `current-aids-escape`
   `[steeping]` test (frontier).
 
 ## Doc + experiment state
@@ -152,7 +152,8 @@ State pointer for the next session. Thin by design; delete lines as work lands.
   `character_grounding_method.md` (embodiment tree, Group II).
 - `experiments/`: `identity_survival_barrier.py`, `cycle_affinity.py`, `rps_affinity.py`,
   `reset_redrive_test.py`, `mu_sweep.py`, `hopfield_corner.py`, `neither_corner.py`,
-  `beta_collapse.py`, `deformer_loop.py`, `twin_cycle_corner.py`, `twin_mu_sweep.py` (+ PNGs).
+  `beta_collapse.py`, `deformer_loop.py`, `twin_cycle_corner.py`, `twin_mu_sweep.py`,
+  `autocat_pitchfork.py` (current-free soft pitchfork), `autocat_both.py` (ec-scan, soft-pitchfork `both`) (+ PNGs).
   `identity_survival_barrier.py` gained a `noise_kind` arg (additive default unchanged; `compare` runs
   additive vs demographic). `twin_cycle_corner.py` imports the validated `ep_affinity` (cycle_affinity) and
   the homochiral field for the measured parity-vs-exchange sign contrast (`smoke` arg for a fast probe);
