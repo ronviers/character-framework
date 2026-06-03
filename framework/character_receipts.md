@@ -388,7 +388,19 @@ record.
   supercritical-pitchfork $\sqrt{\mu-\mu_c}$ — so $\Delta V\propto a(\mu)\propto(\mu-\mu_c)$ **linear**, not
   $(\mu-\mu_c)^2$ (the noisy escape MFPT tracks $a(\mu)$, corr $0.98$). The strong-form falsifier (nonzero
   $\Delta V$ after racemic restabilization) does not fire; the quadratic normal form is superseded by
-  competitive exclusion. **Noise-metric robustness (run):** re-running the racemic-saddle escape under
+  competitive exclusion. **Outside-review resolution (3 independent analyses agree —
+  `docs/review_prompt_competitive_exclusion.md`):** the precise normal form is a **symmetric transcritical**
+  (degenerate exchange-of-stability), not a pitchfork — the broken branches are *boundary* fixed points
+  $(S_L,S_R)=(3F/c,0)$ existing for all $\mu>0$ that **exchange stability** with the symmetric state at
+  $\mu_c$ rather than emerging from it (forced: an interior asymmetric fixed point needs
+  $(S_L-S_R)(c-3\mu)=0$, i.e. only at $\mu=\mu_c$). The exact 2D reduction to the group totals holds because
+  $a+b=1.5<2$ keeps the internal May–Leonard modes stable; linear $\Delta V$ is then the correct FW scaling
+  (saddle eigenvalue $\propto\varepsilon$ times an $O(1)$ path to the pinned $m=\pm1$). **No regime of the
+  bare LV yields a soft pitchfork** — recovering one requires added autocatalysis/self-crowding (the *true*
+  Frank/Kondepudi cubic), a distinct coexistence-preserving normal form. The open review question is thereby
+  resolved. The $\Delta U$-vs-FW gap (slope $7.5$ vs $1/\sigma^2{=}156$) is confirmed a genuine non-gradient
+  signature ($\Delta V\ll\Delta U$, the true barrier computable by gMAM); whether the gap is driven by the
+  internal current or the LV metric is split across reviewers — an owed test. **Noise-metric robustness (run):** re-running the racemic-saddle escape under
   multiplicative demographic ($\sqrt{x}$, birth–death) noise gives a finite, well-defined, σ-collapsing
   barrier ($\Delta V_{KR}\approx0.273$, collapse-rms $0.025$ = 9% of barrier vs additive's 26%; the additive
   leg reproduces $\Delta V_{KR}=0.018$) — the FW quasipotential rescales with the metric (it must) but

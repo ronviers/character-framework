@@ -4,6 +4,15 @@ State pointer for the next session. Thin by design; delete lines as work lands.
 
 ## Banked this session
 
+- **Competitive-exclusion review returned + metabolized (2026-06-03).** 3 independent outside analyses
+  (`docs/review_prompt_competitive_exclusion.md`) agree and **resolve the open review Q**: the L↔R transition
+  is a **symmetric transcritical** (boundary-supported branches, exchange of stability), NOT a pitchfork; no
+  bare-LV regime gives a soft pitchfork (folded into receipts §Branch-survival barrier). Two downstream
+  effects: (i) the **mechanism-independent `both`** design is now sharp — add autocatalysis (true
+  Frank/Kondepudi cubic) for a genuine soft-pitchfork `both`; Z₃ is *not* mechanism-independent (skip).
+  (ii) the `ΔV≪ΔU` gap is a confirmed non-gradient signature (gMAM to pin it); reviewers split on
+  current-vs-metric source → new `current-aids-escape` `[steeping]` (frontier) with a decisive `a=b` vs `a≠b`
+  test that bears on whether the two survivals are dynamically coupled in the `both` corner.
 - **Second independent `both`-corner — INSTANCED (2026-06-03), within-reach #1 paid.** The two-survivals
   plane had only ONE `both` (`ΔV>0 ∧ 𝒜≠0`): the homochiral triad (parity SSB). The **co-handed twin-cycle**
   is a second, outside the chiral family: the homochiral skeleton with the *one* change mirror→copy (two
@@ -99,23 +108,28 @@ State pointer for the next session. Thin by design; delete lines as work lands.
    register needs an aging-rich substrate: the **East KCM** (two-time `t_w`-aging + stretched `C(τ)` +
    heavy-tailed persistence tail = three distinct ops) or a confined **fractional-OU** (independent
    aging-response). Parked pending appetite; not blocking.
-2. **Mechanism-independent `both`** *(the real frontier past the twin)* — the twin clears "different
-   broken symmetry" but shares the homochiral's *competitive-exclusion* mechanism (`μ_c`, linear `ΔV`,
-   identical magnitudes — now shown machine-precision-identical, `twin_mu_sweep.py`). A maximally-skeptical
-   reviewer wanting **mechanism** independence needs a `both` from a different mechanism or symmetry group
-   — e.g. a **Z₃ three-cluster** (three basins / multiple saddles — a light adaptation of the quasipotential
-   apparatus, not a field-swap) or a non-competitive-exclusion bistability carrying a current. Not asked by
-   the original handoff; flagged as the honest next bar.
+2. **Mechanism-independent `both`** *(the real frontier past the twin; design now SHARP from the review)* —
+   the twin/homochiral share the **transcritical hard-exclusion** mechanism (boundary branches, linear `ΔV`).
+   The review gives the exact recipe for a *different* mechanism: add **autocatalysis / self-crowding** (the
+   *true* Frank/Kondepudi cubic, e.g. an `S_L²` self-term) → coexistence-preserving → a genuine **supercritical
+   pitchfork** → `m∝√(μ−μc)`, `ΔV∝(μ−μc)²`. That is a `both` from a distinct normal form (soft, interior
+   branches), not just a different symmetry group. NB **Z₃ is NOT mechanism-independent** — it's still
+   competitive exclusion, would only re-confirm linear `ΔV` (skip it). The autocatalytic-pitchfork `both` is
+   the real test; reuses the quasipotential apparatus with a cubic field. Ready to run when there's appetite.
 
 ## Open from outside review
 
-- Is competitive-exclusion (degenerate / hard-saturating normal form, `ΔV` linear) the right reduction
-  for the symmetric Lotka–Volterra L↔R competition, or does it coexist with a supercritical-pitchfork
-  regime? (review-doc Q) *Strengthened, not closed:* competitive exclusion recurs machine-precision-
-  identically under exchange SSB (`twin_mu_sweep.py`) — so it's not a parity artifact — but a pitchfork
-  regime elsewhere in parameter space is not excluded.
-- The frame-sensitive `ΔV / ΔU` prefactor (FW barrier vs deterministic potential) — noted, not pinned.
-  (Twin μ-sweep re-confirms the gap: noisy-FW slope ≈7.5 vs `1/σ²`=156 in the shallow-barrier regime.)
+- ~~Is competitive-exclusion the right reduction…or a supercritical-pitchfork regime?~~ **RESOLVED by the
+  outside review (3 independent analyses, `docs/review_prompt_competitive_exclusion.md`):** the normal form
+  is a **symmetric transcritical** (degenerate exchange-of-stability), not a pitchfork — the broken branches
+  are *boundary* fixed points `(3F/c,0)` existing for all μ>0 that exchange stability with the symmetric
+  state at μc (forced: an interior asymmetric fixed point needs `(S_L−S_R)(c−3μ)=0`). The exact 2D totals
+  reduction holds because `a+b=1.5<2` keeps the May–Leonard modes stable. **No regime of the bare LV gives a
+  soft pitchfork** — folded into receipts §Branch-survival barrier.
+- `ΔV / ΔU` prefactor — **mechanism identified, value still owed.** The slope gap (≈7.5 vs `1/σ²`=156) is a
+  genuine non-gradient signature (`ΔV≪ΔU`), the true barrier computable by **gMAM** (E–Ren–Vanden-Eijnden;
+  Maier–Stein). The reviewers split on the *source* (internal current vs LV metric) → the `current-aids-escape`
+  `[steeping]` test (frontier).
 
 ## Doc + experiment state
 

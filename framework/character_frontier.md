@@ -124,6 +124,20 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   injected invariant survives the tower at all. · **→** `pure-exploration` — the open cross-stratum embedding
   problem (`character.md` §The space of characters: "comparison across strata… is open"); also the
   rendering-discipline transparent-carrier claim's would-be falsifier.
+* `current-aids-escape` **[steeping]** — *verdict:* in a `both` corner the FW branch-escape barrier is
+  $\Delta V\ll\Delta U$ (the deterministic potential); the outside review (3 analyses,
+  `docs/review_prompt_competitive_exclusion.md`) confirms this is a genuine non-gradient signature but
+  **splits on the source** — the internal cycle's rotational current ($a\neq b$) letting the escape
+  instanton "surf" the flow and lower the action (models a, b) vs the LV non-Euclidean metric alone
+  (model c). If it is the current, the protected current is a **resource for branch escape**: the two
+  survivals are orthogonal in *existence* (the four corners all realize) yet **coupled in escape dynamics**
+  (more current → lower $\Delta V$ → easier branch death) — a quantitative sharpening of the plane, not a
+  contradiction. · **↑** the decisive test — compute $\Delta V$ via gMAM (or measure escape) at $a=b$ (no
+  current, $\mathcal{A}=0$, *same* LV metric) vs $a\neq b$; the gap appearing only for $a\neq b$ promotes
+  the coupling. · **✗** the gap persists at $a=b$ → metric-only, current irrelevant, the survivals stay
+  quantitatively independent in the `both` corner too (drop). · **→** `character.md` §The two-survivals
+  plane (would gain a dynamical-coupling caveat); receipts §Branch-survival barrier (the $\Delta V/\Delta U$
+  gap). `pa:cycle-affinity`.
 ### Nudges — steering candidates (a parallel doc-gate track; HELD)
 
 A **nudge** corrects how character *steers a reader* — a sentence the core is missing or mis-places,
