@@ -400,9 +400,15 @@ record.
   (thermalized crossing). Holding $(a,b,\mu,F)$ identical and changing only mirror→copy, sign($\mathcal{A}$)
   is **preserved** across the branch flip (twin: $-/-$) where the homochiral parity flip **reverses** it
   ($-/+$) — branch membership and current handedness decoupled at the level of sign, a separation the parity
-  instance structurally cannot show. Idealizations: model Frank/Kondepudi substrate.
+  instance structurally cannot show. **Mechanism universality (μ-sweep):** the competitive-exclusion
+  threshold $\mu_c=(1+a+b)/3=0.833$ and the LINEAR $\Delta V\propto(\mu-\mu_c)$ recur under exchange exactly
+  as under parity — the symmetry-breaking mode $[1,1,1,-1,-1,-1]$ is uniform *within* each cluster, hence
+  **blind to the intra-cluster handedness**, so the breaking eigenvalue $a(\mu)$ is identical across the two
+  SSB types to machine precision ($\max|a_{\text{twin}}-a_{\text{parity}}|\approx2.4\!\cdot\!10^{-11}$). The
+  open pitchfork-vs-competitive-exclusion question (review-doc) therefore resolves the same way under both
+  symmetries. Idealizations: model Frank/Kondepudi substrate.
   `experiments/identity_survival_barrier.py`, `cycle_affinity.py`, `rps_affinity.py`,
-  `reset_redrive_test.py`, `mu_sweep.py`, `twin_cycle_corner.py`. `pa:cycle-affinity`,
+  `reset_redrive_test.py`, `mu_sweep.py`, `twin_cycle_corner.py`, `twin_mu_sweep.py`. `pa:cycle-affinity`,
   `pa:bifurcation-normal-forms`, `pa:kondepudi`.
 * **Fuel-driven DNA reaction network** `empirical` [The one real instance]. The composite-branch
   instance: a detailed-balanced DNA-hybridization cycle ($\mathcal{A}\approx0$) driven by RNase-H

@@ -124,6 +124,30 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   injected invariant survives the tower at all. · **→** `pure-exploration` — the open cross-stratum embedding
   problem (`character.md` §The space of characters: "comparison across strata… is open"); also the
   rendering-discipline transparent-carrier claim's would-be falsifier.
+* `loaded-endpoint-descent` **[steeping]** — *verdict:* a loaded macro-phenomenon (sleep, a market, a
+  mood) is read by **descent** to its substrate-general skeleton, never directly — `ℭ` is degenerate at
+  loaded endpoints exactly as at the boundary faces $\{0,1,\infty\}$. Diagnosed from an outside model's
+  sleep essay, where the steering failed two ways character can close. **(A) Periodicity is not the hard
+  bit.** An observable oscillation establishes neither a protected current nor a minted bit — only the
+  *protection test* does (a noise-independent $\mathcal{A}$; a sign that reset-and-re-drive shows is
+  wiring-set or spontaneously re-rolled). A clock that ticks is metric-sector until that test fires; a
+  single-sense oscillator is **current-only** (structural), not a spontaneously-selected **both**. The
+  model read "it cycles" $\to$ "minted protected `both`", bypassing the §Composition gate ("the spectral
+  count is circular; the non-circular observable is the protection test") because the gate sits
+  *downstream* of the minting language rather than guarding it. **(B) Decompose before composing.** A
+  bistable switch is **branch-only**; an oscillator is at most **current-only**; their co-occurrence is
+  two corners, not a `both`, until the union graph's frustration is exhibited and the composite's current
+  *measured* (the sleep flip-flop is mutual inhibition = a toggle; the ultradian cycle is a separate
+  oscillator — the model fused them into a fictitious minted 3-cycle). Lands a **nudge, not a battery**:
+  every piece of the skeleton is already instanced across the corners (branch-only Hopfield, current-only
+  RPS, both homochiral+twin) — no owed measurement, so a sleep battery would be off-target. · **↑**
+  *recurrence* — a second loaded-endpoint question tripping the same wire promotes the sharper nudge to
+  core: a one-line protection-test gate beside the minting claim / `both` corner, and a
+  degeneracy-at-loaded-endpoints sentence beside the isolation/open-interval boundaries. · **✗** the
+  existing §Composition gate is already sufficient as written and the miss was reader sloppiness, not a
+  steering hole (then drop). · **→** `character.md` §Composition (the protection test), §The two-survivals
+  plane (corner location precedes any composite claim), the open-interval/degeneracy discipline. NOT a
+  sleep claim: sleep is the intuition pump, never the observable; nothing here is instanced *on* sleep.
 
 ### Sharpening — active work on a named owed item
 
@@ -283,7 +307,11 @@ survive, so not an additive artifact), and a second independent thermalized-cros
 **co-handed twin-cycle** ($\mathcal{A}\approx21.8$, $\Delta V\approx0.018$), which instances `both` through a
 spontaneously broken **exchange** ($S_2$) symmetry, *not* parity. Decisive independence: sign($\mathcal{A}$)
 is preserved across the branch flip (both clusters co-handed) where the homochiral parity flip reverses it —
-the two survivals shown orthogonal a way the parity instance structurally cannot. `experiments/twin_cycle_corner.py`.
+the two survivals shown orthogonal a way the parity instance structurally cannot. The competitive-exclusion
+mechanism is **handedness-blind** (μ-sweep): $\mu_c$ and the linear $\Delta V(\mu)$ are machine-precision
+identical across exchange and parity, since the breaking mode is uniform-within-cluster — so the open
+pitchfork-vs-competitive-exclusion question resolves the same under both SSB types.
+`experiments/twin_cycle_corner.py`, `twin_mu_sweep.py`.
 
 ---
 

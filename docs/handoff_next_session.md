@@ -16,10 +16,25 @@ State pointer for the next session. Thin by design; delete lines as work lands.
   current handedness decoupled at the level of sign, a separation parity structurally cannot show.
   `experiments/twin_cycle_corner.py` (+ `twin_cycle_corner.png`). Magnitudes coincide with homochiral *by
   design* (shared skeleton, a controlled comparison isolating the symmetry); the claim is the symmetry type +
-  sign-coupling, not the numbers. **Receipts/frontier edits applied (uncommitted), held for review** — incl.
-  the open core proposal: `both`'s core description ("mirror branches") generalized to cover co-handed
-  branches. NB: folded in the **already-banked demographic-noise robustness** (it was still marked *owed* in
-  receipts §Branch-survival barrier + frontier — stale; now both owed items read paid).
+  sign-coupling, not the numbers. **Committed + pushed** (`a963bf9`): receipts/frontier + the core edit
+  (`both` generalized from "mirror branches" to co-handed too) + the folded-in **demographic-noise robustness**
+  stale-fix (both owed items now read paid).
+- **Twin μ-sweep — competitive exclusion is HANDEDNESS-BLIND (2026-06-03).** The twin shares the homochiral's
+  mechanism *provably*, not just numerically: the symmetry-breaking mode `[1,1,1,−1,−1,−1]` is uniform-within-
+  cluster, so it cannot see the intra-cluster handedness → the breaking eigenvalue `a(μ)` is identical across
+  exchange and parity to machine precision (`max|Δa|=2.4e-11`), giving the same `μ_c=0.833` and the same LINEAR
+  `ΔV∝(μ−μ_c)` (order parameter jumps = competitive exclusion; pitchfork falsified). Resolves the open
+  pitchfork-vs-competitive-exclusion question the same way under BOTH SSB types. `experiments/twin_mu_sweep.py`
+  (+ PNG). NB the noisy-FW slope (7.5) ≠ 1/σ²=156 is the known `ΔV/ΔU` prefactor gap (shallow-barrier regime),
+  same as homochiral — not a twin issue; the deterministic sweep is the airtight leg.
+- **Sleep lay-question → `loaded-endpoint-descent` parked `[steeping]` (2026-06-03).** An outside model's
+  sleep essay overreached *because character mis-steered it* (Ron's framing — character owns the endpoint).
+  Standard procedure (strip→skeleton→locate→steelman→park) lands a **nudge, not a battery** (the skeleton is
+  already instanced across the corners — switch=branch-only, oscillator=current-only, `both`=homochiral+twin;
+  no owed measurement). Two candidate nudges, recurrence-gated to core: **(A)** periodicity is not the hard
+  bit — only the protection test (`𝒜` noise-indep + reset-redrive sign) is, and the §Composition gate sits
+  *downstream* of the minting language instead of guarding it; **(B)** `ℭ` is degenerate at *loaded endpoints*
+  too (descend to the skeleton; the endpoint never enters a receipt). Parked in `character_frontier.md`.
 - **β-collapse falsifier run — SURVIVED (2026-06-03).** The memory-exponent transport law's *named*
   invalidator (FDR-aging vs queue-tail onto a common `β`) instanced on the Norros fBm-queue: `β=2−2H`
   recovered two independent ways — low-frequency spectral slope (aging/kernel register; `α_s=β_mem` by
@@ -78,18 +93,23 @@ State pointer for the next session. Thin by design; delete lines as work lands.
    register needs an aging-rich substrate: the **East KCM** (two-time `t_w`-aging + stretched `C(τ)` +
    heavy-tailed persistence tail = three distinct ops) or a confined **fractional-OU** (independent
    aging-response). Parked pending appetite; not blocking.
-2. **Twin-cycle μ-sweep** *(cheap strengthening; touches open review Q1)* — the twin instances `both` at
-   `μ=1.6`, but a μ-sweep would test whether the competitive-exclusion threshold `μ_c=(1+a+b)/3` and the
-   *linear* `ΔV∝(μ−μ_c)` recur under the **exchange** symmetry (universality of the normal form across
-   symmetry type, not just parity). Reuses `mu_sweep.py`'s structure with the twin field. Low appetite,
-   but it would turn the open pitchfork-vs-competitive-exclusion question into a cross-symmetry data point.
+2. **Mechanism-independent `both`** *(the real frontier past the twin)* — the twin clears "different
+   broken symmetry" but shares the homochiral's *competitive-exclusion* mechanism (`μ_c`, linear `ΔV`,
+   identical magnitudes — now shown machine-precision-identical, `twin_mu_sweep.py`). A maximally-skeptical
+   reviewer wanting **mechanism** independence needs a `both` from a different mechanism or symmetry group
+   — e.g. a **Z₃ three-cluster** (three basins / multiple saddles — a light adaptation of the quasipotential
+   apparatus, not a field-swap) or a non-competitive-exclusion bistability carrying a current. Not asked by
+   the original handoff; flagged as the honest next bar.
 
 ## Open from outside review
 
 - Is competitive-exclusion (degenerate / hard-saturating normal form, `ΔV` linear) the right reduction
   for the symmetric Lotka–Volterra L↔R competition, or does it coexist with a supercritical-pitchfork
-  regime? (review-doc Q)
+  regime? (review-doc Q) *Strengthened, not closed:* competitive exclusion recurs machine-precision-
+  identically under exchange SSB (`twin_mu_sweep.py`) — so it's not a parity artifact — but a pitchfork
+  regime elsewhere in parameter space is not excluded.
 - The frame-sensitive `ΔV / ΔU` prefactor (FW barrier vs deterministic potential) — noted, not pinned.
+  (Twin μ-sweep re-confirms the gap: noisy-FW slope ≈7.5 vs `1/σ²`=156 in the shallow-barrier regime.)
 
 ## Doc + experiment state
 
@@ -98,13 +118,11 @@ State pointer for the next session. Thin by design; delete lines as work lands.
   `character_grounding_method.md` (embodiment tree, Group II).
 - `experiments/`: `identity_survival_barrier.py`, `cycle_affinity.py`, `rps_affinity.py`,
   `reset_redrive_test.py`, `mu_sweep.py`, `hopfield_corner.py`, `neither_corner.py`,
-  `beta_collapse.py`, `deformer_loop.py`, `twin_cycle_corner.py` (+ PNGs). `identity_survival_barrier.py`
-  gained a `noise_kind` arg (additive default unchanged; `compare` runs additive vs demographic).
-  `twin_cycle_corner.py` imports the validated `ep_affinity` (cycle_affinity) and the homochiral field
-  (identity_survival_barrier) for the measured parity-vs-exchange sign contrast; `smoke` arg for a fast probe.
-- Committed to `main` and pushed at session end (README + grounding method + experiments + the core edits).
-- **Uncommitted as of the twin-cycle session:** `twin_cycle_corner.py` (+ PNG), and ledger edits to
-  `character_receipts.md` (§Branch-survival barrier, §Two-survivals plane) + `character_frontier.md`
-  (Recently-crossed Owed line, the two-survivals battery) — held for review. Open core proposal (not yet
-  applied): generalize `both`'s `character.md` description from "mirror branches" to also cover co-handed
-  (exchange) branches.
+  `beta_collapse.py`, `deformer_loop.py`, `twin_cycle_corner.py`, `twin_mu_sweep.py` (+ PNGs).
+  `identity_survival_barrier.py` gained a `noise_kind` arg (additive default unchanged; `compare` runs
+  additive vs demographic). `twin_cycle_corner.py` imports the validated `ep_affinity` (cycle_affinity) and
+  the homochiral field for the measured parity-vs-exchange sign contrast (`smoke` arg for a fast probe);
+  `twin_mu_sweep.py` overlays the twin and homochiral μ-sweeps to show handedness-blindness.
+- **Open core proposal (recurrence-gated, NOT applied):** the `loaded-endpoint-descent` `[steeping]` nudges —
+  a protection-test gate beside the minting claim / `both` corner, and a degeneracy-at-loaded-endpoints
+  sentence. Promote to core only on a second loaded-endpoint question tripping the same wire.
