@@ -430,12 +430,17 @@ a plane, not a line, and *no protected current* is not *no dynamical landscape*.
   (Hopfield class).
 - **current only** (`𝒜 ≠ 0`, no thermal mirror) — one frustrated cycle, its mirror reachable only by
   rewiring. The rock-paper-scissors triad and the fuel-driven DNA network (structurally stored).
-- **both** (`ΔV > 0`, `𝒜 ≠ 0`) — mirror branches each carrying a protected circulation, split by a
-  noise-crossable saddle. The homochiral triad (spontaneously selected).
+- **both** (`ΔV > 0`, `𝒜 ≠ 0`) — symmetry-related branches each carrying a protected circulation,
+  split by a noise-crossable saddle. Two independent instances differing in *which* symmetry is broken:
+  the homochiral triad (parity — the branches are *mirror* currents, so flipping the branch reverses
+  `sign(𝒜)`) and the co-handed twin-cycle (an *exchange* of two identical clusters — the branches are
+  *co-handed* currents, so flipping the branch leaves `sign(𝒜)` fixed). Both spontaneously selected;
+  the exchange instance decouples branch membership from current handedness at the level of sign,
+  exhibiting the two survivals' orthogonality where parity entangles it.
 
 Frustration is the boundary across the current axis (a non-reciprocal cycle breaks detailed
-balance); a coexisting mirror is the boundary across the branch axis (it turns a rewiring into a
-thermal crossing). Multistability is a soft-sector property, the protected current is the hard
+balance); a coexisting mirror — or any spontaneously broken symmetry relating two basins — is the
+boundary across the branch axis (it turns a rewiring into a thermal crossing). Multistability is a soft-sector property, the protected current is the hard
 sector, and they are orthogonal — soft-sector capability is silent on whether the hard sector exists
 at all.
 

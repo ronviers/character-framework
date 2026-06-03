@@ -388,10 +388,21 @@ record.
   supercritical-pitchfork $\sqrt{\mu-\mu_c}$ — so $\Delta V\propto a(\mu)\propto(\mu-\mu_c)$ **linear**, not
   $(\mu-\mu_c)^2$ (the noisy escape MFPT tracks $a(\mu)$, corr $0.98$). The strong-form falsifier (nonzero
   $\Delta V$ after racemic restabilization) does not fire; the quadratic normal form is superseded by
-  competitive exclusion. Idealizations: model Frank/Kondepudi substrate; additive noise metric
-  (multiplicative demographic noise the owed robustness check). Owed: a second independent
-  thermalized-crossing substrate. `experiments/identity_survival_barrier.py`, `cycle_affinity.py`,
-  `rps_affinity.py`, `reset_redrive_test.py`, `mu_sweep.py`. `pa:cycle-affinity`,
+  competitive exclusion. **Noise-metric robustness (run):** re-running the racemic-saddle escape under
+  multiplicative demographic ($\sqrt{x}$, birth–death) noise gives a finite, well-defined, σ-collapsing
+  barrier ($\Delta V_{KR}\approx0.273$, collapse-rms $0.025$ = 9% of barrier vs additive's 26%; the additive
+  leg reproduces $\Delta V_{KR}=0.018$) — the FW quasipotential rescales with the metric (it must) but
+  existence and protection survive, so branch survival is **not** an additive-noise artifact. **Second
+  independent instance (run):** the *co-handed twin-cycle* — two **identical** (not mirror) cyclic 3-clusters
+  under the same competitive cross-inhibition — instances `both` via a spontaneously broken **exchange**
+  ($S_2$ permutation) symmetry rather than parity: $\mathcal{A}\approx21.8$ nats (complex Jacobian pair,
+  noise-independent), $\Delta V\approx0.018$ (σ-collapse rms $0.0046$, Kramers), reset re-rolls 20/20
+  (thermalized crossing). Holding $(a,b,\mu,F)$ identical and changing only mirror→copy, sign($\mathcal{A}$)
+  is **preserved** across the branch flip (twin: $-/-$) where the homochiral parity flip **reverses** it
+  ($-/+$) — branch membership and current handedness decoupled at the level of sign, a separation the parity
+  instance structurally cannot show. Idealizations: model Frank/Kondepudi substrate.
+  `experiments/identity_survival_barrier.py`, `cycle_affinity.py`, `rps_affinity.py`,
+  `reset_redrive_test.py`, `mu_sweep.py`, `twin_cycle_corner.py`. `pa:cycle-affinity`,
   `pa:bifurcation-normal-forms`, `pa:kondepudi`.
 * **Fuel-driven DNA reaction network** `empirical` [The one real instance]. The composite-branch
   instance: a detailed-balanced DNA-hybridization cycle ($\mathcal{A}\approx0$) driven by RNase-H
@@ -406,13 +417,14 @@ record.
   $\langle\sigma\rangle=\mathcal{A}=0$ to machine precision (real Jacobian). **neither** — a 2-layer feedforward
   MLP on a Gaussian mixture: measured soft-sector capability $I(\hat Y;Y)\approx2.9$ bits (→ the Bayes ceiling),
   hard sector *structurally* absent (node-adjacency nilpotent ⇒ $\mathcal{A}\equiv0$ by acyclicity; $\Delta V$
-  undefined for want of recurrence). **current-only** (RPS, DNA) and **both** (homochiral) are the core
-  instances. Corollary: soft-sector capability ⟂ the hard sector — the most informative corner carries no
+  undefined for want of recurrence). **current-only** (RPS, DNA) and **both** — now **two independent
+  instances**: the homochiral triad (parity SSB) and the co-handed twin-cycle (exchange/$S_2$ SSB; receipts
+  §Branch-survival barrier) — are the core instances. Corollary: soft-sector capability ⟂ the hard sector — the most informative corner carries no
   protected current. Scope: the two new corners are *engineered* substrates (a Hopfield net, a trained MLP),
   same standing as the synthetic-but-real OU / RPS instances. Falsify: a symmetric/gradient attractor net with
   $\mathcal{A}\ne0$; a feedforward/acyclic substrate carrying a sustained protected current; branch and current
   survival shown *dependent* on a real substrate. `experiments/hopfield_corner.py`, `neither_corner.py`,
-  `cycle_affinity.py`, `identity_survival_barrier.py`. `pa:cycle-affinity`.
+  `cycle_affinity.py`, `identity_survival_barrier.py`, `twin_cycle_corner.py`. `pa:cycle-affinity`.
 
 ---
 

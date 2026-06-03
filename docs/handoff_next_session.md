@@ -4,6 +4,22 @@ State pointer for the next session. Thin by design; delete lines as work lands.
 
 ## Banked this session
 
+- **Second independent `both`-corner — INSTANCED (2026-06-03), within-reach #1 paid.** The two-survivals
+  plane had only ONE `both` (`ΔV>0 ∧ 𝒜≠0`): the homochiral triad (parity SSB). The **co-handed twin-cycle**
+  is a second, outside the chiral family: the homochiral skeleton with the *one* change mirror→copy (two
+  **identical** same-handed cyclic 3-clusters under the same competitive cross-inhibition), moving the broken
+  symmetry from **parity (reflection)** to **exchange (`S₂` permutation)**. Both axes read with the same
+  apparatus: `𝒜≈21.8` nats (complex Jacobian pair, noise-independent, Lyapunov frame), `ΔV≈0.018`
+  (σ-collapse rms `0.0046`, Kramers), reset re-rolls 20/20 (spontaneous/thermalized). **Decisive
+  independence (measured, not asserted):** holding `(a,b,μ,F)` identical, sign(`𝒜`) is *preserved* across the
+  branch flip (twin `−/−`) where the homochiral parity flip *reverses* it (`−/+`) — branch membership and
+  current handedness decoupled at the level of sign, a separation parity structurally cannot show.
+  `experiments/twin_cycle_corner.py` (+ `twin_cycle_corner.png`). Magnitudes coincide with homochiral *by
+  design* (shared skeleton, a controlled comparison isolating the symmetry); the claim is the symmetry type +
+  sign-coupling, not the numbers. **Receipts/frontier edits applied (uncommitted), held for review** — incl.
+  the open core proposal: `both`'s core description ("mirror branches") generalized to cover co-handed
+  branches. NB: folded in the **already-banked demographic-noise robustness** (it was still marked *owed* in
+  receipts §Branch-survival barrier + frontier — stale; now both owed items read paid).
 - **β-collapse falsifier run — SURVIVED (2026-06-03).** The memory-exponent transport law's *named*
   invalidator (FDR-aging vs queue-tail onto a common `β`) instanced on the Norros fBm-queue: `β=2−2H`
   recovered two independent ways — low-frequency spectral slope (aging/kernel register; `α_s=β_mem` by
@@ -57,18 +73,16 @@ State pointer for the next session. Thin by design; delete lines as work lands.
 
 ## Within-reach tests (ranked)
 
-1. **Second independent "both"-corner substrate** — the two-survivals plane has only ONE `both`
-   (`𝒜≠0 ∧ ΔV>0`) instance (the homochiral triad). A second one would robustify branch survival —
-   but it must be *outside the chiral-SSB family* (a different broken symmetry; a second chiral
-   instance is not independent). RPS does **not** qualify (structural, no `ΔV`). NB: the
-   `mpa-conform/scripts/{chiral_bonding,chiral_selffield,homochiral_cascade}.py` scripts are **not**
-   candidates — they are `frustration-ascent` cascade instances (a separate line), and
-   `homochiral_cascade` is in-family.
-2. **β-collapse 3rd register** *(strengthening; the 2-register form is banked above)* — a genuinely
+1. **β-collapse 3rd register** *(strengthening; the 2-register form is banked above)* — a genuinely
    independent FDR-aging register. On fBm aging ≡ kernel (one exponent, `α_s = β_mem`), so a true third
    register needs an aging-rich substrate: the **East KCM** (two-time `t_w`-aging + stretched `C(τ)` +
    heavy-tailed persistence tail = three distinct ops) or a confined **fractional-OU** (independent
    aging-response). Parked pending appetite; not blocking.
+2. **Twin-cycle μ-sweep** *(cheap strengthening; touches open review Q1)* — the twin instances `both` at
+   `μ=1.6`, but a μ-sweep would test whether the competitive-exclusion threshold `μ_c=(1+a+b)/3` and the
+   *linear* `ΔV∝(μ−μ_c)` recur under the **exchange** symmetry (universality of the normal form across
+   symmetry type, not just parity). Reuses `mu_sweep.py`'s structure with the twin field. Low appetite,
+   but it would turn the open pitchfork-vs-competitive-exclusion question into a cross-symmetry data point.
 
 ## Open from outside review
 
@@ -84,6 +98,13 @@ State pointer for the next session. Thin by design; delete lines as work lands.
   `character_grounding_method.md` (embodiment tree, Group II).
 - `experiments/`: `identity_survival_barrier.py`, `cycle_affinity.py`, `rps_affinity.py`,
   `reset_redrive_test.py`, `mu_sweep.py`, `hopfield_corner.py`, `neither_corner.py`,
-  `beta_collapse.py`, `deformer_loop.py` (+ PNGs). `identity_survival_barrier.py` gained a
-  `noise_kind` arg (additive default unchanged; `compare` runs additive vs demographic).
+  `beta_collapse.py`, `deformer_loop.py`, `twin_cycle_corner.py` (+ PNGs). `identity_survival_barrier.py`
+  gained a `noise_kind` arg (additive default unchanged; `compare` runs additive vs demographic).
+  `twin_cycle_corner.py` imports the validated `ep_affinity` (cycle_affinity) and the homochiral field
+  (identity_survival_barrier) for the measured parity-vs-exchange sign contrast; `smoke` arg for a fast probe.
 - Committed to `main` and pushed at session end (README + grounding method + experiments + the core edits).
+- **Uncommitted as of the twin-cycle session:** `twin_cycle_corner.py` (+ PNG), and ledger edits to
+  `character_receipts.md` (§Branch-survival barrier, §Two-survivals plane) + `character_frontier.md`
+  (Recently-crossed Owed line, the two-survivals battery) — held for review. Open core proposal (not yet
+  applied): generalize `both`'s `character.md` description from "mirror branches" to also cover co-handed
+  (exchange) branches.

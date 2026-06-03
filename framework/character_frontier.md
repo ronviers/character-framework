@@ -234,7 +234,7 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   axes**; substrates fill all four cells, so "no protected current" is not "no dynamical landscape." Already
   core: **current-only** (structurally stored — bare RPS, fuel-driven DNA: $\mathcal{A}\ne0$, mirror reachable
   only by rewiring) and **both** (spontaneously selected — homochiral: $\mathcal{A}\approx21.8$,
-  $\Delta V\approx0.018$). New corners: **branch-only** (metastable — a symmetric Hopfield attractor net gives
+  $\Delta V\approx0.018$; **second instance** the co-handed twin-cycle via exchange/$S_2$ SSB, not parity). New corners: **branch-only** (metastable — a symmetric Hopfield attractor net gives
   $\Delta V\approx0.97$ with $\langle\sigma\rangle=\mathcal{A}=0$ to machine precision, real Jacobian;
   `experiments/hopfield_corner.py`), the mirror of bare RPS; **neither** (soft-metric — a 2-layer feedforward
   net on a Gaussian mixture: measured capability $I(\hat Y;Y)\approx2.9$ bits → the Bayes ceiling, the hard
@@ -277,8 +277,13 @@ survival** (the racemic-saddle quasipotential $\Delta V\approx0.018$ on the homo
 from $I(0)$ by noise-scaling and by controlled embedding — receipts §Branch-survival barrier). The
 $\mu$-sweep is run: branch survival is born at $\mu_c=(1+a+b)/3=0.833$ by **competitive exclusion**,
 with $\Delta V\propto(\mu-\mu_c)$ linear (the pitchfork $(\mu-\mu_c)^2$ superseded) and zero below
-threshold. Owed: a second independent thermalized-crossing substrate, and the multiplicative-noise
-robustness of $\Delta V$.
+threshold. **Both owed items now paid (receipts §Branch-survival barrier):** the multiplicative-noise
+robustness (demographic $\sqrt{x}$ noise — $\Delta V$ rescales to $\approx0.273$ but existence and protection
+survive, so not an additive artifact), and a second independent thermalized-crossing substrate — the
+**co-handed twin-cycle** ($\mathcal{A}\approx21.8$, $\Delta V\approx0.018$), which instances `both` through a
+spontaneously broken **exchange** ($S_2$) symmetry, *not* parity. Decisive independence: sign($\mathcal{A}$)
+is preserved across the branch flip (both clusters co-handed) where the homochiral parity flip reverses it —
+the two survivals shown orthogonal a way the parity instance structurally cannot. `experiments/twin_cycle_corner.py`.
 
 ---
 
