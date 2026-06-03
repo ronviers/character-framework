@@ -436,7 +436,11 @@ a plane, not a line, and *no protected current* is not *no dynamical landscape*.
   `sign(𝒜)`) and the co-handed twin-cycle (an *exchange* of two identical clusters — the branches are
   *co-handed* currents, so flipping the branch leaves `sign(𝒜)` fixed). Both spontaneously selected;
   the exchange instance decouples branch membership from current handedness at the level of sign,
-  exhibiting the two survivals' orthogonality where parity entangles it.
+  exhibiting the two survivals' orthogonality where parity entangles it. The barrier's *scaling* is set
+  not by the mere presence of a symmetry-breaking transition but by how the broken branch saturates: a
+  hard competitive exclusion gives `ΔV ∝ (μ − μ_c)` (the branch pinned at the basin boundary), a soft
+  supercritical pitchfork gives `ΔV ∝ (μ − μ_c)²` (the branch growing as `√`) — instanced on an
+  autocatalytic substrate where a current and a soft pitchfork coexist over a finite window.
 
 Frustration is the boundary across the current axis (a non-reciprocal cycle breaks detailed
 balance); a coexisting mirror — or any spontaneously broken symmetry relating two basins — is the
