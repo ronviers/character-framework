@@ -334,14 +334,16 @@ the two survivals shown orthogonal a way the parity instance structurally cannot
 mechanism is **handedness-blind** (μ-sweep): $\mu_c$ and the linear $\Delta V(\mu)$ are machine-precision
 identical across exchange and parity, since the breaking mode is uniform-within-cluster — so the open
 pitchfork-vs-competitive-exclusion question resolves the same under both SSB types.
-`experiments/twin_cycle_corner.py`, `twin_mu_sweep.py`. And the **mechanism-independent `both`**: an
-autocatalytic (Kondepudi–Nelson) substrate gives a genuine **soft pitchfork** — $ee_*^2\propto(k_{1c}-k_1)$
-linear ($R^2{=}1$), barrier $\Delta U\propto ee_*^4\propto(k_{1c}-k_1)^2$ **quadratic** (a different
-universality class from the twin's hard/linear); adding an $a\neq b$ 3-cycle (window $ec\in[0.05,0.20]$)
-mints $\mathcal{A}\approx0.6$–$3.5$ nats while the pitchfork survives ($ee_*^2$-$R^2{=}1$, $\Delta U\propto
-ee_*^4$ $R^2{=}0.997$, reset ~50/50) — so `both` is independent along *mechanism* too, not only symmetry
-type (receipts §Branch-survival barrier, §Two-survivals plane). `experiments/autocat_pitchfork.py`,
-`autocat_both.py`.
+`experiments/twin_cycle_corner.py`, `twin_mu_sweep.py`. And **`both` across a second bifurcation mechanism**:
+an autocatalytic (Kondepudi–Nelson) substrate gives a genuine **soft pitchfork** — $ee_*^2\propto(k_{1c}-k_1)$
+linear ($R^2{=}1$), barrier $\Delta U\propto ee_*^4\propto(k_{1c}-k_1)^2$ **quadratic** (vs the twin's
+hard/linear); adding an $a\neq b$ 3-cycle opens a **coexistence window** $ec\in[0.05,0.20]$ that mints
+$\mathcal{A}\approx0.6$–$3.5$ nats while the soft pitchfork holds ($ee_*^2$-$R^2{=}1$, $\Delta U\propto
+ee_*^4$ $R^2{=}0.997$, reset ~50/50); past $ec\gtrsim0.25$ the cycle destabilises the branch (it
+*participates* in the bifurcation, not merely decorates it). Supported claim: **symmetry breaking does not
+fix the barrier scaling — the saturation mechanism does** (two distinct constructions, not yet
+"mechanism-independent"; receipts §Branch-survival barrier, §Two-survivals plane).
+`experiments/autocat_pitchfork.py`, `autocat_both.py`.
 
 ---
 

@@ -4,7 +4,10 @@ State pointer for the next session. Thin by design; delete lines as work lands.
 
 ## Banked this session
 
-- **MECHANISM-INDEPENDENT `both` — INSTANCED (2026-06-03), within-reach #2 paid.** Two steps:
+- **`both` ACROSS A SECOND BIFURCATION MECHANISM — INSTANCED (2026-06-03), within-reach #2 paid.**
+  (Calibrated by the channel: "across two distinct constructions," not yet "mechanism-independent" — that
+  needs >2 instances + a clean normal-form reduction. Supported claim: **symmetry breaking does not fix the
+  barrier scaling; the saturation mechanism does**.) Two steps:
   **Step 1 (branch, current-free, `autocat_pitchfork.py`):** a 2-species Kondepudi–Nelson substrate
   (`dL = k1 + (g−kd)·L·(1−(L+R)/cap) − k3·L·R`, control = racemic input `k1`) gives a clean **supercritical
   pitchfork** — `ee*²=1−k1` LINEAR (R²=1.00000), `A∝(k1c−k1)^1.05`, barrier `ΔU∝(k1c−k1)^2.06` **QUADRATIC**,
@@ -13,18 +16,24 @@ State pointer for the next session. Thin by design; delete lines as work lands.
   with an internal `a≠b` cycle (strength `ec`). ec-scan finds a **coexistence window `ec∈[0.05,0.20]`** where
   the soft pitchfork SURVIVES (`ee*²`-R²=1.0, `ΔU∝ee*⁴` R²=0.997) with a current `𝒜≈0.6–3.5` nats (complex
   pair, noise-indep) and reset ~50/50; past `ec≈0.25` the cycle's within-group competition (the hard-exclusion
-  ingredient) kills the branch. So **`both` is independent along TWO axes: symmetry (parity/exchange) AND
-  mechanism (hard transcritical / soft pitchfork)** — the twin's linear barrier was the *saturation mechanism*,
-  not generic to `Z₂` breaking. Promoted to receipts §Branch-survival barrier + §Two-survivals plane, frontier.
-  **Decisive credit: the outbound review channel** (`ee*²` not `ee*`; `k1` not `g`; the `ee*⁴` collapse; MFPT
-  two-level framing). **Open core proposal (held):** generalize core §The two-survivals plane's `both` from
-  "two symmetry instances" to "independent along symmetry AND mechanism axes."
+  ingredient) kills the branch — the cycle *participates* in the bifurcation, so it's a finite coexistence
+  window, not unconditional survival (the current↔branch coupling = `current-aids-escape`). So `both` is now
+  instanced across **two symmetry types AND two bifurcation mechanisms**; the supported, falsification-safe
+  claim is **symmetry breaking does NOT fix the barrier scaling — the saturation mechanism does** (exclusion
+  →linear, soft pitchfork→quadratic). Promoted (calibrated) to receipts §Branch-survival barrier +
+  §Two-survivals plane, frontier. **Decisive credit: the outbound review channel** (`ee*²` not `ee*`; `k1`
+  not `g`; the `ee*⁴` collapse; MFPT two-level framing; and the claim-calibration: "two constructions" not
+  "mechanism-independent"). **Open core proposal (held):** add to core §The two-survivals plane the
+  conservative sentence — *the barrier scaling is set by the saturation mechanism, not by the mere presence of
+  a `Z₂` symmetry-breaking transition* — NOT the stronger "distinct universality classes" (owed: a clean
+  normal-form reduction).
 - **Competitive-exclusion review returned + metabolized (2026-06-03).** 3 independent outside analyses
   (`docs/review_prompt_competitive_exclusion.md`) agree and **resolve the open review Q**: the L↔R transition
   is a **symmetric transcritical** (boundary-supported branches, exchange of stability), NOT a pitchfork; no
   bare-LV regime gives a soft pitchfork (folded into receipts §Branch-survival barrier). Two downstream
-  effects: (i) the **mechanism-independent `both`** design is now sharp — add autocatalysis (true
-  Frank/Kondepudi cubic) for a genuine soft-pitchfork `both`; Z₃ is *not* mechanism-independent (skip).
+  effects: (i) the **second-mechanism `both`** design is now sharp — add autocatalysis (true
+  Frank/Kondepudi cubic) for a genuine soft-pitchfork `both`; Z₃ is *not* a different mechanism (still
+  competitive exclusion; skip).
   (ii) the `ΔV≪ΔU` gap is a confirmed non-gradient signature (gMAM to pin it); reviewers split on
   current-vs-metric source → new `current-aids-escape` `[steeping]` (frontier) with a decisive `a=b` vs `a≠b`
   test that bears on whether the two survivals are dynamically coupled in the `both` corner.

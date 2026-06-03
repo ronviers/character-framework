@@ -418,21 +418,27 @@ record.
   **blind to the intra-cluster handedness**, so the breaking eigenvalue $a(\mu)$ is identical across the two
   SSB types to machine precision ($\max|a_{\text{twin}}-a_{\text{parity}}|\approx2.4\!\cdot\!10^{-11}$). The
   open pitchfork-vs-competitive-exclusion question (review-doc) therefore resolves the same way under both
-  symmetries. **Mechanism-independent `both` (autocatalytic soft pitchfork):** the homochiral and twin
-  instances share the *hard transcritical* mechanism (boundary branches, $\Delta V$ LINEAR); a third instance
-  breaks that. A Kondepudi–Nelson autocatalytic substrate (racemic input $k_1$ + finite-resource
-  autocatalysis + mutual annihilation) gives a genuine **supercritical pitchfork** — $ee_*^2\propto(k_{1c}-k_1)$
-  LINEAR ($R^2{=}1.0000$), barrier $\Delta U\propto ee_*^4\propto(k_{1c}-k_1)^2$ **QUADRATIC** (parameter-free
-  collapse $R^2{=}0.997$; noisy $\ln$MFPT$\propto\Delta U$ corr $0.998$) — a *different universality class*
-  from the LV-twin's hard/linear (`autocat_pitchfork.py`). Adding an internal $a\neq b$ 3-cycle (strength
-  $ec$) mints a current: across a window $ec\in[0.05,0.20]$ the soft pitchfork **survives** ($ee_*^2$-$R^2{=}1.0$,
-  $\Delta U\propto ee_*^4$ $R^2{=}0.997$) with $\mathcal{A}\approx0.6$–$3.5$ nats (complex pair, noise-indep) and
-  reset $\sim$50/50 — a **soft-pitchfork `both`** (`autocat_both.py`). So `both` is independent along *two*
-  axes: the broken symmetry (parity/exchange) AND the **mechanism** (hard transcritical / soft pitchfork);
-  the linear barrier of the twin was the *saturation mechanism*, not a generic consequence of $\mathbb{Z}_2$
-  breaking. Past the window ($ec\gtrsim0.25$) the cycle's within-group competition — itself the hard-exclusion
-  ingredient — kills the branch. Engineered (model) substrates, same standing as the OU/RPS instances;
-  diagnostics credit the outbound review channel ($ee_*^2$ not $ee_*$; $k_1$ not $g$; the $ee_*^4$ collapse).
+  symmetries. **`both` across a second bifurcation mechanism (autocatalytic soft pitchfork):** the homochiral
+  and twin instances share the *hard transcritical* mechanism (boundary branches, $\Delta V$ LINEAR); a third
+  instance has a different one. A Kondepudi–Nelson autocatalytic substrate (racemic input $k_1$ +
+  finite-resource autocatalysis + mutual annihilation) gives a genuine **supercritical pitchfork** —
+  $ee_*^2\propto(k_{1c}-k_1)$ LINEAR ($R^2{=}1.0000$), barrier $\Delta U\propto ee_*^4\propto(k_{1c}-k_1)^2$
+  **QUADRATIC** (parameter-free collapse $R^2{=}0.997$; noisy $\ln$MFPT$\propto\Delta U$ corr $0.998$;
+  dt-refinement-invariant to $\sim\!10^{-13}$) — a *qualitatively different soft saturation* vs the LV-twin's
+  hard/linear (`autocat_pitchfork.py`). **The supported claim: symmetry breaking does NOT determine the barrier
+  scaling — the saturation mechanism does** (hard exclusion → linear; soft pitchfork → quadratic); the twin's
+  linear barrier was not a generic consequence of $\mathbb{Z}_2$ breaking. (Calling these distinct
+  *universality classes of the framework* would need the normal-form reduction written cleanly + more than two
+  instances — owed; for now it is survival across two distinct constructions, not "mechanism-independence.")
+  Adding an internal $a\neq b$ 3-cycle (strength $ec$) mints a current; an $ec$-scan shows **three regimes**:
+  $ec{=}0$ branch survives/no current; $ec\in[0.05,0.20]$ a **coexistence window** — soft pitchfork
+  ($ee_*^2$-$R^2{=}1.0$, $\Delta U\propto ee_*^4$ $R^2{=}0.997$) with $\mathcal{A}\approx0.6$–$3.5$ nats
+  (complex pair, noise-indep) and reset $\sim$50/50, a **soft-pitchfork `both`** (`autocat_both.py`);
+  $ec\gtrsim0.25$ the branch **dies**. That third regime shows the cycle **dynamically participates in the
+  bifurcation** (it reshapes the saturation, not merely adds circulation) — so the result is a *finite
+  coexistence window*, not unconditional survival, and the current↔branch coupling is the same one probed by
+  `current-aids-escape`. Engineered (model) substrates, same standing as the OU/RPS instances; diagnostics
+  credit the outbound review channel ($ee_*^2$ not $ee_*$; $k_1$ not $g$; the $ee_*^4$ collapse).
   Idealizations: model Frank/Kondepudi substrate.
   `experiments/identity_survival_barrier.py`, `cycle_affinity.py`, `rps_affinity.py`,
   `reset_redrive_test.py`, `mu_sweep.py`, `twin_cycle_corner.py`, `twin_mu_sweep.py`, `autocat_pitchfork.py`,
@@ -450,10 +456,11 @@ record.
   $\langle\sigma\rangle=\mathcal{A}=0$ to machine precision (real Jacobian). **neither** — a 2-layer feedforward
   MLP on a Gaussian mixture: measured soft-sector capability $I(\hat Y;Y)\approx2.9$ bits (→ the Bayes ceiling),
   hard sector *structurally* absent (node-adjacency nilpotent ⇒ $\mathcal{A}\equiv0$ by acyclicity; $\Delta V$
-  undefined for want of recurrence). **current-only** (RPS, DNA) and **both** — now instanced along **two
-  independence axes**: *symmetry* (homochiral parity, co-handed twin exchange/$S_2$) AND *mechanism* (the
-  hard transcritical of those two, $\Delta V$ linear; vs the **soft pitchfork** of the autocatalytic instance,
-  $\Delta V\propto ee_*^4$ quadratic — receipts §Branch-survival barrier) — are the core instances. Corollary: soft-sector capability ⟂ the hard sector — the most informative corner carries no
+  undefined for want of recurrence). **current-only** (RPS, DNA) and **both** — now instanced across **two
+  symmetry types** (homochiral parity, co-handed twin exchange/$S_2$) AND **two bifurcation mechanisms** (the
+  hard transcritical of those, $\Delta V$ linear; vs the **soft pitchfork** of the autocatalytic instance,
+  $\Delta V\propto ee_*^4$ quadratic — receipts §Branch-survival barrier; the key invariant: symmetry breaking
+  does not fix the barrier scaling, the saturation mechanism does) — are the core instances. Corollary: soft-sector capability ⟂ the hard sector — the most informative corner carries no
   protected current. Scope: the two new corners are *engineered* substrates (a Hopfield net, a trained MLP),
   same standing as the synthetic-but-real OU / RPS instances. Falsify: a symmetric/gradient attractor net with
   $\mathcal{A}\ne0$; a feedforward/acyclic substrate carrying a sustained protected current; branch and current
