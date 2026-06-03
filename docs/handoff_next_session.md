@@ -4,6 +4,19 @@ State pointer for the next session. Thin by design; delete lines as work lands.
 
 ## Banked this session
 
+- **Autocatalytic SOFT-pitchfork + QUADRATIC barrier — branch half of mechanism-independent `both` (2026-06-03).**
+  A current-free 2-species Kondepudi–Nelson substrate (`dL = k1 + (g−kd)·L·(1−(L+R)/cap) − k3·L·R`, control =
+  racemic input `k1`) gives a clean **supercritical pitchfork**, establishing a second universality class
+  vs the LV twin's hard transcritical: `ee*² = 1−k1` **LINEAR (R²=1.00000, k1c=1.0)**; racemic rate
+  `A ∝ (k1c−k1)^1.05`; barrier `ΔU ∝ (k1c−k1)^2.06` **QUADRATIC** (the scaling that FAILED in the twin,
+  which is linear); parameter-free collapse `ΔU ∝ ee*⁴` **R²=0.9994** (one Landau form for amplitude AND
+  barrier); noisy escape `ln MFPT ∝ ΔU` corr 0.998 (Level-1 scaling ✓; Level-2 absolute slope drifts
+  1320 vs 1/σ²=400 — expected FW≠ΔU, cf. `current-aids-escape`, NOT a failure). `experiments/autocat_pitchfork.py`
+  (+ PNG). **Decisive credit: the outbound review channel** — its diagnostics unlocked this (`ee*²` not `ee*`;
+  `k1` not `g` as the symmetry-breaking control; the `ee*⁴` collapse; the MFPT two-level framing).
+  **Contrast class now:** LV competition → hard/exclusion + linear barrier; autocatalysis → soft + quadratic.
+  NOT yet a `both` (no current). NEXT (within-reach #2): add the `a≠b` 3-cycle, test the pitchfork survives
+  with `𝒜≠0` — then it's the mechanism-independent `both`.
 - **Competitive-exclusion review returned + metabolized (2026-06-03).** 3 independent outside analyses
   (`docs/review_prompt_competitive_exclusion.md`) agree and **resolve the open review Q**: the L↔R transition
   is a **symmetric transcritical** (boundary-supported branches, exchange of stability), NOT a pitchfork; no
@@ -108,14 +121,15 @@ State pointer for the next session. Thin by design; delete lines as work lands.
    register needs an aging-rich substrate: the **East KCM** (two-time `t_w`-aging + stretched `C(τ)` +
    heavy-tailed persistence tail = three distinct ops) or a confined **fractional-OU** (independent
    aging-response). Parked pending appetite; not blocking.
-2. **Mechanism-independent `both`** *(the real frontier past the twin; design now SHARP from the review)* —
-   the twin/homochiral share the **transcritical hard-exclusion** mechanism (boundary branches, linear `ΔV`).
-   The review gives the exact recipe for a *different* mechanism: add **autocatalysis / self-crowding** (the
-   *true* Frank/Kondepudi cubic, e.g. an `S_L²` self-term) → coexistence-preserving → a genuine **supercritical
-   pitchfork** → `m∝√(μ−μc)`, `ΔV∝(μ−μc)²`. That is a `both` from a distinct normal form (soft, interior
-   branches), not just a different symmetry group. NB **Z₃ is NOT mechanism-independent** — it's still
-   competitive exclusion, would only re-confirm linear `ΔV` (skip it). The autocatalytic-pitchfork `both` is
-   the real test; reuses the quasipotential apparatus with a cubic field. Ready to run when there's appetite.
+2. **Mechanism-independent `both`** *(the real frontier past the twin; BRANCH HALF DONE)* — **Step 1 banked
+   (above):** the autocatalytic soft pitchfork + quadratic barrier is instanced current-free
+   (`autocat_pitchfork.py`) — a distinct universality class from the twin's hard transcritical. **Step 2
+   (remaining):** add the internal `a≠b` 3-cycle to each handedness of the autocatalytic substrate, confirm
+   the pitchfork (`ee*²` linear, `ΔU∝ee*⁴`) **survives** while `𝒜≠0` (Lyapunov frame, complex Jacobian pair)
+   and reset re-rolls 50/50 — then it's a `both` from a soft-pitchfork mechanism, the mechanism-independent
+   instance. The 3-cycle now answers only the narrow question "pitchfork + `𝒜≠0`?" (it is no longer asked to
+   *explain* the pitchfork — that's isolated). NB **Z₃ is NOT mechanism-independent** (still competitive
+   exclusion) — skip it. Ready to build; reuses `ep_affinity` + the quasipotential apparatus.
 
 ## Open from outside review
 
