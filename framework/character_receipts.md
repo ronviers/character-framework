@@ -99,6 +99,17 @@ record.
   Predictive content is the transport: an exponent in one register fixes the others. Falsify: two
   registers fail to collapse onto a common $\beta$. `pa:caputo-fractional`, `pa:pottier-fdr`,
   `pa:fbm-queueing`, `pa:kingman`.
+  **Instanced — survives (2026-06-03).** On the Norros fBm-queue (one Hurst $H$ sets $\beta=2-2H$),
+  the kernel/aging register (low-frequency spectral slope) and the heavy-traffic queue-tail register
+  (stationary-backlog Weibull stretch) collapse onto a common $\beta$ across the interior
+  $\beta\in\{0.8,0.6,0.4\}$ (mean inter-register gap $0.066$); the falsifier did **not** fire. The two
+  are not definitionally tied — a 2-point correlation vs a supremum functional, Norros's exponent
+  equality a theorem, not a definition. Caveats: on fBm aging $\equiv$ kernel ($\alpha_s=\beta_{\text{mem}}$,
+  one exponent), so this is the **2-register** named test (FDR-aging vs queue-tail), not an independent
+  third register; and $\beta=0.2$ is finite-block resolution-limited but demonstrably convergent
+  (queue estimate $0.455\!\to\!0.344$ as blocks $16\mathrm{k}\!\to\!131\mathrm{k}$). A genuine third,
+  independent FDR-aging register awaits an aging-rich substrate (East KCM / fractional-OU).
+  `character-framework/experiments/beta_collapse.py`.
 * **Relaxation oscillation** `corrected` [The two-mode kernel]. Flowing forms (the audit unfroze a
   smuggled constant): $\gamma_{RO}=(\gamma_s/2)e^{a}$, $\omega_{RO}=\sqrt{2\gamma_sL(e^a-1)-(\gamma_s^2/4)e^{2a}}$,
   $Q=\sqrt{2L(e^a-1)/\gamma_s}\,e^{-a}$. $Q$ is non-monotonic — $\to0$ at both $a\to0^+$ and
