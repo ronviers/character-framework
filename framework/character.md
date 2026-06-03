@@ -12,7 +12,7 @@ axis `a`.
 Read closely, a steady state carries two independent bits: a soft, erasable population bit, and
 a hard circulation bit — a probability current locked on a frustrated cycle, changeable only by
 rewiring. Coupling two systems can mint a protected circulation neither carried alone, sustained
-only while driven; that minted bit is the system's identity. It is checked on synthetic
+only while driven; that minted bit is the system's protected branch. It is checked on synthetic
 substrates (a rock-paper-scissors replicator, a homochiral triad, a distance-3 surface code) and
 on one real instance — a fuel-driven DNA reaction network; the sharpest test forces one memory
 exponent `β` to govern fluctuation-dissipation aging, queue-tail scaling, and the memory kernel
@@ -45,7 +45,7 @@ result of coupling is again a character. Composition is non-additive: the soft s
 from the parts, but the hard sector can acquire a bit from the coupling alone. The minted
 circulation lasts only while the drive runs; cut the drive and it is gone, with nothing left
 stored. A protected loop that exists only while it is being run — not a record being kept — is the
-system's identity.
+branch the system occupies.
 
 ## Control parameter
 
@@ -181,7 +181,7 @@ precision floor *beneath* the dissipation-only TUR. Its *protection* — the rat
 reversal — is a large-deviation quantity, the zero-current rate `I(0)`, set by the per-step
 affinity. On a unicyclic ring, lengthening the cycle at fixed total affinity raises fidelity
 while protection falls: precision bought by topology is not protection. And protection of one
-current is still not survival of the character — the basin reading of identity below. Three
+current is still not survival of the branch — the basin reading below. Three
 layers, not one.
 
 ## The two-mode kernel
@@ -368,43 +368,82 @@ protected. So the complex pair is the spectral *onset signature*; the affinity `
 frustrated triad`, with protection inherited from the triad, not the spectrum (the two-frame
 derivation is in [`character_fdr_treatment.md`](character_fdr_treatment.md)).
 
-## Identity
+## Branch membership
 
-Identity is not a property of one character read in isolation; it is a **relation between a
-point and the manifold** — which coordinates the boundary conditions leave free, and the
-trajectory taken through them. Concretely, identity is the **circulation-bit / topological
-sector**: the substructure the reservoir configuration permits but does not force.
+The protected observable is not a property of one character read in isolation; it is a **relation
+between a point and the manifold** — which coordinates the boundary conditions leave free, and the
+trajectory taken through them. Concretely it is **branch membership**: the system occupies one of
+several symmetry-related branches — the **circulation-bit / topological sector** the reservoir
+configuration permits but does not force. *(In broader language, persistent branch membership plays
+the role often informally attributed to "identity"; the formal content is entirely the branch.)*
 
 Hold two things apart. The bit's **reality** — an actually-circulating current — is always
 *sustained*: no drive, no current, and at zero drive the sector dissolves. Its **value** — which
-way it circulates — is carried not by the flow but by the wiring,
-drive-independently, and changes only by rewiring. So the hard bit comes in two kinds:
+branch — is carried not by the flow but by the wiring, drive-independently. There is one circulation
+bit, with **two flip-modes**, set by how the boundary conditions treat the complementary wiring:
 
-1. **Structurally stored** (asymmetric carrier). The edge-rate asymmetry fixes `sign(𝒜)`, so the
-   direction is recoverable — stop the drive and restart it and the same circulation returns.
-   The fuel-driven DNA reaction network below is this kind: the direction is set by which edge
-   the enzyme drains, a persistent structural fact, so re-fuelling restores it. The current is
-   sustained; its direction is stored.
-2. **Spontaneously frozen** (symmetric carrier). The wiring fixes no direction; one is chosen by
-   spontaneous symmetry breaking. The rock-paper-scissors and homochiral triads are this kind:
-   reset fully and re-drive and the direction is re-chosen at random. The direction is stored
-   nowhere — a sustained accident, lost on reset.
+1. **External rewiring** (structurally stored). The edge-rate asymmetry fixes `sign(𝒜)`, so the
+   branch is recoverable — stop the drive and restart it and the same circulation returns. The bare
+   triad occupies a single basin; there is no maintained symmetric state to break. The fuel-driven
+   DNA reaction network and the rock-paper-scissors triad below are this mode: the sign is set by
+   the wiring (which edge the enzyme drains; the sign of `α−β`), and flipping it requires a discrete
+   external edit to the structure.
+2. **Thermalized crossing** (spontaneously selected). The structure embeds the primary wiring
+   alongside a coexisting, competing **mirror** wiring; both run, but cross-inhibition renders their
+   balanced state (the symmetric saddle) unstable. The homochiral triad is this mode: parity (the
+   `L↔R` mirror) is exact, so which branch is occupied is chosen by spontaneous symmetry breaking,
+   lost on a full reset. The embedding thermalizes the discrete rewiring into an internal population
+   shift, crossable by a noise-driven fluctuation. **A structurally stored chirality becomes a
+   spontaneously selected branch when embedded in a parity-symmetric manifold.**
 
-Either way the topological sector is the **irreducible residue**: the metric sector is forced by
-the reservoir configuration — exactly as rare as that configuration, and regenerable from it —
-while the protected sign is not. From the reservoirs alone it cannot be recovered; an asymmetric
-wiring regenerates it, a broken symmetry never does. The decoherence-free-subsystem
-identification above is the support; the DNA network below is the one coupling-layer instance.
+Either way the topological sector is the **irreducible residue**: the metric sector is forced by the
+reservoir configuration — exactly as rare as that configuration, and regenerable from it — while the
+protected sign is not. From the reservoirs alone it cannot be recovered; an external-rewiring branch
+regenerates it, a broken symmetry never does. The decoherence-free-subsystem identification above is
+the support; the DNA network below is the one coupling-layer instance.
 
-Geometrically, identity is **membership in a basin** of the morphospace, and its protection is
-the **rate of escape** from that basin — the quasipotential barrier over the separatrix
-(Freidlin–Wentzell; Kramers — a non-equilibrium quasipotential, not a simple one). The two kinds
-are two basin geometries: a structurally-stored bit occupies a single basin whose mirror is not
-thermally reachable, so escape demands rewiring; a spontaneously-frozen bit occupies one of two
-mirror basins split by a saddle — the achiral, balanced state — and escapes by a noise-driven
-crossing. This separates two survivals the current alone conflates: *circulation* survival is
-the current not reversing (`I(0)`); *identity* survival is the system not crossing the
-separatrix. The separatrix, not zero current, is the boundary that matters.
+Geometrically, branch membership is **occupancy of a basin** of the morphospace, and its protection
+is the **rate of escape** from that basin — the quasipotential barrier over the separatrix
+(Freidlin–Wentzell; Kramers — a non-equilibrium quasipotential, not a simple one). The two
+flip-modes are two basin geometries: an external-rewiring branch occupies a single basin whose
+mirror is not thermally reachable, so escape demands rewiring; a thermalized-crossing branch
+occupies one of two mirror basins split by a saddle — the symmetric, balanced state — and escapes by
+a noise-driven crossing of a finite quasipotential barrier `ΔV` that is born at the parity-breaking
+bifurcation (`μ_c = (1+a+b)/3`, where the racemic state destabilizes by competitive exclusion) and is
+absent below it.
+This separates two survivals the current alone conflates: **current survival** is the current not
+reversing (`I(0)`, set by the cycle affinity); **branch survival** is the system not crossing the
+separatrix (`ΔV`). The separatrix, not zero current, is the boundary that matters.
+
+## The two-survivals plane
+
+Branch survival (`ΔV`, the basin-escape quasipotential) and current survival (`I(0)`, set by the
+cycle affinity `𝒜`) are independent — coupling moves one while the other holds — so substrates fill
+a plane, not a line, and *no protected current* is not *no dynamical landscape*. Four corners:
+
+- **neither** (`𝒜 = 0`, no basin) — a soft-metric flow: information in the continuous order-parameter
+  alone. A feedforward network is this corner — a non-trivial substrate with no hard bit; its
+  soft-sector capability is large (measured) while its hard sector is *structurally* absent (an
+  acyclic graph admits no cycle current).
+- **branch survival only** (`ΔV > 0`, `𝒜 = 0`) — relaxational multistability: basins split by
+  separatrices, gradient descent to fixed points, no circulation. A symmetric attractor net
+  (Hopfield class).
+- **current only** (`𝒜 ≠ 0`, no thermal mirror) — one frustrated cycle, its mirror reachable only by
+  rewiring. The rock-paper-scissors triad and the fuel-driven DNA network (structurally stored).
+- **both** (`ΔV > 0`, `𝒜 ≠ 0`) — mirror branches each carrying a protected circulation, split by a
+  noise-crossable saddle. The homochiral triad (spontaneously selected).
+
+Frustration is the boundary across the current axis (a non-reciprocal cycle breaks detailed
+balance); a coexisting mirror is the boundary across the branch axis (it turns a rewiring into a
+thermal crossing). Multistability is a soft-sector property, the protected current is the hard
+sector, and they are orthogonal — soft-sector capability is silent on whether the hard sector exists
+at all.
+
+The corners are not fixed addresses — coupling moves a substrate across the plane. A frustrated
+coupling carries a neither-corner substrate into the current column (the minted bit is the
+composite's, absent in the part and sustained only while coupled — §The minting claim); a reciprocal
+coupling carries it at most into branch-only. The plane is a space a substrate moves *in*, not a
+label it wears.
 
 ## The conjugate cascade
 
@@ -503,10 +542,10 @@ external pump or coupling constant, and the dissipation identity `⟨σ⟩ = J �
 amplitude-gain term — so continuous-amplitude autonomy is supplied by the drive, not minted.
 Coupling mints organization and chirality; it does not mint autonomy from the drive.
 
-## Composite identity, sustained
+## Composite branch, sustained
 
-By the identity reading above, identity is the protected sector. At the composite level the
-minted protected bit **is** the composite's identity — present in `A ⊗ B`, absent in `A` and
+By the branch-membership reading above, the protected observable is the topological sector. At the
+composite level the minted protected bit **is** the composite's branch — present in `A ⊗ B`, absent in `A` and
 `B` alone, and **sustained only while `⊗` is maintained**. Dissolve the coupling and it
 vanishes: the parts revert, nothing is stored. A circulation being run, not a bit being held.
 Substrate-general.
@@ -604,10 +643,8 @@ the inversion pipeline.
 Open: the tangent-space identification is instanced only at `n = 3`, with larger strata
 unchecked; a second real instance of the minting and its protection is not yet in hand; the
 coupled-NESS thermodynamics of two interacting characters (Horowitz–Esposito;
-Parrondo–Horowitz–Sagawa) is not yet worked out; the self-referential closure — a
-`⊗`-fixed-point among its own drivers — is open; and the identity-survival barrier — the
-quasipotential for escape from a character's basin — has not been computed on a real substrate
-(the homochiral racemic saddle is the natural first instance).
+Parrondo–Horowitz–Sagawa) is not yet worked out; and the self-referential closure — a
+`⊗`-fixed-point among its own drivers — is open.
 
 ---
 

@@ -274,13 +274,13 @@ record.
   rate-distortion-optimal encoding $\sigma_n=\varepsilon_n$ and $\chi=\Delta_n$; the coincidence of the
   queueing singularity and the marginal point is structural, their identity (isomorphism) open.
   `pa:still-bound`, `pa:rate-distortion`, `pa:cobham-priority`.
-* **Homotopy obstruction** `proven` [Frustration and the protected current; Identity]. Frustrated
+* **Homotopy obstruction** `proven` [Frustration and the protected current; Branch membership]. Frustrated
   ($N\ge3$ obstructive) regions are excised from the maintained-state manifold; loops around them cannot
   contract → non-trivial topology ($\pi_1\ne0$). Distinct from the $a=0$ metric singularity. One
   excision, three co-implied faces: dynamical (no fixed point) · info-geometric (no geodesic crosses) ·
   thermodynamic (forced cycle current). `pa:hopf-rinow`, `pa:info-geometry`, `pa:cycle-affinity`.
 * **Fidelity floor and the fidelity–protection split** `proven` [The thermodynamic–informational dual
-  ledger; Identity]. For a unicyclic network the cycle-completion Fano factor obeys $F\ge(1/N)\coth(A/2N)$
+  ledger; Branch membership]. For a unicyclic network the cycle-completion Fano factor obeys $F\ge(1/N)\coth(A/2N)$
   (Barato–Seifert), saturated by the uniform ring, strict otherwise; equivalently $\langle\sigma\rangle\ge
   (A/N)\coth(A/2N)\,Q$ with $Q=\langle J\rangle^2/\mathrm{Var}(J)$ the **current fidelity**. The floor sits
   *above* the TUR ($2/A$) at large affinity — topology bounds fidelity below dissipation alone.
@@ -288,8 +288,8 @@ record.
   exact formulas to <0.1%; strict for a non-uniform ring). The split: *fidelity* is a second-moment
   quantity (this bound); **protection** is the large-deviation reversal rate $I(0)=2(\cosh(A/2N)-1)$, set by
   per-step affinity alone. At fixed total $A$, lengthening the cycle raises fidelity while protection falls —
-  independent resources (this kills the "complexity is cheaper to protect" reading). *Identity* survival
-  lifts protection again, to basin escape (frontier `identity-survival`). `pa:tur`, `pa:cycle-affinity`.
+  independent resources (this kills the "complexity is cheaper to protect" reading). *branch* survival
+  lifts protection again, to basin escape (receipts §Branch-survival barrier). `pa:tur`, `pa:cycle-affinity`.
 
 ## Composition and pattern selection
 
@@ -356,13 +356,52 @@ record.
   held, flipping only by the substrate-specific racemic-saddle crossing. A model Frank/Kondepudi network
   (models homochirality, not the literal ancient biochemistry). `pa:frank-autocatalysis`, `pa:kondepudi`,
   `pa:kinetic-proofreading`.
-* **Fuel-driven DNA reaction network** `empirical` [The one real instance]. The composite-identity
+* **Branch-survival barrier** `empirical` [Branch membership]. The non-equilibrium quasipotential for
+  basin escape over the homochiral racemic saddle — the first instance of **branch survival** (which
+  symmetry-related branch the system occupies; distinct from current survival $I(0)$). Demographic-noise
+  first passage between the two mirror-chiral basins is Kramers-activated: $\ln\langle\tau\rangle$ linear in
+  $1/\sigma^2$, slope $\Delta V\approx0.018$; the in-basin quasipotential $V(m)=-\sigma^2\ln P(m)$ ($m$ the
+  chiral order parameter) σ-collapses (rms $4.6\!\cdot\!10^{-3}$) → a well-defined Freidlin–Wentzell
+  barrier, not a noise artifact. **Separated from $I(0)$** two ways: (i) the winning hand's cycle affinity
+  $\mathcal{A}\approx21.8$ nats is noise-INDEPENDENT (rotational-OU frame, validated against
+  $\mathcal{A}=4\pi\omega_0/\kappa$ on the canonical OU) while $\Delta V$ is noise-ACTIVATED — they cannot
+  coincide; (ii) controlled embedding — the bare triad (= RPS, same $\mathcal{A}$) is external-rewiring with
+  **no** $\Delta V$, and embedding it in the $L\!\leftrightarrow\!R$ mirror adds $\Delta V$ without touching
+  $\mathcal{A}$ (the survivals orthogonal). The reset-and-re-drive discriminator confirms the flip-modes:
+  homochiral re-rolls its branch 20/20 (thermalized crossing), RPS returns the same branch 40/40 (external
+  rewiring). **Mechanism (μ-sweep, run):** branch survival is *born at the parity-breaking bifurcation* — the
+  racemic state's parity-breaking eigenvalue $a(\mu)=F(3\mu-c)/(c+3\mu)$ ($c=1{+}a{+}b$) crosses zero at
+  $\mu_c=c/3=0.833$ (numeric $0.8337$, eigenvector residual $\sim\!10^{-11}$), with $\Delta V=0$ below
+  threshold. **Correction to the pitchfork derivation:** the $L\!\leftrightarrow\!R$ transition is
+  *competitive exclusion* — the order parameter $m_\pm$ jumps to full exclusion ($\approx1$), NOT the
+  supercritical-pitchfork $\sqrt{\mu-\mu_c}$ — so $\Delta V\propto a(\mu)\propto(\mu-\mu_c)$ **linear**, not
+  $(\mu-\mu_c)^2$ (the noisy escape MFPT tracks $a(\mu)$, corr $0.98$). The strong-form falsifier (nonzero
+  $\Delta V$ after racemic restabilization) does not fire; the quadratic normal form is superseded by
+  competitive exclusion. Idealizations: model Frank/Kondepudi substrate; additive noise metric
+  (multiplicative demographic noise the owed robustness check). Owed: a second independent
+  thermalized-crossing substrate. `experiments/identity_survival_barrier.py`, `cycle_affinity.py`,
+  `rps_affinity.py`, `reset_redrive_test.py`, `mu_sweep.py`. `pa:cycle-affinity`,
+  `pa:bifurcation-normal-forms`, `pa:kondepudi`.
+* **Fuel-driven DNA reaction network** `empirical` [The one real instance]. The composite-branch
   instance: a detailed-balanced DNA-hybridization cycle ($\mathcal{A}\approx0$) driven by RNase-H
   fuel-hydrolysis mints a protected NESS circulation ($\mathcal{A}\approx+14.5$ nats, sign drive-locked),
   collapsing ~3 min after fuel cut (observed). The affinity uses only measured constants; the $N=3$
   reduction reproduces the full nonlinear network's cycling rate to ratio 1.002. Idealizations: $N=3$
   reduction of a 10-species CRN, chemostat, omitted slow side-processes. `pa:cycle-affinity`,
   `pa:kinetic-proofreading`.
+* **Two-survivals plane** `empirical` [The two-survivals plane]. Branch survival ($\Delta V$) and current
+  survival ($I(0)$, set by $\mathcal{A}$) are independent axes; all four corners are instanced.
+  **branch-only** — a symmetric Hopfield attractor net: $\Delta V\approx0.97$ (Kramers basin escape) with
+  $\langle\sigma\rangle=\mathcal{A}=0$ to machine precision (real Jacobian). **neither** — a 2-layer feedforward
+  MLP on a Gaussian mixture: measured soft-sector capability $I(\hat Y;Y)\approx2.9$ bits (→ the Bayes ceiling),
+  hard sector *structurally* absent (node-adjacency nilpotent ⇒ $\mathcal{A}\equiv0$ by acyclicity; $\Delta V$
+  undefined for want of recurrence). **current-only** (RPS, DNA) and **both** (homochiral) are the core
+  instances. Corollary: soft-sector capability ⟂ the hard sector — the most informative corner carries no
+  protected current. Scope: the two new corners are *engineered* substrates (a Hopfield net, a trained MLP),
+  same standing as the synthetic-but-real OU / RPS instances. Falsify: a symmetric/gradient attractor net with
+  $\mathcal{A}\ne0$; a feedforward/acyclic substrate carrying a sustained protected current; branch and current
+  survival shown *dependent* on a real substrate. `experiments/hopfield_corner.py`, `neither_corner.py`,
+  `cycle_affinity.py`, `identity_survival_barrier.py`. `pa:cycle-affinity`.
 
 ---
 
@@ -434,7 +473,7 @@ The supersession record — each retains the superseded form, the corrected form
   three-way-iff overstatement to a 2-way carrier + 1-way spectral signature.
 * **Promotions** `promoted`. The central commitment and two-frame construction crossed to the core on the
   rock-paper-scissors instance; the deformation chart and homochirality on rock-paper-scissors and the
-  homochiral triad respectively; composite identity on the DNA reaction network. Each records a real
+  homochiral triad respectively; composite branch on the DNA reaction network. Each records a real
   instance (synthetic passes are calibration, never vindication), a goalpost that shrinks the falsifiable
   surface, and the doc that absorbed it.
 

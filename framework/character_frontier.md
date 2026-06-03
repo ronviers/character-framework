@@ -138,7 +138,7 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
 * `consolidation-ascent` **[sharpening]** — *verdict:* one heat-tax mechanism, three faces — it forces an
   *endogenous* offline drive-withdrawal duty cycle, the compression operator contends with active
   maintenance for a shared server, and the tower ascent that *is* consolidation; the topological bit
-  threads identity through the duty cycle (persist the protected-current generator, not the amplitude
+  threads branch membership through the duty cycle (persist the protected-current generator, not the amplitude
   state). · **↑** a runnable spec on a named $\beta<1$ substrate: fan-in saturation + nesting, the
   coarse-grained kernel form measured forced-not-fitted → `battery`. · **✗** a substrate whose
   coarse-grained level fails the two-mode-kernel form (kills RG-closure for $\beta<1$); or an endogenous
@@ -152,7 +152,7 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   two-level stratified cascade**: a base self-lights and selects a handedness, a gapped upper carries an
   autonomous protected cycle that survives drive removal. The legal three components (minting / protection /
   sustained-as-run-loop) were shown end-to-end (calibration) and confirmed on the DNA reaction network
-  (composite identity, crossed). · **↑** a *real* substrate where a coarse register's chirality mints **and**
+  (composite branch, crossed). · **↑** a *real* substrate where a coarse register's chirality mints **and**
   the cascade closes robustly (the only legal mintable). · **✗** amplitude-autonomy minting — **closed
   negative** by necessity. · **→** the closure / composition; stays sharpening for the remaining
   real-substrate chirality-minting joint instance + full end-to-end robustness.
@@ -176,18 +176,6 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   separation. · **✗** a graph-fixed smooth deformation reversing the sign without rewiring; or a substrate
   where overdamping the exceptional pair also erases the affinity. · **→** receipts §Chirality protection,
   §Topological-drain; `battery:sign-interior`.
-* `identity-survival` **[sharpening]** — *verdict:* identity survival is escape from a character's *basin*,
-  not reversal of one current: the relevant quantity is the **non-equilibrium quasipotential barrier** over
-  the separatrix (Freidlin–Wentzell / Kramers / quasipotential), of which the zero-current reversal rate
-  $I(0)$ is the 1-D shadow. The *framing* is earned and sits in the core (§Identity: identity = basin
-  membership; the separatrix, not zero current, is the boundary; circulation-survival ≠ identity-survival);
-  what is owed is the **number** — the barrier computed on a real substrate. · **↑** compute the
-  quasipotential barrier for basin escape on a real chiral SSB substrate (the homochiral racemic saddle — a
-  two-mirror-basin escape already modelled) → `battery`. · **✗** the basin-escape rate fails to separate
-  from $I(0)$ on a real substrate (identity-survival collapses back to circulation-survival — no new layer),
-  or no real chiral substrate admits a computable quasipotential. · **→** core §Identity (basin reading) +
-  the fidelity–protection split; imports Freidlin–Wentzell, Kramers, quasipotential, transition-path theory,
-  metastability.
 
 ### Battery — executable falsifier specs
 
@@ -227,6 +215,25 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   (driven fast subspace; loop contraction) are the pre-excluded failures. · **↑** the split shown on a
   continuous affinity-bearing substrate → promotes the scale-relativity claim. · **✗** under a legitimate map
   the affinity flips or erases. · **→** scale-relativity; coarse-graining.
+* `battery:two-survivals-plane` **[battery]** — *verdict:* branch survival ($\Delta V$, the basin-escape
+  quasipotential) and current survival ($I(0)$, set by the cycle affinity $\mathcal{A}$) are **independent
+  axes**; substrates fill all four cells, so "no protected current" is not "no dynamical landscape." Already
+  core: **current-only** (structurally stored — bare RPS, fuel-driven DNA: $\mathcal{A}\ne0$, mirror reachable
+  only by rewiring) and **both** (spontaneously selected — homochiral: $\mathcal{A}\approx21.8$,
+  $\Delta V\approx0.018$). New corners: **branch-only** (metastable — a symmetric Hopfield attractor net gives
+  $\Delta V\approx0.97$ with $\langle\sigma\rangle=\mathcal{A}=0$ to machine precision, real Jacobian;
+  `experiments/hopfield_corner.py`), the mirror of bare RPS; **neither** (soft-metric — a 2-layer feedforward
+  net on a Gaussian mixture: measured capability $I(\hat Y;Y)\approx2.9$ bits → the Bayes ceiling, the hard
+  sector **structurally** absent — node-adjacency nilpotent ($\mathcal{A}\equiv0$ by acyclicity), $\Delta V$
+  undefined for want of recurrence; `experiments/neither_corner.py`), the first *non-trivial* substrate with no
+  hard bit. Column boundary = **frustration** ($\mathcal{A}:0\to\ne0$); row boundary = a **coexisting mirror**
+  (rewiring → thermal crossing). Corollary: soft-sector capability is silent on the hard sector — the most
+  *informative* corner carries no protected current at all. · **↑** *(crossed)* — all four corners instanced →
+  core §The two-survivals plane + receipts §Two-survivals plane. · **✗** a
+  symmetric/gradient attractor net with
+  $\mathcal{A}\ne0$; or a feedforward/acyclic substrate carrying a sustained protected current; or branch
+  survival and current survival shown *not* independent on a real substrate. · **→** core §Branch membership +
+  the fidelity–protection split ("three layers, not one"). `pa:cycle-affinity`.
 
 ### Staked — planted in the core, un-instanced (mirrors the receipts `staked` tag — I1)
 
@@ -249,9 +256,15 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
 Promoted this campaign, now in the core (recorded in receipts §Corrections and promoted refinements):
 the **central commitment** and **two-frame construction** (on rock-paper-scissors); the **deformation
 chart** and **homochirality** (on rock-paper-scissors and the homochiral triad); the **exact
-two-frame magnitude identity** (a forced-not-fitted derivation on the rotational-OU testbed); and
-**composite identity** (on the fuel-driven DNA reaction network — the manifold and closure lifts both
-crossed, now `character.md` §The space of characters and §Composition under coupling).
+two-frame magnitude identity** (a forced-not-fitted derivation on the rotational-OU testbed);
+**composite branch** (on the fuel-driven DNA reaction network — the manifold and closure lifts both
+crossed, now `character.md` §The space of characters and §Composition under coupling); and **branch
+survival** (the racemic-saddle quasipotential $\Delta V\approx0.018$ on the homochiral triad, separated
+from $I(0)$ by noise-scaling and by controlled embedding — receipts §Branch-survival barrier). The
+$\mu$-sweep is run: branch survival is born at $\mu_c=(1+a+b)/3=0.833$ by **competitive exclusion**,
+with $\Delta V\propto(\mu-\mu_c)$ linear (the pitchfork $(\mu-\mu_c)^2$ superseded) and zero below
+threshold. Owed: a second independent thermalized-crossing substrate, and the multiplicative-noise
+robustness of $\Delta V$.
 
 ---
 
