@@ -2,6 +2,9 @@
 
 Data-sourcing question for the outbound channel. Companion to `research_prompt_chirality_sector_independence.md`
 (that one poses a hypothesis; this one hunts for the **datasets** that could feed it and several related tests).
+The primary use is now the **within-shell growth trajectory** — especially its two endpoint shapes (heteromorph
+/ non-self-similar growth, and determinate growth run to cessation), which probe a single shell as a recorded
+cascade.
 The aim is to find data with a specific *shape* — specimen-resolved, quantitative, and ideally resolved over
 growth-time (a trajectory) — not summary statistics or qualitative description. Malacology / conchology /
 geometric-morphometrics / sclerochronology / theoretical-morphology expertise. No framework jargon. Returned
@@ -48,6 +51,17 @@ the moments the discrete state actually changes.
 developmental perturbations (temperature shock, gene knockdown — e.g. the *Lsdia1* / formin work) with
 *quantitative* before/after form or growth-program recovery. How completely, and how measurably, does the growth
 program (including handedness) recover after a disturbance?
+
+**6. Trajectory endpoints — non-convergent and self-terminating growth (now the priority pair).** Two trajectory
+*shapes* matter most. **(a) Heteromorph / aberrant coiling** — forms whose growth does *not* settle to a constant
+logarithmic spiral (irregular, uncoiling, or meandering growth; heteromorph ammonites à la Okamoto's
+growing-tube model; scalariform gastropods), measured *as trajectories* so the **departure from self-similarity**
+is quantified, not just described. Do datasets exist that distinguish "never converged to a spiral" from
+"converged then deviated"? **(b) Determinate growth run to cessation** — series capturing the *approach to and
+arrival at* growth stop (the terminal lip/flare, size-at-maturity), ideally with growth rate declining toward
+zero, so the **stopping point** is resolved. Is there data relating the cessation point (size / whorl-count at
+maturity) to growth rate or an energetic budget — does growth stop at a *characteristic*, predictable point, and
+is that point recoverable from a gain-vs-cost balance rather than only from age or reproductive status?
 
 **Cross-cutting questions:**
 

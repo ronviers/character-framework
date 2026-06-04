@@ -17,11 +17,17 @@ State pointer. Thin by design: committed detail lives in `character_receipts.md`
   AlphaFold/PPI); and **`cross-stratum-transduction` promoted [steeping]→[sharpening]** with **gastropod shell
   chirality** as the documented natural instance (driven actomyosin chiral current → developmental cascade →
   frozen visible coil; single maternal formin `Lsdia1`; reproductively isolating).
-- **► The next active work item is the seashell sector-independence test** (prediction A: handedness ⊥
-  continuous Raup shape, phylogeny-controlled). Outbound prompt staged:
-  `docs/research_prompt_chirality_sector_independence.md`. Get-started step: send the prompt / locate a
-  chirality-plus-morphometrics dataset, then a phylogeny-controlled independence test. Kill = handedness
-  predictable from shape (sectors leak); this is the real-substrate face of `ΔV⊥𝒜` (`pa:transverse-decomposition`).
+- **► The next active work item is the within-shell cascade-trajectory test.** Prompt-1 (between-specimen
+  sector independence, `research_prompt_chirality_sector_independence.md`) came back **messy / weak-against-
+  strict** (*Amphidromus* not exact mirrors; *Partula* weak chirality pleiotropy — human-sized data), so
+  prediction A is demoted to a logged near-miss and the test moves into character's native trajectory register:
+  a single shell apex→aperture is a recorded cascade ascent. **Lead = T2 (heteromorphy = the marginal point):**
+  a normal trajectory converges to a self-similar growth fixed point, a heteromorph loses it (`ε→1`). Steeping
+  alongside: `chirality-cascade-pinning` (T1 — handedness pinned across scales, reversals only by discrete
+  rewiring; rare specimens) and `determinate-growth-terminus` (the clock — growth stops at the threshold `a→0`;
+  self-similar growth is self-terminating; the *drive* axis, orthogonal to T2's scale axis). Data hunt:
+  `docs/research_prompt_shell_data_sources.md` (now incl. #6 — heteromorph + determinate-growth-to-cessation
+  trajectories). NB self-similarity itself is gnomonic growth (D'Arcy Thompson), not character's to claim.
 
 **Prior session — gMAM built + adjudicated — `current-aids-escape` KILLED as a barrier effect,
 metabolized as the transverse-decomposition theorem.** The arc:

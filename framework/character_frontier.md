@@ -124,6 +124,30 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   added data — then it is plain under-sampling and character adds nothing. · **→** `character.md` §The
   two-survivals plane (the neither corner; soft-sector capability silent on the hard sector). Same shape as
   `nudge:loaded-endpoint-descent` — apparent capability ≠ the protected observable.
+* `chirality-cascade-pinning` **[steeping]** — *verdict:* along a single shell's growth trajectory the
+  topological bit (handedness) must be **pinned across every scale** and change *only by discrete rewiring* —
+  never a continuous morph from one hand toward the other (the hard bit changes only by rewiring, never by
+  deformation). The rare teratological reversals / scalariform aberrations are the test cases: are they all
+  **abrupt jumps** (rewiring events), never gradual? · **↑** within-shell reversal specimens showing the flip
+  is discrete, not a continuous handedness drift → `sharpening`. · **✗** a shell that continuously rotates its
+  winding from one hand toward the other with no discrete rewiring. · **→** `character.md` §Frustration and the
+  protected current (the hard bit changes only by rewiring); rides on rare specimens (data hunt
+  `docs/research_prompt_shell_data_sources.md` #4). *Moved from the `cross-stratum-transduction` runnable test
+  (2026-06-04): a clean kill but on rare specimens, vs T2's abundant heteromorph trajectories.*
+* `determinate-growth-terminus` **[steeping]** — *verdict:* shells stop growing — character reads the stop as
+  the **threshold crossing** (`a→0`, the *drive* axis, distinct from `cross-stratum-transduction`'s scale-axis
+  marginal point): growth is the gain process and halts where gain can no longer beat the load of the next
+  increment. The clock-hand analogy is exact — the hand stalls at a predictable phase where rising load
+  (gravity) overtakes the fixed drive (torque). **Self-similar growth is self-terminating:** the same fixed-point
+  geometry that converges the cascade (each whorl a scaled-up copy) *forces* the descent in `a` past threshold —
+  increment cost grows geometrically while metabolic gain saturates (allometry) — so a self-similar accretor
+  *must* stop; the terminal lip/flare is below-threshold relaxation. · **↑** a mechanism or test that **beats the
+  standing life-history alternative** (growth stops at maturity to reallocate energy to reproduction): the
+  cessation point tracks a measurable gain/loss balance, or growth never halts while `a≫0` absent an external
+  cause. · **✗** shells stopping while clearly above threshold (drive ≫ load) with no external cause; or
+  cessation size unrelated to any gain/loss balance. · **→** `character.md` §Threshold regimes (monotone descent
+  in `a`; below-threshold relaxation). *Raised 2026-06-04 (the clock-hand probe); abundant + visible (every
+  mature terminal lip) but confounded by life-history theory — must out-predict it to climb.*
 ### Nudges — steering candidates (a parallel doc-gate track; HELD)
 
 A **nudge** corrects how character *steers a reader* — a sentence the core is missing or mis-places,
@@ -233,25 +257,27 @@ before committing a sentence. Promotion is a deliberate later event, never autom
   `battery`. · **✗** a two-level substrate where the three fail to sum, or the hidden EP sits in the metric
   sector. · **→** core §The conjugate cascade; receipts §Conjugate-cascade ledger.
 * `cross-stratum-transduction` **[sharpening]** — *verdict:* a coupling *tower* transduces the **topological**
-  sector faithfully across the embedding while the **metric** carrier is fungible — the protected bit is the
-  RG-relevant operator that survives the tower, metric detail the irrelevant one. **Concrete natural instance:
-  gastropod shell chirality.** A chiral bit born as a *driven* actomyosin counter-rotating cortical flow
-  (Naganathan–Grill; myosin/ATP-dependent), set by a single maternal formin `Lsdia1` at the one-cell stage
-  (Davison–Kuroda), transduced through the developmental cascade (intracellular → 3rd-cleavage intercellular →
-  nodal/Pitx → organism) into the *visible* shell coil — a frozen readout of an upstream protected current;
-  flipped only by rewiring the gene, reproductively isolating (a separatrix). The dextral bias is a *biased*
-  external-rewiring branch (parity broken at the molecular level by actin's own helix — `pa:kondepudi`), not a
-  spontaneous 50/50. **Runnable test (prediction A — sector independence):** handedness (hard) must carry
-  **zero** information about the continuous Raup shape parameters (soft), within species, controlling phylogeny
-  — dextral and sinistral span the *same* morphospace; the real-substrate face of the metric⊥topological
-  orthogonality (`pa:transverse-decomposition`; `battery:two-survivals-plane`). · **↑** a morphometric dataset
-  showing chirality ⊥ shape (mutual information ≈ 0, phylogeny-controlled) → `battery`; operationalized in
-  `docs/research_prompt_chirality_sector_independence.md`. · **✗** handedness predictable from continuous shape
-  (sectors leak), or the surviving invariant tracks carrier-metric detail rather than the topological bit.
-  · **→** `character.md` §The two-survivals plane (sector independence on a real substrate) + §The space of
-  characters (the open cross-stratum embedding). *Trigger (steeping→sharpening, 2026-06-04):* the
-  AlphaFold/morphospace session surfaced snail chirality as a documented non-anthropocentric tower instance +
-  a runnable sector-independence falsifier.
+  sector faithfully across the embedding while the **metric** carrier is fungible. Read this **within a single
+  shell**: apex→aperture is a recorded ascent of the growth cascade — a *trajectory*, character's native
+  register, not a between-specimen ensemble (which is where the human-fingerprinted statistics live). Three
+  things are visible along it: the metric sector at its **RG fixed point** (self-similar coiling — but that is
+  gnomonic growth, D'Arcy Thompson, **not** character's to claim); the topological bit (handedness, set by the
+  maternal formin `Lsdia1` at the one-cell stage — Davison–Kuroda) **pinned across every scale**, the tower
+  transducing it; and, when present, the **marginal point**. **Lead runnable test (T2 — heteromorphy = the
+  marginal point):** a normal trajectory converges to a stable self-similar growth fixed point; a
+  **heteromorph** (Okamoto's uncoiling ammonites; scalariform aberrants) trajectory **loses** it — character
+  reads heteromorphy as the cascade at `ε→1` ("the levels stop telescoping into a single character"). Secondary
+  (T3 — the cleaned prediction A): watch *one* shell flow through a metric regime change (the maturity flare,
+  ontogenetic allometry) and check the topological bit is untouched — within-specimen, replacing the messy
+  between-specimen test. · **↑** within-shell trajectory data: heteromorph trajectories show loss-of-fixed-point
+  where normal ones don't, **and** the topological invariant stays pinned through metric regime shifts →
+  `battery`; data hunt `docs/research_prompt_shell_data_sources.md`. · **✗** heteromorph trajectories show the
+  *same* stable self-similar fixed point as normal shells (heteromorphy isn't marginal); or the topological
+  invariant tracks the metric flow within a shell. · **→** `character.md` §Coarse-graining and the marginal
+  point + §The two-survivals plane + §The space of characters. *Trigger (T2 lead, 2026-06-04):* prompt-1
+  (between-specimen sector independence) returned **messy / weak-against-strict** — *Amphidromus inversus*
+  dextral/sinistral not exact mirrors, *Partula* weak chirality pleiotropy (~0.2–1% variance, human-sized data);
+  prediction A demoted to a logged near-miss, the test moved into the native within-shell trajectory register.
 
 ### Battery — executable falsifier specs
 
