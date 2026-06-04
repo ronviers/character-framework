@@ -128,20 +128,19 @@ State pointer for the next session. Thin by design; delete lines as work lands.
 
 ## Within-reach tests (ranked)
 
-1. **β-collapse 3rd register** *(strengthening; 2-register form banked above)* — **DESIGN PASS + 3-CHANNEL
-   RECALIBRATION DONE:** `docs/beta_collapse_3rd_register_design.md` (research in
-   `research_prompt_beta_3rd_register_substrate.md`). Substrate confirmed = **confined fractional Langevin
-   (fLE)** (not fOU, not CTRW/trap, not East — all rejected with channel reasons). **Key recalibration:
-   `α_s=2−2H` is an OPEN CONJECTURE, not a citable theorem** — R3 is an *original derivation* (Cugliandolo–
-   Kurchan relation + the known confined-fLE two-time covariance), and on a linear-Gaussian substrate R3's
-   independence is real-but-weaker than R2's. **Next action = the vary-`k` smoking-gun probe** (confined fLE,
-   CK field-free estimator, one `H`): `k→0` recovers the trivial `α_s=R1`, intermediate `k` gives an
-   independent `α_s` — does it track `2−2H`? **Sequencing (Ron's call): THEORY FIRST.** Round-2 derivation
-   request is out to the channels (`docs/research_prompt_beta_r3_derivation.md`): attempt the CK derivation
-   of `α_s` for the confined fLE (specify the aging process that escapes the equilibrium/decoupling traps;
-   use the Kursawe covariance; give `α_s(H)` + whether it's genuinely independent or "another face of the
-   propagator"). **Numerics (vary-`k` probe) HELD until the derivation returns** — then cross-check. Not
-   started; not blocking.
+1. **β-collapse 3rd register — CLOSED by the round-2 derivations (theory-first paid off).** The three
+   channel derivations (`docs/research_prompt_beta_r3_derivation.md`) **unanimously reject `α_s=β`** on the
+   linear-Gaussian confined fractional process (a: `α_s=0`; b: no scale-invariant exponent; c: `α_s=1−β`, the
+   *complement* / sum rule `α_s+β=1` — none get `β`). Mechanism: on a linear-Gaussian process `C` and `R` are
+   both from the same Green function → no register collapsing onto `β` lives there. **DECISION: park the
+   R3-collapse as a clean negative result; the banked-strong result is the 2-register collapse (R1 covariance
+   + R2 Norros queue — two different theorems, non-trivially equal).** Finding: *aging-FDR doesn't furnish a
+   third register collapsing onto `β` on linear-Gaussian confined fractional processes; a genuine one needs
+   the first controlled nonlinearity (`−λx³`/`−gx⁴` — a+b agree, vindicating the anharmonic route over the
+   trap-pivot the mid-tier model pushed).* Full record + downgraded options in
+   `docs/beta_collapse_3rd_register_design.md`. **Only open (low-priority) call:** a cheap numerical check of
+   c's sum rule `α_s+β=1` vs a/b's no-exponent (the vary-`k` probe repurposed — a *side* finding, not the
+   collapse), or close R3 clean. Not blocking.
 2. **~~Mechanism-independent `both`~~ — DONE (banked above, `autocat_both.py`).** The soft-pitchfork `both`
    is instanced (window `ec∈[0.05,0.20]`). *Possible follow-ons (low priority):* a noisy FW/gMAM barrier on
    the autocat `both` (Step-1 had the noisy leg; Step-2 used the deterministic `ΔU∝ee*⁴`); and the
