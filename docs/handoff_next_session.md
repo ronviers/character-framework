@@ -5,31 +5,22 @@ State pointer. Thin by design: committed detail lives in `character_receipts.md`
 
 ## Where things stand
 
-**Latest (this session): `current-aids-escape` — confirmed on homochiral (3σ), NULL on autocat; outside
-reports in; and a deterministic finding that the cheap predictor is null-by-symmetry → gMAM is REQUIRED.**
-The 3 outside reports (in `docs/research_prompt_current_aids_escape_interpretation.md`) unanimously read
-it as a **geometric selection rule** (the current lowers the barrier *iff* it projects onto the escape
-path) and recommended a cheap first-order predictor (work integral `∫J·dx` along the `a=b` heteroclinic).
-I ran it (`current_aids_escape_alignment.py`) and found a twist they didn't anticipate: the rotational
-current `J=f(a≠b)−f(a=b)` is **identically zero on the entire escape route** for *both* substrates — the
-breaking mode is uniform-within-group, the escape path stays in that subspace, and `J≡0` there (within-group
-spread 0, `|J|_on ~1e-17`; `|J|_off`: H=2.5e-3, A=5e-4). So the first-order predictor can't see the effect
-on either substrate. ⟹ **current-aids-escape here is intrinsically higher-order**: the optimal escape
-(instanton) must bend *off* the symmetric subspace into the 3-cycle directions (where `J≠0`) to harvest the
-current. There is no cheap shortcut — **gMAM is required**, not optional. (Below, original "Latest".)
-
----
-
-**Prior (this session): `current-aids-escape` — confirmed on homochiral (3σ), NULL on autocat.** Homochiral: the protected current *lowers* the FW branch-escape barrier
-(`ΔV` drops monotonically `0.328→0.272` as `𝒜:0→21.8`, 3σ, metric held to 7e-12). Autocat (the would-be
-2nd instance): **clean null** — flip counts identical within Poisson across the activated window as
-`𝒜:0→2.3` (NaN-robust readout: flip *counts*, not censoring-contaminated MFPT). Not merely small-`𝒜` — H's
-per-nat sensitivity would predict a ~10× excess on A, observed ~0. → the coupling is **not
-mechanism-general**; H and A differ in 3 confounded ways (hard-transcritical/boundary/strong-current vs
-soft-pitchfork/interior/weak-current). **Ron's call: get outside help interpreting the regime-dependence**
-("this could be telling us something important"). Outbound prompt drafted:
-`docs/research_prompt_current_aids_escape_interpretation.md`. **The interpretive frontier/receipts rewrite
-is HELD pending that report** — only the empirical facts are recorded. See Open thread #1.
+**Latest (this session): `current-aids-escape` — homochiral 3σ, autocat null, interpreted; next session = gMAM.**
+The arc:
+- **Homochiral (committed `12d3b0e`):** the protected current *lowers* the FW branch-escape barrier — `ΔV`
+  drops monotonically `0.328→0.272` as `𝒜:0→21.8`, 3σ, metric held to 7e-12 (`current_aids_escape.py`).
+- **Autocat (the would-be 2nd instance): clean null** — flip counts identical within Poisson as `𝒜:0→2.3`
+  (NaN-robust readout: flip *counts*, not censoring-contaminated MFPT). Not just small-`𝒜` (H's per-nat
+  sensitivity predicts a ~10× excess; observed ~0) → the coupling is **not mechanism-general**.
+- **Outside reports (3, unanimous):** a **geometric selection rule** — current lowers the barrier *iff* it
+  projects onto the escape path (`research_prompt_current_aids_escape_interpretation.md`).
+- **My deterministic test of their cheap predictor:** it is **null by symmetry** — `J=f(a≠b)−f(a=b)≡0` on the
+  whole escape route (saddle, attractor, heteroclinic all uniform-within-group, even at `a≠b`; `J` lives only
+  *off* it). ⟹ the effect is a **higher-order instanton excursion** off the symmetric subspace →
+  **gMAM is required, not optional** (`current_aids_escape_alignment.py`).
+- **HELD:** the interpretive frontier/receipts rewrite + the `character.md` core caveat — pending gMAM. Only
+  empirical facts are recorded. **► Next session = gMAM: turnkey plan `docs/gmam_plan.md` + scaffold
+  `experiments/gmam_current_aids.py`.** See Open threads #1–#2.
 
 The two-survivals plane is fully instanced (all four corners), and **`both` (`ΔV>0 ∧ 𝒜≠0`) is now reached two
 ways on each of two independence axes** — *symmetry* and *bifurcation mechanism*:
