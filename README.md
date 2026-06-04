@@ -1,27 +1,33 @@
 # Character
 
-The Character framework — a phenomenology of driven-dissipative steady states — in a clean
-scientific register: every result named to its established source, standard units, and claims
-stated as falsifiable measurements on named substrates.
+The framework invents none of the machinery. Every piece is borrowed whole — laser-threshold physics, stochastic thermodynamics, signed-graph frustration, queueing theory, the topology of error-correcting codes. The only thing claimed is the *reading*: that these are one structure in different clothes, forced onto a single axis, and that the forcing is a measurement you can fail — not a metaphor you can stretch. One sharp bet sits at the center: a single memory exponent that must govern three unrelated-looking measurements at once. It has not been run against laboratory data. It can lose.
 
-The framework is a single document — **[`framework/character.md`](framework/character.md)** — read
-in three movements: the structure at one steady state (the *point*), the geometry of the space of
-all such structures (`ℭ`, the *manifold*), and the law by which two characters compose (the
-*closure*). It is supported by companion documents:
+Begin where the reading begins: a single steady state, held away from equilibrium by a throughput of energy. A laser above threshold. A cell metabolizing. A vortex standing in a drain. A chemical loop fed by fuel. Each looks stationary, but none of it is at rest — stop the energy and the whole structure relaxes to nothing. What persists does so only by being continuously run.
 
+Look closely at one of these states and it is doing two unrelated things at once. It holds a soft quantity — *how much*: a brightness, a concentration, an amplitude — that you can dial anywhere and erase for the cost of a bit. And it holds a hard one — *which way it turns*: a current circulating around a loop, around and around, in a direction no smooth adjustment can reverse. The soft thing you tune; the hard thing you can only rewire. They never trade — no amount of brightness becomes a direction of spin. **Character** is the name for the pair: the full fingerprint of a steady state, read as these two independent bits.
+
+One number sets the whole picture. Write `a = ln(gain / loss)` — the log of how hard the system is driven against how fast it leaks. Push `a` high and the structure is robust, self-sustaining, cheap to keep. Bring it near zero and the system goes critical: it slows, it ages, it remembers. Below zero it gives up and relaxes to equilibrium. The dial would be unremarkable except that it is, at once and exactly, four quantities from four fields that never talk: the entropy produced per step, the pump above lasing threshold, the branching ratio of a growing population, and a log-likelihood ratio. The claim is that these were always the same dial.
+
+Lift from one state to all of them. Every character is a point; together they form a space — a morphospace of driven structure — and the two bits cut that space into two sectors with opposite laws of nearness. In the soft sector, near characters *average*: they fall into step, compete for the same gain, or merge where two modes become one. In the hard sector they never average — they *fuse*. Two currents turning the same way reinforce; turned opposite, they cancel. There is no halfway. You cannot continuously rotate one circulation into another; you re-wire the loop and let it snap.
+
+That last fact is where it turns strange. Take two systems, each with no protected loop of its own — two plain soft states. Couple them the right way, three around a cycle, and the *joint* wiring can be frustrated where each part was balanced: a loop appears that closes on no consistent resting state, so the system circulates instead. A protected current is **minted** — present in the pair, absent in either alone. And it is not stored. It is a circulation being run. Cut the drive, or just unbuild the coupling, and it is gone the same instant, leaving no bit behind. A loop that exists only while it is driven is the branch the system occupies — the closest the framework comes to saying a system *is* something rather than merely *holds* something.
+
+This has been watched happen once, in real chemistry. A fuel-driven DNA reaction network: its reversible core circulates not at all, balanced, going nowhere. Add the enzyme that drains the fuel and a protected circulation lights up — built from measured rate constants, nothing set by hand. Cut the fuel and it collapses back to equilibrium in about three minutes, exactly as the reading says it must. One confirmed instance, stated with its idealizations; the rest of the checks run on substrates simple enough to solve exactly — a rock-paper-scissors ecology, a mirror-breaking chemical triad, a surface code.
+
+None of it stops at one level. Coarse-grain a system and you get another character one level up; couple those and the cascade climbs. Each protected bit built upward is paid for downward, as hidden heat in the level you summed over — order at the top, dissipation exported to the bottom, one ledger read twice. The climb has an edge, a point where the levels stop telescoping into a single character and the notion of *one* fingerprint dissolves. And there is a horizon past all of it: a system whose loops come to feed their own drivers, a circulation that re-enters its own input and so holds itself up by turning. That is the project's standing guess at the most basic thing that could be called alive — not reproduction, but recursive protected circulation that sustains itself. It is the open end of the framework, not a result.
+
+Which returns to the bet in the first paragraph. The sharpest place the whole reading can break is a single memory exponent, `β`, that the framework says must govern three things at once: how a system's correlations age, how heavy the tail of its waiting-times runs, and the shape of its memory kernel — three measurements from three disciplines, forced to collapse onto one number. They have not been put to a real substrate together. If they refuse to collapse, the reading is wrong. That is the point: a structure borrowed whole, claiming only that it is one structure, and carrying its own way to be killed.
+
+---
+
+The machinery behind the walk — every claim named to its source, every derivation, every falsifier, and the ledger of what is settled versus what would move it — is one document and its companions:
+
+- **[`framework/character.md`](framework/character.md)** — the framework itself: the point, the manifold `ℭ`, the closure `⊗`.
 - **[`character_prior_art.md`](framework/character_prior_art.md)** — every imported result, named to its source.
 - **[`character_receipts.md`](framework/character_receipts.md)** — the derivation and falsifier behind each claim.
 - **[`character_frontier.md`](framework/character_frontier.md)** — the maturity ledger: what is settled, and what would move it.
-- **[`character_grounding_method.md`](framework/character_grounding_method.md)** — the discipline for running a question to ground: a branching battery of tests ending in results or defined-pending tests, with worked trees.
-- **[`character_fdr_treatment.md`](framework/character_fdr_treatment.md)** and **[`character_translation_method.md`](framework/character_translation_method.md)** — depth treatments (the two fluctuation–dissipation frames and the protected-current necessity; how established results are adopted into the NESS setting).
+- **[`character_grounding_method.md`](framework/character_grounding_method.md)** and the depth treatments **[`character_fdr_treatment.md`](framework/character_fdr_treatment.md)** · **[`character_translation_method.md`](framework/character_translation_method.md)**.
 
-Runnable instances live in **[`experiments/`](experiments/)** — direct simulations that instance the
-claims on named substrates (a homochiral reaction triad, a rock-paper-scissors replicator, a
-symmetric attractor network, a feedforward classifier): the branch-survival quasipotential barrier,
-the cycle affinity, and the **two-survivals plane** — branch survival and current survival as
-independent axes, with all four corners instanced.
+Runnable instances live in **[`experiments/`](experiments/)** — direct simulations on named substrates: the branch-survival barrier, the cycle affinity, and the **two-survivals plane** with all four corners instanced.
 
-The legacy corpus is frozen in [`mpa-atlas`](https://github.com/ronviers/mpa-atlas) (snapshot
-`character-v0.1`); all `mpa-*` repos are legacy.
-
-Licensed [CC-BY-4.0](LICENSE).
+The legacy corpus is frozen in [`mpa-atlas`](https://github.com/ronviers/mpa-atlas) (snapshot `character-v0.1`); all `mpa-*` repos are legacy. Licensed [CC-BY-4.0](LICENSE).
