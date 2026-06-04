@@ -141,7 +141,12 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   (gravity) overtakes the fixed drive (torque). **Self-similar growth is self-terminating:** the same fixed-point
   geometry that converges the cascade (each whorl a scaled-up copy) *forces* the descent in `a` past threshold —
   increment cost grows geometrically while metabolic gain saturates (allometry) — so a self-similar accretor
-  *must* stop; the terminal lip/flare is below-threshold relaxation. · **↑** a mechanism or test that **beats the
+  *must* stop; the terminal lip/flare is below-threshold relaxation. **The stop is an absorbing basin, not a pause:**
+  the next phase cannot climb out — the same geometry that forced the descent forbids the return, since every
+  possible next whorl is *larger* and costs more than the last the system already couldn't afford, so there is no
+  uphill move and the drive that would power a re-ascent is exactly what ran out (a one-way ratchet built into the
+  fixed point; the topological sector pays no such toll — it rides through for free, `cross-stratum-transduction`).
+  · **↑** a mechanism or test that **beats the
   standing life-history alternative** (growth stops at maturity to reallocate energy to reproduction): the
   cessation point tracks a measurable gain/loss balance, or growth never halts while `a≫0` absent an external
   cause. · **✗** shells stopping while clearly above threshold (drive ≫ load) with no external cause; or
@@ -262,8 +267,10 @@ before committing a sentence. Promotion is a deliberate later event, never autom
   register, not a between-specimen ensemble (which is where the human-fingerprinted statistics live). Three
   things are visible along it: the metric sector at its **RG fixed point** (self-similar coiling — but that is
   gnomonic growth, D'Arcy Thompson, **not** character's to claim); the topological bit (handedness, set by the
-  maternal formin `Lsdia1` at the one-cell stage — Davison–Kuroda) **pinned across every scale**, the tower
-  transducing it; and, when present, the **marginal point**. **Lead runnable test (T2 — heteromorphy = the
+  maternal formin `Lsdia1` at the one-cell stage — Davison–Kuroda) **pinned across every scale** and
+  **propagated laterally for free** — every cell and whorl inherits the hand at zero marginal cost (a sign is free
+  to maintain), which is *why* the topology survives the tower while the costly, locally-built metric is the
+  fungible carrier; and, when present, the **marginal point**. **Lead runnable test (T2 — heteromorphy = the
   marginal point):** a normal trajectory converges to a stable self-similar growth fixed point; a
   **heteromorph** (Okamoto's uncoiling ammonites; scalariform aberrants) trajectory **loses** it — character
   reads heteromorphy as the cascade at `ε→1` ("the levels stop telescoping into a single character"). Secondary
