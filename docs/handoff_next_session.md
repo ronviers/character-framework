@@ -5,6 +5,12 @@ State pointer. Thin by design: committed detail lives in `character_receipts.md`
 
 ## Where things stand
 
+**Latest (this session): `current-aids-escape` vindicated on the homochiral substrate** — the protected
+current *lowers* the FW branch-escape barrier (`ΔV` drops monotonically `0.328→0.272` as `𝒜:0→21.8`, 3σ,
+metric held to 7e-12). The two survivals are orthogonal in *existence* but **coupled in escape dynamics**.
+Calibration-grade (one engineered substrate); now `[sharpening]`, a 2nd instance (autocat) + gMAM owed to
+cross into the core. See Open thread #1.
+
 The two-survivals plane is fully instanced (all four corners), and **`both` (`ΔV>0 ∧ 𝒜≠0`) is now reached two
 ways on each of two independence axes** — *symmetry* and *bifurcation mechanism*:
 
@@ -33,29 +39,40 @@ ways on each of two independence axes** — *symmetry* and *bifurcation mechanis
 
 ## Open threads (ranked; none blocking)
 
-1. **`current-aids-escape`** `[steeping]` (frontier) — *the deepest live question.* Does the protected current
-   lower the FW branch-escape barrier (`ΔV<ΔU` because the instanton surfs the flow)? Decisive test: `a=b`
-   (no current) vs `a≠b`, comparing `ΔV`. If the gap appears only for `a≠b`, the two survivals are
-   **dynamically coupled** in the `both` corner (orthogonal in existence, coupled in escape). The autocat
-   substrate (`ec`-knob tunes the current cleanly) is the natural place to run it — and the autocat-`both`
-   result already showed the cycle *participating* in the bifurcation, which is the same coupling.
-2. **`ΔV ≠ ΔU` quasipotential mismatch** — the slope gap (≈7.5 vs `1/σ²`) is a genuine non-gradient signature
-   (`ΔV≪ΔU`), *not* a Kramers prefactor (which moves the intercept). The true barrier is computable by **gMAM**
-   (E–Ren–Vanden-Eijnden; Maier–Stein 2D non-gradient escape). Value owed; ties into #1.
+1. **`current-aids-escape` — decisive test RAN, VINDICATED (3σ) on the homochiral substrate; now
+   `[sharpening]`** (`experiments/current_aids_escape.py`). Holding the metric fixed (`a+b=1.5` pins `μ_c`
+   and the racemic breaking eig to 7e-12) while `a−b` dials `𝒜:0→21.8` nats, the Kramers FW barrier `ΔV`
+   **drops monotonically with the current** (`0.328→0.295→0.284→0.272`, `R²>0.99`; endpoint drop 3.0σ); at
+   `a=b` (no current, same metric) `ΔV` is highest. The protected current is a **resource for branch escape**
+   — the two survivals are orthogonal in *existence* yet **coupled in escape dynamics**. Recorded in receipts
+   §Branch-survival barrier + frontier `[sharpening]`. **Owed to cross into the core caveat** (next moves):
+   **(a)** a *second independent instance* — rerun the same `a=b` vs `a≠b` `ΔV` comparison on the **autocat
+   `both`** (the `ec`-knob; different mechanism = soft pitchfork), and **(b)** **gMAM** (#2) for the *exact*
+   (not finite-σ-window) barrier, confirming the instanton path tilts with the flow. Either promotes the
+   `character.md` §The two-survivals-plane dynamical-coupling caveat (held, not yet written — gate is a 2nd
+   instance).
+2. **`ΔV ≠ ΔU` quasipotential mismatch / gMAM** — the slope gap (≈7.5 vs `1/σ²`) is a genuine non-gradient
+   signature (`ΔV≪ΔU`), *not* a Kramers prefactor (which moves the intercept). The *exact* barrier is
+   computable by **gMAM** (E–Ren–Vanden-Eijnden; Maier–Stein 2D non-gradient escape). Value owed; now the
+   cleanest route to **promote #1** (the finite-σ Kramers slope is the right *comparative* barrier — same
+   window both endpoints — but gMAM gives the true action and shows the instanton surfing the flow directly).
 3. **β-collapse R3 sum-rule check** *(low priority)* — model c's `α_s+β=1` vs a/b's no-exponent; the vary-`k`
    probe repurposed (confined fLE + CK estimator). A *side* finding (complementarity relation), **not** the
    collapse. Or close R3 clean. My lean: let it rest unless the sum rule itself interests.
-4. **autocat-`both` noisy barrier** *(low priority)* — a gMAM/noisy-FW barrier on the soft-pitchfork `both`
-   (Step-2 used the deterministic `ΔU∝ee*⁴`).
+4. **autocat-`both` noisy barrier** — now *promoted in priority*: this **is** the natural 2nd-instance move
+   for #1. Run the `a=b` vs `a≠b` `ΔV(𝒜)` comparison on the soft-pitchfork `both` (`ec`-knob); a monotone
+   drop there = a second, different-mechanism instance → promotes the core caveat. (Step-2 used only the
+   deterministic `ΔU∝ee*⁴`; the noisy/gMAM barrier is the missing piece.)
 5. **Nudge corpus** — HELD. Next loaded-endpoint / steering-miss → log as a nudge (or add a trigger to an
    existing one); promote nothing. Watch whether they cluster in the apparent-structure≠protected shape.
 
 ## Doc + experiment state
 
 - **Core (committed):** `character.md`, `character_receipts.md`, `character_frontier.md`
-  (`battery:two-survivals-plane` crossed; `current-aids-escape` `[steeping]`; §Nudges HELD),
-  `character_grounding_method.md`.
+  (`battery:two-survivals-plane` crossed; `current-aids-escape` now `[sharpening]` — vindicated once,
+  2nd instance owed; §Nudges HELD), `character_grounding_method.md`.
 - **`experiments/`:** identity_survival_barrier (+ `noise_kind` arg; demographic-noise robustness),
+  current_aids_escape (the `current-aids-escape` decisive test — `ΔV(𝒜)` at fixed metric),
   cycle_affinity, rps_affinity, reset_redrive_test, mu_sweep, hopfield_corner, neither_corner, beta_collapse,
   deformer_loop, twin_cycle_corner, twin_mu_sweep, autocat_pitchfork, autocat_both (+ PNGs).
 - **Research records (`docs/`):** review_prompt_competitive_exclusion, review_request_identity_survival,

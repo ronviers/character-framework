@@ -124,20 +124,6 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   injected invariant survives the tower at all. · **→** `pure-exploration` — the open cross-stratum embedding
   problem (`character.md` §The space of characters: "comparison across strata… is open"); also the
   rendering-discipline transparent-carrier claim's would-be falsifier.
-* `current-aids-escape` **[steeping]** — *verdict:* in a `both` corner the FW branch-escape barrier is
-  $\Delta V\ll\Delta U$ (the deterministic potential); the outside review (3 analyses,
-  `docs/review_prompt_competitive_exclusion.md`) confirms this is a genuine non-gradient signature but
-  **splits on the source** — the internal cycle's rotational current ($a\neq b$) letting the escape
-  instanton "surf" the flow and lower the action (models a, b) vs the LV non-Euclidean metric alone
-  (model c). If it is the current, the protected current is a **resource for branch escape**: the two
-  survivals are orthogonal in *existence* (the four corners all realize) yet **coupled in escape dynamics**
-  (more current → lower $\Delta V$ → easier branch death) — a quantitative sharpening of the plane, not a
-  contradiction. · **↑** the decisive test — compute $\Delta V$ via gMAM (or measure escape) at $a=b$ (no
-  current, $\mathcal{A}=0$, *same* LV metric) vs $a\neq b$; the gap appearing only for $a\neq b$ promotes
-  the coupling. · **✗** the gap persists at $a=b$ → metric-only, current irrelevant, the survivals stay
-  quantitatively independent in the `both` corner too (drop). · **→** `character.md` §The two-survivals
-  plane (would gain a dynamical-coupling caveat); receipts §Branch-survival barrier (the $\Delta V/\Delta U$
-  gap). `pa:cycle-affinity`.
 ### Nudges — steering candidates (a parallel doc-gate track; HELD)
 
 A **nudge** corrects how character *steers a reader* — a sentence the core is missing or mis-places,
@@ -237,6 +223,27 @@ before committing a sentence. Promotion is a deliberate later event, never autom
   separation. · **✗** a graph-fixed smooth deformation reversing the sign without rewiring; or a substrate
   where overdamping the exceptional pair also erases the affinity. · **→** receipts §Chirality protection,
   §Topological-drain; `battery:sign-interior`.
+* `current-aids-escape` **[sharpening]** — *verdict:* the protected current is a **resource for branch
+  escape** — vindicated on the homochiral substrate (calibration-grade; the decisive test ran,
+  `experiments/current_aids_escape.py`). Holding the deterministic landscape fixed — the line $a+b=1.5$
+  pins $\mu_c$ and the racemic-saddle breaking eigenvalue to machine precision (spread $\sim\!7\cdot10^{-12}$,
+  $+0.31507$ at every pair) — while $a-b$ dials the cycle affinity $\mathcal{A}:0\to21.8$ nats, the noisy
+  FW escape barrier $\Delta V$ (Kramers MFPT slope, demographic noise) **decreases monotonically with the
+  current**: $\Delta V=0.328\to0.295\to0.284\to0.272$ across $\mathcal{A}=0,8.7,15.2,21.8$ ($R^2>0.99$ each;
+  endpoint drop $0.056$, $3.0\sigma$). At $a=b$ ($\mathcal{A}=0$, gradient-like, *same metric*) the barrier
+  is **highest**; the gap appears and grows with the current — the frontier gate (gap only for $a\neq b$)
+  fires. So the two survivals are orthogonal in *existence* (all four corners realize) yet **coupled in
+  escape dynamics**: more current → lower $\Delta V$ → easier branch death — a quantitative sharpening of
+  the plane, not a contradiction. Below the line because synthetic = calibration *and* it defends an
+  existing core claim (needs a second independent instance). · **↑** a **second independent instance** —
+  the autocat `both` ($ec$-knob tunes the current cleanly, and already showed the cycle *participating* in
+  the bifurcation) reproducing the monotone $\Delta V(\mathcal{A})$ drop at fixed metric — *and/or* the
+  *exact* (not finite-$\sigma$-window) barrier via **gMAM** confirming the instanton path tilts with the
+  flow → promotes the core caveat. · **✗** on the second substrate the gap vanishes or is non-monotone in
+  $\mathcal{A}$ at fixed metric → the homochiral drop was substrate-specific (drop the coupling); or gMAM
+  shows the finite-window slope mis-ordered the true actions. · **→** `character.md` §The two-survivals
+  plane (the dynamical-coupling caveat); receipts §Branch-survival barrier (the $\Delta V/\Delta U$ gap).
+  `pa:cycle-affinity`.
 
 ### Battery — executable falsifier specs
 

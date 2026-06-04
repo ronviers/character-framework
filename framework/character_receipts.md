@@ -399,8 +399,18 @@ record.
   bare LV yields a soft pitchfork** — recovering one requires added autocatalysis/self-crowding (the *true*
   Frank/Kondepudi cubic), a distinct coexistence-preserving normal form. The open review question is thereby
   resolved. The $\Delta U$-vs-FW gap (slope $7.5$ vs $1/\sigma^2{=}156$) is confirmed a genuine non-gradient
-  signature ($\Delta V\ll\Delta U$, the true barrier computable by gMAM); whether the gap is driven by the
-  internal current or the LV metric is split across reviewers — an owed test. **Noise-metric robustness (run):** re-running the racemic-saddle escape under
+  signature ($\Delta V\ll\Delta U$, the exact barrier computable by gMAM — owed). **The owed cause-test is
+  run (`current_aids_escape.py`):** sweeping the cycle affinity $\mathcal{A}:0\to21.8$ nats *along*
+  $a+b=1.5$ — which pins $\mu_c$ and the racemic-saddle breaking eigenvalue to machine precision (spread
+  $\sim\!7\cdot10^{-12}$, $+0.31507$ at every pair), holding the deterministic landscape fixed — the
+  Kramers FW barrier $\Delta V$ (demographic noise) **decreases monotonically with the current**:
+  $\Delta V=0.328\,(\mathcal{A}{=}0)\to0.295\to0.284\to0.272\,(\mathcal{A}{=}21.8)$, $R^2>0.99$ each, a
+  $3.0\sigma$ endpoint drop; at $a=b$ (no current, *same metric*) the barrier is highest. So the gap is
+  driven by the **internal current**, not the metric alone — the protected current is a **resource for
+  branch escape**: the two survivals are orthogonal in *existence* (all four corners realize) yet
+  **coupled in escape dynamics**. Calibration-grade (one engineered substrate); a second independent
+  instance (the autocat `both`) and the exact gMAM action are owed to cross into the core caveat
+  (frontier `current-aids-escape`). **Noise-metric robustness (run):** re-running the racemic-saddle escape under
   multiplicative demographic ($\sqrt{x}$, birth–death) noise gives a finite, well-defined, σ-collapsing
   barrier ($\Delta V_{KR}\approx0.273$, collapse-rms $0.025$ = 9% of barrier vs additive's 26%; the additive
   leg reproduces $\Delta V_{KR}=0.018$) — the FW quasipotential rescales with the metric (it must) but
@@ -442,7 +452,7 @@ record.
   Idealizations: model Frank/Kondepudi substrate.
   `experiments/identity_survival_barrier.py`, `cycle_affinity.py`, `rps_affinity.py`,
   `reset_redrive_test.py`, `mu_sweep.py`, `twin_cycle_corner.py`, `twin_mu_sweep.py`, `autocat_pitchfork.py`,
-  `autocat_both.py`. `pa:cycle-affinity`, `pa:bifurcation-normal-forms`, `pa:kondepudi`.
+  `autocat_both.py`, `current_aids_escape.py`. `pa:cycle-affinity`, `pa:bifurcation-normal-forms`, `pa:kondepudi`.
 * **Fuel-driven DNA reaction network** `empirical` [The one real instance]. The composite-branch
   instance: a detailed-balanced DNA-hybridization cycle ($\mathcal{A}\approx0$) driven by RNase-H
   fuel-hydrolysis mints a protected NESS circulation ($\mathcal{A}\approx+14.5$ nats, sign drive-locked),
