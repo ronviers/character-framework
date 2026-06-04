@@ -110,20 +110,20 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   degenerate at both ends, signal in the mid-band. · **↑** a runnable collapse spec inverting $Q$ and
   phase-lock suppression to a common $a$. · **✗** the two inferred $a$'s cannot agree by construction.
   · **→** the queueing adoption row + the relaxation-oscillation and phase-locking claims.
-* `cross-stratum-transduction` **[steeping]** — *verdict:* a coupling *tower* (substrates coupled across
-  strata, not within one) transduces the **topological** sector faithfully across the embedding while the
-  **metric** carrier is fungible (it modulates but cannot carry the protected bit) — the protected current
-  is the RG-relevant operator that survives the tower, metric detail the irrelevant one. Everyday tell: a
-  high-$\chi$ reader gives the same selective response to the same structure across wildly different
-  carriers (a small field gating a large stored release, not powering it). · **↑** pin the surviving
-  invariant — does per-stratum affinity $\mathcal{A}$ *compose* up a tower, or is the cross-stratum invariant
-  something else? — *plus* a runnable spec on a substrate-general tower (coupled driven systems, or a trained
-  recurrent reader as the high-$\chi$ sink) injecting topological vs metric content and reading the top.
-  NOT a human reader: the trained decoder smuggles the coupling in and makes the test anthropocentric.
-  · **✗** the top-stratum response tracks carrier-metric detail rather than the injected invariant, or no
-  injected invariant survives the tower at all. · **→** `pure-exploration` — the open cross-stratum embedding
-  problem (`character.md` §The space of characters: "comparison across strata… is open"); also the
-  rendering-discipline transparent-carrier claim's would-be falsifier.
+* `predictor-soft-sector-blindness` **[steeping]** — *verdict:* an output-trained (feedforward) predictor
+  occupies the **neither corner** by architecture — large soft-sector capability, hard sector structurally
+  absent (acyclic adjacency ⇒ $\mathcal{A}\equiv0$). On a hard-sector question it is biased
+  **confident-and-false**: a narrow-but-wrong confidence interval is the metric-sector signature of
+  *averaging across* a topological branch boundary the predictor cannot represent — distinct from contingent
+  under-sampling, which more data fixes. (Surfaced from the AlphaFold / prediction-powered-inference case —
+  Angelopoulos–Bates–Jordan: 200M predicted protein structures give tight-but-wrong CIs on a
+  phosphorylation×fluctuation test; phosphorylation is a driven NESS cycle — `pa:kinetic-proofreading`.)
+  · **↑** a substrate where soft/hard cases are labelable: the bias **concentrates on hard-sector cases**,
+  does **not** shrink with soft-sector data, and boundary-straddling ground truth (anchors at the separatrix)
+  restores coverage with fewer labels than uniform anchoring. · **✗** the bias is uniform or shrinks with any
+  added data — then it is plain under-sampling and character adds nothing. · **→** `character.md` §The
+  two-survivals plane (the neither corner; soft-sector capability silent on the hard sector). Same shape as
+  `nudge:loaded-endpoint-descent` — apparent capability ≠ the protected observable.
 ### Nudges — steering candidates (a parallel doc-gate track; HELD)
 
 A **nudge** corrects how character *steers a reader* — a sentence the core is missing or mis-places,
@@ -232,6 +232,26 @@ before committing a sentence. Promotion is a deliberate later event, never autom
   $\langle\sigma\rangle_{\text{tot}}$ — they sum, and the hidden part sits in the protected sector →
   `battery`. · **✗** a two-level substrate where the three fail to sum, or the hidden EP sits in the metric
   sector. · **→** core §The conjugate cascade; receipts §Conjugate-cascade ledger.
+* `cross-stratum-transduction` **[sharpening]** — *verdict:* a coupling *tower* transduces the **topological**
+  sector faithfully across the embedding while the **metric** carrier is fungible — the protected bit is the
+  RG-relevant operator that survives the tower, metric detail the irrelevant one. **Concrete natural instance:
+  gastropod shell chirality.** A chiral bit born as a *driven* actomyosin counter-rotating cortical flow
+  (Naganathan–Grill; myosin/ATP-dependent), set by a single maternal formin `Lsdia1` at the one-cell stage
+  (Davison–Kuroda), transduced through the developmental cascade (intracellular → 3rd-cleavage intercellular →
+  nodal/Pitx → organism) into the *visible* shell coil — a frozen readout of an upstream protected current;
+  flipped only by rewiring the gene, reproductively isolating (a separatrix). The dextral bias is a *biased*
+  external-rewiring branch (parity broken at the molecular level by actin's own helix — `pa:kondepudi`), not a
+  spontaneous 50/50. **Runnable test (prediction A — sector independence):** handedness (hard) must carry
+  **zero** information about the continuous Raup shape parameters (soft), within species, controlling phylogeny
+  — dextral and sinistral span the *same* morphospace; the real-substrate face of the metric⊥topological
+  orthogonality (`pa:transverse-decomposition`; `battery:two-survivals-plane`). · **↑** a morphometric dataset
+  showing chirality ⊥ shape (mutual information ≈ 0, phylogeny-controlled) → `battery`; operationalized in
+  `docs/research_prompt_chirality_sector_independence.md`. · **✗** handedness predictable from continuous shape
+  (sectors leak), or the surviving invariant tracks carrier-metric detail rather than the topological bit.
+  · **→** `character.md` §The two-survivals plane (sector independence on a real substrate) + §The space of
+  characters (the open cross-stratum embedding). *Trigger (steeping→sharpening, 2026-06-04):* the
+  AlphaFold/morphospace session surfaced snail chirality as a documented non-anthropocentric tower instance +
+  a runnable sector-independence falsifier.
 
 ### Battery — executable falsifier specs
 

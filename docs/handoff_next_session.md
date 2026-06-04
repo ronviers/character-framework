@@ -5,7 +5,25 @@ State pointer. Thin by design: committed detail lives in `character_receipts.md`
 
 ## Where things stand
 
-**Latest (this session): gMAM built + adjudicated — `current-aids-escape` KILLED as a barrier effect,
+**Latest (2026-06-04, cont.): public-facing story + two new frontier threads; the seashell test is next.**
+- **`character.md` §The conjugate cascade upgraded** — the level-to-level lift of Harada–Sasa is now the
+  coarse-graining EP split (`σ_tot = σ_res + σ_hid`, Esposito / Bo–Celani) bound to `ε<1` and anchored to the
+  Schur transverse-decomposition; receipts §Conjugate-cascade ledger, prior-art `pa:timescale-ep`, frontier
+  `cascade-ledger-split` [sharpening]. (commit `32b22e8`)
+- **`README.md` rewritten to lead with the story** — a prose walk through the engine (point → space → closure →
+  cascade → the self-referential horizon → the β bet), named imports kept out of the body. (commit `9f84a7a`)
+- **Two new frontier threads (AlphaFold / morphospace session):** `predictor-soft-sector-blindness` [steeping]
+  (a feedforward predictor is confident-and-false on hard-sector questions — the neither corner made real by
+  AlphaFold/PPI); and **`cross-stratum-transduction` promoted [steeping]→[sharpening]** with **gastropod shell
+  chirality** as the documented natural instance (driven actomyosin chiral current → developmental cascade →
+  frozen visible coil; single maternal formin `Lsdia1`; reproductively isolating).
+- **► The next active work item is the seashell sector-independence test** (prediction A: handedness ⊥
+  continuous Raup shape, phylogeny-controlled). Outbound prompt staged:
+  `docs/research_prompt_chirality_sector_independence.md`. Get-started step: send the prompt / locate a
+  chirality-plus-morphometrics dataset, then a phylogeny-controlled independence test. Kill = handedness
+  predictable from shape (sectors leak); this is the real-substrate face of `ΔV⊥𝒜` (`pa:transverse-decomposition`).
+
+**Prior session — gMAM built + adjudicated — `current-aids-escape` KILLED as a barrier effect,
 metabolized as the transverse-decomposition theorem.** The arc:
 - **gMAM minimizer implemented + validated** (Maier–Stein gate: gradient action `0.5000` to 0.01%, and the
   `β>β_c` instanton correctly bows off-axis — `gmam_maier_stein.py`).
