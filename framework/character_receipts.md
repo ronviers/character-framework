@@ -264,6 +264,22 @@ record.
   gated). `pa:delay-hopf`, `pa:nrt-chaos`, `pa:cobham-priority`.
 * **Memory collapse** `staked` [Coarse-graining]. $\beta\approx1-\varepsilon$ near the marginal point
   (linear, both endpoints respected). `pa:caputo-fractional`, `pa:rate-distortion`.
+* **Conjugate-cascade ledger** `composition` [The conjugate cascade]. The level-to-level lift of
+  $\int(\text{FDR departure})=\langle\sigma\rangle=J\cdot\mathcal{A}$ (single-level Harada–Sasa) is the
+  coarse-graining EP split $\langle\sigma\rangle_{\text{tot}}=\langle\sigma\rangle_{\text{res}}+\langle\sigma\rangle_{\text{hid}}$,
+  $\langle\sigma\rangle_{\text{hid}}\ge0$ (coarse-graining underestimates EP —
+  `pa:esposito-coarse-graining`, `pa:dilution-structure`); under timescale separation
+  $\langle\sigma\rangle_{\text{hid}}$ is the dissipation of the integrated-out fast currents
+  (`pa:timescale-ep`), which are the transverse part $l$ of $b=-a\nabla V+l$ — orthogonal to the resolved
+  gradient sector by Schur (`pa:transverse-decomposition`), so the resolved/hidden split aligns with the
+  metric/protected split **exactly, by symmetry not smallness**. Validity window = timescale separation
+  $=\varepsilon<1$ (slow manifold persists); the attribution dissolves at $\varepsilon\to1$, coincident with
+  the heat-tax divergence (§Dilution pin). Closes by composing standing imports (heat-tax tower + transverse
+  decomposition + coarse-graining EP), forced under the architecture that the level integrated out is a
+  protected one — analytical-only, owes a real two-level instance (frontier `cascade-ledger-split`). Falsify:
+  a two-level substrate whose resolved + hidden EP fail to sum to the total, or whose hidden EP sits in the
+  metric sector. `pa:harada-sasa`, `pa:esposito-coarse-graining`, `pa:timescale-ep`,
+  `pa:transverse-decomposition`, `pa:dilution-structure`.
 
 ## The dual ledger and information
 

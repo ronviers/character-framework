@@ -223,6 +223,15 @@ before committing a sentence. Promotion is a deliberate later event, never autom
   separation. · **✗** a graph-fixed smooth deformation reversing the sign without rewiring; or a substrate
   where overdamping the exceptional pair also erases the affinity. · **→** receipts §Chirality protection,
   §Topological-drain; `battery:sign-interior`.
+* `cascade-ledger-split` **[sharpening]** — *verdict:* the conjugate cascade's two ledgers are one
+  coarse-graining EP decomposition — $\langle\sigma\rangle_{\text{tot}}=\langle\sigma\rangle_{\text{res}}+\langle\sigma\rangle_{\text{hid}}$,
+  the hidden part the integrated-out fast circulation's dissipation, aligned with the metric/protected split
+  exactly by Schur (`pa:transverse-decomposition`); closes by composing standing imports (heat-tax tower +
+  transverse decomposition + `pa:esposito-coarse-graining`/`pa:timescale-ep`), analytical-only. · **↑** a real
+  two-level substrate measuring $\langle\sigma\rangle_{\text{res}}$, $\langle\sigma\rangle_{\text{hid}}$,
+  $\langle\sigma\rangle_{\text{tot}}$ — they sum, and the hidden part sits in the protected sector →
+  `battery`. · **✗** a two-level substrate where the three fail to sum, or the hidden EP sits in the metric
+  sector. · **→** core §The conjugate cascade; receipts §Conjugate-cascade ledger.
 
 ### Battery — executable falsifier specs
 

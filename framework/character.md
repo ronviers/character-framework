@@ -451,13 +451,11 @@ cannot move the barrier. `ΔV ⊥ 𝒜` is a symmetry statement, not just an obs
   split by a noise-crossable saddle. Two independent instances differing in *which* symmetry is broken:
   the homochiral triad (parity — the branches are *mirror* currents, so flipping the branch reverses
   `sign(𝒜)`) and the co-handed twin-cycle (an *exchange* of two identical clusters — the branches are
-  *co-handed* currents, so flipping the branch leaves `sign(𝒜)` fixed). Both spontaneously selected;
-  the exchange instance decouples branch membership from current handedness at the level of sign,
-  exhibiting the two survivals' orthogonality where parity entangles it. The barrier's *scaling* is set
-  not by the mere presence of a symmetry-breaking transition but by how the broken branch saturates: a
-  hard competitive exclusion gives `ΔV ∝ (μ − μ_c)` (the branch pinned at the basin boundary), a soft
-  supercritical pitchfork gives `ΔV ∝ (μ − μ_c)²` (the branch growing as `√`) — instanced on an
-  autocatalytic substrate where a current and a soft pitchfork coexist over a finite window.
+  *co-handed* currents, so flipping the branch leaves `sign(𝒜)` fixed). The exchange instance decouples branch membership from current handedness at the
+  level of sign, exhibiting the two survivals' orthogonality where parity entangles it. The barrier's
+  *scaling* is set by how the broken branch saturates, not by the symmetry-breaking transition itself —
+  hard competitive exclusion linear in `μ − μ_c`, a soft pitchfork quadratic (receipts §Branch-survival
+  barrier).
 
 Frustration is the boundary across the current axis (a non-reciprocal cycle breaks detailed
 balance); a coexisting mirror — or any spontaneously broken symmetry relating two basins — is the
@@ -474,11 +472,27 @@ label it wears.
 ## The conjugate cascade
 
 Every cascade of protected structure built *up* the hierarchy has a counterpart that runs
-*down*. The two are geometrically orthogonal — the protected cascade climbs the protected
-subspace, its counterpart runs in the decohering complement — but causally conjugate: every
-protected bit built upward is paid for by erasure exported downward. They are one entropy
-production read two ways, `∫(FDR departure) = ⟨σ⟩ = J · 𝒜` (Harada–Sasa, above), lifted from a
-point to the tower. Orthogonal in state space, locked in the ledger; the second law is the
+*down* — the protected cascade climbs the protected subspace, its counterpart runs in the
+decohering complement, causally conjugate: every protected bit built upward is paid for by
+erasure exported downward. At a single level the price is the dissipation identity
+`∫(FDR departure) = ⟨σ⟩ = J · 𝒜` (Harada–Sasa, above). Lifting it level-to-level is a separate
+theorem, not a restatement: coarse-graining can only lose dissipation, so the entropy production
+splits `σ_total = σ_resolved + σ_hidden` with `σ_hidden ≥ 0` always — `σ_resolved` the part
+visible at the coarse level, the remainder hidden beneath it (Esposito). What that remainder *is*
+takes the time-scale-separated limit: when the level integrated out is fast — the cascade's own
+case, the minted circulation of the level below running fast against the level above — `σ_hidden`
+is the dissipation of its circulating currents (Bo–Celani). That limit is the cascade's working
+regime, the slow manifold that persists while `ε < 1`; at the marginal point `ε → 1` the
+separation fails and the attribution dissolves, exactly where the tower stops converging
+(§Coarse-graining and the marginal point).
+
+The two decompositions are one. The integrated-out circulation is the transverse part `l` of the
+drift split `b = −a∇V + l`, orthogonal to the gradient sector `∇V` by Schur's lemma (§The two
+tangent sectors) — so the coarse level's metric ledger `σ_resolved` is blind to it by symmetry,
+not by smallness. Its dissipation is `σ_hidden`: the running cost of the protected circulation,
+exported below the resolution of the level that inherits the bit. The structure climbs, the cost
+is paid downward, and `σ_hidden ≥ 0` is the lock between them. Orthogonal in state space, locked
+in the ledger — one decomposition, the Schur split, read thermodynamically; the second law is the
 coupling between the two cascades.
 
 ## Isolation — the boundaries of `ℭ`
@@ -607,14 +621,12 @@ core cycle. One confirmed instance, not a population.
 
 The cascade is a path `ℭ_n → ℭ_{n+1} → …` through strata. Each up-step *may* add a protected
 bit, but only when the frustration / cross-rule fires, so minting is **not guaranteed per
-level** — most couplings add metric structure only. The conjugate cascade runs *down* as the
-protected cascade runs *up*: order built upward, dissipation exported downward, Harada–Sasa
-lifted to the tower. The marginal point `ε → 1` is where the inductive limit of `{ℭ_n}` fails
-to converge — coincident, as above, with heavy-traffic queue divergence (Kingman) and critical
-branching `μ → 1` (Galton–Watson); below it the strata telescope to a finite effective
-character, at it they do not. A composite among its *own* constituents' drivers — a cycle in
-the directed system, a fixed point of `⊗` that re-enters its own input set — is a
-self-sustaining recursive circulation.
+level** — most couplings add metric structure only, each minted bit paid for downward (§The
+conjugate cascade). Below the marginal point the strata telescope to a finite effective
+character; at `ε → 1` the inductive limit of `{ℭ_n}` fails to converge (§Coarse-graining and the
+marginal point). A composite among its *own* constituents' drivers — a cycle in the directed
+system, a fixed point of `⊗` that re-enters its own input set — is a self-sustaining recursive
+circulation.
 
 ---
 
@@ -643,13 +655,12 @@ limit. Each claim is a predicted measurement on a named substrate with a kill co
 minted chirality is protected against **all** continuous deformations (dies only on rewiring),
 not merely around a chosen loop. Two kills, run on synthetic Ornstein–Uhlenbeck substrates
 (`N = 3`), neither fires. (1) *Continuous transfer of the bit* would collapse the two-sector
-split — refined, not fired: the current *magnitude* bleeds continuously (≈12% through a
-reciprocal bridge; `⟨σ⟩` ×27 through a non-reciprocal one), but the topological *sign* stays
-graph-locked. (2) *Smooth removal of the minted chirality* while the triad persists would break
-the binding — does not fire: the sign survives 0/200 generic deformations at amplitude `≫ g`,
-reversing only on rewiring, while the complex pair *is* suppressible (53/200 by a reciprocal
-gradient). No conserved integer charge appears (holonomy ≤ 0.16): the protection is a discrete
-graph-flux invariant, not Chern-like.
+split — refined, not fired: the current *magnitude* bleeds continuously, but the topological
+*sign* stays graph-locked. (2) *Smooth removal of the minted chirality* while the triad persists
+would break the binding — does not fire: the sign survives all generic deformations at amplitude
+`≫ g`, reversing only on rewiring, while the complex pair *is* suppressible. No conserved integer
+charge appears: the protection is a discrete graph-flux invariant, not Chern-like (tallies in
+receipts §Chirality protection).
 
 **The closure — minting.** (a) *Unprotected excess* — a coupling-minted current whose chirality
 is removable while the frustrated triad persists; the binding then has no teeth and the layer
