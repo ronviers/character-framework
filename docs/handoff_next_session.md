@@ -136,9 +136,12 @@ State pointer for the next session. Thin by design; delete lines as work lands.
    Kurchan relation + the known confined-fLE two-time covariance), and on a linear-Gaussian substrate R3's
    independence is real-but-weaker than R2's. **Next action = the vary-`k` smoking-gun probe** (confined fLE,
    CK field-free estimator, one `H`): `k→0` recovers the trivial `α_s=R1`, intermediate `k` gives an
-   independent `α_s` — does it track `2−2H`? Cheap + decisive, gates the (expensive) derivation. **Open
-   call:** worth the original-derivation cost, or log R3 as an open conjecture and keep the banked-strong
-   2-register collapse? Not started; not blocking.
+   independent `α_s` — does it track `2−2H`? **Sequencing (Ron's call): THEORY FIRST.** Round-2 derivation
+   request is out to the channels (`docs/research_prompt_beta_r3_derivation.md`): attempt the CK derivation
+   of `α_s` for the confined fLE (specify the aging process that escapes the equilibrium/decoupling traps;
+   use the Kursawe covariance; give `α_s(H)` + whether it's genuinely independent or "another face of the
+   propagator"). **Numerics (vary-`k` probe) HELD until the derivation returns** — then cross-check. Not
+   started; not blocking.
 2. **~~Mechanism-independent `both`~~ — DONE (banked above, `autocat_both.py`).** The soft-pitchfork `both`
    is instanced (window `ec∈[0.05,0.20]`). *Possible follow-ons (low priority):* a noisy FW/gMAM barrier on
    the autocat `both` (Step-1 had the noisy leg; Step-2 used the deterministic `ΔU∝ee*⁴`); and the
