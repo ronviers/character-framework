@@ -318,6 +318,19 @@ strong-symmetry algebra of the Markov/Liouvillian generator (Buča–Prosen; Alb
 together with the gauge-irremovable Schnakenberg cycle current. No single unified
 classical-DFS theorem matching the quantum statement exists; the analog lives in pieces.
 
+**The large-deviation face is one of those pieces.** Split the drift into gradient relaxation and a
+circulatory remainder, `b = −a∇V + l`; the protected current is the transverse part. When the current
+and the order-parameter (branch-escape) mode lie in different irreducible representations of the
+substrate's symmetry — as a within-group cycle and a between-group breaking mode do — `l` is orthogonal
+to `∇V` by Schur's lemma, and the Freidlin–Wentzell quasipotential is then *identical* to the gradient
+system's (the transverse term cancels in the Hamilton–Jacobi equation; Graham–Haken; Freidlin–Wentzell
+§4.3). The protected current is **barred from the metric sector's escape barriers** and enters only their
+prefactors (the irreversible Eyring–Kramers rate; Bouchet–Reygner): it sets the *rate* at which a branch
+is crossed, not the *cost*. This is the decoherence-free split read as a large-deviation statement — the
+protected sector decoupled from the metric sector's dissipative dynamics by symmetry, not by smallness,
+and exactly (Schur) while the substrate is isolated. Coupling is what can mix the irreps and let a current
+reach a barrier (the cross-rule below; the Maier–Stein boundary).
+
 ## Motion and proximity
 
 Increasing load is a path on `ℭ` — the monotone descent in `a` of the threshold trichotomy.
@@ -419,7 +432,11 @@ separatrix (`ΔV`). The separatrix, not zero current, is the boundary that matte
 
 Branch survival (`ΔV`, the basin-escape quasipotential) and current survival (`I(0)`, set by the
 cycle affinity `𝒜`) are independent — coupling moves one while the other holds — so substrates fill
-a plane, not a line, and *no protected current* is not *no dynamical landscape*. Four corners:
+a plane, not a line, and *no protected current* is not *no dynamical landscape*. The independence is
+sharper than "a plane": the protected current and the branch-escape mode occupy different symmetry
+sectors, so the current is **barred from the branch-survival barrier `ΔV`** by the transverse-decomposition
+theorem (§The two tangent sectors) — it can shift the *rate* of a crossing through the escape prefactor but
+cannot move the barrier. `ΔV ⊥ 𝒜` is a symmetry statement, not just an observed orthogonality. Four corners:
 
 - **neither** (`𝒜 = 0`, no basin) — a soft-metric flow: information in the continuous order-parameter
   alone. A feedforward network is this corner — a non-trivial substrate with no hard bit; its

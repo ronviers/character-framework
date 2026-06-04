@@ -223,27 +223,6 @@ before committing a sentence. Promotion is a deliberate later event, never autom
   separation. · **✗** a graph-fixed smooth deformation reversing the sign without rewiring; or a substrate
   where overdamping the exceptional pair also erases the affinity. · **→** receipts §Chirality protection,
   §Topological-drain; `battery:sign-interior`.
-* `current-aids-escape` **[sharpening]** — *verdict:* the protected current is a **resource for branch
-  escape** — vindicated on the homochiral substrate (calibration-grade; the decisive test ran,
-  `experiments/current_aids_escape.py`). Holding the deterministic landscape fixed — the line $a+b=1.5$
-  pins $\mu_c$ and the racemic-saddle breaking eigenvalue to machine precision (spread $\sim\!7\cdot10^{-12}$,
-  $+0.31507$ at every pair) — while $a-b$ dials the cycle affinity $\mathcal{A}:0\to21.8$ nats, the noisy
-  FW escape barrier $\Delta V$ (Kramers MFPT slope, demographic noise) **decreases monotonically with the
-  current**: $\Delta V=0.328\to0.295\to0.284\to0.272$ across $\mathcal{A}=0,8.7,15.2,21.8$ ($R^2>0.99$ each;
-  endpoint drop $0.056$, $3.0\sigma$). At $a=b$ ($\mathcal{A}=0$, gradient-like, *same metric*) the barrier
-  is **highest**; the gap appears and grows with the current — the frontier gate (gap only for $a\neq b$)
-  fires. So the two survivals are orthogonal in *existence* (all four corners realize) yet **coupled in
-  escape dynamics**: more current → lower $\Delta V$ → easier branch death — a quantitative sharpening of
-  the plane, not a contradiction. Below the line because synthetic = calibration *and* it defends an
-  existing core claim (needs a second independent instance). · **↑** a **second independent instance** —
-  the autocat `both` ($ec$-knob tunes the current cleanly, and already showed the cycle *participating* in
-  the bifurcation) reproducing the monotone $\Delta V(\mathcal{A})$ drop at fixed metric — *and/or* the
-  *exact* (not finite-$\sigma$-window) barrier via **gMAM** confirming the instanton path tilts with the
-  flow → promotes the core caveat. · **✗** on the second substrate the gap vanishes or is non-monotone in
-  $\mathcal{A}$ at fixed metric → the homochiral drop was substrate-specific (drop the coupling); or gMAM
-  shows the finite-window slope mis-ordered the true actions. · **→** `character.md` §The two-survivals
-  plane (the dynamical-coupling caveat); receipts §Branch-survival barrier (the $\Delta V/\Delta U$ gap).
-  `pa:cycle-affinity`.
 
 ### Battery — executable falsifier specs
 
@@ -372,3 +351,15 @@ fix the barrier scaling — the saturation mechanism does** (two distinct constr
 * `quadratic-lyapunov-candidate` — a quadratic Lyapunov form. **Died:** fails the critical-point test
   ($\partial V/\partial x_i|_{x^*}\ne0$). **Replaced by:** the relative-entropy form (receipts §Frustration-free
   Lyapunov).
+* `current-aids-escape` — the protected current read as a *resource that lowers the branch-escape barrier*
+  ($\Delta V$ falling with the affinity $\mathcal{A}$). **Died:** the exact instanton (gMAM, validated on
+  Maier–Stein to $0.01\%$) gives a $\sigma\to0$ quasipotential **flat** in $\mathcal{A}$ ($\Delta\hat S_H
+  =-0.4\%$ over $\mathcal{A}:0\to21.8$ vs the finite-$\sigma$ slope's $-17\%$), the instanton never bending
+  off the symmetric subspace — because the current is **exactly transverse** to the escape mode at the
+  saddle ($|\cos(J,e_u)|\sim10^{-15}$, symmetry-protected: escape and current in different irreps, broken
+  $\propto\delta$ by a $Z_3$ break). The current's own ✗ ("gMAM shows the finite-window slope mis-ordered
+  the true actions") fired. **Replaced by:** an imported reading — the **transverse-decomposition theorem**
+  leaves $\Delta V$ invariant; the measured drop is the **irreversible Eyring–Kramers prefactor**
+  (receipts §Branch-survival barrier; `pa:transverse-decomposition`). The two-survivals separation is
+  *reinforced* ($\Delta V\perp\mathcal{A}$ by a symmetry theorem); a current reaches a barrier only where
+  coupling mixes the irreps (the in-substrate Maier–Stein turn-on, `gmam_mixing_test.py`).

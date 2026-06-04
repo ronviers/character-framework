@@ -1,5 +1,19 @@
 # gMAM build plan — the exact instanton for `current-aids-escape` (turnkey, for a fresh session)
 
+> **STATUS: BUILT + ADJUDICATED (2026-06-04) — verdict = KILL the barrier reading.** The minimizer is
+> implemented and validated (Maier–Stein gate, gradient action `0.5000` to 0.01%). On the homochiral
+> substrate the σ→0 quasipotential is **flat** in the affinity (`ΔŜ_H≈0` over `𝒜:0→21.8`, robust), so the
+> committed finite-σ `ΔV` drop is the **irreversible Eyring–Kramers prefactor**, not the FW barrier — the
+> protected current is *transverse* to the escape mode (symmetry-protected; exact across a μ-sweep, broken
+> ∝δ by a Z₃ break) and **barred from `ΔV`** by the transverse-decomposition theorem (Graham–Haken; FW §4.3;
+> Bouchet–Reygner). Selection rule confirmed in-substrate (mixing the irreps turns the barrier effect on —
+> Maier–Stein). Landed: `pa:transverse-decomposition`; receipts §Branch-survival barrier; frontier
+> §Tombstones `current-aids-escape`; character.md §Two tangent sectors + §The two-survivals plane.
+> Experiments: `gmam_current_aids.py`, `gmam_maier_stein.py`, `gmam_saddle_orthogonality.py`,
+> `gmam_affinity_scaling.py`, `gmam_orthogonality_sweep.py`, `gmam_symmetry_break_probe.py`,
+> `gmam_mixing_test.py` (+ PNGs). **Open (owed):** Tier-2 Hamiltonian sgMAM to confirm invariance at
+> extreme exclusion (μ≈3, past the ε-regularized Tier-1 floor). The plan below is the as-built record.
+
 **Read this first; it is self-contained.** It tells a fresh session (no prior context) exactly what to
 build, why, the precomputed anchors, the validation ladder, and the decision rules. Companion artifacts
 already in the repo: `experiments/current_aids_escape.py` (the homochiral 3σ result), `..._alignment.py`
@@ -99,6 +113,26 @@ unlike the Lagrangian form where `a⁻¹ = diag(1/xᵢ)` blows up.
   Brute but easy to verify. Regularize the boundary with `a⁻¹ = diag(1/max(xᵢ, ε))`, `ε~1e-4`, and **start
   the path just off the boundary** (`x_A` with losing hand at `ε`). Report `Ŝ` vs `ε` to show convergence.
 - **Tier 2 (upgrade): sgMAM** (Hamiltonian, Grafke et al.) — faster, cleaner at the boundary, no `ε`.
+
+> **⚠ NaN / degeneracy discipline (carry this — it is the through-line of the whole `current-aids-escape`
+> thread).** The rare-flip *MFPT* trap that bit the measurement phase (a censoring-contaminated estimator
+> faking "ratio = 1.000") does **not** recur here — gMAM is deterministic. But the *same* discipline
+> ([[nan-is-falsification-tripwire]], auto-loaded from memory) reappears in a gMAM-specific, **quieter**
+> form:
+> - The `ε`-floor in `a⁻¹ = diag(1/max(xᵢ,ε))` at H's boundary attractor (`loser=0`) is a **manufactured
+>   excluded zero**. It returns a *finite* action that silently depends on `ε` — the memory's "quiet form:
+>   a finite number near an orthogonal zero is not yet a converged number; no NaN ≠ trustworthy." **Run an
+>   `ε`-convergence study (`ε, ε/2, ε/4`); `Ŝ` must converge.** If it doesn't, switch to Tier-2 (Hamiltonian,
+>   no `ε`) — that is the root-cause fix, not a smaller floor. Autocat is interior, so it has no `ε` issue —
+>   another reason to do A first.
+> - Any **NaN/Inf in the action or gradient halts and is diagnosed** (boundary blowup, `sqrt` of a tiny
+>   negative, a runaway step), never filled or skipped. The scaffold guards `sqrt(max(·,0))`; keep such
+>   tripwires explicit.
+> - The **stuck-in-subspace `ΔŜ=0`** is a *fake null* of the same family (a "0" that is an apparatus
+>   artifact, not physics). Always confirm the converged ON-instanton has within-group spread > 0 before
+>   reading any `ΔŜ`; a spread-0 ON-instanton means the seeding failed (§5.2), not that the current is inert.
+> - Mirror the measurement-phase lesson if AMS is used as the §6.4 cross-check: in any rare-event sampler,
+>   read clean event **counts / committors**, not censoring-contaminated MFPT.
 
 ## 4. Normalization — the precise validation target
 

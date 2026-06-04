@@ -405,12 +405,28 @@ record.
   $\sim\!7\cdot10^{-12}$, $+0.31507$ at every pair), holding the deterministic landscape fixed — the
   Kramers FW barrier $\Delta V$ (demographic noise) **decreases monotonically with the current**:
   $\Delta V=0.328\,(\mathcal{A}{=}0)\to0.295\to0.284\to0.272\,(\mathcal{A}{=}21.8)$, $R^2>0.99$ each, a
-  $3.0\sigma$ endpoint drop; at $a=b$ (no current, *same metric*) the barrier is highest. So the gap is
-  driven by the **internal current**, not the metric alone — the protected current is a **resource for
-  branch escape**: the two survivals are orthogonal in *existence* (all four corners realize) yet
-  **coupled in escape dynamics**. Calibration-grade (one engineered substrate); a second independent
-  instance (the autocat `both`) and the exact gMAM action are owed to cross into the core caveat
-  (frontier `current-aids-escape`). **Noise-metric robustness (run):** re-running the racemic-saddle escape under
+  $3.0\sigma$ endpoint drop; at $a=b$ (no current, *same metric*) the barrier is highest. **The exact
+  instanton (gMAM) reverses this reading — the drop is a prefactor, not a barrier.** The owed gMAM
+  (minimizer validated on Maier–Stein: gradient action $0.5000$ to $0.01\%$, and the $\beta>\beta_c$
+  instanton correctly bows off-axis) gives a $\sigma\to0$ quasipotential **flat** in the current,
+  $\hat S=0.382\,(\mathcal{A}{=}0)\to0.380\,(\mathcal{A}{=}21.8)$ ($\Delta\hat S=-0.4\%$ vs the
+  finite-$\sigma$ slope's $-17\%$; `gmam_affinity_scaling.py`), the instanton never bending off the
+  symmetric subspace ($\Delta\hat S_H\approx0$, robust across seed/momentum/eps; `gmam_current_aids.py`).
+  So the committed finite-$\sigma$ $\Delta V$ drop is the **irreversible Eyring–Kramers prefactor**, not
+  the FW barrier: $\Delta V_{\rm eff}=\Delta V_{\rm true}+\sigma^2\log K(\mathcal{A})$ (the $-0.056$ at
+  $\sigma^2\!\approx\!0.04$ is a prefactor ratio $\sim e^{-1.4}$). **Why (symmetry):** at the racemic
+  saddle the escape mode is $100.0\%$ the between-group breaking mode while the current sits in the
+  within-group 3-cycle plane, $|\cos(J,e_u)|\sim10^{-15}$, no shear ($e_u^\top(\partial J)e_u\sim10^{-11}$;
+  `gmam_saddle_orthogonality.py`); the orthogonality is **symmetry-protected** — exact across a
+  saddle-moving $\mu$-sweep (`gmam_orthogonality_sweep.py`) and broken $\propto\delta$ by a within-group
+  $Z_3$ break (`gmam_symmetry_break_probe.py`). The current is therefore transverse to $\nabla V$ and
+  **barred from $\Delta V$ by the transverse-decomposition theorem** (`pa:transverse-decomposition`;
+  Graham–Haken; Freidlin–Wentzell §4.3; Bouchet–Reygner). **Selection rule (Maier–Stein, in-substrate):**
+  mixing the two irreps with that same $\delta$ turns the barrier effect *on* — $\Delta\hat S_H$ climbs
+  from $\approx0$ to $0.33$ as $e_u\!\cdot\!\text{cyclic}\to0.64$ (`gmam_mixing_test.py`) — so the current
+  reaches the barrier only where coupling breaks the symmetry. The two survivals are thus orthogonal **by
+  a symmetry theorem** ($\Delta V\perp\mathcal{A}$), not merely in existence, and the earlier "resource
+  for branch escape" reading is retired (frontier §Tombstones `current-aids-escape`). **Noise-metric robustness (run):** re-running the racemic-saddle escape under
   multiplicative demographic ($\sqrt{x}$, birth–death) noise gives a finite, well-defined, σ-collapsing
   barrier ($\Delta V_{KR}\approx0.273$, collapse-rms $0.025$ = 9% of barrier vs additive's 26%; the additive
   leg reproduces $\Delta V_{KR}=0.018$) — the FW quasipotential rescales with the metric (it must) but
@@ -446,8 +462,9 @@ record.
   (complex pair, noise-indep) and reset $\sim$50/50, a **soft-pitchfork `both`** (`autocat_both.py`);
   $ec\gtrsim0.25$ the branch **dies**. That third regime shows the cycle **dynamically participates in the
   bifurcation** (it reshapes the saturation, not merely adds circulation) — so the result is a *finite
-  coexistence window*, not unconditional survival, and the current↔branch coupling is the same one probed by
-  `current-aids-escape`. Engineered (model) substrates, same standing as the OU/RPS instances; diagnostics
+  coexistence window*, not unconditional survival. Note this is the cycle acting on the **landscape**
+  (it reshapes $\mu_c$/the saturation), distinct from the *fixed-landscape* transverse current that gMAM
+  showed is barred from $\Delta V$ (a prefactor, §Branch-survival barrier). Engineered (model) substrates, same standing as the OU/RPS instances; diagnostics
   credit the outbound review channel ($ee_*^2$ not $ee_*$; $k_1$ not $g$; the $ee_*^4$ collapse).
   Idealizations: model Frank/Kondepudi substrate.
   `experiments/identity_survival_barrier.py`, `cycle_affinity.py`, `rps_affinity.py`,

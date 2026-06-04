@@ -5,22 +5,31 @@ State pointer. Thin by design: committed detail lives in `character_receipts.md`
 
 ## Where things stand
 
-**Latest (this session): `current-aids-escape` — homochiral 3σ, autocat null, interpreted; next session = gMAM.**
-The arc:
-- **Homochiral (committed `12d3b0e`):** the protected current *lowers* the FW branch-escape barrier — `ΔV`
-  drops monotonically `0.328→0.272` as `𝒜:0→21.8`, 3σ, metric held to 7e-12 (`current_aids_escape.py`).
-- **Autocat (the would-be 2nd instance): clean null** — flip counts identical within Poisson as `𝒜:0→2.3`
-  (NaN-robust readout: flip *counts*, not censoring-contaminated MFPT). Not just small-`𝒜` (H's per-nat
-  sensitivity predicts a ~10× excess; observed ~0) → the coupling is **not mechanism-general**.
-- **Outside reports (3, unanimous):** a **geometric selection rule** — current lowers the barrier *iff* it
-  projects onto the escape path (`research_prompt_current_aids_escape_interpretation.md`).
-- **My deterministic test of their cheap predictor:** it is **null by symmetry** — `J=f(a≠b)−f(a=b)≡0` on the
-  whole escape route (saddle, attractor, heteroclinic all uniform-within-group, even at `a≠b`; `J` lives only
-  *off* it). ⟹ the effect is a **higher-order instanton excursion** off the symmetric subspace →
-  **gMAM is required, not optional** (`current_aids_escape_alignment.py`).
-- **HELD:** the interpretive frontier/receipts rewrite + the `character.md` core caveat — pending gMAM. Only
-  empirical facts are recorded. **► Next session = gMAM: turnkey plan `docs/gmam_plan.md` + scaffold
-  `experiments/gmam_current_aids.py`.** See Open threads #1–#2.
+**Latest (this session): gMAM built + adjudicated — `current-aids-escape` KILLED as a barrier effect,
+metabolized as the transverse-decomposition theorem.** The arc:
+- **gMAM minimizer implemented + validated** (Maier–Stein gate: gradient action `0.5000` to 0.01%, and the
+  `β>β_c` instanton correctly bows off-axis — `gmam_maier_stein.py`).
+- **Homochiral: the σ→0 quasipotential is FLAT in the current** — `ΔŜ_H≈0` over `𝒜:0→21.8`
+  (`Ŝ=0.382→0.380`, vs the finite-σ slope's `−17%`), robust across seed/momentum/eps/both-groups; the
+  instanton never bends off the symmetric subspace (`gmam_current_aids.py`, `gmam_affinity_scaling.py`).
+  Autocat A: the consistent null. So the committed finite-σ `ΔV` drop (`0.328→0.272`) is the **irreversible
+  Eyring–Kramers PREFACTOR**, not the FW barrier (`ΔV_eff = ΔV_true + σ²·logK(𝒜)`).
+- **Why (symmetry):** the current is *exactly transverse* to the escape mode at the saddle
+  (`|cos(J,e_u)|~1e-15`; escape = 100% the between-group breaking mode, current = within-group 3-cycle),
+  **symmetry-protected** — exact across a saddle-moving μ-sweep (`gmam_orthogonality_sweep.py`), broken `∝δ`
+  by a within-group Z₃ break (`gmam_symmetry_break_probe.py`). Barred from `ΔV` by the
+  **transverse-decomposition theorem** (Graham–Haken; FW §4.3; Bouchet–Reygner). 3 outside reports unanimous
+  (`docs/research_prompt_current_aids_escape_prefactor_theorem.md`).
+- **Selection rule confirmed in-substrate:** mixing the irreps with that same δ turns the barrier effect ON
+  (`ΔŜ_H: 0→0.33` as `e_u·cyclic→0.64` — the Maier–Stein bow-out, `gmam_mixing_test.py`).
+- **LANDED in canon:** `pa:transverse-decomposition` (new prior-art); receipts §Branch-survival barrier
+  (reversed reading); frontier §Tombstones `current-aids-escape`; `character.md` §Two tangent sectors (the
+  large-deviation face of the DFS) + §The two-survivals plane (`ΔV⊥𝒜` by symmetry). Broader implication —
+  the metric⊥topological orthogonality, asserted in five dialects across `character.md`, is **one mechanism**
+  (Schur → transverse decomposition; protected current barred from the metric sector's barriers, confined to
+  their prefactors). **► Next: Tier-2 Hamiltonian sgMAM** (no ε) to confirm invariance at extreme exclusion
+  (μ≈3, past the Tier-1 ε-floor where ΔŜ scatters); the surface-code reading (same orthogonality) is asserted
+  not computed. See Open threads #1–#2.
 
 The two-survivals plane is fully instanced (all four corners), and **`both` (`ΔV>0 ∧ 𝒜≠0`) is now reached two
 ways on each of two independence axes** — *symmetry* and *bifurcation mechanism*:
@@ -50,35 +59,20 @@ ways on each of two independence axes** — *symmetry* and *bifurcation mechanis
 
 ## Open threads (ranked; none blocking)
 
-1. **`current-aids-escape` — confirmed on homochiral (3σ), NULL on autocat; outside interpretation in
-   flight.** `[sharpening]`. Homochiral (`experiments/current_aids_escape.py`, committed `12d3b0e`): metric
-   held (`a+b=1.5` pins `μ_c` + racemic breaking eig to 7e-12), `a−b` dials `𝒜:0→21.8`, Kramers FW `ΔV`
-   **drops monotonically** `0.328→0.295→0.284→0.272` (`R²>0.99`, 3.0σ) — current lowers the barrier.
-   **Autocat (would-be 2nd instance): clean null** — same protocol (`ec,a+b` fixed, dial `a−b`, `𝒜:0→2.3`),
-   flip counts identical within Poisson across the activated window (probes only; no committed experiment
-   file). Not just small-`𝒜`: H's per-nat sensitivity predicts a ~10× excess on A, observed ~0. So the
-   coupling is **not mechanism-general**; H vs A differ in 3 confounded axes (hard-transcritical / boundary
-   `m*=±1` / `𝒜≈21.8` vs soft-pitchfork / interior `m*=±0.71` / `𝒜≈2.3`). **Status: outbound interpretation
-   prompt drafted** (`docs/research_prompt_current_aids_escape_interpretation.md`) — asks whether
-   current-assisted escape is regime-dependent (instanton–current alignment? a Péclet-like threshold?) and
-   how to disentangle the 3 confounds. Reports returned (3 models, unanimous: a **geometric selection rule**
-   — current lowers the barrier iff it projects onto the escape path). My deterministic test of their cheap
-   predictor (`current_aids_escape_alignment.py`) found it **null by symmetry** — `J≡0` on the whole escape
-   route (saddle, attractor, heteroclinic all uniform-within-group, even at `a≠b`) → the effect is a
-   **higher-order instanton excursion** off the symmetric subspace → **gMAM is required, not optional**.
-   **The frontier/receipts interpretive rewrite + the `character.md` core caveat stay HELD pending gMAM.**
-   ► **NEXT SESSION = gMAM. Turnkey plan: [`docs/gmam_plan.md`](gmam_plan.md); scaffold:
-   `experiments/gmam_current_aids.py`** (fields/saddle/attractor/initial-path/`S_hat` wired; minimizer
-   stubbed). Validation ladder Maier–Stein → autocat (interior, expect `ΔŜ≈0`) → homochiral (boundary,
-   expect `Ŝ(a=b)≈0.328`, `Ŝ(a≠b)≈0.272`, instanton bends off-subspace). Decision rules + anchors + risks
-   all in the plan.
-2. **gMAM — the exact instanton (now the active next-session build; see [`docs/gmam_plan.md`](gmam_plan.md)).**
-   Subsumes the old `ΔV≠ΔU` item: the slope gap (≈7.5 vs `1/σ²`) is a genuine non-gradient signature
-   (`ΔV≪ΔU`), and gMAM gives the *exact* (σ→0) barrier + the instanton path. It is now the **required** tool
-   for #1 (the cheap predictor is null-by-symmetry), and it doubles as the route to *promote* #1: if the
-   homochiral instanton bends off-subspace and `ΔŜ` reproduces the `0.328→0.272` drop, the coupling crosses
-   into the core (scoped). Falsification risk: gMAM may show `ΔŜ≈0` (the Kramers drop was finite-σ/prefactor)
-   — a clean kill. Plan has the full method, anchors, validation ladder, decision rules.
+1. **Tier-2 Hamiltonian sgMAM — confirm barrier-invariance at extreme exclusion (μ≈3).** The Tier-1
+   ε-regularized gMAM converges cleanly at the operating point (μ=1.6) and the interior end (μ=1.0: `ΔŜ=0`
+   eps-stable), but at strong exclusion (μ=3.0, attractor jammed on the orthant boundary) it hits its noise
+   floor — `ΔŜ` scatters `±0.09` and flips sign in both nit and eps (`gmam_orthogonality_sweep.py` extremes).
+   The saddle orthogonality there is still machine-exact (symmetry-protected), so the symmetry argument
+   *predicts* invariance; the Hamiltonian sgMAM (Grafke–Schäfer–Vanden-Eijnden, first-derivative-only, no ε
+   — momentum stays finite as `xᵢ→0`) is the right tool to verify it without the boundary blowup. Plan §3
+   Tier-2 + §8. Low urgency (the verdict doesn't hinge on it; this closes the one boundary-limited corner).
+2. **The surface-code reading (same orthogonality, not yet computed).** `pa:transverse-decomposition` and the
+   §Two-tangent-sectors note assert that the protected logical sector is barred from the syndrome-sector's
+   error dynamics by the *same* irrep-orthogonality (the DFS = the transverse decomposition). The distance-3
+   surface-code substrate is checked at the point/space layer but the barrier-invariance reading is asserted,
+   not measured. Owed: read the QEC instance through the transverse-decomposition lens (a unification across
+   the three checked substrates), or down-rank the claim to "by analogy."
 3. **β-collapse R3 sum-rule check** *(low priority)* — model c's `α_s+β=1` vs a/b's no-exponent; the vary-`k`
    probe repurposed (confined fLE + CK estimator). A *side* finding (complementarity relation), **not** the
    collapse. Or close R3 clean. My lean: let it rest unless the sum rule itself interests.
@@ -94,16 +88,20 @@ ways on each of two independence axes** — *symmetry* and *bifurcation mechanis
 
 ## Doc + experiment state
 
-- **Core (committed):** `character.md`, `character_receipts.md`, `character_frontier.md`
-  (`battery:two-survivals-plane` crossed; `current-aids-escape` now `[sharpening]` — vindicated once,
-  2nd instance owed; §Nudges HELD), `character_grounding_method.md`.
-- **`experiments/`:** identity_survival_barrier (+ `noise_kind` arg; demographic-noise robustness),
-  current_aids_escape (the `current-aids-escape` decisive test — `ΔV(𝒜)` at fixed metric),
-  current_aids_escape_alignment (deterministic predictor — finds `J≡0` on the symmetric escape path → gMAM required),
-  gmam_current_aids (**SCAFFOLD** — fields/saddle/attractor/initial-path/`S_hat` wired, minimizer stubbed; see plan),
+- **Core (committed):** `character.md` (+ §Two-tangent-sectors large-deviation note, §two-survivals `ΔV⊥𝒜`),
+  `character_receipts.md` (§Branch-survival barrier reversed to the prefactor reading), `character_frontier.md`
+  (`battery:two-survivals-plane` crossed; `current-aids-escape` **tombstoned**; §Nudges HELD),
+  `character_prior_art.md` (+ `pa:transverse-decomposition`), `character_grounding_method.md`.
+- **`experiments/` (gMAM cluster, this session):** `gmam_current_aids` (the runner — validated minimizer +
+  A/H run + eps-sweep), `gmam_maier_stein` (the §6.1 validation gate, exact 0.5), `gmam_saddle_orthogonality`
+  (current⊥escape at the saddle, machine-exact), `gmam_affinity_scaling` (Ŝ(𝒜) flat vs Kramers ΔV(𝒜) drop),
+  `gmam_orthogonality_sweep` (symmetry-protection across μ + the μ=3 Tier-1 boundary floor),
+  `gmam_symmetry_break_probe` (cos(J,e_u)∝δ — orthogonality *is* the symmetry), `gmam_mixing_test` (selection
+  rule — barrier turns on as irreps mix). Prior: identity_survival_barrier, current_aids_escape (+ _alignment),
   cycle_affinity, rps_affinity, reset_redrive_test, mu_sweep, hopfield_corner, neither_corner, beta_collapse,
   deformer_loop, twin_cycle_corner, twin_mu_sweep, autocat_pitchfork, autocat_both (+ PNGs).
-- **Research records (`docs/`):** **gmam_plan** (the turnkey next-session build plan),
-  research_prompt_current_aids_escape_interpretation (3 reports: geometric selection rule),
-  review_prompt_competitive_exclusion, review_request_identity_survival,
+- **Research records (`docs/`):** **gmam_plan** (the as-built record + verdict + the owed Tier-2),
+  research_prompt_current_aids_escape_prefactor_theorem (3 reports, unanimous: the transverse-decomposition
+  theorem + irreversible EK prefactor), research_prompt_current_aids_escape_interpretation (the earlier
+  geometric-selection-rule round), review_prompt_competitive_exclusion, review_request_identity_survival,
   beta_collapse_3rd_register_design, research_prompt_beta_3rd_register_substrate, research_prompt_beta_r3_derivation.
