@@ -128,14 +128,17 @@ State pointer for the next session. Thin by design; delete lines as work lands.
 
 ## Within-reach tests (ranked)
 
-1. **β-collapse 3rd register** *(strengthening; 2-register form banked above)* — **DESIGN PASS DONE:**
-   `docs/beta_collapse_3rd_register_design.md`. Substrate decided = **harmonically-confined fractional
-   process** (same fGn `H` → same `β=2−2H`; confinement makes the response non-trivial, breaking the
-   free-fBm `R3≡R1` tautology). Identity under test = **`α_s = β_mem = 2−2H`** with `α_s` from a two-time
-   *response* (not the correlator). East KCM rejected for now (not fGn-driven → no clean `β=2−2H` to
-   collapse onto; gated on writing its β-identity first). **Next action = the single-`H` de-risking probe**
-   (confirm `R` is independent of the correlator and `α_s≈2−2H` in some `(k,t_w)` window) before the 3-`H`
-   collapse. Crux risk: the confinement⟂aging trade-off window. Not started; not blocking.
+1. **β-collapse 3rd register** *(strengthening; 2-register form banked above)* — **DESIGN PASS + 3-CHANNEL
+   RECALIBRATION DONE:** `docs/beta_collapse_3rd_register_design.md` (research in
+   `research_prompt_beta_3rd_register_substrate.md`). Substrate confirmed = **confined fractional Langevin
+   (fLE)** (not fOU, not CTRW/trap, not East — all rejected with channel reasons). **Key recalibration:
+   `α_s=2−2H` is an OPEN CONJECTURE, not a citable theorem** — R3 is an *original derivation* (Cugliandolo–
+   Kurchan relation + the known confined-fLE two-time covariance), and on a linear-Gaussian substrate R3's
+   independence is real-but-weaker than R2's. **Next action = the vary-`k` smoking-gun probe** (confined fLE,
+   CK field-free estimator, one `H`): `k→0` recovers the trivial `α_s=R1`, intermediate `k` gives an
+   independent `α_s` — does it track `2−2H`? Cheap + decisive, gates the (expensive) derivation. **Open
+   call:** worth the original-derivation cost, or log R3 as an open conjecture and keep the banked-strong
+   2-register collapse? Not started; not blocking.
 2. **~~Mechanism-independent `both`~~ — DONE (banked above, `autocat_both.py`).** The soft-pitchfork `both`
    is instanced (window `ec∈[0.05,0.20]`). *Possible follow-ons (low priority):* a noisy FW/gMAM barrier on
    the autocat `both` (Step-1 had the noisy leg; Step-2 used the deterministic `ΔU∝ee*⁴`); and the
