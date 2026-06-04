@@ -5,29 +5,48 @@ State pointer. Thin by design: committed detail lives in `character_receipts.md`
 
 ## Where things stand
 
-**Latest (2026-06-04, cont.): public-facing story + two new frontier threads; the seashell test is next.**
-- **`character.md` §The conjugate cascade upgraded** — the level-to-level lift of Harada–Sasa is now the
-  coarse-graining EP split (`σ_tot = σ_res + σ_hid`, Esposito / Bo–Celani) bound to `ε<1` and anchored to the
-  Schur transverse-decomposition; receipts §Conjugate-cascade ledger, prior-art `pa:timescale-ep`, frontier
-  `cascade-ledger-split` [sharpening]. (commit `32b22e8`)
-- **`README.md` rewritten to lead with the story** — a prose walk through the engine (point → space → closure →
-  cascade → the self-referential horizon → the β bet), named imports kept out of the body. (commit `9f84a7a`)
-- **Two new frontier threads (AlphaFold / morphospace session):** `predictor-soft-sector-blindness` [steeping]
-  (a feedforward predictor is confident-and-false on hard-sector questions — the neither corner made real by
-  AlphaFold/PPI); and **`cross-stratum-transduction` promoted [steeping]→[sharpening]** with **gastropod shell
-  chirality** as the documented natural instance (driven actomyosin chiral current → developmental cascade →
-  frozen visible coil; single maternal formin `Lsdia1`; reproductively isolating).
-- **► The next active work item is the within-shell cascade-trajectory test.** Prompt-1 (between-specimen
-  sector independence, `research_prompt_chirality_sector_independence.md`) came back **messy / weak-against-
-  strict** (*Amphidromus* not exact mirrors; *Partula* weak chirality pleiotropy — human-sized data), so
-  prediction A is demoted to a logged near-miss and the test moves into character's native trajectory register:
-  a single shell apex→aperture is a recorded cascade ascent. **Lead = T2 (heteromorphy = the marginal point):**
-  a normal trajectory converges to a self-similar growth fixed point, a heteromorph loses it (`ε→1`). Steeping
-  alongside: `chirality-cascade-pinning` (T1 — handedness pinned across scales, reversals only by discrete
-  rewiring; rare specimens) and `determinate-growth-terminus` (the clock — growth stops at the threshold `a→0`;
-  self-similar growth is self-terminating; the *drive* axis, orthogonal to T2's scale axis). Data hunt:
-  `docs/research_prompt_shell_data_sources.md` (now incl. #6 — heteromorph + determinate-growth-to-cessation
-  trajectories). NB self-similarity itself is gnomonic growth (D'Arcy Thompson), not character's to claim.
+**Latest (2026-06-04, cont.): story landed; seashell work reframed into character's native register; two
+outbound prompts are out — resume when their data returns.** (commits `32b22e8`, `9f84a7a`, `1cbc5e9`,
+`a521729`, `2e0d0c3`, `020dbc9` — all pushed.)
+- **`character.md` §The conjugate cascade upgraded** — Harada–Sasa's level-to-level lift is now the
+  coarse-graining EP split (`σ_tot = σ_res + σ_hid`, Esposito / Bo–Celani) bound to `ε<1`, anchored to the Schur
+  transverse-decomposition; receipts §Conjugate-cascade ledger, prior-art `pa:timescale-ep`, frontier
+  `cascade-ledger-split` [sharpening].
+- **`README.md` now leads with the story** — a prose walk through the engine (point → space → closure → cascade →
+  the self-referential horizon → the β bet), named imports kept out of the body.
+- **AlphaFold/morphospace → frontier:** `predictor-soft-sector-blindness` [steeping] — a feedforward predictor is
+  confident-and-false on hard-sector questions (the neither corner made real by AlphaFold/PPI).
+- **Seashell, reframed.** `cross-stratum-transduction` [sharpening] = a single shell is a recorded cascade ascent
+  (apex→aperture, a *trajectory* — character's native register, not a between-specimen ensemble where the human
+  fingerprints live).
+  - **Lead = T2 (heteromorphy = the marginal point `ε→1`)**: a normal trajectory converges to a self-similar
+    growth fixed point; a heteromorph loses it.
+  - Steeping: `chirality-cascade-pinning` (T1 — handedness pinned across scales, reversals only by discrete
+    rewiring) · `determinate-growth-terminus` (the clock — growth stops at the threshold `a→0`; **self-similar
+    growth is self-terminating**, and the stop is an **absorbing basin** the next phase can't climb out of, the
+    same geometry forbidding the return).
+  - **The two sectors' opposite fates:** the metric *pays and gets trapped* (descends in `a`, ends in the basin);
+    the topology *rides free* (handedness propagated laterally + vertically at zero marginal cost — *why* it
+    survives the tower). A dead shell = a stopped metric carrying a free, permanent topology = "the topological
+    sector is the irreducible residue," in hand.
+  - **Noted, un-stubbed:** `cost-asymmetry-of-the-two-sectors` — the metric's construction cost (→0 at the stop)
+    vs the topology's zero maintenance cost is a *third* readout (energy axis); rides on the same prompt-2 data,
+    held until the channel reports.
+  - Prediction A (between-specimen chirality ⊥ shape) = **logged near-miss**: came back messy / weak-against-
+    strict (*Amphidromus* not exact mirrors, *Partula* weak pleiotropy — human-sized data). Don't re-run; the
+    within-shell register replaced it. Self-similarity itself is gnomonic growth (D'Arcy Thompson), not ours.
+
+**► PICK UP HERE — Ron returns with research data.** Two outbound prompts are out:
+1. `docs/research_prompt_chirality_sector_independence.md` — *already returned, messy* (reports appended;
+   prediction A demoted). No further action unless a clean chirality + morphometrics dataset surfaces.
+2. `docs/research_prompt_shell_data_sources.md` — **the live one.** When its reports land: append them under the
+   prompt, then triage what data actually exists against the readouts — **T2** (heteromorph vs normal growth
+   trajectories — does the heteromorph lose the self-similar fixed point?), **T1** (teratological reversal
+   specimens — are flips discrete?), **the clock** (determinate-growth-to-cessation + energetic budget — does the
+   stop track a gain/loss balance, beating the life-history alternative?), **cost-asymmetry** (energetic budget
+   alongside the trajectory). First move: decide which readout is *runnable on the data that exists* → promote
+   that one toward `battery`, park the rest. **The data is the gate — nothing in the seashell program is runnable
+   without it.**
 
 **Prior session — gMAM built + adjudicated — `current-aids-escape` KILLED as a barrier effect,
 metabolized as the transverse-decomposition theorem.** The arc:
