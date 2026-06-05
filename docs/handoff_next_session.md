@@ -41,17 +41,20 @@ All work below is committed + pushed.
 banked (moves 1–3; Open Thread #2 resolved). The **shell program is closed** — dead-end substrate; see the
 substrate ledger (`framework/character_substrate_ledger.md`), which now holds the verdict + the re-homed
 deposit. Open, ranked, none blocking:
-1. **QEC move 4 — real-data scout done (2026-06-05); recorded in the substrate ledger.** Two classes swept.
-   **Topological-invariant** systems (skyrmion / quantum-Hall–QAH / Chern-photonic) are a 🔴 *structural*
-   dead-end — protection **welds** 𝒜 to B (the QHE tautology: R_xx≈0 *because* R_xy quantized) or every knob
-   co-tunes them; no breakable orthogonality. The **discrete-symmetry SSB class** (the triad's own home) is
-   🟡 *data-blocked, not structural*: the **fully-frustrated Josephson array** (Marconi–Domínguez's standing
-   transverse-V/longitudinal-V proposal, PRB 63 174509) and the **semiconductor ring laser** (Beri/Gelens Z₂
-   CW/CCW SSB, δ knob already instrumented) both satisfy gates i–iii on published data and lack only the unrun
-   rate-vs-δ sweep (move 3). So move-4 vindication is now gated on *collaborator/commissioned* data — two
-   fully-specified experiments — **not** on finding a substrate. Un-chased discrete-symmetry candidate worth a
-   future look: magnetic-vortex memory (Z₂×Z₂ chirality/polarity). Lesson banked: gate (iii) accepts a
-   *discrete* symmetry (Z₂/Z₃/Z_N), not only a topological invariant — don't over-tighten the substrate search.
+1. **QEC move 4 — the real-data hunt converged on a structural law (2026-06-05); see ledger §Structural
+   finding.** Swept ~8 families. **Topological-invariant** systems (skyrmion / quantum-Hall–QAH / Chern-photonic)
+   → 🔴 structural dead-end (protection welds 𝒜 to B, or every knob co-tunes). **Current-state / bistable-memory**
+   systems (magnetic vortex ✓ dead; flux qubit; and now *suspect for the ring laser*) → 🔴 **collinear current**:
+   the stored bit **is** the current direction, so escape = current reversal, same DoF (not transverse). The law:
+   **the TDT needs a *transverse* circulation with an affinity *decoupled* from the barrier — a driven-NESS-with-
+   fuel property real devices lack** (no current / collinear current / co-tuned current). The device-inversion
+   proves its own limit (a device that needed r(δ) is a *memory*; a memory's current is its bit), and **r(δ) ≠
+   the selection rule**. Two open items: **(a)** the **ring laser's** "one experiment away" status now needs the
+   (θ,ψ) reduced-model derivation to settle transverse-vs-collinear *before* any lab pitch; **(b)** the corrected
+   *archive* search → **driven-NESS-with-transverse-circulation** (driven chemical/biochemical networks; driven
+   colloidal/single-particle NESS = the physical glass ring) — prompt at `docs/research_prompt_driven_ness_transverse.md`.
+   Method note: the external prompt-collection channel bloats + salience-matches; **primary-source agent scouts
+   are what worked** (they correctly killed shell / skyrmion / QHE / vortex by reading the actual papers).
 2. The standing open threads below (Tier-2 sgMAM #1; β-collapse R3 #3).
 **Consult the substrate ledger before proposing or hunting any new substrate** (affordance gate first).
 
