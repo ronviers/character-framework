@@ -5,6 +5,28 @@ State pointer. Thin by design: committed detail lives in `character_receipts.md`
 
 ## Where things stand
 
+**Latest (2026-06-04, session 2 — shell data acquired, T2 apparatus calibrated, the synthesis landed in frontier):**
+- **Data in hand** (`data/shell/`, see `ACQUISITION_CHECKLIST.md`): Collins 2021 normal-gastropod aperture
+  trajectories (Dryad `p5hqbzknw` — Ron browser-downloaded past the Dryad/Anubis bot-wall; the report's
+  Zenodo `12159344` was a wrong DOI, caught by gate-check), Misaki 2023 heteromorph-ammonite growing-tube
+  E/C/T (Dryad `q573n5tnz`, T crosses zero), Liew heteromorph-gastropod meshes (Figshare, non-watertight),
+  Noshita growing-tube extractor (GitHub), Filin centerline morphospace (Zenodo).
+- **Apparatus calibrated** (`experiments/shell_t2_*.py`, `shell_gauge_vs_chirality.py` — uncommitted):
+  growing-tube null recovers constant (E,C,T) to 1e-10; the refined test (Ron's volume idea) = the
+  **allometric slope** logA-vs-logV → 2/3 (clean null), with the **robustness split** established — volume
+  robust (4.7% over noise), area fragile (67%); the C,T continuous fit is noise-brittle (NaN ≥0.5% — a
+  'bad-test' NaN, not the boundary tripwire). Gauge demo: surface normal is gauge (flips under path/profile
+  reversal), chirality protected (reflection-only).
+- **The session's real product → `character_frontier.md` §Steeping:** `shell-space-layer-manifest` (the
+  shell manifests the two-sector architecture *without testing* — three truisms = the architecture; the
+  error-correction reading: handedness set at one bit, reversed at code distance; **scope: space layer
+  only**; full draft passage held as a quarantined blockquote) and `coherence-as-attractor-diagnostic` (the
+  shell/mandelbulb asymmetry — coherence-generic ⇒ dynamical attractor, not observer-selection; mandelbulb
+  = negative control; crystal caveat).
+- **Decision:** the seashell stays OUT of `character.md` — a vivid example anchors readers/AI and crowds
+  out the dynamical core (new memory `feedback_vivid_examples_anchor_in_canon`). Promotes only with a
+  receipt + salience-care.
+
 **Latest (2026-06-04, cont.): story landed; seashell work reframed into character's native register; two
 outbound prompts are out — resume when their data returns.** (commits `32b22e8`, `9f84a7a`, `1cbc5e9`,
 `a521729`, `2e0d0c3`, `020dbc9` — all pushed.)
@@ -36,7 +58,18 @@ outbound prompts are out — resume when their data returns.** (commits `32b22e8
     strict (*Amphidromus* not exact mirrors, *Partula* weak pleiotropy — human-sized data). Don't re-run; the
     within-shell register replaced it. Self-similarity itself is gnomonic growth (D'Arcy Thompson), not ours.
 
-**► PICK UP HERE — Ron returns with research data.** Two outbound prompts are out:
+**► PICK UP HERE (updated 2026-06-04 session 2).** The shell-data gate is OPEN (datasets in `data/shell/`)
+and the T2 apparatus is calibrated. The seashell's space-layer reading lives in `character_frontier.md`
+§Steeping (`shell-space-layer-manifest`, `coherence-as-attractor-diagnostic`). **Its promotion path is a
+receipt:** (1) compute the surface-code/DFS reading (Open Thread #2) — the protected bit as an
+error-corrected logical bit, which the shell instances geometrically (one bit / code distance); or (2) the
+**Lsdia1-vs-Wnt double dissociation** — perturb the metric (Wnt → E/T shift, chirality intact) vs the
+topology (Lsdia1 → discrete flip); needs the Wnt/Lymnaea data, not yet pulled. Either earns `sharpening`.
+The runnable-on-data-in-hand T2 test (`cross-stratum-transduction`: heteromorph loses the self-similar
+fixed point) is still open and now has both endpoints' data — prefer **volume** (robust) over the C,T fit
+(brittle) as the observable. **Keep the seashell out of `character.md`** until a receipt + salience-care.
+
+*Original data-hunt prompts (resolved — kept for reference).* Two outbound prompts were out:
 1. `docs/research_prompt_chirality_sector_independence.md` — *already returned, messy* (reports appended;
    prediction A demoted). No further action unless a clean chirality + morphometrics dataset surfaces.
 2. `docs/research_prompt_shell_data_sources.md` — **the live one.** When its reports land: append them under the

@@ -1,0 +1,4053 @@
+Orthogastropoda 
+Vetigastropoda 
+Haliotoidea 
+Haliotidae 
+Haliotis gigantea 
+SPMN 
+M 
+16.815
+0.696 
+-0.184 
+1.136 
+-0.138 
+0.203 0.809 
+Haliotis diversicolor aquatilis 
+SUM 
+M 
+11.907 
+0.449 -0.241 
+1.102 
+0.088 
+0.332 
+0.792 
+Pleurotomarioidea 
+Pleurotomariodae 
+Perotrochus hirasei 
+SPMN 
+M 
+1.680 
+1.256 
+0.016 
+0.902 
+0.056 
+0.181 
+0.822 
+Perotrochus africanus westralis 
+SPMN 
+M 
+1.929 
+1.146 
+0.003 
+0.900 
+-0.100 
+0.220 
+0.811 
+Trocoidea 
+Trochidae 
+Chlorostoma xanthostigma 
+UMUT 
+M 
+2.127 
+1.192 
+-0.655 
+1.086 
+-0.567 
+0.184 
+0.558 
+Chlorostoma xanthostigma 
+UMUT 
+M 
+1.893 
+1.308 
+-0.231 
+1.102 
+-0.166 
+0.193 
+0.783 
+Granata lyrata 
+UMUT 
+M 
+2.826 
+1.261 
+-0.321 
+0.798 
+0.286 
+0.199 
+0.781 
+Euchelus atrata 
+UMUT 
+M 
+2.296 
+1.437 
+-0.175 
+0.883 
+-0.409 
+0.195 
+0.802 
+Cittarium pica 
+UMUT M 
+2.142 1.417 
+-0.248 
+0.965 
+-0.206 
+0.221 
+0.782 
+Lischkeia alwinae 
+SPMN 
+M 
+1.678 
+1.354 
+-0.165 
+1.030 
+-0.408 
+0.235 
+0.783 
+Ginebis argenteonitens form convexiuscula 
+SPMN 
+M 
+1.658 
+1.934 
+-0.067 
+0.544 
+-0.174 
+0.185 
+0.817 
+Trochus erythraeus 
+SPMN 
+M 
+1.611 
+1.434 
+-0.160 
+1.103 
+-0.380 
+0.222 
+0.789 
+Trochus maculatus 
+UMUT M 
+1.441 
+1.917 
+-0.274 
+1.183 
+-0.131 
+0.183 
+0.755 
+Tectus conus 
+SPMN 
+M 
+1.465 
+2.092 
+-0.151 
+1.067 
+-0.279 
+0.179 
+0.800 
+Tectus triserialis 
+SUM 
+M 
+1.402 
+2.054 
+0.059 
+1.012 
+-0.147 
+0.200 
+0.814 
+Tegula regina 
+SPMN 
+M 
+1.693 
+1.626 
+0.019 
+1.309 
+0.517 
+0.138 
+0.799 
+Bankivia fasciata 
+UMUT M 
+1.425 
+4.146 
+-0.078 
+0.420 
+-0.112 
+0.147 
+0.810 
+Monodonta turbinata 
+UMUT 
+M 
+1.857 
+1.560 
+-0.181 
+0.922 
+-0.462 
+0.238 
+0.799 
+Fossarina petterdi 
+UMUT 
+M 
+4.377 
+0.962 
+0.059 
+0.733 
+-0.630 
+0.167 
+0.809 
+Stomatia phymotis 
+UMUT 
+M 
+5.293 
+2.259 
+-0.091 
+0.483 
+-0.415 
+0.135 
+0.809 
+Calliostoma granulatum 
+SPMN 
+M 
+1.746 
+1.512 
+-0.081 
+0.797 
+-0.429 
+0.199 
+0.806 
+Umbonium giganteum 
+UMUT 
+M 
+1.910 
+0.960 
+0.172 
+0.778 
+-0.192 
+0.184 
+0.809
+
+***
+
+Turbinoidea 
+Turbinidae 
+Liotina peronii 
+UMUT 
+M 
+2.344 
+1.060. 
+-0.331 
+0.441 
+-0.319 
+0.197 
+0.764 
+Cookia sulcata 
+UMUT 
+M 
+1.734 
+1.271 
+-0.141 
+0.897 
+0.060 
+0.174 
+0.799 
+Astraea undosa 
+SPMN 
+M 
+1.878 
+1.413 
+0.082 
+1.041 
+-0.483 
+0.174 
+0.808 
+Angaria delphinus 
+UMUT 
+M 
+2.494 
+0.998 
+0.047 
+0.535 
+-0.291 
+0.211 
+0.809 
+Angaria delphinus 
+SPMN 
+M 
+2.388 
+0.679 
+0.087 
+0.303 
+-0.201 
+0.161 
+0.817 
+Angaria neglecta 
+UMUT 
+M 
+2.344 
+0.998 
+0.002 
+0.656 
+-0.466 
+0.164 
+0.809 
+Turbo cornutus 
+SUM 
+M 
+2.039 
+1.463 
+-0.282 
+0.632 
+-0.375 
+0.237 
+0.786 
+Turbo petholatus 
+SPMN 
+M 
+2.292 
+1.331 
+-0.051 
+0.516 
+-0.378 
+0.229 
+0.808 
+Astralium haematragum 
+SUM 
+M 
+1.542 
+1.899 
+-0.013 
+1.070 
+-0.244 
+0.193 
+0.807 
+Astralium haematragum 
+SUM 
+M 
+1.833 
+1.357 
+0.016 
+1.015 
+-0.129 
+0.189 
+0.808 
+Guildfordia triumphans 
+SUM 
+M 
+2.102 
+0.888 0.157 
+0.684 
+-0.182 
+0.181 
+0.809 
+Phasianella australis 
+UMUT 
+M 
+1.724 
+2.455 
+-0.145 
+0.411 
+-0.417 
+0.190 
+0.804 
+Phasianella australis 
+SPMN 
+M 
+1.689 
+2.805 
+-0.041 
+0.274 
+-0.030 
+0.153 
+0.809 
+Neritimorpha 
+Cyclonertimorpha 
+Neritoidea 
+Neritidae 
+Nerita albicilla 
+SUM 
+M 
+19.372 
+0.189 
+-0.021 
+-0.006 
+-0.211 
+0.318 
+0.810 
+Nerita costata 
+SPMN 
+M 
+4.819 
+1.013 
+-0.283 
+0.634 
+-0.758 
+0.232 
+0.791 
+Nerita exuvia 
+SPMN 
+M 
+8.479 
+0.873 
+-0.048 
+0.345 
+-0.209 
+0.212 
+0.809 
+Nerita japonica 
+UMUT 
+M 
+3.513 
+1.044 
+-0.064 
+0.696 
+-0.543 
+0.160 
+0.808 
+Neritina cornucopia 
+UMUT 
+M 
+9.654 
+0.263 
+-0.031 
+0.066 
+-0.153 
+0.235 
+0.810 
+Apogastropoda 
+Caenogastropoda 
+Architaenioglossa 
+Ampullaroidea 
+Ampullariidae 
+Lanistes olivaceus 
+UMUT 
+F 
+1.763 
+2.104 
+-0.059 
+0.358 
+0.296 
+0.150 
+0.807
+
+Pomacea canaliculata 
+SPMN 
+F 
+2.183 
+0.563 
+0.065 
+0.286 
+-0.280 
+0.158 
+0.811 
+Pomacea depressa 
+UMUT 
+F 
+2.487 
+1.064 
+0.011 
+0.218 
+-0.105 
+0.165 
+0.811 
+Pomacea glauca 
+UMUT 
+F 
+2.169 
+1.124 
+0.050 
+0.253 
+-0.154 
+0.162 
+0.815 
+Cyclophroidea 
+Cyclophoridae 
+Cyclopharus miyakoensis 
+UMUT 
+L 
+2.029 
+1.096 
+0.181 
+0.560 
+-0.370 
+0.184 
+0.810 
+Cyclophorus appendiculayus 
+SPMN 
+L 
+2.339 0.764 
+0.239 
+0.332 
+-0.268 
+0.152 
+0.810 
+Cyclophorus turgidus turgidus 
+SPMN 
+L 
+2.027 1.033 
+0.135 
+0.561 
+-0.033 
+0.164 
+0.812 
+Cyclophorus zebrinus 
+SPMN 
+L 
+2.062 
+0.987 
+0.007 
+0.657 
+-0.088 
+0.188 
+0.817 
+Leptopoma nitidum 
+UMUT 
+L 
+1.974 
+1.338 
+0.088 
+0.569 
+-0.260 
+0.191 
+0.810 
+Pterocyclus perrieri 
+SHIN 
+L 
+2.441 
+0.404 
+0.241 
+0.795 
+0.046 
+0.145 
+0.817 
+Pupinidae 
+Pupinella rufa 
+UMUT 
+L 
+1.328 
+4.363 
+-0.149 
+-0.133 
+-0.664 
+0.141 
+0.785 
+Orcula dolium 
+UMUT 
+L 
+1.187 
+4.793 
+0.215 
+0.151 
+-1.052 
+0.126 0.802 
+Viviparoidea 
+Viviparidae 
+Cipangopaludina chinensis laeta 
+UMUT 
+F 
+1.969 
+1.519 
+-0.057 
+0.526 
+-0.102 
+0.192 
+0.811 
+Heterogen longispira 
+UMUT 
+F 
+1.540 
+2.430 
+0.037 
+0.609 
+-0.396 
+0.186 
+0.809 
+Heterogen longispira 
+SPMN 
+F 
+1.535 
+2.412 
+0.047 
+0.549 
+-0.213 
+0.171 
+0.809 
+Melantho poderosa 
+UMUT 
+F 
+1.763 
+2.120 
+-0.041 
+0.367 
+-0.182 
+0.173 
+0.809 
+Sinotaia quadrata histrica 
+SPMN 
+F 
+1.700 
+2.119 
+0.000 
+0.580 
+-0.327 
+0.196 
+0.809 
+Tulotoma angulata 
+UMUT 
+F 
+1.862 
+1.586 
+-0.064 
+0.770 
+-0.533 
+0.199 
+0.806 
+Viviparus contectoides 
+SPMN 
+F 
+1.924 
+1.644. 
+0.015 
+0.364 
+-0.214 
+0.175 
+0.809 
+Sorbeoconcha 
+Cerithoidea 
+Certhiidae 
+Cerithium nodulosus 
+SPMN 
+M 
+1.252 
+4.863 
+0.053 
+-0.333 
+-0.369 
+0.130 
+0.808 
+Rhinoclavis fasciata 
+SPMN 
+M 
+1.136 
+9.584 
+-0.432 
+-0.025 
+-0.109 
+0.108 
+0.710 
+Rhinoclavis vertagus 
+SUM 
+M 
+1.250 
+4.722 
+-0.143. 
+0.088 
+-0.103 
+0.138 
+0.811 
+Turritellidae
+
+***
+
+Turritella rubescens
+SPMN
+M
+1.169
+9.464
+0.023
+0.358
+-0.479
+0.101
+0.809
+Turritella fortilirata
+SUM
+M
+1.205
+6.865
+-0.091
+0.492
+-0.446
+0.126 0.806
+Modulidae
+Modulus candidus
+UMUT
+M
+2.402
+0.809
+-0.201
+0.625
+-0.140
+0.192
+0.791
+Planaxidac
+Planaxis sulcatus
+UMUT
+M
+1.648
+2.487
+-0.095
+0.495
+-0.032
+0.175
+0.811
+Quoyia decollata
+UMUT
+M
+1.535
+2.997
+-0.183
+0.452
+-0.554
+0.183
+0.797
+Potamididae
+Certhidea obtusa
+UMUT
+M
+1.264
+4.570
+-0.069
+-0.174
+-0.393
+0.143
+0.800
+Tympanotonus fuscatus
+UMUT
+M
+1.169
+6.431
+-0.138
+-0.319
+0.414
+0.135
+0.797
+Telebralia palustris
+SUM
+M
+1.199. 4.763
+0.018
+-0.228
+-0.187
+0.149
+0.823
+Pleuroceridae
+Anculosa praerosa
+UMUT
+F
+3.522
+1.280
+-0.116
+0.144
+-0.217
+0.193 0.806
+Semisulcospira niponica
+UMUT
+F
+1.414
+3.829
+-0.063
+0.296
+-0.179
+0.147 0.809
+Thiaridae
+Melanoides tuberculatus
+UMUT
+F
+1.337
+5.027
+-0.074
+0.366
+0.173
+0.128 0.809
+Semisulcospira reticulata
+SUM
+F
+1.192
+6.254
+-0.214
+0.656
+-0.369
+0.137 0.810
+Faunus ater
+SPMN
+F
+1.235
+6.318
+-0.176
+-0.160
+-0.181
+0.123
+0.786
+Hypsogastropoda
+Littorinimorpha
+Littorinoidea
+Littorinidae
+Echininus cumingii spinulosus
+UMUT
+M
+1.740
+1.551
+0.021
+0.787
+-0.058
+0.196
+0.809
+Lacuna vincia
+UMUT
+M
+2.475
+2.052
+-0.182
+0.549
+-0.067
+0.183
+0.810
+Littorina littorea
+UMUT M
+2.101
+1.656
+-0.148
+0.597
+-0.238
+0.234
+0.806
+Littorina undulata
+UMUT
+M
+1.794
+2.419
+0.008
+0.418
+0.122
+0.158
+0.809
+Littorina zebra
+SPMN
+M
+2.317
+1.498
+-0.004
+0.768
+-0.353
+0.162
+0.808
+Tectarius coronatus
+SPMN
+M
+1.612
+1.937
+-0.180
+0.692
+-0.472
+0.218
+0.806
+
+Truncatelloidea
+Rissoidae
+
+***
+
+Rissona marginata
+UMUT
+M
+1.714
+2.597
+-0.118
+0.547
+-0.208 0.194
+0.810
+Pomatiopsidae
+Oncomelania nosophora
+UMUT
+F
+1.331
+5.172
+0.286
+0.044
+-0.244
+0.105
+0.810
+Assimineidae
+Assiminea grayana
+UMUT
+M
+1.786 2.518
+-0.316
+0.435
+0.000
+0.168
+0.783
+Stromboidea
+Strombidae
+Lambis chiragra
+SUM
+M
+1.733
+1.976
+-0.138
+0.036
+-0.143
+0.150
+0.808
+Lambis lambis
+UMUT
+M
+3.888 1.860
+-0.421
+0.026
+-0.928
+0.169
+0.749
+Strombus aurisdianae
+UMUT
+M
+1.641
+1.741
+-0.217
+-0.018
+0.195
+0.152
+0.789
+Strombus dentatus
+UMUT
+M
+1.564
+2.686
+-0.197
+0.189
+0.159
+0.144
+0.799
+Strombus pipus
+SPMN
+M
+1.824
+1.282
+0.108
+0.192
+-0.494
+0.162
+0.819
+Strombus urceas
+SUM
+M
+1.521
+2.003
+0.036
+0.143
+0.284
+0.142
+0.824
+Strombus vomer
+SPMN
+M
+1.572
+2.054
+-0.100
+-0.106
+0.363
+0.142
+0.807
+Tibia fusus
+SPMN
+M
+1.233
+6.785
+-0.127
+0.271
+-0.023
+0.119
+0.807
+Tibia insulaechorab
+SUM
+M
+1.313
+4.348
+0.075
+-0.127
+-0.258
+0.131
+0.809
+Seraphidae
+Terebellum terebellum terebellum
+SPMN
+M
+2.216
+5.396
+-0.399
+-0.083
+0.000
+0.103
+0.772
+Hipponix conica
+UMUT
+M
+46.615
+0.285
+0.099
+-0.177
+-0.448
+0.147
+0.810
+Aporrhaidae
+Aporrhais pespelecani
+SPMN
+M
+1.436
+3.177
+-0.010
+-0.280
+-0.241
+0.138
+0.806
+Aporrhais occidentalis
+UMUT
+M
+1.416
+3.622
+0.004
+-0.248
+-0.173
+0.133
+0.807
+Struthiolariidae
+Struthiolaria papulosa
+UMUT
+M
+1.630
+2.563
+-0.317
+0.288
+-0.269
+0.160
+0.771
+Vanikoloidea
+Vanikoridae
+Vanikoro acuta
+UMUT
+M
+3.168
+1.125
+-0.101
+0.597
+-0.266
+0.202
+0.808
+Capuloidea
+Capulidae
+Capulus ungaricus
+SPMN
+M
+135.702
+0.085
+0.044
+0.105
+-0.695
+0.202
+0.809
+
+***
+
+Trichamathina nobilis
+UMUT
+M
+12.868
+0.212
+0.159
+0.129
+-0.458
+0.154 0.810
+Trichotropis bicarinata
+UMUT
+M
+2.731
+0.932
+-0.018
+0.442
+-0.272
+0.211
+0.809
+Calyptraeoidea
+Calyptraeidae
+Crepidula fornicata
+UMUT
+M
+19.411
+0.260
+-0.162
+0.186
+-0.484
+0.317
+0.805
+Xenophoroidea
+Xenophoridae
+Stellaria exutus
+SUM
+M
+2.095
+0.815
+0.127
+0.825
+-0.157
+0.194
+0.810
+Stellaria solaris
+SPMN
+M
+1.932
+0.947
+0.044
+1.333
+0.507
+0.136
+0.807
+Xenophora pallidula
+UMUT
+M
+1.693
+1.122
+-0.040
+1.232
+0.165
+0.183
+0.812
+Cypraeoidea
+Cypraeidae
+Cypraea mauritiana
+UMUT
+M
+6.169
+1.613
+-0.057
+0.213
+-0.149
+0.167
+0.809
+Cypraea tigris
+UMUT
+M
+2.486
+0.905
+-0.294
+0.233
+-0.183
+0.171
+0.774
+Ovulidae
+Volva volva volva
+UMUT
+M
+1.215
+3.080
+-0.336
+0.026
+-0.109
+0.146
+0.734
+Ovula ovum
+UMUT
+M
+2.235
+0.764
+-0.195
+-0.020
+0.061
+0.143
+0.786
+Velutinoidea
+Triviidae
+Erato voluta
+UMUT
+M
+2.271
+1.710
+-0.175
+0.009
+-0.220
+0.153
+0.794
+Naticoidea
+Naticidae
+Cryptonatica andoi
+UMUT
+M
+2.679
+1.160
+0.046
+0.525
+-0.240
+0.220
+0.809
+Euspira fortunei
+SPMN
+M
+1.929
+1.682
+-0.079
+0.596
+-0.179
+0.209
+0.808
+Glossaulax bicolor
+UMUT M
+3.493
+0.869
+0.044
+0.713
+-0.485
+0.177
+0.809
+Glossaulax didyma
+SUM
+M
+3.317
+1.047
+-0.099
+0.812
+0.123
+0.248
+0.807
+Glossaulax vesicalis
+SPMN
+M
+6.108
+1.114
+-0.116
+0.723
+-0.169
+0.181
+0.809
+Lunatia lewisi
+SPMN
+M
+2.529
+0.993
+-0.096
+0.665
+0.047
+0.198
+0.814
+Polinices catena
+UMUT
+M
+2.247
+1.312
+0.081
+0.534
+-0.596
+0.163
+0.809
+Polinices mammilla
+SPMN
+M
+4.291
+1.497
+-0.095
+0.413
+-0.237
+0.169
+0.809
+
+***
+
+
+Sinum javanicum
+UMUT M
+6.912
+0.979
+-0.235
+0.792
+-0.193
+0.191
+0.808
+Risooidea
+Bithyniidae
+Bithynia tentaculata
+UMUT
+F
+1.967
+2.010
+0.036
+0.410
+-0.375
+0.188
+0.809
+Parafossarulus manchouricus
+UMUT
+F
+1.521
+2.704
+0.053
+0.690
+-0.461
+0.171
+0.809
+Parafossarulus manchouricus
+UMUT
+F
+1.582
+3.144
+0.031
+0.734
+-0.185
+0.152
+0.809
+Truncatellidae
+Truncatella marginata
+UMUT
+L
+1.216
+6.935
+-0.016
+0.349
+0.162
+0.118
+0.809
+Tonnoidea
+Bursidae
+Bufonaria rana
+UMUT
+M
+1.812
+1.625
+-0.311
+0.228
+-0.042
+0.154
+0.773
+Bursa elegans
+SUM
+M
+1.643
+1.942
+-0.106
+0.220
+-0.378
+0.168 0.815
+Cassidae
+Casmaria ponderosa ponderosa
+SPMN
+M
+2.018
+1.945
+0.031
+0.221
+-0.608
+0.176
+0.809
+Casmaria ponderosa ponderosa
+SPMN
+M
+1.958
+1.768
+-0.398
+0.102
+-0.259
+0.172 0.739
+Cassis nana
+SPMN
+M
+2.636
+0.484
+0.036
+0.119
+-0.843
+0.167 0.806
+Cassis vibex
+UMUT
+M
+1.989.
+1.838
+-0.369
+0.181
+-0.570
+0.173
+0.738
+Cypraecassis coarctata
+SPMN
+M
+1.947
+0.979
+-0.228
+0.095
+-0.848
+0.185
+0.773
+Cypraecassis rufa
+SPMN
+M
+1.461
+1.899
+-0.388
+0.118
+-0.596
+0.151
+0.696
+Galeodea rugosa
+SPMN
+M
+2.021
+1.177
+0.076
+0.159
+-0.481
+0.166
+0.816
+Galeodea rugosa
+SPMN
+M
+1.954
+1.486
+0.009
+0.152
+-0.548
+0.171
+0.809
+Phalium flammiferum
+SUM
+M
+1.831
+1.319
+-0.309
+0.247
+-0.797
+0.182
+0.738
+Semicassis bisulcata pila
+SUM
+M
+1.889
+1.576
+-0.454
+0.095
+-0.250
+0.153
+0.716
+Semicassis pyrum
+SPMN
+M
+2.094
+1.122
+-0.162
+0.246
+-0.702
+0.198
+0.796.
+Ficidae
+Ficus ventricosa
+UMUT
+M
+3.107
+1.057
+-0.330
+0.030
+-0.238
+0.168
+0.764
+Ficus subintermedia
+SUM
+M
+1.989
+1.267
+-0.016
+0.096
+0.015
+0.163
+0.819
+Tonnidae
+Eudolium lineatum
+SPMN
+M
+1.955
+1.663
+0.166
+0.311
+-0.490
+0.169
+0.810.
+Malea pomum
+SPMN
+M
+2.120
+0.525
+0.087
+0.145
+-0.316
+0.174
+0.809
+
+***
+
+Tonna perdix
+UMUT M
+2.694
+1.505
+-0.314
+0.435
+-0.342
+0.234
+0.785
+Tonna luteostoma
+SUM
+M
+2.251
+1.134
+-0.371
+0.347
+-0.457
+0.191
+0.745
+Ranellidae
+Biplex perca
+SPMN
+M
+1.485
+3.710 -0.083
+0.052
+-0.827
+0.142 0.789
+Charonia lampas macilenta
+UMUT
+M
+1.520
+2.532
+-0.077
+0.173
+-0.933
+0.168 0.790
+Charonia variegate
+SPMN
+M
+1.522
+3.165
+-0.362
+0.136
+-0.515
+0.146
+0.731
+Cymatium gutturnium
+SPMN
+M
+1.849
+1.334
+0.161
+0.047
+-1.400.
+0.140
+0.769
+Cymatium parthenopeum
+SUM
+M
+1.629
+2.164.
+-0.125
+0.241
+-1.304
+0.171
+0.760
+Gelagna succincta
+UMUT
+M
+1.729
+1.813
+-0.246
+0.395
+-0.305
+0.178
+0.790
+Linatella cingulata
+SPMN
+M
+1.885
+1.548
+0.151
+0.076
+-0.481
+0.150
+0.810
+Personidae
+Distorsio anus
+UMUT
+M
+1.391
+1.852
+-0.327
+-0.002
+-0.873
+0.153 0.688
+Ptenoglossa
+Triphoroidea
+Cerithiopsidae
+Cerithiopsis emersonii
+UMUT
+M
+1.102
+7.802
+-0.320
+0.165
+-0.971
+0.119
+0.648
+Triphoridae
+Marshallora adversa
+UMUT
+M
+1.112
+8.228
+-0.067
+0.706
+-0.505
+0.125 0.819
+Janthinoidea
+Janthinidae
+Janthina janthina
+UMUT M
+3.082
+1.183
+-0.009
+0.588
+-0.041
+0.233
+0.808
+Janthina janthina
+SPMN
+M
+2.922
+1.107
+0.084
+0.587
+-0.282
+0.159
+0.809
+Janthina umbilicata
+UMUT
+M
+2.898
+1.432
+-0.203
+0.203
+-0.443
+0.213
+0.797
+Epitoniidae
+Cirsotrema varicosum
+SPMN
+M
+1.343
+4.316
+-0.029
+0.367
+-0.427
+0.145
+0.808
+Epitonium scalare
+UMUT
+M
+1.624
+2.333
+0.036
+0.228
+-0.379
+0.158
+0.809
+Gyroscala lamellosa
+UMUT
+M
+1.463
+3.205
+-0.087
+0.268
+-0.227
+0.156
+0.808
+Eulimoidea
+Eulimidae
+Melanella major
+UMUT
+M
+1.213.
+5.688
+-0.083
+0.207
+-0.255
+0.134
+0.818
+
+***
+
+Scalenostoma carinata
+UMUT
+M
+1.168
+5.564
+0.114.
+-0.323
+-0.018
+0.143
+0.810
+Neogastropoda
+Muricoidea
+Muricidae
+Acanthina monodon
+UMUT
+M
+2.857
+1.167
+-0.056
+0.359
+-0.564
+0.187
+0.808
+Bolinus cornutus
+SPMN
+M
+2.564
+0.902
+-0.091
+0.232
+-0.712
+0.215
+0.803
+Ceratostoma burnetti
+UMUT
+M
+1.914
+1.595
+0.043
+0.317
+-0.258
+0.170
+0.809
+Chicoreus banksii
+SPMN
+M
+1.580
+2.233
+0.337
+0.110
+-0.436
+0.125
+0.810
+Chicoreus cornucervi
+SPMN
+M
+1.775
+1.810
+0.241
+0.204
+-0.822
+0.158
+0.809
+Chicoreus torrefactus
+SPMN
+M
+1.542
+2.239
+0.111
+0.220
+-0.581
+0.157 0.809
+Concholepas concholepas
+UMUT
+M
+9.393
+0.591
+-0.136.
+-0.061
+-0.767
+0.245
+0.796
+Coralliophila neritoides
+UMUT
+M
+3.033
+1.146
+-0.047
+0.537
+-0.482
+0.156
+0.808
+Cronia margariticola
+UMUT
+M
+1.552 2.128
+0.280
+0.253
+-0.863
+0.149
+0.809
+Drupa ricinus ricinus
+SPMN
+M
+1.895
+1.415
+-0.091
+0.456
+-1.357
+0.171
+0.758
+Haustellum haustellum
+SPMN
+M
+2.318
+1.169
+0.170
+-0.270
+-0.331
+0.128
+0.810
+Homalocantha scorpio
+SPMN
+M
+2.131
+2.297
+0.090
+-0.026
+-0.721
+0.143
+0.808
+Mancinella echinata
+SPMN
+M
+1.805
+1.740
+0.001
+0.431
+-0.631
+0.198
+0.808
+Morula granulata
+UMUT
+M
+1.930
+1.543
+-0.087
+0.490
+-0.990
+0.193
+0.784
+Murex pecten pecten
+SPMN
+M
+1.838
+1.944
+0.379
+0.211
+-0.738
+0.112
+0.810
+Nassa francolina
+UMUT
+M
+2.295
+2.222
+-0.115
+0.139
+-0.218
+0.163
+0.806
+Neothais orbita
+SPMN
+M
+2.347
+1.580
+-0.139
+0.350
+-0.331
+0.209
+0.805
+Ocenebra interfossa
+UMUT
+M
+1.722
+2.791
+-0.334
+0.256
+-0.799
+0.173
+0.733
+Phyllonotus erthrostomus
+SPMN
+M
+1.801
+1.255
+-0.032
+0.293
+-0.879
+0.191
+0.802
+Pterynotus elongatus
+SPMN
+M
+1.294
+5.876
+0.269
+0.085
+-1.055
+0.096
+0.806
+Rapa bubiformis
+UMUT M
+2.129
+1.003
+-0.128
+0.050
+-0.098
+0.151
+0.805
+Rapa rapa
+SPMN
+M
+2.158
+0.912
+-0.069
+0.065
+-0.671
+0.177
+0.804
+Rapana venosa
+SUM
+M
+2.238
+1.488
+-0.200
+0.296
+-0.248
+0.192
+0.805
+Siratus alabaster
+SPMN
+M
+1.714
+2.497
+0.017
+0.227
+-0.470
+0.160
+0.809
+Tais armigera
+SPMN
+M
+1.716
+1.684
+-0.088
+0.327
+-0.293
+0.174
+0.818
+Thais bronni
+UMUT
+M
+1.907
+1.551
+-0.065
+0.374
+-0.601
+0.200
+0.807
+
+***
+
+Thais clavigera
+SUM
+M
+1.962 1.651
+-0.150
+0.286
+-0.704
+0.200
+0.796
+Thais haemastoma
+SPMN
+M
+2.050
+1.801
+0.149
+0.254
+-0.623
+0.173
+0.809
+Thais kiosquiformis
+UMUT
+M
+1.732
+1.846
+-0.004
+0.450
+-0.865
+0.180
+0.799
+Trophon geversianus
+UMUT
+M
+2.261
+1.417
+-0.036
+0.174
+-0.477
+0.181
+0.808
+Urosalpinx cinerea
+UMUT
+M
+1.777
+2.250
+-0.016
+0.288
+-0.546
+0.175
+0.808
+Vexilla vexillum
+UMUT
+M
+2.083
+1.705
+-0.102
+0.103
+0.226
+0.143
+0.803
+Turbinellidae
+Columbarium harrisium
+SPMN
+M
+1.419
+2.529
+0.363
+0.215
+-0.682
+0.134
+0.810
+Columbarium pagoda pagoda
+UMUT
+M
+1.475
+2.296
+0.122
+0.201
+-0.395
+0.151
+0.810
+Vasum ceramicum
+UMUT M
+1.522
+1.961
+-0.206
+0.397
+0.110
+0.151
+0.791
+Vasum turbinellum
+UMUT
+M
+1.753
+1.477
+-0.127
+0.362
+-0.932
+0.200 0.789
+Columbellidae
+Amphissa columbiana
+UMUT
+M
+1.554
+2.581
+-0.158
+0.296
+-0.447
+0.172 0.809
+Colubraria cumingii
+SPMN
+M
+1.301
+3.536
+-0.083
+0.137
+-1.138
+0.154 0.781
+Parametaria philippinarum
+UMUT
+M
+1.600
+1.802
+-0.317
+0.075
+-0.190
+0.150
+0.761
+Pyrene splendidula
+UMUT
+M
+1.374
+2.591
+-0.087
+-0.138
+-0.252
+0.151
+0.815
+Strombina lanceolata
+UMUT
+M
+1.448
+3.092
+0.097
+0.195
+-0.759
+0.147
+0.808
+Nassariidae
+Bullia gradata
+SPMN
+M
+1.640
+2.687
+-0.196
+0.177
+-0.114
+0.152
+0.795
+Nassarius arcularia
+UMUT
+M
+1.739
+1.592
+-0.230
+0.308
+-1.457
+0.158
+0.711
+Zeuxis margritifera
+UMUT
+M
+1.438
+3.070
+0.069
+0.279
+-0.817
+0.154
+0.805
+Buccinidae
+Balylonia japonica
+UMUT
+M
+1.836
+2.094
+0.083
+0.431
+0.020
+0.158
+0.809
+Balylonia japonica
+UMUT
+M
+1.849
+2.099
+0.086
+0.545
+-0.478
+0.161
+0.809
+Balylonia japonica
+UMUT
+M
+1.827
+2.089
+0.158
+0.567
+-0.246
+0.179
+0.810
+Buccinum osagawai
+SPMN
+M
+1.690
+2.534
+-0.048
+0.359
+-0.428
+0.175
+0.808
+Cominella lineolata
+UMUT
+M
+1.622
+2.345
+-0.253
+0.397
+-0.288
+0.174
+0.793
+Fusinus dupetitthouarsi
+SPMN
+M
+1.380
+3.878
+-0.446
+0.097
+0.602
+0.135
+0.733
+Japelion pericochlion
+SUM
+M
+1.484
+3.981
+-0.100
+0.262
+0.317
+0.131
+0.805
+Kelletia lischkei
+UMUT
+M
+1.609
+2.196
+-0.359
+0.308
+-0.119
+0.155
+0.759
+
+***
+
+Neptunea antiqua 
+UMUT 
+M 
+1.710 
+2.010 
+-0.154 
+0.287 
+-0.076 
+0.162 
+0.812 
+Neptunea constricta 
+SUM 
+M 
+1.622 
+2.488 
+-0.102 
+0.189 
+-0.787 
+0.170 
+0.792 
+Neptunea lyrata decemcostata 
+UMUT 
+M 
+2.069 
+1.658 
+-0.018 
+0.216 
+-0.449 
+0.195 
+0.809 
+Northia northiae 
+SPMN 
+M 
+1.489 
+3.298 
+-0.401 
+0.199 
+-0.491 
+0.146 
+0.717 
+Penion maxima 
+SPMN 
+M 
+1.606 
+2.004 
+-0.177 
+0.209 
+-0.647 
+0.174 0.799 
+Pleuroploca princeps 
+SPMN 
+M 
+1.592 
+2.571 
+-0.070 
+0.168 
+-0.241 
+0.157 
+0.808 
+Siphonalia fusoides 
+SPMN 
+M 
+1.709 
+2.350 
+0.165 
+0.189 
+-0.719 
+0.152 
+0.809 
+Solenosteria fusiformis 
+UMUT 
+M 
+1.614 
+2.015 
+-0.035 
+0.419 
+-0.109 
+0.169 0.820 
+Volutharpa ampullacea perryi 
+UMUT 
+M 
+2.482 
+1.404 
+-0.290 
+0.348 
+-0.923 
+0.205 
+0.769 
+Melongenidae 
+Busycom spiratum 
+SPMN 
+M 
+2.254 
+0.969 
+-0.025 
+0.072 
+-0.286 
+0.160 
+0.817 
+Hemifusus tuba 
+UMUT 
+M 
+1.739 
+2.076 
+-0.171 
+0.187 
+-0.262 
+0.166 
+0.809 
+Melongena melongena 
+SPMN 
+M 
+1.860 
+1.682 
+-0.030 
+0.125 
+-0.079 
+0.154 
+0.812 
+Melongena patula 
+UMUT 
+M 
+2.316 
+1.033 
+-0.250 
+0.207 
+-0.133 
+0.164 
+0.785 
+Pugilina cochlidium 
+SPMN 
+M 
+1.835 
+1.324 
+-0.020 
+0.127 
+0.045 
+0.149 0.820 
+Fasciolariidae 
+Fasciolaria tulipa 
+SPMN 
+M 
+1.870 
+2.242 
+-0.133 
+0.064 
+-0.164 
+0.155 
+0.802 
+Fusinus forceps 
+UMUT 
+M 
+1.392 
+3.338 
+0.151 
+0.196 
+-0.525 
+0.140 
+0.810 
+Fusinus nicobaricus 
+UMUT 
+M 
+1.422 
+2.935 
+0.090 
+0.300 
+-0.575 
+0.165 
+0.809 
+Fusinus nicobaricus 
+SPMN 
+M 
+1.398 
+3.198 
+-0.117 
+0.137 
+-0.376 
+0.158 
+0.814 
+Latirus nodatus 
+UMUT M 
+1.473 
+2.789 
+-0.134 
+0.104 
+-0.359 
+0.156 
+0.812 
+Opeatostoma pseudodon 
+UMUT 
+M 
+1.735 
+1.896 
+-0.143 
+0.184 
+-0.550 
+0.174 
+0.805 
+Peristernia incarnata 
+UMUT 
+M 
+1.335 
+3.297 
+-0.465 
+0.503 
+-0.709 
+0.144 
+0.611 
+Pleuroploca glabra 
+UMUT 
+M 
+1.501 
+3.010 
+-0.227 
+0.128 
+-0.425 
+0.154 
+0.789 
+Volutidac 
+Amoria undulata 
+SPMN 
+M 
+2.040 
+2.333 
+-0.250 
+0.146 
+-0.083 
+0.154 
+0.786 
+Cymbium olla 
+SPMN 
+M 
+3.370 
+1.497 
+0.058 
+0.192 
+-0.422 
+0.200 
+0.809 
+Ericusa sericatum 
+SPMN 
+M 
+1.547 
+4.034 
+-0.213 
+0.097 
+-0.098 
+0.132 
+0.792 
+Fulgoraria clara 
+SUM 
+M 
+1.950 
+3.049 
+0.077 
+0.025 
+-0.039 
+0.122 
+0.809 
+Lyria planicostata 
+SPMN 
+M 
+1.448 
+4.140 
+-0.164 
+0.084 
+0.175 
+0.129 
+0.797
+
+***
+
+Scaphella dubia
+SPMN
+M
+1.781
+3.712
+-0.005
+-0.005
+-0.267
+0.123
+0.808
+Voluta ebraea
+SPMN
+M
+1.654
+2.295
+-0.238
+0.083
+-0.046
+0.146
+0.788
+Volutocorbis abyssicola
+SPMN
+M
+1.802
+2.526
+-0.098
+0.101
+-0.065
+0.147
+0.807
+Olividae
+Alcospira marginata
+UMUT
+M
+1.713
+2.557
+-0.063
+0.154
+-0.310
+0.156
+0.808
+Amalda rubiginosa rubiginosa
+SPMN
+M
+1.686
+2.962
+0.055
+0.087
+-0.011
+0.133
+0.809
+Oliva porphyria
+SPMN
+M
+1.916
+0.674
+-0.192
+-0.016
+0.056
+0.142 0.775
+Oliva textilina
+SPMN
+M
+1.753 0.837
+-0.275
+0.007
+0.090
+0.151
+0.757
+Olivella biplicata
+UMUT
+M
+1.952
+1.925
+-0.074
+0.050
+-0.144
+0.168
+0.807
+Harpidae
+Morum grande
+SPMN
+M
+2.287
+1.467
+-0.038
+0.141
+-0.883
+0.197
+0.796
+Harpa major
+SPMN
+M
+2.686
+0.874
+0.020
+0.157
+-0.735
+0.208
+0.807
+Mitridae
+Cancilla isabella
+SPMN
+M
+1.383
+4.816
+-0.138
+0.146
+-0.025
+0.134
+0.804
+Mitra eremitarum
+SPMN
+M
+1.509
+3.666
+-0.103
+0.154
+-0.156
+0.143 0.806
+Mitra mitra
+UMUT
+M
+1.526
+3.769
+-0.495
+0.145
+0.274
+0.131
+0.722
+Mitra swainsoni
+SPMN
+M
+1.321
+5.959
+-0.209
+0.028
+0.023
+0.117
+0.789
+Costellariidae
+Vexillum taeniatum
+SPMN
+M
+1.299
+5.068
+-0.169
+-0.007
+0.222
+0.127
+0.792
+Pusia cancellaroides.
+UMUT
+M
+1.455
+2.277
+-0.176
+0.379
+-0.405
+0.172
+0.807
+Cystiscidae
+Cystiscus nanavensis
+UMUT
+M
+1.733
+1.034
+-0.321
+0.078
+-0.078
+0.153
+0.750
+Cancellaroidea
+Cancellariidae
+Cancellaria nodulifera
+UMUT
+M
+2.245
+1.113
+0.009
+0.462
+-0.432
+0.209
+0.809
+Cancellaria spengleriana
+UMUT
+M
+1.920
+1.761
+-0.121
+0.365
+-0.687
+0.206
+0.797
+Conoidea
+Conidae
+Conus pulicarius
+SUM
+M
+1.394
+1.184
+0.088
+0.262
+0.000
+0.144
+0.796
+Conus stimpsoni
+SPMN
+M
+1.355
+1.129
+-0.028
+0.340
+-0.336
+0.154
+0.767
+
+***
+
+Conus euetrios
+SPMN
+M
+1.448
+0.773
+-0.097
+0.012
+-0.221
+0.146
+0.753
+Conus textile
+SPMN
+M
+1.742
+1.484
+-0.226
+0.012 0.109
+0.148 0.785
+Conus capitaneus
+SPMN
+M
+1.752 0.467
+-0.065
+-0.019
+0.130
+0.149
+0.775
+Conus tulipa
+SPMN
+M
+2.132
+1.615 -0.097
+0.064
+-0.152
+0.158
+0.805
+Turridae
+Bathytoma luhdorfi
+UMUT
+M
+1.429
+3.826.
+-0.168
+-0.116
+-0.243
+0.133
+0.789
+Thatcheria mirabilis
+SUM
+M
+1.694
+1.362
+0.087
+-0.322
+-0.084
+0.148
+0.820
+Turris babylonia
+UMUT
+M
+1.316
+4.401
+-0.248
+0.028
+0.135
+0.132
+0.783
+Turris grandis
+UMUT
+M
+1.263
+6.265
+-0.202
+0.173
+-0.308
+0.125
+0.790
+Terebridae
+Subula muscaria
+UMUT
+M
+1.193
+8.682
+-0.256
+0.368
+0.029
+0.105
+0.788
+Oxymeris crenulatus
+UMUT M
+1.233
+6.914
+-0.275
+0.381
+-0.042
+0.117
+0.786
+Heterobranchia
+Architectonicoidea
+Architectonicidae
+Architectonica perspectiva
+UMUT
+M
+1.650
+0.794
+0.366
+0.295
+-0.134
+0.139
+0.821
+Architectonica tavlori
+UMUT
+M
+1.613
+0.789
+0.335
+0.677
+-0.418
+0.153
+0.818
+Phsilaxis radiatus
+UMUT
+M
+1.821
+0.744
+0.269
+0.184
+-0.184
+0.131
+0.819
+Pyramidelloidea
+Pyramidellidae
+Longchaeus canaliculatus.
+UMUT
+M
+1.209
+4.901
+-0.096
+0.217
+-0.455
+0.142
+0.817
+Otopleura mitralis
+UMUT
+M
+1.324
+3.045
+-0.230
+0.594
+-0.949
+0.175
+0.769
+Pyramidella dolabrata
+UMUT
+M
+1.234
+4.099.
+-0.138
+-0.030
+-0.264
+0.146
+0.808
+Opithobranchia
+Cephalaspidea
+Actenoidea
+Acteonidae
+Acteon tornatilis
+UMUT
+M
+1.718
+2.071
+-0.070
+0.005
+-0.126
+0.149
+0.807
+Acteon tornatilis
+UMUT
+M
+1.864
+1.825
+-0.043
+-0.021
+0.124
+0.144
+0.809
+Pupa strigosa
+UMUT
+M
+1.902
+2.101
+-0.192
+0.099
+-0.557
+0.172
+0.791
+
+***
+
+Scaphandridae
+Scaphander lignaria
+UMUT
+M
+1.732 1.611
+-0.255
+0.109
+0.390
+0.147
+0.781
+Haminoeoidea
+Haminoeidae
+Atys naucum
+UMUT
+M
+2.219
+0.323
+0.014
+0.080
+-0.019
+0.141
+0.798
+Bulloidea
+Bullidae
+Bulla vernicosa
+SUM
+M
+1.479 0.964
+-0.347
+0.145
+-0.422
+0.152
+0.699
+Bulla vernicosa
+UMUT
+M
+1.634
+1.600
+-0.215
+0.135
+-0.567
+0.168
+0.789
+Hydatinoidea
+Hydatinidae
+Hydatina amplustre
+UMUT
+M
+3.355 1.262
+-0.113
+0.019
+-0.370
+0.179
+0.803
+Hydatina physis
+UMUT
+M
+5.311
+1.376
+-0.101
+0.087
+-0.124
+0.193
+0.806
+Ringiculoidea
+Ringiculidae
+Ringiculina kurodai
+UMUT
+M
+1.844
+2.154
+-0.133
+0.045
+-0.275
+0.156
+0.801
+Pulmonata
+Basommatophora
+Chilinoidea
+Chilinidae
+Chilina parchappei
+UMUT
+F
+2.190
+2.277
+-0.257
+0.396
+-0.521
+0.207
+0.795
+Lymnaeoidea
+Lymnaeidae
+Radix swinhoei
+UMUT
+F
+2.501
+1.910
+-0.136
+0.321
+0.058
+0.181
+0.808
+Radix swinhoei
+UMUT
+F
+3.024
+1.854
+-0.218
+0.299
+-0.209.
+0.224
+0.802
+Radix auricularia
+UMUT
+F
+4.001
+0.976
+-0.153
+0.334
+-0.342
+0.265
+0.805
+Lymnaea stagnalis
+SHIN
+F
+2.031
+2.331
+-0.159
+0.384
+-0.253
+0.196
+0.806
+Planorboidea
+Planorbidae
+Gyraulus chinensis
+UMUT
+F
+1.361
+0.251
+0.483
+0.701
+-0.391
+0.115
+0.794
+
+***
+
+Planorbarius corneus 
+SPMN 
+F 
+1.236 
+0.388 
+0.322 
+-0.493 
+-0.738 
+0.116 
+0.701 
+Physidae 
+Physa acuta 
+SHIN 
+F 
+1.933 
+2.291 
+-0.305 
+0.223 
+-0.719 
+0.186 
+0.757 
+Euplumonata 
+Ellobioidea 
+Ellobiidae 
+Cassidula nucleus 
+UMUT 
+L 
+1.641 
+1.080 
+-0.037 
+0.209 
+-0.749 
+0.170 
+0.796 
+Ellobium chinense 
+UMUT 
+L 
+1.514 
+2.461 
+-0.138 
+0.217 
+-0.080 
+0.154 0.815 
+Melampus flavus 
+UMUT 
+L 
+1.619 
+1.311 
+0.051 
+0.054 
+-0.600 
+0.156 
+0.816 
+Pythia pantherina 
+SUM 
+L 
+1.381 
+1.867 
+-0.172 
+0.317 
+-0.253 
+0.158 
+0.785 
+Stylommatophora 
+Elasmograta 
+Succineoidea 
+Succineidae 
+Succinea lauta 
+SHIN 
+L 
+3.908 
+1.762 
+-0.407 
+0.407 
+-0.414 
+0.218 
+0.784 
+Orthurethra 
+Enoidea 
+Enidae 
+Buliminus sinaiensis 
+SPMN 
+L 
+1.303 
+4.937 
+-0.031 
+0.412 
+-0.842 
+0.138 
+0.797 
+Sigmurethra 
+Clausiloidea 
+Clausiliidae 
+Achatinella apexfulva (A. leucorraphe) 
+BPBM 
+L 
+1.530 
+1.962 
+-0.019 
+0.588 
+0.472 
+0.141 
+0.821 
+Achatinella bulimoides mistura 
+BPBM 
+L 
+1.484 
+2.225 
+-0.068 
+0.462 
+-0.176 
+0.169 
+0.821 
+Achatinella mustelina 
+BPBM 
+L 
+1.547 
+2.180 
+-0.162 
+0.523 
+-0.225 
+0.182 
+0.814 
+Auriculella aurieula 
+BPBM 
+L 
+1.452 
+2.819 
+-0.108 
+0.448 
+-0.518 
+0.176 
+0.811 
+Auriculella montana 
+BPBM 
+L 
+1.584 
+2.328 
+-0.239 
+0.391 
+-0.557 
+0.186 
+0.799 
+Luchuphaedusa inclyta 
+SPMN 
+L 
+1.203 
+6.958 
+0.143 
+-0.098 
+-1.326 
+0.096 
+0.766. 
+Megalophaedusa martensi 
+SHIN 
+L 
+1.208 
+7.603 
+-0.029 
+0.048 
+-0.618 
+0.111 
+0.803 
+Partulina splendida 
+BPBM 
+L 
+1.550 
+2.582 
+-0.138 
+0.558 
+-0.359 
+0.192 
+0.806
+
+***
+
+Partulina virgulate
+BPBM
+L
+1.596
+2.416
+-0.168 0.495
+-0.141
+0.179
+0.815
+Pinguiphaedusa platydera
+SHIN
+L
+1.234
+5.208
+-0.024
+0.014 -1.052
+0.131
+0.778
+Orthaloidea
+Orthalicidae
+Liguus virgineus
+SPMN
+L
+1.383
+3.829
+-0.062
+0.562
+-0.304
+0.162
+0.808
+Orthalicus undatus.
+SPMN
+L
+1.782
+2.007
+-0.050
+0.495 -0.277
+0.193
+0.808
+Orthalicus undatus
+SPMN
+L
+1.676
+2.295
+-0.141
+0.544
+-0.328
+0.200
+0.805
+Orthalicus undatus
+SPMN
+L
+1.729
+2.046
+-0.121
+0.564
+-0.197
+0.198
+0.809
+Placostylus hargravesi
+SPMN
+L
+1.615 3.434
+0.003
+0.227
+-0.324
+0.145
+0.809
+Cerionidae
+Cerion incanum
+UMUT
+L
+1.166
+4.590
+-0.080
+0.090
+-0.478
+0.146
+0.808
+Bulimulidae
+Acavus phoenix
+SPMN
+L
+2.990
+1.183
+-0.203
+0.753
+-0.034
+0.190
+0.802
+Auris bilabiata
+SPMN
+L
+2.003
+2.364
+-0.111
+-0.043
+-0.627
+0.151
+0.793
+Bostryx tumidulus
+UMUT
+L
+1.598
+1.982 -0.058
+0.464
+-0.472
+0.186
+0.817
+Luchuena reticulata variegata
+UMUT
+L
+1.357
+3.124
+-0.014
+0.369
+-0.080
+0.153
+0.822
+Luchuena reticulata variegata
+UMUT
+L
+1.317
+3.713
+-0.061
+0.324
+-0.515
+0.154
+0.816
+Mirus japonicus
+UMUT
+L
+1.289
+4.371
+0.011
+0.192
+-0.714
+0.140
+0.804
+Neopetraeus arboriferus
+UMUT
+L
+1.469
+3.047
+-0.069
+0.346
+-0.502
+0.165
+0.806
+Zebrina cylindrica
+UMUT
+L
+1.257
+4.600
+-0.099
+0.289
+-0.543
+0.145
+0.814
+Bulimuloidea
+Odontostomidae
+Spixia alvarezi
+UMUT
+L
+1.279
+4.996
+0.020
+0.219
+-0.671
+0.132
+0.806
+Cyclodontina inflata
+UMUT
+L
+1.286
+3.868
+-0.067
+0.337
+-0.828
+0.154
+0.804
+Achatinoidea
+Achatinidae
+Achatina bicarinata
+SHIN
+L
+1.613
+2.745
+-0.028
+0.228
+-0.407
+0.158
+0.808
+Subulinidae
+Rumina decollata
+SPMN
+L
+1.164
+6.439
+-0.114
+0.285
+-0.369
+0.132
+0.820
+Streptaxoidea
+
+***
+
+Streptaxidiae
+Euglandia rosea
+UMUT
+L
+1.812 3.092
+-0.085
+0.275
+-0.238
+0.160
+0.808
+Rhytidoidea
+Rhytididae
+Rhytida dunniae
+UMUT
+L
+2.592
+0.546
+0.089
+0.605.
+-0.312
+0.195
+0.814
+Rhytidoidea
+Haplotrematidae
+Pedinogyra hayii
+SPMN
+L
+1.509
+1.606
+0.297
+0.959
+-0.070
+0.164
+0.809
+Acavoidea
+Acavidae
+Acavus haemastoma
+SHIN
+L
+2.283
+1.440
+-0.054
+0.879
+-0.372
+0.162
+0.807
+Acavus haemastoma
+SHIN
+L
+2.685
+1.356
+-0.013
+0.869
+-0.262
+0.181
+0.808
+Brazieresta naturalistarum
+UMUT
+L
+1.696
+2.596
+-0.075
+0.334 -0.321
+0.171
+0.808
+Caryodidae
+Pedinogyra hayii
+SHIN
+L
+1.436
+0.636
+0.240
+1.059
+-0.125
+0.155
+0.786
+Zonitoidea
+Zonitidae
+Coxia macgregori
+SPMN
+L
+1.145
+0.200
+0.546
+0.883
+-0.100
+0.094
+0.695
+Oxychilus draparnaudi
+UMUT
+L
+1.819
+0.602
+0.088
+0.543
+-0.438
+0.169
+0.804
+Helicarionoidea
+Helicarionidae
+Ryssota lamarckiana
+SPMN
+L
+2.662
+0.632
+-0.077
+0.801
+-0.209
+0.235
+0.810
+Ariophantidae
+Megaustenia siamensis
+SHIN
+L
+5.306
+0.878
+0.011
+0.638
+0.083
+0.189
+0.808
+Helicoidea
+Helicidae
+Eobania vermiculata
+SPMN
+L
+1.890
+0.936
+-0.190
+0.926
+-0.191
+0.191
+0.781
+Helix pomatia
+SHIN
+L
+2.149
+1.248
+-0.142
+0.524
+-0.492
+0.232
+0.807
+Cepaea hortensis
+SHIN
+L
+1.827
+1.085
+-0.075
+0.868
+-0.276
+0.227
+0.811
+Cepaea nemoralis
+SHIN
+L
+2.614
+0.593
+0.126
+0.512
+-0.407
+0.197
+0.810
+
+***
+
+Bradybaenidae
+Acusta despecta despecta
+UMUT
+L
+1.862
+1.099
+-0.072
+0.515
+-0.296
+0.187
+0.812
+Aegista elegantissima
+UMUT
+L
+1.661
+0.495
+0.222
+0.956
+-0.021
+0.148
+0.803
+Aegista elegantissima
+UMUT
+L
+1.717
+0.549
+0.157
+1.023
+-0.276
+0.184
+0.805
+Aegista hatakedai
+SHIN
+L
+1.747
+0.681
+0.161
+0.798 -0.033
+0.156
+0.811
+Aegista oculus
+UMUT
+L
+1.453
+0.774
+0.327
+1.032
+-0.264
+0.161
+0.812
+Bradybaena pellucida
+SHIN
+L
+2.123
+0.900
+0.005
+0.637
+0.013
+0.176
+0.816
+Bradybaena similaris
+SHIN
+L
+1.791
+0.872
+-0.140
+0.617
+-0.160
+0.168
+0.787
+Bradybaena similaris
+SHIN
+L
+1.778
+0.882
+0.058
+0.645
+0.112
+0.154
+0.812
+Calocochlia zonifera.
+SPMN
+L
+1.687
+1.688
+-0.134
+0.724
+-0.307
+0.217
+0.812
+Chloraea stenopsis
+UMUT
+L
+1.812
+0.878
+-0.043
+0.679
+-0.461
+0.200 0.804
+Chrysallis caniceps
+SHIN
+L
+1.466
+3.427
+-0.150
+0.389
+-0.307
+0.164
+0.805
+Chrysallis virgata
+SHIN
+L
+1.573
+2.973
+-0.152
+0.559
+-0.536
+0.194
+0.802
+Chrysallis virgata
+SHIN
+L
+1.392
+3.815
+-0.329
+0.482
+-0.106
+0.147
+0.776
+Chrysallis virgata
+SPMN
+L
+1.454
+3.607
+-0.406
+0.508
+-0.531
+0.160
+0.721
+Euhadra aomoriensis
+SHIN
+L
+1.941
+0.691
+0.048
+0.662
+-0.145
+0.171
+0.809
+Euhadra aomoriensis
+SHIN
+L
+1.910
+0.827
+0.075
+0.644
+-0.075
+0.167
+0.814
+Euhadra aomoriensis
+SHIN
+L
+1.868
+0.739
+0.056
+0.696
+-0.236
+0.178
+0.811
+Euhadra aomoriensis
+SHIN
+L
+1.990
+0.808
+0.057
+0.655
+-0.423
+0.200
+0.814.
+Euhadra herklotsi herklotsi
+SPMN
+L
+1.851
+0.805
+0.089
+0.839
+-0.391
+0.207
+0.813
+Euhadra quaesita
+SHIN
+L
+1.802
+1.041
+0.028
+0.460
+-0.581
+0.187
+0.814
+Euhadra quaesita
+SHIN
+L
+2.087
+0.814
+0.067
+0.705
+-0.454
+0.216
+0.812
+Euhadra quaesita
+SHIN
+L
+2.158
+0.550
+0.102
+0.417
+-0.317
+0.164
+0.812
+Euhadra sandai communis
+SPMN
+L
+2.007
+0.664
+0.096
+0.803
+-0.331
+0.198
+0.813
+Euhadra scaebola
+SPMN
+L
+1.716
+0.563
+0.162
+0.994
+-0.213
+0.177
+0.805
+Helicostyla marinduquensis
+SPMN
+L
+1.767
+1.852
+-0.281
+0.687
+-0.035
+0.183
+0.781
+Helicostyla mirabilis
+SPMN
+L
+2.284
+1.214
+-0.143
+0.715
+-0.242
+0.258
+0.805
+Trishoplita pallens
+SHIN
+L
+1.774
+0.693
+0.117
+0.671
+-0.116
+0.158
+0.809
+Camaenidae
+Amphidromus atricallosus
+SHIN
+L
+1.585
+2.616
+-0.277
+0.446
+-0.432
+0.183
+0.787
+
+***
+
+Amphidromus perversus
+SHIN
+L
+1.496
+2.724
+-0.115
+0.422
+-0.280
+0.172 0.815
+Amphidromus perversus
+SHIN
+L
+1.645.
+2.429
+-0.274
+0.441
+-0.533
+0.194
+0.789
+Helicostyla horida
+SHIN
+L
+1.595
+2.235
+-0.215
+0.790
+0.299
+0.155
+0.795
+Papuia hindei
+SPMN
+L
+1.591
+2.895
+-0.272
+0.650
+0.144
+0.163
+0.788
+Papuina chapmani
+SPMN
+L
+1.764
+1.857
+-0.198
+0.901
+0.088
+0.190 0.800
+Papuina malantanensis
+SPMN
+L
+1.633
+1.703
+-0.131 1.043
+0.171
+0.176
+0.807
+Papuina melanesia
+SPMN
+L
+1.822
+1.405
+0.043
+0.955
+-0.306
+0.172
+0.808
+Phoenicobius aratus
+SHIN
+L
+1.435
+2.643
+-0.077
+0.651
+-0.598
+0.193
+0.808
+Pleurodonte lamarckii
+UMUT
+L
+1.615
+0.819
+-0.194
+1.075
+-0.085
+0.164
+0.749
+Satsuma ferruginea
+SHIN
+L
+1.648
+1.082
+-0.052
+0.770
+-0.026
+0.169 0.808
+Satsuma japonica
+SHIN
+L
+1.555
+1.327
+-0.112
+0.938
+-0.327
+0.212 0.796
+Satsuma largillierti
+UMUT
+L
+1.637
+1.252
+-0.143
+0.699
+-0.403
+0.200 0.798
+Spaherospira appendiculata
+SHIN
+L
+1.798
+1.280
+-0.102 0.910
+-0.527
+0.185
+0.801.
+Sphaerospira mattea
+SHIN
+L
+1.624
+1.210
+-0.133
+0.860
+-0.477
+0.222
+0.797
+Sphaerospira mattea
+SHIN
+L
+1.699
+0.889
+-0.089
+0.923
+-0.360
+0.215
+0.796
+Xanthomelon pachystylum
+SPMN
+L
+2.233
+1.163
+-0.140
+0.765
+-0.074
+0.223
+0.809
+Helminthoglyptidae
+Micrarionta kelletti
+UMUT
+L
+1.946
+0.858
+-0.082
+0.847
+-0.698
+0.229
+0.794
+Hygromiidae
+Helicigona faustina
+SPMN
+L
+1.832
+0.637
+0.145
+0.852
+-0.244
+0.179
+0.812
+
+
