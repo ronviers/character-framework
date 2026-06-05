@@ -1,11 +1,13 @@
 # Character — next-session handoff
 
-State pointer. Thin by design: committed detail lives in `character_receipts.md` / `character_frontier.md` /
-`character.md` / git — this file holds **current state + open threads** only. All work below is committed + pushed.
+State pointer — **forward-facing only**: where things are now and what to do next. The chronology lives in
+git + canon (`character.md` / `character_receipts.md` / `character_frontier.md` / `character_substrate_ledger.md`);
+**do not accrete dated session-history blocks** — *rewrite* the current-state section each session, don't append.
+All work below is committed + pushed.
 
-## Where things stand
+## Where things stand (current)
 
-**Latest (2026-06-05, session 3 — shell dead-ended, substrate ledger created, QEC transverse-decomposition computed):**
+**State (2026-06-05):**
 - **Shell T2 on real Collins data → weak pass → FAIL.** The real-normal endpoint (`shell_t2_collins.py`,
   184 shells) settles (84% converge) but only to a sub-region (within/pooled 0.34) and barely beats a
   stage-shuffle null (0.90). A weak pass is a fail. **Shell is a dead-end SUBSTRATE** — *not* a tombstone
@@ -50,58 +52,6 @@ deposit. Open, ranked, none blocking:
 3. The standing open threads below (Tier-2 sgMAM #1; β-collapse R3 #3).
 **Consult the substrate ledger before proposing or hunting any new substrate** (affordance gate first).
 
-**Prior session — gMAM built + adjudicated — `current-aids-escape` KILLED as a barrier effect,
-metabolized as the transverse-decomposition theorem.** The arc:
-- **gMAM minimizer implemented + validated** (Maier–Stein gate: gradient action `0.5000` to 0.01%, and the
-  `β>β_c` instanton correctly bows off-axis — `gmam_maier_stein.py`).
-- **Homochiral: the σ→0 quasipotential is FLAT in the current** — `ΔŜ_H≈0` over `𝒜:0→21.8`
-  (`Ŝ=0.382→0.380`, vs the finite-σ slope's `−17%`), robust across seed/momentum/eps/both-groups; the
-  instanton never bends off the symmetric subspace (`gmam_current_aids.py`, `gmam_affinity_scaling.py`).
-  Autocat A: the consistent null. So the committed finite-σ `ΔV` drop (`0.328→0.272`) is the **irreversible
-  Eyring–Kramers PREFACTOR**, not the FW barrier (`ΔV_eff = ΔV_true + σ²·logK(𝒜)`).
-- **Why (symmetry):** the current is *exactly transverse* to the escape mode at the saddle
-  (`|cos(J,e_u)|~1e-15`; escape = 100% the between-group breaking mode, current = within-group 3-cycle),
-  **symmetry-protected** — exact across a saddle-moving μ-sweep (`gmam_orthogonality_sweep.py`), broken `∝δ`
-  by a within-group Z₃ break (`gmam_symmetry_break_probe.py`). Barred from `ΔV` by the
-  **transverse-decomposition theorem** (Graham–Haken; FW §4.3; Bouchet–Reygner). 3 outside reports unanimous
-  (`docs/research_prompt_current_aids_escape_prefactor_theorem.md`).
-- **Selection rule confirmed in-substrate:** mixing the irreps with that same δ turns the barrier effect ON
-  (`ΔŜ_H: 0→0.33` as `e_u·cyclic→0.64` — the Maier–Stein bow-out, `gmam_mixing_test.py`).
-- **LANDED in canon:** `pa:transverse-decomposition` (new prior-art); receipts §Branch-survival barrier
-  (reversed reading); frontier §Tombstones `current-aids-escape`; `character.md` §Two tangent sectors (the
-  large-deviation face of the DFS) + §The two-survivals plane (`ΔV⊥𝒜` by symmetry). Broader implication —
-  the metric⊥topological orthogonality, asserted in five dialects across `character.md`, is **one mechanism**
-  (Schur → transverse decomposition; protected current barred from the metric sector's barriers, confined to
-  their prefactors). **► Next: Tier-2 Hamiltonian sgMAM** (no ε) to confirm invariance at extreme exclusion
-  (μ≈3, past the Tier-1 ε-floor where ΔŜ scatters); the surface-code reading (same orthogonality) is asserted
-  not computed. See Open threads #1–#2.
-
-The two-survivals plane is fully instanced (all four corners), and **`both` (`ΔV>0 ∧ 𝒜≠0`) is now reached two
-ways on each of two independence axes** — *symmetry* and *bifurcation mechanism*:
-
-- **`both` via exchange-SSB** — the co-handed twin-cycle (`twin_cycle_corner.py`): `𝒜≈21.8`, `ΔV≈0.018`;
-  sign(`𝒜`) *preserved* across the branch flip where parity *reverses* it (the orthogonality made visible a
-  way parity can't). The competitive-exclusion mechanism is **handedness-blind** (`twin_mu_sweep.py`,
-  `max|Δa|≈2.4e-11`; same `μ_c=0.833`, same linear `ΔV`).
-- **`both` via soft pitchfork** — the autocatalytic (Kondepudi–Nelson) substrate (`autocat_pitchfork.py`
-  current-free; `autocat_both.py` with current): `ee*²` linear, `ΔU∝ee*⁴` **quadratic** (vs the twin's
-  hard/linear), coexistence window `ec∈[0.05,0.20]`. **Calibrated claim (channel, honest):** symmetry breaking
-  does NOT fix the barrier scaling — the *saturation mechanism* does. NOT "mechanism-independent" (owed: a
-  clean normal-form reduction + >2 instances). Core sentence committed (`character.md` §The two-survivals plane).
-- **Competitive-exclusion review metabolized** (`docs/review_prompt_competitive_exclusion.md`): the L↔R
-  transition is a **symmetric transcritical** (boundary branches, exchange of stability), not a pitchfork; no
-  bare-LV regime gives a soft pitchfork. Folded into receipts §Branch-survival barrier.
-- **Nudge track** (`character_frontier.md` §Nudges) — a parallel *doc-gate* track for steering candidates;
-  first entry `nudge:loaded-endpoint-descent` (from the sleep lay-question). **Policy: HELD** — accumulate the
-  corpus, read the shapes, promote nothing to core yet (even the mature-looking
-  *apparent-structure ≠ protected-observable* shape).
-- **β-collapse 3rd register — CLOSED (theory-first).** Three channel derivations
-  (`docs/research_prompt_beta_r3_derivation.md`) unanimously reject `α_s=β` on the linear-Gaussian confined
-  fractional process — structurally: the FDR is an *amplitude ratio*, so `β` cancels; only the nonlinear
-  response sector could supply it. Parked as a clean negative result. The **2-register collapse** (R1
-  covariance + R2 Norros queue, `beta_collapse.py`) is the banked-strong over-determination. Record:
-  `docs/beta_collapse_3rd_register_design.md`.
-
 ## Portable protocol — the transverse-decomposition test (TDT)
 
 The QEC arc was not about QEC; it is a **reusable test** for the metric ⊥ topological orthogonality
@@ -142,23 +92,10 @@ translation = the symmetry — machine-precision invariance across the affinity 
    *predicts* invariance; the Hamiltonian sgMAM (Grafke–Schäfer–Vanden-Eijnden, first-derivative-only, no ε
    — momentum stays finite as `xᵢ→0`) is the right tool to verify it without the boundary blowup. Plan §3
    Tier-2 + §8. Low urgency (the verdict doesn't hinge on it; this closes the one boundary-limited corner).
-2. **The surface-code reading — ✓ RESOLVED 2026-06-05** (computed; frontier `qec-transverse-decomposition`,
-   receipts §QEC transverse decomposition). The asserted barrier-invariance reading is now measured: logical
-   ⊥ syndrome exact; bit-flip barrier exact-invariant to a syndrome-active phase current; leak ∝ δ under
-   Y-mixing; and the boundary mapped — exact invariance is symmetry-protected, not generic (no within-sector
-   exact-transverse current at d=5). Unifies the three checked substrates under one mechanism (Schur).
-   Remaining (optional): a real-substrate instance → vindication (PICK-UP #2).
-3. **β-collapse R3 sum-rule check** *(low priority)* — model c's `α_s+β=1` vs a/b's no-exponent; the vary-`k`
+2. **β-collapse R3 sum-rule check** *(low priority)* — model c's `α_s+β=1` vs a/b's no-exponent; the vary-`k`
    probe repurposed (confined fLE + CK estimator). A *side* finding (complementarity relation), **not** the
    collapse. Or close R3 clean. My lean: let it rest unless the sum rule itself interests.
-4. **autocat-`both` noisy barrier** — *attempted (probes), returned a null* (folded into #1). The
-   `a=b` vs `a≠b` `ΔV(𝒜)` comparison on the soft-pitchfork `both` showed **no current effect** on escape
-   (flip counts identical within Poisson, `𝒜:0→2.3`). Diagnostics: the activated σ-window is brutally
-   narrow (0 flips → saturated over a thin band), current intrinsically weak (the weak cycle that makes it
-   a soft pitchfork makes its current weak), branches interior (`m*=0.71`). Not worth a committed
-   experiment file as-is; revisit only if the outbound report (#1) suggests a deeper-branch / different
-   operating point worth measuring.
-5. **Nudge corpus** — HELD. Next loaded-endpoint / steering-miss → log as a nudge (or add a trigger to an
+3. **Nudge corpus** — HELD. Next loaded-endpoint / steering-miss → log as a nudge (or add a trigger to an
    existing one); promote nothing. Watch whether they cluster in the apparent-structure≠protected shape.
 
 ## Doc + experiment state
