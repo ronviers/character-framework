@@ -57,12 +57,16 @@ deposit. Open, ranked, none blocking:
    (drive vs barrier are separate optical dials), **move 1 present in real measured data** (Blickle 2009
    arXiv:0902.2650: λ₁ = relaxation + i·circulation, the Re/Im split), **move 2 confounded** (1D drive also tilts the
    barrier — the clean current-at-fixed-barrier cut needs a radial/2D observable or sim), **move 3 missing but
-   software-only** (asymmetric SLM potential); trajectory data non-public (on request). **Live next step = Path A:**
-   calibrate our glass-ring simulator to Blickle 2009's real parameters → reproduce the measured λ₁ (move 1 vs real
-   data), do the clean move-2/3 in sim (which the 1D experiment can't), and emit the exact experiment to hand the
-   Bechinger group. Method note: the external prompt-collection channel bloats + salience-matches; **primary-source
-   agent scouts are what worked** (they killed shell / skyrmion / QHE / vortex and verified the colloid lead by
-   reading the actual papers).
+   software-only** (asymmetric SLM potential); trajectory data non-public (on request). **Path A DONE — selection
+   rule ISOLATED** (`experiments/colloid_ring_transverse.py`): the colloid Fokker–Planck operator gives the
+   threshold exact (∂Re λ/∂f|₀ machine-zero iff reflection-symmetric, two methods) and the generic onset
+   c₁=kδ+O(δ³) (slope 1, 7 decades); exact-flatness = the degenerate single-harmonic limit. **The cross-rule is
+   upgraded** from exact invariance to the symmetry-protected linear selection rule (`character.md` §The cross-rule;
+   receipts §Colloid ring transverse). **Owed:** real-*data* vindication = the experiment (sweep a ring potential
+   through exact reflection symmetry, watch c₁ cross 0 linearly; software-only on the SLM rig). **The door-widening
+   process is now a framework file:** `character_substrate_method.md` (the reproducible method that broke the
+   long-stymied real-data search). Method note: external prompt-collection channels bloat + salience-match;
+   **primary-source agent scouts are what worked**.
 2. The standing open threads below (Tier-2 sgMAM #1; β-collapse R3 #3).
 **Consult the substrate ledger before proposing or hunting any new substrate** (affordance gate first).
 
