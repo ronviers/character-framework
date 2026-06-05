@@ -25,6 +25,15 @@ State pointer. Thin by design: committed detail lives in `character_receipts.md`
   **symmetry-protected, not generic** (the triad's $Z_3$ boundary, mirrored one-to-one). **Open Thread #2
   resolved.** Synthetic = calibration, not vindication — but the content (protected information shielded from
   the syndrome churn) is the operationally load-bearing fact.
+- **The QEC arc generalized into a portable protocol** — the **transverse-decomposition test (TDT)**,
+  written up in §TDT below — and immediately **run on a third substrate, glass**
+  (`glass_aging_transverse.py`): on a biased ring the aging/relaxation spectrum is invariant to the
+  protected current to machine precision across a wide affinity sweep (the established currents inside
+  it), the current confined to the imaginary part; breaking the ring's $Z_N$ symmetry couples them (∝δ²
+  onset). This **computes the cross-rule** ("aging never couples to circulation") — asserted in
+  `character.md` §The cross-rule, now measured — and broadens it: the protected current is barred from
+  *all* metric-sector observables (barrier / logical-error exponent / aging exponent). Glass's ledger 💎
+  filled.
 
 **Latest (2026-06-04, session 2 — shell data acquired, T2 apparatus calibrated, the synthesis landed in frontier):**
 - **Data in hand** (`data/shell/`, see `ACQUISITION_CHECKLIST.md`): Collins 2021 normal-gastropod aperture
@@ -156,6 +165,36 @@ ways on each of two independence axes** — *symmetry* and *bifurcation mechanis
   response sector could supply it. Parked as a clean negative result. The **2-register collapse** (R1
   covariance + R2 Norros queue, `beta_collapse.py`) is the banked-strong over-determination. Record:
   `docs/beta_collapse_3rd_register_design.md`.
+
+## Portable protocol — the transverse-decomposition test (TDT)
+
+The QEC arc was not about QEC; it is a **reusable test** for the metric ⊥ topological orthogonality
+(`pa:transverse-decomposition`) in any driven substrate. Run on the homochiral triad (gMAM),
+the surface code (QEC), and the aging/glass sector (receipts §Glass aging transverse — a third clean
+run). May now graduate to `character_grounding_method.md`.
+
+**Preconditions — run the affordance gate first** (`feedback_substrate_affordance_filter`): a driven
+NESS with (i) a **protected current** 𝒜 you can tune, (ii) a **metric-sector observable** `B` (an
+escape barrier ΔV, a logical-error exponent, an aging exponent…), (iii) a **symmetry** separating the
+current's sector from `B`'s mode, and (iv) a **knob δ** that breaks it. No tunable current ⇒ vacuous
+(an equilibrium / aging-only substrate fails here, the dead-shell trap).
+
+**The three moves:**
+1. **Orthogonality** — show the current lives in a different sector/irrep from `B`'s escape/relaxation
+   mode (`cos≈0`, or zero syndrome, or a Re/Im split).
+2. **Invariance** — sweep 𝒜 **with the established current values as a subset of the sweep**; `B` is
+   invariant across the *whole* range (not one cherry-picked point). This is `ΔV⊥𝒜` / "aging never
+   couples to circulation." The current rides the prefactor / the imaginary part / the conjugate sector.
+3. **Selection rule** — turn on δ (break the protecting symmetry / add proximity); `B` becomes
+   𝒜-sensitive **∝ δ**. The orthogonality is *symmetry-protected, not generic*.
+
+**Output:** converts an *asserted* decoupling into a *measured* one; deposits a candidate sentence; and
+each new substrate broadens the class of metric observable `B` shown to exclude the current.
+
+**Realizations (all run):** triad (`B` = escape barrier ΔV; gMAM) · surface code (`B` = logical-error
+exponent; CSS X/Z = the symmetry) · glass (`B` = aging exponent / relaxation rate; the ring's `Z_N`
+translation = the symmetry — machine-precision invariance across the affinity sweep,
+`glass_aging_transverse.py`).
 
 ## Open threads (ranked; none blocking)
 

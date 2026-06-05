@@ -370,7 +370,9 @@ systems can couple into a frustrated joint triad neither had (Harary; Cartwright
 Antal–Krapivsky–Redner). Proximity is then a creation operator for protected current.
 
 **The cross-rule.** In isolation the two bits are independent (aging never couples to
-circulation). Proximity couples them: the exceptional-point locus of the metric rule is where
+circulation — **computed**: the aging spectrum is invariant to the protected current to machine
+precision across a wide affinity sweep, coupling on only when the protecting symmetry breaks;
+receipts §Glass aging transverse). Proximity couples them: the exceptional-point locus of the metric rule is where
 a real eigen-pair goes defective and can split into a complex-conjugate pair. EP creation by
 coupling, and its transfer to a classical NESS Jacobian, are established (Bergholtz–Budich–
 Kunst). **But the EP is not the source of protection** — a generic coupling-created complex

@@ -539,6 +539,25 @@ record.
   within-sector current shown exactly transverse with no protecting symmetry. `experiments/
   qec_transverse_decomposition.py`, `qec_syndrome_current.py`, `qec_within_sector_current.py`.
   `pa:transverse-decomposition`.
+* **Glass / aging transverse decomposition** `synthetic` [The cross-rule]. The cross-rule (§The
+  cross-rule) — "aging never couples to circulation," with proximity coupling them — computed by a
+  current **sweep** on the established-current substrate (a biased $N{=}24$ ring, cycle affinity
+  $\mathcal{A}=N\ln(p_+/p_-)$). Holding the relaxation scale $p_++p_-$ fixed and sweeping the bias, the
+  generator is circulant: $\mathrm{Re}\,\lambda_k=(p_++p_-)(\cos\theta_k-1)$ (the aging/relaxation
+  spectrum) depends only on the scale, while $\mathrm{Im}\,\lambda_k=(p_--p_+)\sin\theta_k$ carries the
+  current. **Result:** the aging rate $|\mathrm{Re}\,\lambda_{\text{slow}}|$ is **invariant to machine
+  precision** ($\pm2\times10^{-16}$, max dev $\sim10^{-15}$) across $\mathcal{A}\in[0,30]$ — the
+  established currents (gMAM $0\to21.8$, twin-cycle $21.8$) sitting inside the sweep — while the current
+  $\max|\mathrm{Im}\,\lambda|$ is cranked $0\to0.56$. Aging $\perp$ circulation, over the whole range,
+  not a single point. **Selection rule:** breaking the ring's translation ($Z_N$) symmetry
+  (site-dependent rates $\delta$, loop affinity held) makes the aging rate move with $\mathcal{A}$,
+  onset $\propto\delta^2$ — the robust invariant is the **threshold** (exactly zero iff the symmetry
+  holds), not the onset power. **Third realization** of the transverse-decomposition test (escape
+  barrier $\to$ logical-error exponent $\to$ **aging exponent**): the protected current is barred from
+  *all* metric-sector observables, not just barriers. Scope: synthetic $=$ calibration. Falsify: a
+  translation-symmetric driven ring whose relaxation spectrum shifts with the bias; or aging–current
+  coupling persisting at exact symmetry. `experiments/glass_aging_transverse.py`.
+  `pa:transverse-decomposition`, `pa:ck-aging`.
 
 ---
 

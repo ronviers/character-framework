@@ -339,7 +339,12 @@ before committing a sentence. Promotion is a deliberate later event, never autom
   logical string), so exact $\Delta V\perp\mathcal{A}$ is **symmetry-protected, not generic** — the
   same boundary as the triad's $Z_3$ (`gmam_symmetry_break_probe`). Below the line because synthetic =
   calibration; but it unifies the three checked substrates (triad, surface code, cascade) under one
-  mechanism (Schur), and carries the seashell's re-homed deposit. · **↑** a *real* substrate showing
+  mechanism (Schur), and carries the seashell's re-homed deposit. **Now a portable protocol** (the
+  transverse-decomposition test, handoff §TDT), run on a third metric observable — the **aging
+  exponent** (biased ring): aging is invariant to the protected current to machine precision across a
+  wide affinity sweep, coupling on only when the ring's $Z_N$ symmetry breaks (receipts §Glass aging
+  transverse) — so the current is barred from *all* metric-sector observables, not just barriers; the
+  cross-rule "aging never couples to circulation" computed. · **↑** a *real* substrate showing
   barrier-invariance to a symmetry-separated current plus the leak under mixing → `battery`. · **✗** a
   CSS code whose logical-barrier exponent shifts under a pure conjugate-sector current; or a
   within-sector current shown exactly transverse with no protecting symmetry. · **→** `character.md`
