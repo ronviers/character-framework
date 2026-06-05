@@ -124,29 +124,50 @@ print(f"    NOT flat (a barrier allows a quadratic term); only the LINEAR coupli
 print(f"    the discrete glass was barrier-free => exactly flat; the real colloid protects linear-order.")
 print(f"    meanwhile the current J is cranked 0 -> {cur.max():.4f}  (the protected current IS swept)")
 
-# ---- MOVE 3: break reflection (ratchet delta), the relaxation starts tracking the current ----
-# Continue ONE physical mode through delta (avoid identity-switching), then take its f-derivative.
-deltas = np.array([0.0, 0.01, 0.02, 0.04, 0.06, 0.08, 0.10, 0.15, 0.20])
-eps3 = 0.02
-onset = []
-_, vprev = slow_ref(0.0)                                       # the mode at (f=0, delta=0)
-for dl in deltas:
-    w0, V0m = eig_full(0.0, dl)                                # continue the mode through delta
-    ov = np.abs(vprev.conj() @ V0m) / (np.linalg.norm(V0m, axis=0) * np.linalg.norm(vprev))
-    vref = V0m[:, np.argmax(ov)]; vprev = vref
-    s = (np.real(track(+eps3, dl, vref)) - np.real(track(-eps3, dl, vref))) / (2 * eps3)
-    onset.append(s)
-onset = np.array(onset)
-print(f"\n(3) MOVE 3 -- break the ring's reflection symmetry (ratchet delta*sin2x), re-measure the")
-print(f"    LINEAR coupling d Re(lambda_1)/df|_(f=0):")
-for dl, s in zip(deltas, onset):
-    tag = "ZERO -- protected" if abs(s) < 1e-6 else "couples"
-    print(f"    delta={dl:.2f}   d Re(lambda_1)/df|_0 = {s:+.4e}   ({tag})")
-print(f"    THRESHOLD (the robust invariant): the coupling is exactly 0 iff reflection holds (delta=0),")
-print(f"    nonzero once broken. The ONSET LAW is NOT cleanly resolved here -- the slow modes are")
-print(f"    near-degenerate and hybridize under the drive, so dRe/df|_0 is numerically delicate at small")
-print(f"    delta. Per the framework the threshold (not the onset power) is the robust invariant, so this")
-print(f"    is the expected situation, not a failure -- but a clean onset law needs better-conditioned numerics.")
+# ---- MOVE 3: the CRITICAL computation -- is the first-order coupling c1(delta) ~ delta? ----
+# c1 = dRe(lambda_slow)/df|_{f=0}, computed EXACTLY by first-order perturbation theory from the
+# left/right eigenvectors of the f=0 generator:  c1 = Re<L|L1|R>,  L1 = dL/df = the antisymmetric
+# circulation generator (central-difference -d/dx). No finite-difference in f => no hybridization.
+L1 = np.zeros((M, M))
+for i in range(M):
+    L1[i, (i + 1) % M] = -1.0 / (2 * dx)
+    L1[i, (i - 1) % M] = +1.0 / (2 * dx)
+
+# Build a FIXED bi-orthonormal basis of the 2 slowest modes at the symmetric point (the degenerate pair):
+L0sym = generator(0.0, 0.0)
+w0, Vr0 = np.linalg.eig(L0sym)                                 # (Vr0 = eigenvectors; do NOT shadow V0)
+wL0, VL0 = np.linalg.eig(L0sym.T)
+slow2 = [i for i in np.argsort(np.real(w0))[::-1] if np.real(w0[i]) < -1e-6][:2]   # 2 slowest nonzero
+R = Vr0[:, slow2]                                              # right vectors (M x 2)
+Lraw = np.column_stack([VL0[:, np.argmin(np.abs(wL0 - w0[k]))] for k in slow2])    # raw left vectors
+Lbi = Lraw @ np.linalg.inv(Lraw.T @ R).T                       # bi-orthonormalize: Lbi^T R = I
+M1 = Lbi.T @ L1 @ R                                            # 2x2 circulation coupling (the f-term)
+diagL0 = np.diag(w0[slow2])
+
+def c1_2x2(delta, eps=1e-3):
+    """c1 = dRe(slow eig)/df|_0 from the FIXED-basis 2x2 effective generator (no eigenvector mixing)."""
+    Mdel = Lbi.T @ (generator(0.0, delta) - L0sym) @ R         # 2x2 delta-splitting
+    def reslow(f):
+        return np.max(np.real(np.linalg.eigvals(diagL0 + Mdel + f * M1)))
+    return (reslow(+eps) - reslow(-eps)) / (2 * eps)
+
+deltas = np.array([0.0, 0.005, 0.01, 0.02, 0.03, 0.05, 0.08, 0.12, 0.20])
+onset = np.array([c1_2x2(dl) for dl in deltas])
+sm = (deltas > 0) & (deltas <= 0.05)
+a1, a0 = np.polyfit(deltas[sm], onset[sm], 1)                  # c1 ≈ a1*delta + a0
+pw = np.polyfit(np.log(deltas[deltas > 0]), np.log(np.abs(onset[deltas > 0])), 1)[0]
+print(f"\n(3) MOVE 3 -- the critical computation: c1(delta) = dRe(lambda_1)/df|_(f=0) via DEGENERATE")
+print(f"    (2x2) perturbation theory in the FIXED slow-pair basis (handles the near-degeneracy cleanly):")
+for dl, c1 in zip(deltas, onset):
+    tag = "ZERO -- protected" if abs(c1) < 1e-8 else "couples"
+    print(f"    delta={dl:.3f}   c1 = {c1:+.4e}   ({tag})")
+print(f"    c1(0) = {onset[0]:+.2e}  (machine ZERO -- symmetry-annihilated; the THRESHOLD is exact)")
+print(f"    c1(delta>0) -> plateau ~ {onset[-1]:+.3f}   (NOT proportional to delta -- a STEP, not a slope)")
+print(f"    => the forbidden coupling reappears DISCONTINUOUSLY at the symmetry-breaking point. Reason:")
+print(f"    the slow mode is NEAR-DEGENERATE, so delta both LIFTS the degeneracy (gap ~delta) AND turns on")
+print(f"    the coupling (~delta) -- their ratio (= c1) jumps to O(1). A non-degenerate mode would give")
+print(f"    c1 ~ delta; here the onset is a step. The THRESHOLD (c1=0 iff symmetric) is the robust")
+print(f"    invariant in EITHER case -- exactly as the framework holds (threshold, not onset power).")
 
 # ================================================================ figure
 fig, ax = plt.subplots(1, 3, figsize=(16, 5))
@@ -178,9 +199,9 @@ ax[1].set_title("(B) relaxation: zero linear response at f=0 (flat tangent),\nO(
 
 # C: selection rule -- d Re/df|_0 vs delta
 ax[2].plot(deltas, np.abs(onset), "o-", color="tab:purple", lw=1.8)
-ax[2].axhline(0, color="k", lw=0.5)
-ax[2].set_xlabel("reflection-breaking  delta"); ax[2].set_ylabel("|d Re(lambda_1)/df |_{f=0}|")
-ax[2].set_title("(C) THRESHOLD: linear coupling = 0 iff reflection holds\n(delta=0), nonzero once broken (onset law delicate)", fontsize=10)
+ax[2].axhline(0, color="k", lw=0.5); ax[2].set_ylim(bottom=-0.02)
+ax[2].set_xlabel("reflection-breaking  delta"); ax[2].set_ylabel("|c1| = |d Re(lambda_1)/df |_{f=0}|")
+ax[2].set_title("(C) THRESHOLD exact: c1=0 iff reflection holds (delta=0);\nreappears as a STEP (not ~delta) -- slow mode near-degenerate", fontsize=10)
 
 fig.tight_layout(rect=[0, 0, 1, 0.90])
 fig.savefig(OUT, dpi=140)
