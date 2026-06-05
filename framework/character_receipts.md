@@ -558,6 +558,28 @@ record.
   translation-symmetric driven ring whose relaxation spectrum shifts with the bias; or aging–current
   coupling persisting at exact symmetry. `experiments/glass_aging_transverse.py`.
   `pa:transverse-decomposition`, `pa:ck-aging`.
+* **Colloid ring transverse decomposition** `synthetic` [The cross-rule]. The cross-rule's selection
+  rule on the *continuous* Fokker–Planck generator of a driven Brownian particle on a ring
+  (Bechinger/Seifert toroidal-trap model; $\dot x=-V'(x)+f+\sqrt{2D}\,\eta$). Operator validated vs
+  the analytic free ring ($\lambda_k=-Dk^2-ikf$). **Move 1:** the slow mode is
+  $\lambda_1=\mathrm{Re}$ (relaxation) $+\,i\,\mathrm{Im}$ (revolution) — the Re/Im split
+  Blickle/Mehl/Bechinger 2009 (arXiv:0902.2650) measured. **Threshold:** on a ring $f$ is a
+  nonconservative torque (not a single-valued tilt), so sweeping it at fixed symmetric potential
+  cranks the current at fixed barrier; the linear response $\partial\mathrm{Re}\,\lambda/\partial f|_0$
+  is machine-zero, forced by reflection ($x\to-x\equiv f\to-f$ makes $\mathrm{Re}\,\lambda$ even in
+  $f$). **Selection rule:** a reflection-breaking ratchet ($\delta\sin 2x$) turns the linear coupling
+  on as $c_1(\delta)=k\delta+O(\delta^3)$ — slope 1 over **seven decades** ($\delta\in[10^{-7},0.2]$),
+  via degenerate $2\times2$ perturbation theory in the fixed slow-pair basis (single-mode PT and
+  finite-difference-in-$f$ both leak the $O(1)$ circulation coupling near the degeneracy). **Degenerate
+  vs generic:** a single-harmonic ring has exactly-degenerate slow modes, $\delta$ cancels in the $c_1$
+  ratio and the onset collapses to a step — the discrete glass's exact flatness is this degenerate
+  limit; a second harmonic ($V_2\cos 2x$, still reflection-symmetric) lifts the degeneracy and restores
+  the linear law. Robust invariant: the **threshold** ($c_1=0$ iff symmetric); the onset power is
+  parity-dependent, not itself protected. Scope: synthetic = calibration on the real system's measured
+  structure (the Re/Im split), **not** a data measurement — real-data vindication is the owed experiment
+  (sweep a ring potential through exact reflection symmetry; watch $c_1$ cross zero linearly; software-
+  only on the SLM/EOM rig). Falsify: a reflection-symmetric driven ring whose relaxation linear-response
+  to the current is nonzero. `experiments/colloid_ring_transverse.py`. `pa:transverse-decomposition`.
 
 ---
 

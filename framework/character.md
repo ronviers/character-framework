@@ -369,10 +369,21 @@ balance on the *union* graph including the coupling edges, and two balanced (non
 systems can couple into a frustrated joint triad neither had (Harary; Cartwright;
 Antal–Krapivsky–Redner). Proximity is then a creation operator for protected current.
 
-**The cross-rule.** In isolation the two bits are independent (aging never couples to
-circulation — **computed**: the aging spectrum is invariant to the protected current to machine
-precision across a wide affinity sweep, coupling on only when the protecting symmetry breaks;
-receipts §Glass aging transverse). Proximity couples them: the exceptional-point locus of the metric rule is where
+**The cross-rule.** The invariant is not flatness but a **symmetry-protected selection rule** — the
+linear-response face of the transverse decomposition (`pa:transverse-decomposition`). Because the
+protected current `𝒜` and the aging rate sit in different sectors of the separating symmetry (`𝒜`
+odd under it, the rate even), `𝒜` cannot enter the aging sector at first order while the symmetry
+holds — `∂(aging rate)/∂𝒜|₀ = 0`, a symmetry consequence, not a fit — and the coupling opens only
+when the symmetry breaks. **Computed two ways**, the rule manifests differently with spectral
+degeneracy. In the *uniform* biased ring (degenerate slow modes) the protection is exact: the aging
+spectrum is flat to machine precision across a wide affinity sweep — a degenerate limit of the
+operator (receipts §Glass aging transverse). In the *generic* driven colloid (non-degenerate slow
+modes; the Bechinger Fokker–Planck operator) the same rule resolves into its perturbative form: the
+forbidden linear channel reopens `∝ δ` in the symmetry-breaking (slope 1 over seven decades), only
+`O(𝒜²)` curvature surviving while the symmetry holds (receipts §Colloid ring transverse). The robust
+invariant across both is the **forbidden linear channel** (exactly zero iff the symmetry holds);
+flatness, linear onset, and step are only how the slow subspace resolves under the generator's
+symmetry class. Proximity couples them: the exceptional-point locus of the metric rule is where
 a real eigen-pair goes defective and can split into a complex-conjugate pair. EP creation by
 coupling, and its transfer to a classical NESS Jacobian, are established (Bergholtz–Budich–
 Kunst). **But the EP is not the source of protection** — a generic coupling-created complex
