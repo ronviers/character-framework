@@ -1,0 +1,26 @@
+# Character — substrate ledger
+
+Every substrate character has touched: the verdict, and what it left behind. Check it before
+proposing or re-running one — so we don't recover ground, and don't lose a deposit.
+
+**Status:** 🔵 live (being worked) · ⚪ candidate (affords it, in hand, not run) · ⭐ **vindicated** (a real cross-substrate instance — the actual win) · 🟢 calibration (synthetic pass — strengthens, never vindicates) · 🟡 data-blocked (affords it, the data can't realize it) · 🔴 dead-end (can't reach character this way — don't re-run)
+**💎 deposit** — a sentence or result that outlived its substrate; lift it out, never lose it (it rides in the Deposit column).
+
+| Substrate (× modality) | Status | The read (one line) | Deposit → where it lives |
+|---|---|---|---|
+| **surface code** (QEC, d=3 & d=5) | 🟢 calibration | **computed** (Open Thread #2 resolved): logical ⊥ syndrome exact; cost-asymmetry write=1 / flip=d; barrier $P_L\propto p^{(d+1)/2}$; barrier **exact-invariant** to a conjugate-sector current, leak ∝ δ on mixing; within-sector transversality is **symmetry-protected, not generic** (3 experiments) | 💎 received the shell's deposit (unit-cost write / code-distance flip), instanced · → frontier `qec-transverse-decomposition`, `character.md` §Two tangent sectors |
+| **minimal-cell NESS** (Breuer / Luthey-Schulten) | ⚪ candidate | generative whole-cell kinetics — a live dissipative cell, real EP + recursive circulation; the parked north star | → `project_syn3_alive_loop_northstar` |
+| **brain** | ⚪ candidate (parked) | τ_obs→0 floor; inversion-viability placed, not run | — |
+| **in-library simulators** (voter, abp, fbm, sir, east, wright-fisher, heston, lévy-flight) | ⚪ candidate-pool | generative self-simulators in the frozen library; untested for character | — |
+| **fuel-driven DNA reaction network** (Nicholas 2025) | ⭐ **vindicated** | **THE one real instance** — coupling layer: minting + sustained circulation in a published dissipative system; the program's only non-synthetic win | `character.md` §The one real instance |
+| **homochiral triad** | 🟢 calibration | point+space; gMAM saddle orthogonality, σ→0 quasipotential flat in 𝒜 | 💎 **the transverse-decomposition theorem** (overturned `current-aids-escape`) → `pa:transverse-decomposition`; `character.md` §Two tangent sectors |
+| **rock-paper-scissors replicator** | 🟢 calibration | point+space; sign set by the cycle, branch membership | `character.md` §Branch membership |
+| **twin-cycle** (co-handed) | 🟢 calibration | the `both` corner via exchange-SSB; competitive exclusion is handedness-blind | `character.md` §The two-survivals plane |
+| **autocatalytic pitchfork** (Kondepudi–Nelson) | 🟢 calibration | the `both` corner via soft pitchfork; ΔU ∝ ee\*⁴ quadratic | `character.md` §The two-survivals plane |
+| **laser** (class-B) | 🟢 calibration | RO damping; γ_RO made to flow, not sit inert | receipts §Stability |
+| **SK spin glass** | 🟢 calibration (caveat) | dimensionless Q survived the frame challenge — frame-naïve tests died; runs go super-linear in cost | `feedback_frame_invariant_adjudication` |
+| **glass** | 🟢 calibration | earned vertical — rich character (RO/Q); *exact instanced claim to confirm* | — |
+| **Harary-triad active lattice** (Veenstra / Bartolo) | 🟡 data-blocked | circulation data exists, but **no perturbation protocol** + artifact-dominated Var(J) | `project_harary_triad_substrate_data` |
+| **shell** (morphometrics) | 🔴 dead-end (2026-06-05) | frozen projection — records handedness + geometry, throws away σ / 𝒜 / perturbable response; the *living* mollusc affords it, the morphometrics don't | 💎 **deposit:** *"a logical bit set at unit cost, flipped only at the code distance"* → re-homed to QEC ↑ |
+| **synthetic two-mode kernel** | 🔴 dead-end | dynamically flat — no c-suppression, no current, no RO/Q (three nulls) | confirmed rich character needs the earned verticals; don't re-run the detour |
+| **habit-extinction** | 🔴 dead-end (abandoned) | no data ever materialized | — |

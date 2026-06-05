@@ -510,6 +510,35 @@ record.
   survival shown *dependent* on a real substrate. `experiments/hopfield_corner.py`, `neither_corner.py`,
   `cycle_affinity.py`, `identity_survival_barrier.py`, `twin_cycle_corner.py`, `autocat_pitchfork.py`,
   `autocat_both.py`. `pa:cycle-affinity`.
+* **QEC surface-code transverse decomposition** `synthetic` [Two tangent sectors]. The
+  decoherence-free-subsystem identification (§The two tangent sectors) computed in the rotated
+  surface code, turning the asserted surface-code reading into a measured one. **(1) Orthogonality +
+  cost-asymmetry ($d{=}3$):** the code is constructed then verified $[[9,1,3]]$; the symplectic
+  error space splits stabilizer(8) $\oplus$ syndrome(8) $\oplus$ logical(2), the logical sector
+  carrying **zero syndrome** — symplectically transverse to the entire syndrome sector (the QEC
+  instance of `pa:transverse-decomposition` / the DFS). The protected bit is **written at unit cost
+  and flipped only at the code distance** $d$ (the seashell's deposited sentence, instanced in its
+  native substrate), and the exact bit-flip barrier is $P_L(p)\propto p^{(d+1)/2}=p^2$ (enumerated,
+  no sampling). **(2) Barrier-invariance + selection rule ($d{=}3$, CSS):** crank a phase-flip (Z)
+  current while measuring the bit-flip (X) barrier — the X-barrier exponent is **exactly** invariant
+  to the current, to all orders, even as it fires up to $1.96$ X-stabilizers/shot (syndrome-active):
+  CSS X/Z independence *is* the transverse decomposition, the $\Delta V\perp\mathcal{A}$ mirror with
+  an active current. Y-mixing (correlated XZ) opens a $p^1$ leak whose amplitude is **linear in the
+  mixing** $\delta$ — the `gmam_mixing_test` / `gmam_symmetry_break_probe` mirror ($\cos\propto\delta$).
+  **(3) The invariance is symmetry-protected, not generic ($d{=}5$):** in the verified $[[25,1,5]]$
+  code **no** syndrome-active current *within* the X-sector is exactly transverse — every detectable
+  error sits on a minimum-weight logical string, so even an off-string bulk current leaks the barrier
+  ($3\to{\sim}2$) and an aligned one leaks further ($\to{\sim}1$), the leak depth tracking alignment.
+  So exact $\Delta V\perp\mathcal{A}$ requires a symmetry/irrep separation between current and barrier
+  (CSS X/Z here; the $Z_3$ irreps in the triad) — the same boundary `gmam_symmetry_break_probe` found.
+  This **unifies the three checked substrates** (homochiral triad, surface code, conjugate cascade)
+  under one mechanism (Schur $\to$ transverse decomposition). Scope: synthetic $=$ calibration, not
+  vindication; but the content — protected logical information shielded from the syndrome current,
+  leaking only under symmetry-breaking alignment — is the operationally load-bearing fact. Falsify: a
+  CSS code whose logical-barrier exponent shifts under a pure conjugate-sector current; or a
+  within-sector current shown exactly transverse with no protecting symmetry. `experiments/
+  qec_transverse_decomposition.py`, `qec_syndrome_current.py`, `qec_within_sector_current.py`.
+  `pa:transverse-decomposition`.
 
 ---
 

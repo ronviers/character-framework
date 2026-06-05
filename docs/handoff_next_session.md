@@ -5,6 +5,27 @@ State pointer. Thin by design: committed detail lives in `character_receipts.md`
 
 ## Where things stand
 
+**Latest (2026-06-05, session 3 — shell dead-ended, substrate ledger created, QEC transverse-decomposition computed):**
+- **Shell T2 on real Collins data → weak pass → FAIL.** The real-normal endpoint (`shell_t2_collins.py`,
+  184 shells) settles (84% converge) but only to a sub-region (within/pooled 0.34) and barely beats a
+  stage-shuffle null (0.90). A weak pass is a fail. **Shell is a dead-end SUBSTRATE** — *not* a tombstone
+  (tombstone = an overturned core claim; a weak pass is just a dead end). Shell morphometrics are a frozen
+  projection carrying no σ / 𝒜 / perturbable response. New memory `feedback_substrate_affordance_filter`
+  (salience ≠ affordance; generate, don't hunt; run the affordance gate on the substrate×modality pair
+  *before* any data hunt).
+- **Substrate ledger created** — `framework/character_substrate_ledger.md`: a scannable roster (status +
+  deposit per substrate) so we stop recovering ground. Human-first, the antidote to the dense frontier.
+- **Shell wasn't a total bust** — it deposited the candidate sentence *"a logical bit set at unit cost,
+  flipped only at the code distance,"* which is substrate-general and **re-homed to QEC**.
+- **QEC re-aim, moves 1–3 computed** (`qec_transverse_decomposition.py`, `qec_syndrome_current.py`,
+  `qec_within_sector_current.py`; receipts §QEC transverse decomposition; frontier
+  `qec-transverse-decomposition`): (1) logical ⊥ syndrome exact + cost-asymmetry (write 1 / flip d) + barrier
+  $P_L\propto p^{(d+1)/2}$; (2) bit-flip barrier **exact-invariant** to a syndrome-active phase current, leak
+  ∝ δ under Y-mixing; (3) d=5: **no** within-sector exact-transverse current → exact invariance is
+  **symmetry-protected, not generic** (the triad's $Z_3$ boundary, mirrored one-to-one). **Open Thread #2
+  resolved.** Synthetic = calibration, not vindication — but the content (protected information shielded from
+  the syndrome churn) is the operationally load-bearing fact.
+
 **Latest (2026-06-04, session 2 — shell data acquired, T2 apparatus calibrated, the synthesis landed in frontier):**
 - **Data in hand** (`data/shell/`, see `ACQUISITION_CHECKLIST.md`): Collins 2021 normal-gastropod aperture
   trajectories (Dryad `p5hqbzknw` — Ron browser-downloaded past the Dryad/Anubis bot-wall; the report's
@@ -58,16 +79,19 @@ outbound prompts are out — resume when their data returns.** (commits `32b22e8
     strict (*Amphidromus* not exact mirrors, *Partula* weak pleiotropy — human-sized data). Don't re-run; the
     within-shell register replaced it. Self-similarity itself is gnomonic growth (D'Arcy Thompson), not ours.
 
-**► PICK UP HERE (updated 2026-06-04 session 2).** The shell-data gate is OPEN (datasets in `data/shell/`)
-and the T2 apparatus is calibrated. The seashell's space-layer reading lives in `character_frontier.md`
-§Steeping (`shell-space-layer-manifest`, `coherence-as-attractor-diagnostic`). **Its promotion path is a
-receipt:** (1) compute the surface-code/DFS reading (Open Thread #2) — the protected bit as an
-error-corrected logical bit, which the shell instances geometrically (one bit / code distance); or (2) the
-**Lsdia1-vs-Wnt double dissociation** — perturb the metric (Wnt → E/T shift, chirality intact) vs the
-topology (Lsdia1 → discrete flip); needs the Wnt/Lymnaea data, not yet pulled. Either earns `sharpening`.
-The runnable-on-data-in-hand T2 test (`cross-stratum-transduction`: heteromorph loses the self-similar
-fixed point) is still open and now has both endpoints' data — prefer **volume** (robust) over the C,T fit
-(brittle) as the observable. **Keep the seashell out of `character.md`** until a receipt + salience-care.
+**► PICK UP HERE (updated 2026-06-05 session 3).** The QEC transverse-decomposition arc is complete and
+banked (moves 1–3; Open Thread #2 resolved). The **shell program is closed** — dead-end substrate; see the
+substrate ledger (`framework/character_substrate_ledger.md`), which now holds the verdict + the re-homed
+deposit. Open, ranked, none blocking:
+1. **Frontier de-mess** *(Ron's standing ask)* — `character_frontier.md` is too dense for a human to get
+   caught up. Agreed approach: **additive only** — git holds everything; add a scannable dashboard/index at
+   the *top* (one row per entry: `key | rung | one-line verdict`, like the ledger), **never restructure the
+   dense prose**. Offer a one-section slice first (Steeping) so Ron can confirm nothing below moves. He is
+   wary of touching it — lead with the git-safety + additive framing.
+2. **Optional QEC move 4** — a *real* substrate showing barrier-invariance to a symmetry-separated current
+   (plus the leak under mixing) would push `qec-transverse-decomposition` from calibration toward vindication.
+3. The standing open threads below (Tier-2 sgMAM #1; β-collapse R3 #3).
+**Consult the substrate ledger before proposing or hunting any new substrate** (affordance gate first).
 
 *Original data-hunt prompts (resolved — kept for reference).* Two outbound prompts were out:
 1. `docs/research_prompt_chirality_sector_independence.md` — *already returned, messy* (reports appended;
@@ -143,12 +167,12 @@ ways on each of two independence axes** — *symmetry* and *bifurcation mechanis
    *predicts* invariance; the Hamiltonian sgMAM (Grafke–Schäfer–Vanden-Eijnden, first-derivative-only, no ε
    — momentum stays finite as `xᵢ→0`) is the right tool to verify it without the boundary blowup. Plan §3
    Tier-2 + §8. Low urgency (the verdict doesn't hinge on it; this closes the one boundary-limited corner).
-2. **The surface-code reading (same orthogonality, not yet computed).** `pa:transverse-decomposition` and the
-   §Two-tangent-sectors note assert that the protected logical sector is barred from the syndrome-sector's
-   error dynamics by the *same* irrep-orthogonality (the DFS = the transverse decomposition). The distance-3
-   surface-code substrate is checked at the point/space layer but the barrier-invariance reading is asserted,
-   not measured. Owed: read the QEC instance through the transverse-decomposition lens (a unification across
-   the three checked substrates), or down-rank the claim to "by analogy."
+2. **The surface-code reading — ✓ RESOLVED 2026-06-05** (computed; frontier `qec-transverse-decomposition`,
+   receipts §QEC transverse decomposition). The asserted barrier-invariance reading is now measured: logical
+   ⊥ syndrome exact; bit-flip barrier exact-invariant to a syndrome-active phase current; leak ∝ δ under
+   Y-mixing; and the boundary mapped — exact invariance is symmetry-protected, not generic (no within-sector
+   exact-transverse current at d=5). Unifies the three checked substrates under one mechanism (Schur).
+   Remaining (optional): a real-substrate instance → vindication (PICK-UP #2).
 3. **β-collapse R3 sum-rule check** *(low priority)* — model c's `α_s+β=1` vs a/b's no-exponent; the vary-`k`
    probe repurposed (confined fLE + CK estimator). A *side* finding (complementarity relation), **not** the
    collapse. Or close R3 clean. My lean: let it rest unless the sum rule itself interests.

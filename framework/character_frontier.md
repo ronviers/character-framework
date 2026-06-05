@@ -175,7 +175,10 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   control fails) — then "manifest" is curation, not character. · **→** `character.md` status / §The two
   tangent sectors (a real space-layer instance) + §Branch membership (reversal at code distance); receipts
   §Chirality protection. Cross: `chirality-protection`, `chirality-cascade-pinning`,
-  `cross-stratum-transduction`. *Raised 2026-06-04.*
+  `cross-stratum-transduction`. *Raised 2026-06-04.* **Substrate dead-ended 2026-06-05** (shell
+  morphometrics carry no $\sigma$ / $\mathcal{A}$ / perturbable response — substrate ledger); its
+  deposited sentence (unit-cost write / code-distance flip) **re-homed and instanced in
+  `qec-transverse-decomposition`**.
 
   *Draft for `character.md` (held below the line; promotes only with the receipt above):*
   > **The accretionary shell — a space-layer instance.** The two-sector architecture is realized, without
@@ -325,6 +328,23 @@ before committing a sentence. Promotion is a deliberate later event, never autom
   $\langle\sigma\rangle_{\text{tot}}$ — they sum, and the hidden part sits in the protected sector →
   `battery`. · **✗** a two-level substrate where the three fail to sum, or the hidden EP sits in the metric
   sector. · **→** core §The conjugate cascade; receipts §Conjugate-cascade ledger.
+* `qec-transverse-decomposition` **[sharpening]** — *verdict:* the surface-code reading of the
+  transverse decomposition, **computed** (was asserted; Open Thread #2 resolved). In the verified
+  $[[9,1,3]]$ / $[[25,1,5]]$ rotated surface code the logical sector carries zero syndrome
+  (symplectically transverse to the syndrome sector), the protected bit is **written at unit cost and
+  flipped only at the code distance** ($P_L\propto p^{(d+1)/2}$, enumerated), and the bit-flip barrier
+  exponent is **exactly invariant** to a syndrome-active phase (Z) current — CSS X/Z independence *is*
+  the transverse separation — leaking $\propto\delta$ only under Y-mixing. **Boundary mapped:** a
+  *same-sector* current is never exactly transverse (every detectable error lies on a min-weight
+  logical string), so exact $\Delta V\perp\mathcal{A}$ is **symmetry-protected, not generic** — the
+  same boundary as the triad's $Z_3$ (`gmam_symmetry_break_probe`). Below the line because synthetic =
+  calibration; but it unifies the three checked substrates (triad, surface code, cascade) under one
+  mechanism (Schur), and carries the seashell's re-homed deposit. · **↑** a *real* substrate showing
+  barrier-invariance to a symmetry-separated current plus the leak under mixing → `battery`. · **✗** a
+  CSS code whose logical-barrier exponent shifts under a pure conjugate-sector current; or a
+  within-sector current shown exactly transverse with no protecting symmetry. · **→** `character.md`
+  §The two tangent sectors + §The two-survivals plane; receipts §QEC transverse decomposition;
+  `pa:transverse-decomposition`. *Raised + computed 2026-06-05.*
 * `cross-stratum-transduction` **[sharpening]** — *verdict:* a coupling *tower* transduces the **topological**
   sector faithfully across the embedding while the **metric** carrier is fungible. Read this **within a single
   shell**: apex→aperture is a recorded ascent of the growth cascade — a *trajectory*, character's native
