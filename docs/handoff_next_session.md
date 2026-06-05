@@ -35,84 +35,20 @@ State pointer. Thin by design: committed detail lives in `character_receipts.md`
   *all* metric-sector observables (barrier / logical-error exponent / aging exponent). Glass's ledger 💎
   filled.
 
-**Latest (2026-06-04, session 2 — shell data acquired, T2 apparatus calibrated, the synthesis landed in frontier):**
-- **Data in hand** (`data/shell/`, see `ACQUISITION_CHECKLIST.md`): Collins 2021 normal-gastropod aperture
-  trajectories (Dryad `p5hqbzknw` — Ron browser-downloaded past the Dryad/Anubis bot-wall; the report's
-  Zenodo `12159344` was a wrong DOI, caught by gate-check), Misaki 2023 heteromorph-ammonite growing-tube
-  E/C/T (Dryad `q573n5tnz`, T crosses zero), Liew heteromorph-gastropod meshes (Figshare, non-watertight),
-  Noshita growing-tube extractor (GitHub), Filin centerline morphospace (Zenodo).
-- **Apparatus calibrated** (`experiments/shell_t2_*.py`, `shell_gauge_vs_chirality.py` — uncommitted):
-  growing-tube null recovers constant (E,C,T) to 1e-10; the refined test (Ron's volume idea) = the
-  **allometric slope** logA-vs-logV → 2/3 (clean null), with the **robustness split** established — volume
-  robust (4.7% over noise), area fragile (67%); the C,T continuous fit is noise-brittle (NaN ≥0.5% — a
-  'bad-test' NaN, not the boundary tripwire). Gauge demo: surface normal is gauge (flips under path/profile
-  reversal), chirality protected (reflection-only).
-- **The session's real product → `character_frontier.md` §Steeping:** `shell-space-layer-manifest` (the
-  shell manifests the two-sector architecture *without testing* — three truisms = the architecture; the
-  error-correction reading: handedness set at one bit, reversed at code distance; **scope: space layer
-  only**; full draft passage held as a quarantined blockquote) and `coherence-as-attractor-diagnostic` (the
-  shell/mandelbulb asymmetry — coherence-generic ⇒ dynamical attractor, not observer-selection; mandelbulb
-  = negative control; crystal caveat).
-- **Decision:** the seashell stays OUT of `character.md` — a vivid example anchors readers/AI and crowds
-  out the dynamical core (new memory `feedback_vivid_examples_anchor_in_canon`). Promotes only with a
-  receipt + salience-care.
-
-**Latest (2026-06-04, cont.): story landed; seashell work reframed into character's native register; two
-outbound prompts are out — resume when their data returns.** (commits `32b22e8`, `9f84a7a`, `1cbc5e9`,
-`a521729`, `2e0d0c3`, `020dbc9` — all pushed.)
-- **`character.md` §The conjugate cascade upgraded** — Harada–Sasa's level-to-level lift is now the
-  coarse-graining EP split (`σ_tot = σ_res + σ_hid`, Esposito / Bo–Celani) bound to `ε<1`, anchored to the Schur
-  transverse-decomposition; receipts §Conjugate-cascade ledger, prior-art `pa:timescale-ep`, frontier
-  `cascade-ledger-split` [sharpening].
-- **`README.md` now leads with the story** — a prose walk through the engine (point → space → closure → cascade →
-  the self-referential horizon → the β bet), named imports kept out of the body.
-- **AlphaFold/morphospace → frontier:** `predictor-soft-sector-blindness` [steeping] — a feedforward predictor is
-  confident-and-false on hard-sector questions (the neither corner made real by AlphaFold/PPI).
-- **Seashell, reframed.** `cross-stratum-transduction` [sharpening] = a single shell is a recorded cascade ascent
-  (apex→aperture, a *trajectory* — character's native register, not a between-specimen ensemble where the human
-  fingerprints live).
-  - **Lead = T2 (heteromorphy = the marginal point `ε→1`)**: a normal trajectory converges to a self-similar
-    growth fixed point; a heteromorph loses it.
-  - Steeping: `chirality-cascade-pinning` (T1 — handedness pinned across scales, reversals only by discrete
-    rewiring) · `determinate-growth-terminus` (the clock — growth stops at the threshold `a→0`; **self-similar
-    growth is self-terminating**, and the stop is an **absorbing basin** the next phase can't climb out of, the
-    same geometry forbidding the return).
-  - **The two sectors' opposite fates:** the metric *pays and gets trapped* (descends in `a`, ends in the basin);
-    the topology *rides free* (handedness propagated laterally + vertically at zero marginal cost — *why* it
-    survives the tower). A dead shell = a stopped metric carrying a free, permanent topology = "the topological
-    sector is the irreducible residue," in hand.
-  - **Noted, un-stubbed:** `cost-asymmetry-of-the-two-sectors` — the metric's construction cost (→0 at the stop)
-    vs the topology's zero maintenance cost is a *third* readout (energy axis); rides on the same prompt-2 data,
-    held until the channel reports.
-  - Prediction A (between-specimen chirality ⊥ shape) = **logged near-miss**: came back messy / weak-against-
-    strict (*Amphidromus* not exact mirrors, *Partula* weak pleiotropy — human-sized data). Don't re-run; the
-    within-shell register replaced it. Self-similarity itself is gnomonic growth (D'Arcy Thompson), not ours.
-
 **► PICK UP HERE (updated 2026-06-05 session 3).** The QEC transverse-decomposition arc is complete and
 banked (moves 1–3; Open Thread #2 resolved). The **shell program is closed** — dead-end substrate; see the
 substrate ledger (`framework/character_substrate_ledger.md`), which now holds the verdict + the re-homed
 deposit. Open, ranked, none blocking:
-1. **Frontier de-mess** *(Ron's standing ask)* — `character_frontier.md` is too dense for a human to get
-   caught up. Agreed approach: **additive only** — git holds everything; add a scannable dashboard/index at
-   the *top* (one row per entry: `key | rung | one-line verdict`, like the ledger), **never restructure the
-   dense prose**. Offer a one-section slice first (Steeping) so Ron can confirm nothing below moves. He is
-   wary of touching it — lead with the git-safety + additive framing.
+1. **Frontier de-mess — DONE this session.** A scannable **Dashboard** index (all rungs, one row per
+   entry: `key | one-line verdict`, substrate foregrounded) sits at the top of `character_frontier.md` —
+   additive and lossless, the dense prose preserved verbatim below. The four dead shell Steeping entries
+   were deleted (recorded in the substrate ledger). Any further compression is optional; the de-mess
+   principle is established (additive dashboard + delete only genuinely-dead/redundant, never the
+   categorically-necessary cross-doc repetition).
 2. **Optional QEC move 4** — a *real* substrate showing barrier-invariance to a symmetry-separated current
    (plus the leak under mixing) would push `qec-transverse-decomposition` from calibration toward vindication.
 3. The standing open threads below (Tier-2 sgMAM #1; β-collapse R3 #3).
 **Consult the substrate ledger before proposing or hunting any new substrate** (affordance gate first).
-
-*Original data-hunt prompts (resolved — kept for reference).* Two outbound prompts were out:
-1. `docs/research_prompt_chirality_sector_independence.md` — *already returned, messy* (reports appended;
-   prediction A demoted). No further action unless a clean chirality + morphometrics dataset surfaces.
-2. `docs/research_prompt_shell_data_sources.md` — **the live one.** When its reports land: append them under the
-   prompt, then triage what data actually exists against the readouts — **T2** (heteromorph vs normal growth
-   trajectories — does the heteromorph lose the self-similar fixed point?), **T1** (teratological reversal
-   specimens — are flips discrete?), **the clock** (determinate-growth-to-cessation + energetic budget — does the
-   stop track a gain/loss balance, beating the life-history alternative?), **cost-asymmetry** (energetic budget
-   alongside the trajectory). First move: decide which readout is *runnable on the data that exists* → promote
-   that one toward `battery`, park the rest. **The data is the gate — nothing in the seashell program is runnable
-   without it.**
 
 **Prior session — gMAM built + adjudicated — `current-aids-escape` KILLED as a barrier effect,
 metabolized as the transverse-decomposition theorem.** The arc:
@@ -227,11 +163,16 @@ translation = the symmetry — machine-precision invariance across the affinity 
 
 ## Doc + experiment state
 
-- **Core (committed):** `character.md` (+ §Two-tangent-sectors large-deviation note, §two-survivals `ΔV⊥𝒜`),
-  `character_receipts.md` (§Branch-survival barrier reversed to the prefactor reading), `character_frontier.md`
-  (`battery:two-survivals-plane` crossed; `current-aids-escape` **tombstoned**; §Nudges HELD),
-  `character_prior_art.md` (+ `pa:transverse-decomposition`), `character_grounding_method.md`.
-- **`experiments/` (gMAM cluster, this session):** `gmam_current_aids` (the runner — validated minimizer +
+- **Core (committed):** `character.md` (§Two-tangent-sectors, §two-survivals `ΔV⊥𝒜`, §The cross-rule
+  *computed*), `character_receipts.md` (§Branch-survival; **§QEC transverse decomposition**; **§Glass aging
+  transverse**), `character_frontier.md` (opens with a **Dashboard** index; + `qec-transverse-decomposition`
+  [sharpening]; dead shell entries removed; `current-aids-escape` tombstoned), `character_prior_art.md`
+  (`pa:transverse-decomposition` + QEC/glass instances), **`character_substrate_ledger.md`** (the substrate
+  roster), `character_grounding_method.md`.
+- **`experiments/` — QEC + glass (session 3, the transverse-decomposition test):**
+  `qec_transverse_decomposition`, `qec_syndrome_current`, `qec_within_sector_current`, `glass_aging_transverse`;
+  the dead-end shell tests `shell_t2_anchor`/`_volume`/`_collins` (substrate closed — see ledger).
+- **`experiments/` (gMAM cluster, session 1):** `gmam_current_aids` (the runner — validated minimizer +
   A/H run + eps-sweep), `gmam_maier_stein` (the §6.1 validation gate, exact 0.5), `gmam_saddle_orthogonality`
   (current⊥escape at the saddle, machine-exact), `gmam_affinity_scaling` (Ŝ(𝒜) flat vs Kramers ΔV(𝒜) drop),
   `gmam_orthogonality_sweep` (symmetry-protection across μ + the μ=3 Tier-1 boundary floor),

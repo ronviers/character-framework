@@ -33,10 +33,6 @@ verbatim. The table is lossy by design (one-line verdicts), the doc lossless. Ru
 | `epsilon-hub-transport` | one transport law on the distance-to-marginal ε, read across four registers |
 | `affinity-hub-transport` | one transport law on the affinity a, read across three registers |
 | `predictor-soft-sector-blindness` | a feedforward predictor is confident-and-false on hard-sector questions (the neither corner) |
-| `chirality-cascade-pinning` | handedness pinned across scales, flips only by discrete rewiring — *shell, dead-end substrate* |
-| `determinate-growth-terminus` | shells stop at the threshold crossing (a→0); self-similar growth is self-terminating — *shell, dead-end* |
-| `shell-space-layer-manifest` | the shell manifests the two-sector architecture without apparatus — *dead-ended; deposit re-homed to QEC* |
-| `coherence-as-attractor-diagnostic` | coherence-prevalence separates dynamical-attractor form from observer-curated form — *shell-adjacent* |
 
 ### Nudges *(reader-steering; HELD)*
 
@@ -217,102 +213,7 @@ line) · **↑** promote-gate · **✗** kill-condition · **→** core target.
   added data — then it is plain under-sampling and character adds nothing. · **→** `character.md` §The
   two-survivals plane (the neither corner; soft-sector capability silent on the hard sector). Same shape as
   `nudge:loaded-endpoint-descent` — apparent capability ≠ the protected observable.
-* `chirality-cascade-pinning` **[steeping]** — *verdict:* along a single shell's growth trajectory the
-  topological bit (handedness) must be **pinned across every scale** and change *only by discrete rewiring* —
-  never a continuous morph from one hand toward the other (the hard bit changes only by rewiring, never by
-  deformation). The rare teratological reversals / scalariform aberrations are the test cases: are they all
-  **abrupt jumps** (rewiring events), never gradual? · **↑** within-shell reversal specimens showing the flip
-  is discrete, not a continuous handedness drift → `sharpening`. · **✗** a shell that continuously rotates its
-  winding from one hand toward the other with no discrete rewiring. · **→** `character.md` §Frustration and the
-  protected current (the hard bit changes only by rewiring); rides on rare specimens (data hunt
-  `docs/research_prompt_shell_data_sources.md` #4). *Moved from the `cross-stratum-transduction` runnable test
-  (2026-06-04): a clean kill but on rare specimens, vs T2's abundant heteromorph trajectories.*
-* `determinate-growth-terminus` **[steeping]** — *verdict:* shells stop growing — character reads the stop as
-  the **threshold crossing** (`a→0`, the *drive* axis, distinct from `cross-stratum-transduction`'s scale-axis
-  marginal point): growth is the gain process and halts where gain can no longer beat the load of the next
-  increment. The clock-hand analogy is exact — the hand stalls at a predictable phase where rising load
-  (gravity) overtakes the fixed drive (torque). **Self-similar growth is self-terminating:** the same fixed-point
-  geometry that converges the cascade (each whorl a scaled-up copy) *forces* the descent in `a` past threshold —
-  increment cost grows geometrically while metabolic gain saturates (allometry) — so a self-similar accretor
-  *must* stop; the terminal lip/flare is below-threshold relaxation. **The stop is an absorbing basin, not a pause:**
-  the next phase cannot climb out — the same geometry that forced the descent forbids the return, since every
-  possible next whorl is *larger* and costs more than the last the system already couldn't afford, so there is no
-  uphill move and the drive that would power a re-ascent is exactly what ran out (a one-way ratchet built into the
-  fixed point; the topological sector pays no such toll — it rides through for free, `cross-stratum-transduction`).
-  · **↑** a mechanism or test that **beats the
-  standing life-history alternative** (growth stops at maturity to reallocate energy to reproduction): the
-  cessation point tracks a measurable gain/loss balance, or growth never halts while `a≫0` absent an external
-  cause. · **✗** shells stopping while clearly above threshold (drive ≫ load) with no external cause; or
-  cessation size unrelated to any gain/loss balance. · **→** `character.md` §Threshold regimes (monotone descent
-  in `a`; below-threshold relaxation). *Raised 2026-06-04 (the clock-hand probe); abundant + visible (every
-  mature terminal lip) but confounded by life-history theory — must out-predict it to climb.*
-* `shell-space-layer-manifest` **[steeping]** — *verdict:* the accretionary shell **manifests the
-  space-layer architecture without apparatus** — the first *real macroscopic* instance (vs the synthetic
-  RPS / homochiral triad / surface code), where the two sectors sit in facts no one disputes. Three
-  truisms *are* the architecture: handedness conserved exactly apex→aperture across every scale while
-  size flows (scale-invariant protected bit; the metric flows and never couples to it); no continuous
-  deformation carries one hand to the other, **only reflection** (gauge-irremovable, parity-only); form
-  varies at fixed hand and hand flips at fixed form — mirror twins (the two sectors independent). The bit
-  is set once at the developmental bifurcation (maternal formin `Lsdia1`, Davison–Kuroda) at **one bit**,
-  then expressed redundantly along every whorl and **reversed only at the code distance** of that encoding
-  — the error-correcting signature, same content as the surface-code/DFS reading (`chirality-protection`;
-  Open Thread #2). **Scope: space layer only** — a dead shell is uncoupled and undriven, the frozen record
-  of a driven accretionary cascade, not a sustained current; it reaches the architecture, never the
-  coupling/minting or sustained-circulation claims. · **↑** the code-distance reversal-cost reading earns a
-  receipt — the surface-code/DFS computation, *or* the **`Lsdia1`-vs-Wnt double dissociation** (an early
-  1-gene switch flips the discrete bit while Wnt signalling deforms the continuous metric E/T and leaves
-  handedness intact; Noshita growing-tube extraction) → `sharpening`, and the bare status fact ("a real
-  macroscopic space-layer instance exists") promotes to `character.md`. · **✗** a protected bit whose
-  reversal cost does **not** scale with its encoding redundancy (kills the code-distance reading); or the
-  shell's coherence shown to be observer-selection not dynamics (the `coherence-as-attractor-diagnostic`
-  control fails) — then "manifest" is curation, not character. · **→** `character.md` status / §The two
-  tangent sectors (a real space-layer instance) + §Branch membership (reversal at code distance); receipts
-  §Chirality protection. Cross: `chirality-protection`, `chirality-cascade-pinning`,
-  `cross-stratum-transduction`. *Raised 2026-06-04.* **Substrate dead-ended 2026-06-05** (shell
-  morphometrics carry no $\sigma$ / $\mathcal{A}$ / perturbable response — substrate ledger); its
-  deposited sentence (unit-cost write / code-distance flip) **re-homed and instanced in
-  `qec-transverse-decomposition`**.
 
-  *Draft for `character.md` (held below the line; promotes only with the receipt above):*
-  > **The accretionary shell — a space-layer instance.** The two-sector architecture is realized, without
-  > apparatus, in the most familiar accretionary substrate: the coiled mollusc shell. Its continuous form —
-  > size, spire, aperture outline — is the metric sector, flowing under growth as the order-parameter
-  > magnitude flows under load; its coiling handedness (dextral / sinistral) is the topological sector. The
-  > handedness is conserved exactly from the embryonic protoconch to the adult lip — across the entire
-  > ontogenetic cascade, every order of magnitude — while the metric flows the whole way; the protected bit
-  > carries the scale-invariance and the metric never couples to it. No continuous deformation carries one
-  > handedness to the other, only reflection: the bit is gauge-irremovable in the strict sense, changeable by
-  > a parity operation, not by any relabeling or smooth deformation. It is set once at the developmental
-  > bifurcation (a single maternal factor — *Lsdia1* in *Lymnaea*) and thereafter expressed redundantly along
-  > every whorl — cheap to write as one bit, costly to reverse as the whole built structure: the
-  > error-correcting signature of the protected sector, a logical bit set at unit cost and flipped only at the
-  > code distance. The two sectors are manifestly independent — conspecific shells vary continuously in form
-  > at fixed handedness, and mirror-image individuals share a form at opposite handedness. This is the space
-  > layer (the morphospace and its two tangent sectors), not the coupling layer: a single shell is uncoupled
-  > and, once dead, undriven — the frozen record of a driven accretionary cascade, not a sustained current.
-  > Strip the drive and the trajectory and the same coordinates describe inert geometry — an arbitrary
-  > self-similar form carrying a handedness, a mathematical fractal and not a character.
-
-* `coherence-as-attractor-diagnostic` **[steeping]** — *verdict:* the shell/fractal asymmetry is a
-  diagnostic — **almost no** triplex-power fractals survive the "pretty" (coherent-structure) test
-  (coherence is a measure-zero, *observer-curated* subset of an arbitrary generator space — 3D has no
-  division algebra, Hurwitz/Frobenius; the multiplication is hand-picked, its handedness
-  gauge-at-the-convention), while **almost all** shells do (coherence is the *generic* output). So
-  coherence-prevalence separates **form-as-dynamical-attractor** (selected by the dynamics) from
-  **form-as-uniform-sample** (selected by an observer) — and *immunizes the shell-morphospace against the
-  "we only see the pretty ones" worry*: there are no ugly shells to ignore, so the prettiness is the
-  dynamics', not ours. The mandelbulb is the **negative control** — self-similar form + a handedness, but
-  no drive and no trajectory: character's no-drive degenerate face (`a=0`), geometry not character —
-  isolating **drive + trajectory** as the load-bearing difference. Caveat: *not* "driven ⇒ coherent"
-  (equilibrium crystals are coherent-and-generic); the clean axis is **attractor vs uniform-sample**, the
-  drive only telling a NESS attractor from a crystal's. · **↑** a measure (coherence-fraction over a
-  generator family) separating attractor-output from uniform-sample, instanced on ≥1 driven substrate vs
-  its uniform-sample control, the equilibrium-attractor case handled → `sharpening`. · **✗** a
-  uniform-sampled generator generically coherent with no attractor, or a dynamical attractor generically
-  incoherent — then coherence-prevalence carries no attractor information. · **→** `character.md` §The
-  morphospace (occupancy reflects dynamics, not the observer) + §Isolation (the no-drive face); guards the
-  occupancy reading against selection artifact. Cross: `shell-space-layer-manifest`,
-  `predictor-soft-sector-blindness`. *Raised 2026-06-04 (cross-post probe).*
 ### Nudges — steering candidates (a parallel doc-gate track; HELD)
 
 A **nudge** corrects how character *steers a reader* — a sentence the core is missing or mis-places,
