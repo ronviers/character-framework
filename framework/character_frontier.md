@@ -10,6 +10,99 @@ everything in it is committed; that guarantee survives only if the line below is
 
 ---
 
+## Dashboard — scannable index *(get caught up here; the full entries, with ↑ promote / ✗ kill / → target, are below)*
+
+*The full index — one row per entry, grouped by rung. Scan for your substrate or question, then drop to
+the dense entry below for the verdict, the promote-gate (↑), the kill-condition (✗), and the core target
+(→). This is a **navigation layer on top**: nothing below is moved or deleted; every entry is preserved
+verbatim. The table is lossy by design (one-line verdicts), the doc lossless. Rungs:* `steeping`
+*(speculation) →* `sharpening` *(a mechanism or test exists) →* `battery` *(a runnable falsifier) →*
+`staked` *(planted in the core, un-instanced) →* crossed *(now in* `character.md`*); plus* `nudges`
+*(reader-steering) and* `tombstones` *(killed, kept so they are not re-tried).*
+
+### Steeping
+
+| entry | one-line verdict |
+|---|---|
+| `flow-resident-number` | a number-type whose identity is a non-terminating flow-trajectory, not a static value |
+| `fractional-operator-algebra` | an operator algebra on memory regimes β∈(0,1], recovering the integer-β operators at β=1 |
+| `two-reframe-parallel` | the Boolean limit (D→∞) and the marginal point (ε→1) share architecture — is there a third axis? |
+| `secondary-regime-operators` | damping / phase-lock / coarse-graining trichotomies as further operator-algebra candidates |
+| `post-threshold-universality` | a candidate mechanism for the seam-width law — none found yet |
+| `palm-self-probe` | the two-frame iff-chain re-projected into queueing (time-stationary vs Palm / event-conditioned average) |
+| `epsilon-hub-transport` | one transport law on the distance-to-marginal ε, read across four registers |
+| `affinity-hub-transport` | one transport law on the affinity a, read across three registers |
+| `predictor-soft-sector-blindness` | a feedforward predictor is confident-and-false on hard-sector questions (the neither corner) |
+| `chirality-cascade-pinning` | handedness pinned across scales, flips only by discrete rewiring — *shell, dead-end substrate* |
+| `determinate-growth-terminus` | shells stop at the threshold crossing (a→0); self-similar growth is self-terminating — *shell, dead-end* |
+| `shell-space-layer-manifest` | the shell manifests the two-sector architecture without apparatus — *dead-ended; deposit re-homed to QEC* |
+| `coherence-as-attractor-diagnostic` | coherence-prevalence separates dynamical-attractor form from observer-curated form — *shell-adjacent* |
+
+### Nudges *(reader-steering; HELD)*
+
+| entry | one-line verdict |
+|---|---|
+| `nudge:loaded-endpoint-descent` | read a loaded phenomenon (sleep, a market, a mood) by descent to its substrate skeleton — periodicity ≠ the protected bit; only the protection test certifies it |
+
+### Sharpening
+
+| entry | one-line verdict |
+|---|---|
+| `thm9-crossover` | the Boolean-deviation theorem is a singular crossover scaling function (width exponent α + profile), not a 1/D series |
+| `thm6-bulk-series` | a genuine D⁻¹ bulk series — conditional on the smooth-merge closures being derived, not assumed |
+| `thm7-bracket` | whether the "hold both" threshold is hard or 1/D-soft (soft would dissolve the obstruction) |
+| `two-faces-boundary` | the amplitude and topological faces (independent in the bulk) may correspond at their boundaries — a wall-crossing law |
+| `dimensionless-substrate` | the dimensionless self-probe ruler, instanced on rock-paper-scissors; needs a 2nd real substrate |
+| `consolidation-ascent` | one heat-tax mechanism, three faces (offline duty cycle / compression vs maintenance / tower ascent = consolidation); needs a real β<1 substrate |
+| `frustration-ascent` | the generative-recursion bet — generative of chirality/topology (mintable), parasitic on the drive (amplitude autonomy supplied, not minted); evaded by a two-level cascade |
+| `wall-as-type-boundary` | the marginal point is a ladder of normally-hyperbolic plateaus joined by three boundary kinds (ignition / topological flip / closure-loss) |
+| `chirality-protection` | the protected object is the gauge-irremovable affinity / graph-flux sign — not the exceptional pair, not an integer charge |
+| `cascade-ledger-split` | the conjugate cascade's two ledgers are one coarse-graining entropy-production split (σ_tot = σ_res + σ_hid) |
+| `qec-transverse-decomposition` | **the TDT** — metric⊥topological computed in the surface code + glass + triad: the protected current is barred from *all* metric observables; symmetry-protected, not generic |
+| `cross-stratum-transduction` | a coupling tower transduces the topological sector faithfully while the metric carrier is fungible — *shell; its T2 lead was the dead-end* |
+
+### Battery — executable falsifier specs
+
+| entry | one-line verdict |
+|---|---|
+| `battery:seam-collapse` | the amplitude/drive-seam scaling-collapse falsifier; target invariant (α, F); needs a real substrate with a measurable FDR |
+| `battery:sign-interior` | the protected-sign interior-circulation kill; vindicated on rock-paper-scissors (drive-independent sign, flips only by rewiring) |
+| `battery:wall-ladder` | the plateau-ladder falsifier; discriminator = CLV minimum angle; both faces shown on the Stuart–Landau cascade |
+| `battery:dimensionless-self-probe` | the dimensionless self-probe + canonical affinity on rock-paper-scissors (closes to 1.7%, noise-independent) |
+| `battery:scale-covariant-circulation` | the same circulation at two scales splits into a scale-invariant affinity (the bit) + a scale-covariant magnitude |
+| `battery:two-survivals-plane` | branch survival (ΔV, basin escape) ⊥ current survival (𝒜) — independent axes, all four corners filled *(crossed)* |
+
+### Staked — planted in the core, un-instanced
+
+| entry | one-line verdict |
+|---|---|
+| `staked:gfdr-two-step` | near-threshold FDR is two-step — a short-lag X=1 is not below-threshold |
+| `staked:auto-tuning` | a substrate's slow rates auto-tune to the diagonally-stabilising weight W = diag(γ_ref/γ_s,i) |
+| `staked:memory-collapse` | the memory exponent β ≈ 1−ε near the marginal point (tracks the contraction modulus) |
+
+### Recently crossed — now in `character.md`
+
+| claim | substrate it crossed on |
+|---|---|
+| central commitment · two-frame construction | rock-paper-scissors |
+| deformation chart · homochirality | rock-paper-scissors + homochiral triad |
+| exact two-frame magnitude identity | rotational-OU (forced-not-fitted) |
+| composite branch (minting + sustained circulation) | fuel-driven DNA reaction network |
+| branch survival (ΔV; competitive-exclusion, linear in μ−μ_c) | homochiral triad (+ twin-cycle 2nd instance via S₂; autocat soft pitchfork) |
+
+### Tombstones — killed, kept so they are not re-tried
+
+| entry | died / replaced by |
+|---|---|
+| `flip-cost-across-zero` | protection as a flip-cost across the affinity-zero — boundary-malformed → interior sign-stability test |
+| `sign-kill-bisection` | the kill-only standdown — boundary-gated → interior can-kill-and-vindicate battery |
+| `thm9-coefficient-series` | Boolean-deviation as a 1/D series — it is a crossover scaling function → (α, F) collapse |
+| `alignment-dependent-active-stress` | alignment-dependent active-stress fingerprint — only the flocked correction → alignment-independent fingerprint |
+| `quadratic-lyapunov-candidate` | a quadratic Lyapunov form — fails the critical-point test → relative-entropy form |
+| `current-aids-escape` | protected current as a barrier-*lowering* resource — gMAM shows ΔV flat in 𝒜 (transverse) → the transverse-decomposition prefactor reading |
+
+---
+
 ## Gates — the state machine
 
 Five rungs and a hard line. An item occupies exactly one rung at a time; a rung change is an
@@ -344,7 +437,9 @@ before committing a sentence. Promotion is a deliberate later event, never autom
   exponent** (biased ring): aging is invariant to the protected current to machine precision across a
   wide affinity sweep, coupling on only when the ring's $Z_N$ symmetry breaks (receipts §Glass aging
   transverse) — so the current is barred from *all* metric-sector observables, not just barriers; the
-  cross-rule "aging never couples to circulation" computed. · **↑** a *real* substrate showing
+  cross-rule "aging never couples to circulation" computed. **Scope (transferable):** the selection-rule
+  *threshold* — exactly zero coupling iff the protecting symmetry holds — is the substrate-invariant; the
+  *onset power* is not (QEC linear in δ, glass ∝δ²). · **↑** a *real* substrate showing
   barrier-invariance to a symmetry-separated current plus the leak under mixing → `battery`. · **✗** a
   CSS code whose logical-barrier exponent shifts under a pure conjugate-sector current; or a
   within-sector current shown exactly transverse with no protecting symmetry. · **→** `character.md`
