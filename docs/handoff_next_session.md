@@ -41,15 +41,18 @@ All work below is committed + pushed.
 banked (moves 1–3; Open Thread #2 resolved). The **shell program is closed** — dead-end substrate; see the
 substrate ledger (`framework/character_substrate_ledger.md`), which now holds the verdict + the re-homed
 deposit. Open, ranked, none blocking:
-1. **Frontier de-mess — DONE this session.** A scannable **Dashboard** index (all rungs, one row per
-   entry: `key | one-line verdict`, substrate foregrounded) sits at the top of `character_frontier.md` —
-   additive and lossless, the dense prose preserved verbatim below. The four dead shell Steeping entries
-   were deleted (recorded in the substrate ledger). Any further compression is optional; the de-mess
-   principle is established (additive dashboard + delete only genuinely-dead/redundant, never the
-   categorically-necessary cross-doc repetition).
-2. **Optional QEC move 4** — a *real* substrate showing barrier-invariance to a symmetry-separated current
-   (plus the leak under mixing) would push `qec-transverse-decomposition` from calibration toward vindication.
-3. The standing open threads below (Tier-2 sgMAM #1; β-collapse R3 #3).
+1. **QEC move 4 — real-data scout done (2026-06-05); recorded in the substrate ledger.** Two classes swept.
+   **Topological-invariant** systems (skyrmion / quantum-Hall–QAH / Chern-photonic) are a 🔴 *structural*
+   dead-end — protection **welds** 𝒜 to B (the QHE tautology: R_xx≈0 *because* R_xy quantized) or every knob
+   co-tunes them; no breakable orthogonality. The **discrete-symmetry SSB class** (the triad's own home) is
+   🟡 *data-blocked, not structural*: the **fully-frustrated Josephson array** (Marconi–Domínguez's standing
+   transverse-V/longitudinal-V proposal, PRB 63 174509) and the **semiconductor ring laser** (Beri/Gelens Z₂
+   CW/CCW SSB, δ knob already instrumented) both satisfy gates i–iii on published data and lack only the unrun
+   rate-vs-δ sweep (move 3). So move-4 vindication is now gated on *collaborator/commissioned* data — two
+   fully-specified experiments — **not** on finding a substrate. Un-chased discrete-symmetry candidate worth a
+   future look: magnetic-vortex memory (Z₂×Z₂ chirality/polarity). Lesson banked: gate (iii) accepts a
+   *discrete* symmetry (Z₂/Z₃/Z_N), not only a topological invariant — don't over-tighten the substrate search.
+2. The standing open threads below (Tier-2 sgMAM #1; β-collapse R3 #3).
 **Consult the substrate ledger before proposing or hunting any new substrate** (affordance gate first).
 
 ## Portable protocol — the transverse-decomposition test (TDT)
