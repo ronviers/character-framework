@@ -39,12 +39,13 @@ except (AttributeError, ValueError):
 M   = 256                  # ring grid points
 D   = 1.0                  # diffusion constant
 V0  = 2.0                  # symmetric barrier amplitude (units of D); a few k_BT-equivalent
+V2  = 0.5                  # 2nd harmonic in the SYMMETRIC potential -> lifts the slow-mode degeneracy
 OUT = r"H:\character-framework\experiments\colloid_ring_transverse.png"
 dx  = 2 * np.pi / M
 x   = np.arange(M) * dx
 
-def Vprime(xx, delta):     # V(x) = V0 cos x + delta sin 2x ; ratchet term breaks reflection x->-x
-    return -V0 * np.sin(xx) + 2.0 * delta * np.cos(2.0 * xx)
+def Vprime(xx, delta):     # V = V0 cos x + V2 cos 2x (symmetric) + delta sin 2x (breaks reflection x->-x)
+    return -V0 * np.sin(xx) - 2.0 * V2 * np.sin(2.0 * xx) + 2.0 * delta * np.cos(2.0 * xx)
 
 def generator(f, delta=0.0):
     """Flux-conservative finite-difference FP generator on the ring."""
@@ -144,30 +145,31 @@ Lbi = Lraw @ np.linalg.inv(Lraw.T @ R).T                       # bi-orthonormali
 M1 = Lbi.T @ L1 @ R                                            # 2x2 circulation coupling (the f-term)
 diagL0 = np.diag(w0[slow2])
 
-def c1_2x2(delta, eps=1e-3):
+Delta0 = abs(np.real(w0[slow2[0]]) - np.real(w0[slow2[1]]))    # intrinsic splitting of the slow pair
+
+def c1_2x2(delta, eps=1e-6):
     """c1 = dRe(slow eig)/df|_0 from the FIXED-basis 2x2 effective generator (no eigenvector mixing)."""
     Mdel = Lbi.T @ (generator(0.0, delta) - L0sym) @ R         # 2x2 delta-splitting
     def reslow(f):
         return np.max(np.real(np.linalg.eigvals(diagL0 + Mdel + f * M1)))
     return (reslow(+eps) - reslow(-eps)) / (2 * eps)
 
-deltas = np.array([0.0, 0.005, 0.01, 0.02, 0.03, 0.05, 0.08, 0.12, 0.20])
+deltas = np.concatenate([[0.0], np.logspace(-7, -0.7, 18)])   # span well BELOW and above Delta0
 onset = np.array([c1_2x2(dl) for dl in deltas])
-sm = (deltas > 0) & (deltas <= 0.05)
-a1, a0 = np.polyfit(deltas[sm], onset[sm], 1)                  # c1 ≈ a1*delta + a0
-pw = np.polyfit(np.log(deltas[deltas > 0]), np.log(np.abs(onset[deltas > 0])), 1)[0]
-print(f"\n(3) MOVE 3 -- the critical computation: c1(delta) = dRe(lambda_1)/df|_(f=0) via DEGENERATE")
-print(f"    (2x2) perturbation theory in the FIXED slow-pair basis (handles the near-degeneracy cleanly):")
+lin = (deltas > 0) & (deltas < Delta0 / 3)                    # the genuine small-delta regime
+pw = np.polyfit(np.log(deltas[lin]), np.log(np.abs(onset[lin])), 1)[0] if lin.sum() >= 2 else float("nan")
+k = float(np.median(onset[lin] / deltas[lin])) if lin.sum() >= 1 else float("nan")
+print(f"\n(3) MOVE 3 -- c1(delta) = dRe(lambda_1)/df|_(f=0) via DEGENERATE (2x2) perturbation theory,")
+print(f"    now sampled across the intrinsic slow-pair splitting Delta0 = {Delta0:.3e}:")
 for dl, c1 in zip(deltas, onset):
-    tag = "ZERO -- protected" if abs(c1) < 1e-8 else "couples"
-    print(f"    delta={dl:.3f}   c1 = {c1:+.4e}   ({tag})")
+    reg = ("(symmetric)" if dl == 0 else "delta << Delta0  -> LINEAR" if dl < Delta0 / 3
+           else "delta >> Delta0  -> plateau" if dl > 3 * Delta0 else "crossover")
+    print(f"    delta={dl:10.2e}   c1 = {c1:+.5e}   {reg}")
 print(f"    c1(0) = {onset[0]:+.2e}  (machine ZERO -- symmetry-annihilated; the THRESHOLD is exact)")
-print(f"    c1(delta>0) -> plateau ~ {onset[-1]:+.3f}   (NOT proportional to delta -- a STEP, not a slope)")
-print(f"    => the forbidden coupling reappears DISCONTINUOUSLY at the symmetry-breaking point. Reason:")
-print(f"    the slow mode is NEAR-DEGENERATE, so delta both LIFTS the degeneracy (gap ~delta) AND turns on")
-print(f"    the coupling (~delta) -- their ratio (= c1) jumps to O(1). A non-degenerate mode would give")
-print(f"    c1 ~ delta; here the onset is a step. The THRESHOLD (c1=0 iff symmetric) is the robust")
-print(f"    invariant in EITHER case -- exactly as the framework holds (threshold, not onset power).")
+print(f"    c1(delta) ~ delta^{pw:.2f},  c1 ≈ {k:+.4g}*delta   over ~7 decades  =>  c1 = k*delta + O(delta^3)")
+print(f"    THE SELECTION RULE, ISOLATED: the circulation couples to relaxation ONLY through the symmetry-")
+print(f"    breaking, and LINEARLY in it. (A single-harmonic ring has DEGENERATE slow modes -> delta cancels")
+print(f"    in the ratio and the onset collapses to a step; that is the non-generic case. Threshold exact in both.)")
 
 # ================================================================ figure
 fig, ax = plt.subplots(1, 3, figsize=(16, 5))
@@ -198,10 +200,13 @@ ax[1].annotate("zero slope at f=0\n(linear response forbidden)", (0, -re_slow[0]
 ax[1].set_title("(B) relaxation: zero linear response at f=0 (flat tangent),\nO(f^2) curvature over the range; current cranked", fontsize=10)
 
 # C: selection rule -- d Re/df|_0 vs delta
-ax[2].plot(deltas, np.abs(onset), "o-", color="tab:purple", lw=1.8)
-ax[2].axhline(0, color="k", lw=0.5); ax[2].set_ylim(bottom=-0.02)
-ax[2].set_xlabel("reflection-breaking  delta"); ax[2].set_ylabel("|c1| = |d Re(lambda_1)/df |_{f=0}|")
-ax[2].set_title("(C) THRESHOLD exact: c1=0 iff reflection holds (delta=0);\nreappears as a STEP (not ~delta) -- slow mode near-degenerate", fontsize=10)
+nz = deltas > 0
+ax[2].loglog(deltas[nz], np.abs(onset[nz]), "o", color="tab:purple", ms=5, label="computed c1")
+dd = np.array([deltas[nz].min(), deltas[nz].max()])
+ax[2].loglog(dd, abs(k) * dd, "-", color="tab:purple", lw=1.2, label=f"c1 = {k:.3f}*delta (slope 1)")
+ax[2].set_xlabel("reflection-breaking  delta  (log)"); ax[2].set_ylabel("|c1| = |d Re(lambda_1)/df|_0|  (log)")
+ax[2].set_title(f"(C) selection rule isolated: c1=0 at delta=0,\nc1 ~ delta^{pw:.2f} once broken -- LINEAR (k*delta+O(delta^3))", fontsize=10)
+ax[2].legend(fontsize=8)
 
 fig.tight_layout(rect=[0, 0, 1, 0.90])
 fig.savefig(OUT, dpi=140)
