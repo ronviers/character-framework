@@ -486,13 +486,41 @@ record.
   `experiments/identity_survival_barrier.py`, `cycle_affinity.py`, `rps_affinity.py`,
   `reset_redrive_test.py`, `mu_sweep.py`, `twin_cycle_corner.py`, `twin_mu_sweep.py`, `autocat_pitchfork.py`,
   `autocat_both.py`, `current_aids_escape.py`. `pa:cycle-affinity`, `pa:bifurcation-normal-forms`, `pa:kondepudi`.
-* **Fuel-driven DNA reaction network** `empirical` [The one real instance]. The composite-branch
+* **Fuel-driven DNA reaction network** `empirical` [The real instances]. The composite-branch
   instance: a detailed-balanced DNA-hybridization cycle ($\mathcal{A}\approx0$) driven by RNase-H
   fuel-hydrolysis mints a protected NESS circulation ($\mathcal{A}\approx+14.5$ nats, sign drive-locked),
   collapsing ~3 min after fuel cut (observed). The affinity uses only measured constants; the $N=3$
   reduction reproduces the full nonlinear network's cycling rate to ratio 1.002. Idealizations: $N=3$
   reduction of a 10-species CRN, chemostat, omitted slow side-processes. `pa:cycle-affinity`,
   `pa:kinetic-proofreading`.
+* **Brownian gyrators (electronic + colloidal)** `empirical` [The real instances]. Generic $N=2$
+  minting on two real measured substrates, built from raw measured parts (generate-don't-hunt).
+  **Electronic** (Chiang et al., PRE 96 032123, 2017): the Fokker–Planck operator from the measured
+  RC parts ($C_1{=}488$pF/$R_1{=}9.01$MΩ, $C_2{=}420$pF/$R_2{=}9.51$MΩ, $T_2{=}296$K) gives a
+  coupling$\times\Delta T$ minted gyration — current machine-zero at $T_1{=}T_2$ (detailed balance,
+  $\Sigma_{eq}=k_BT\hat C^{-1}$) and at $C_c{=}0$, sign drive-locked (0/400 reciprocal deformations);
+  reproduces the measured rotation peak ($\approx661$pF/$5.0\,$rev s$^{-1}$ vs measured $\sim700$pF/$\sim5$);
+  an independent SDE path matches the closed form. **Colloidal** (Argun et al., PRE 96 052106, 2017):
+  the same method from the raw optics+fluidics ($k_x'{=}1.63$, $k_y'{=}0.86$ pN/μm, misalignment
+  $\theta$, $T_x{=}1750$K, $T_y{=}292$K) reproduces the measured-confirmed torque
+  $M=k_B\Delta T\frac{k_x'-k_y'}{k_x'+k_y'}\sin2\theta$ to rel. error $3\times10^{-16}$. Honest scope:
+  2-mode Gaussian current-only — the generic selection rule (drive-locked sign), not a frustrated
+  cycle. `experiments/gyrator_minting.py`, `gyrator_crosscheck.py`, `colloidal_gyrator_crosscheck.py`.
+  `pa:cycle-affinity`, `pa:ness-currents`, `pa:ness-fdr`.
+* **Cell-free repressilator** `empirical` [The real instances]. The second *frustrated-cycle*
+  ($\ge3$) instance, on a synthetic gene network (Niederholtmeyer et al., eLife 4:e09771, 2015 — Eq. 6
+  + measured Table 2: Hill $n{=}2$, $K{=}5$nM, $\beta g{=}2.0$nM/min, $c{=}0.5$/min, mRNA $t_{1/2}{=}8$min,
+  protein $t_{1/2}{=}90$min, dilution $\mu{=}\ln2/T_d$). The odd repression ring mints a phase-ordered
+  cyclic circulation under the TX-TL drive; the DB baseline is reached two ways (cut the drive, or break
+  frustration to an even ring); the winding is topology-locked (0/40 rate deformations); it collapses on
+  drive-cut. Period from the measured params $\approx8.3$–$8.9$h at $T_d{=}85$min, shortening with $T_d$
+  — in the measured band ($\sim$8h, faster at shorter $T_d$). Cross-check: an independent re-implementation
+  (FFT period) + linear stability — the symmetric fixed point is an unstable spiral (Hopf-born limit
+  cycle), the drive-collapse *is* that Hopf bifurcation, and only the odd ring carries the unstable mode
+  (the frustration is analytically necessary). Idealizations: deterministic mean-field of Eq. 6, with
+  maturation/resource-limitation/intrinsic-noise omitted; period validated as a band, not a point.
+  `experiments/repressilator_minting.py`, `repressilator_crosscheck.py`. `pa:cycle-affinity`,
+  `pa:frustration`, `pa:bifurcation-normal-forms`, `pa:ness-currents`.
 * **Two-survivals plane** `empirical` [The two-survivals plane]. Branch survival ($\Delta V$) and current
   survival ($I(0)$, set by $\mathcal{A}$) are independent axes; all four corners are instanced.
   **branch-only** — a symmetric Hopfield attractor net: $\Delta V\approx0.97$ (Kramers basin escape) with

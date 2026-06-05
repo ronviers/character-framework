@@ -7,6 +7,18 @@ All work below is committed + pushed.
 
 ## Where things stand (current)
 
+**Latest (2026-06-05, minting cross-substrate family banked).** The **minting** claim is now instanced and
+banked across **four real measured substrates** — `character.md` §The real instances + `character_receipts.md`
++ `character_substrate_ledger.md`: the fuel-driven DNA network (chemistry, ≥3 cycle), the **electronic** and
+**colloidal** Brownian gyrators (N=2, current-only), and the **cell-free repressilator** (synthetic biology,
+≥3 frustrated cycle). Each operator is built from the system's own measured parameters and reproduces its
+measured signature — colloidal torque to `3e-16`; repressilator period in the measured band, Hopf-confirmed.
+Code in `experiments/`: `gyrator_minting.py` (+`gyrator_crosscheck.py`), `colloidal_gyrator_crosscheck.py`,
+`repressilator_minting.py` (+`repressilator_crosscheck.py`) + four figures. README rebuilt as a standard
+project page with the four-figure gallery. Hunt/cross-check records in `docs/`. Open frontier for minting:
+the **`β`-collapse** remains the sharpest *unrun* test (the README's central bet); more real instances are
+welcome but not owed. The transverse-decomposition/TDT arc below is unchanged and still open.
+
 **State (2026-06-05, end of the real-data arc).** The live frontier is the **transverse decomposition**,
 generalized into the portable **transverse-decomposition test (TDT)** (§below), run synthetically on the triad
 (gMAM), surface code (QEC), and glass (aging) — and now carried to a **real substrate** for the first time.

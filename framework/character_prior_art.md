@@ -10,7 +10,7 @@ test; the umbrella term *character*; the identification of the deformation algeb
 tangent space of a single morphospace, and the proximity laws; the binding
 (graph-frustration ⟺ spectral complex pair ⟺ cycle affinity) read in its falsifiable
 direction; identity as the protected coordinates sustained as a circulation; and the closure
-`⊗` with its minting claim and one real instance.
+`⊗` with its minting claim and its real instances.
 
 Each row: `key` — **imported result** · *imports* (what is borrowed) · *handle* (where it
 lands in the framework, in standard terms) · *adds* (the reading, owned). The `key` is the
@@ -179,6 +179,6 @@ single morphospace** and the **proximity laws** (signs set by the Killing form; 
 frustration mints a protected current); the **binding** (graph-frustration ⟺ spectral complex
 pair ⟺ cycle affinity) read in its falsifiable direction, with protection located in the
 affinity; **identity** as the protected coordinates sustained as a circulation, and at the
-composite level the minted, sustained bit; the **closure `⊗`** and its one real instance;
+composite level the minted, sustained bit; the **closure `⊗`** and its real instances;
 every *reading* (the "adds" column above); and every *falsifier*. The imports are the
 load-bearing skeleton borrowed wholesale; the reading is the only thing claimed.

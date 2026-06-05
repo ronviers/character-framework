@@ -14,7 +14,8 @@ a hard circulation bit — a probability current locked on a frustrated cycle, c
 rewiring. Coupling two systems can mint a protected circulation neither carried alone, sustained
 only while driven; that minted bit is the system's protected branch. It is checked on synthetic
 substrates (a rock-paper-scissors replicator, a homochiral triad, a distance-3 surface code) and
-on one real instance — a fuel-driven DNA reaction network; the sharpest test forces one memory
+on a small family of real instances — a fuel-driven DNA reaction network, two Brownian gyrators
+(electronic and colloidal), and a cell-free genetic ring oscillator; the sharpest test forces one memory
 exponent `β` to govern fluctuation-dissipation aging, queue-tail scaling, and the memory kernel
 at once. The collapse against laboratory data has not been run.
 
@@ -603,9 +604,14 @@ composite level the minted protected bit **is** the composite's branch — prese
 vanishes: the parts revert, nothing is stored. A circulation being run, not a bit being held.
 Substrate-general.
 
-## The one real instance — a fuel-driven DNA reaction network
+## The real instances — minting across substrates
 
-A published dissipative DNA system (Nicholas et al., *Angew. Chem.* 2025,
+Minting is read on a small family of real, measured substrates — spanning chemistry, electronics,
+fluidics, and synthetic biology, and both structural depths (a 2-mode current-only NESS and a `≥3`
+frustrated cycle). The framework adds nothing to them but the reading; every number is the
+substrate's own measured value.
+
+**A fuel-driven DNA reaction network — the chemical `≥3` cycle.** A published dissipative DNA system (Nicholas et al., *Angew. Chem.* 2025,
 [10.1002/anie.202512967](https://onlinelibrary.wiley.com/doi/10.1002/anie.202512967)), reduced
 to a quencher's three states and run through the protocol on experimentally-fitted rate
 constants (measured SI Tables S4/S5, Exp. Fig. 2b), passes all three components of the minting
@@ -628,7 +634,45 @@ network genuinely circulates, the reduction reproduces the full per-quencher cyc
 network (enzyme folded to a pseudo-first-order drain, quasi-steady-state on the bound complex,
 output and fuel held as baths); the chemostat is idealized; slow side-processes (waste
 inhibition, enzyme deactivation — the SI's own drift terms) are omitted and do not touch the
-core cycle. One confirmed instance, not a population.
+core cycle.
+
+**Two Brownian gyrators — generic `N = 2`, current-only.** The electrical Brownian gyrator
+([Chiang et al., *Phys. Rev. E* 96, 032123, 2017](https://doi.org/10.1103/PhysRevE.96.032123)) — two
+capacitively-coupled RC circuits, one resistor held at a cold Johnson-noise bath — and its fluidic
+twin, a colloid in an elliptical optical trap coupled to two effective bath temperatures
+([Argun et al., *Phys. Rev. E* 96, 052106, 2017](https://doi.org/10.1103/PhysRevE.96.052106)). A
+coupling (the cross-capacitance; the trap–bath misalignment angle) mints a protected gyrating current
+under the thermal drive `T₁ ≠ T₂`, vanishing at the detailed-balanced baseline (equal temperatures,
+or zero coupling) and sign drive-locked. Building the Fokker–Planck operator from the raw measured
+parts ([`gyrator_minting.py`](../experiments/gyrator_minting.py), independently cross-checked in
+[`gyrator_crosscheck.py`](../experiments/gyrator_crosscheck.py) and
+[`colloidal_gyrator_crosscheck.py`](../experiments/colloidal_gyrator_crosscheck.py)) reproduces each
+system's own measured rotation — the electronic optimal-coupling peak (`≈ 661 pF`, `≈ 5 rev s⁻¹` vs
+measured `~700 pF`, `~5`) and the colloidal torque (to relative error `3×10⁻¹⁶` against the
+measured-confirmed closed form `M = k_B ΔT · (k_x'−k_y')/(k_x'+k_y') · sin 2θ`). This is the generic minting selection rule, a
+drive-locked protected sign — not the DNA's exact-cancellation special case; the honest scope is a
+2-mode Gaussian current-only NESS, not a frustrated cycle.
+
+**A cell-free genetic ring oscillator — the second `≥3` frustrated cycle.** The repressilator
+(three mutually repressing genes, an odd negative loop — the homochiral-triad topology) realized
+cell-free in a continuous-flow reactor
+([Niederholtmeyer et al., *eLife* 4:e09771, 2015](https://doi.org/10.7554/eLife.09771)). Built from
+the measured transfer functions ([`repressilator_minting.py`](../experiments/repressilator_minting.py),
+its Hopf/FFT cross-check in [`repressilator_crosscheck.py`](../experiments/repressilator_crosscheck.py)),
+the frustrated ring mints a phase-ordered cyclic circulation under the transcription–translation
+free-energy drive; the detailed-balanced baseline is reached two ways
+— cut the drive, or break the frustration to an even ring — the winding direction is topology-locked,
+and the circulation collapses when the drive is removed. The period computed from the measured
+parameters (`≈ 8.3–8.9 h` at the longest dilution time, shortening with it) lies in the measured
+band (`~8 h`, faster at shorter dilution time). Linear stability confirms the mechanism: the
+symmetric fixed point is an unstable spiral (a Hopf-born limit cycle), the drive-collapse *is* that
+Hopf bifurcation, and only the odd ring carries the unstable mode — the frustration is necessary,
+not incidental. A second instance of the frustrated-cycle minting claim, on a substrate (a synthetic
+gene network) distinct from the DNA chemistry; idealized as the deterministic mean-field of their
+Eq. 6 (maturation, resource limitation, and intrinsic noise omitted), the period validated as a
+band, not a point.
+
+One confirmed *family*, not a population: four measured substrates, two structural depths.
 
 ## Cascade, convergence, and the self-referential limit
 

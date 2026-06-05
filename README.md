@@ -1,33 +1,81 @@
 # Character
 
-The framework invents none of the machinery. Every piece is borrowed whole — laser-threshold physics, stochastic thermodynamics, signed-graph frustration, queueing theory, the topology of error-correcting codes. The only thing claimed is the *reading*: that these are one structure in different clothes, forced onto a single axis, and that the forcing is a measurement you can fail — not a metaphor you can stretch. One sharp bet sits at the center: a single memory exponent that must govern three unrelated-looking measurements at once. It has not been run against laboratory data. It can lose.
+*A framework that reads driven steady states — across physics, chemistry, biology, and computation — as one structure on a single axis. Every result is borrowed; the only claim is the reading; one experiment can falsify it.*
 
-Begin where the reading begins: a single steady state, held away from equilibrium by a throughput of energy. A laser above threshold. A cell metabolizing. A vortex standing in a drain. A chemical loop fed by fuel. Each looks stationary, but none of it is at rest — stop the energy and the whole structure relaxes to nothing. What persists does so only by being continuously run.
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 
-Look closely at one of these states and it is doing two unrelated things at once. It holds a soft quantity — *how much*: a brightness, a concentration, an amplitude — that you can dial anywhere and erase for the cost of a bit. And it holds a hard one — *which way it turns*: a current circulating around a loop, around and around, in a direction no smooth adjustment can reverse. The soft thing you tune; the hard thing you can only rewire. They never trade — no amount of brightness becomes a direction of spin. **Character** is the name for the pair: the full fingerprint of a steady state, read as these two independent bits.
+## Overview
 
-One number sets the whole picture. Write `a = ln(gain / loss)` — the log of how hard the system is driven against how fast it leaks. Push `a` high and the structure is robust, self-sustaining, cheap to keep. Bring it near zero and the system goes critical: it slows, it ages, it remembers. Below zero it gives up and relaxes to equilibrium. The dial would be unremarkable except that it is, at once and exactly, four quantities from four fields that never talk: the entropy produced per step, the pump above lasing threshold, the branching ratio of a growing population, and a log-likelihood ratio. The claim is that these were always the same dial.
+**Character** is a theoretical framework for **driven steady states** — systems held away from equilibrium by a continuous throughput of energy (a laser above threshold, a metabolizing cell, a fuel-fed chemical loop, an error-correcting code). It introduces no new machinery: every component is imported from an established field — laser-threshold physics, stochastic thermodynamics, signed-graph frustration, queueing theory, the topology of error-correcting codes — and named to its source in [`character_prior_art.md`](framework/character_prior_art.md). The only claim is the **reading**: that these are the same structure in different settings, stated as a measurement that can fail.
 
-Lift from one state to all of them. Every character is a point; together they form a space — a morphospace of driven structure — and the two bits cut that space into two sectors with opposite laws of nearness. In the soft sector, near characters *average*: they fall into step, compete for the same gain, or merge where two modes become one. In the hard sector they never average — they *fuse*. Two currents turning the same way reinforce; turned opposite, they cancel. There is no halfway. You cannot continuously rotate one circulation into another; you re-wire the loop and let it snap.
+A steady state is read as two independent bits:
 
-That last fact is where it turns strange. Take two systems, each with no protected loop of its own — two plain soft states. Couple them the right way, three around a cycle, and the *joint* wiring can be frustrated where each part was balanced: a loop appears that closes on no consistent resting state, so the system circulates instead. A protected current is **minted** — present in the pair, absent in either alone. And it is not stored. It is a circulation being run. Cut the drive, or just unbuild the coupling, and it is gone the same instant, leaving no bit behind. A loop that exists only while it is driven is the branch the system occupies — the closest the framework comes to saying a system *is* something rather than merely *holds* something.
+- a **soft** bit — *how much* (brightness, concentration, amplitude): continuously tunable, erasable for the cost of one bit;
+- a **hard** bit — *which way it turns* (a protected circulation locked on a frustrated cycle): changeable only by rewiring.
 
-This has been watched happen once, in real chemistry. A fuel-driven DNA reaction network: its reversible core circulates not at all, balanced, going nowhere. Add the enzyme that drains the fuel and a protected circulation lights up — built from measured rate constants, nothing set by hand. Cut the fuel and it collapses back to equilibrium in about three minutes, exactly as the reading says it must. One confirmed instance, stated with its idealizations; the rest of the checks run on substrates simple enough to solve exactly — a rock-paper-scissors ecology, a mirror-breaking chemical triad, a surface code.
+A single control parameter `a = ln(gain / loss)` sets the regime — robust at high `a`, critical (slow, aging, remembering) near zero, relaxed to equilibrium below — and coincides exactly with four quantities from four fields: entropy produced per step, pump above lasing threshold, population branching ratio, and a log-likelihood ratio.
 
-None of it stops at one level. Coarse-grain a system and you get another character one level up; couple those and the cascade climbs. Each protected bit built upward is paid for downward, as hidden heat in the level you summed over — order at the top, dissipation exported to the bottom, one ledger read twice. The climb has an edge, a point where the levels stop telescoping into a single character and the notion of *one* fingerprint dissolves. And there is a horizon past all of it: a system whose loops come to feed their own drivers, a circulation that re-enters its own input and so holds itself up by turning. That is the project's standing guess at the most basic thing that could be called alive — not reproduction, but recursive protected circulation that sustains itself. It is the open end of the framework, not a result.
+The framework's central mechanism is **minting**: coupling two unprotected systems around a cycle can produce a protected circulation present in neither part alone, sustained only while driven. Full exposition, with every derivation and falsifier, is in [`framework/character.md`](framework/character.md).
 
-Which returns to the bet in the first paragraph. The sharpest place the whole reading can break is a single memory exponent, `β`, that the framework says must govern three things at once: how a system's correlations age, how heavy the tail of its waiting-times runs, and the shape of its memory kernel — three measurements from three disciplines, forced to collapse onto one number. They have not been put to a real substrate together. If they refuse to collapse, the reading is wrong. That is the point: a structure borrowed whole, claiming only that it is one structure, and carrying its own way to be killed.
+## Real-substrate instances
 
----
+Minting is instanced on four real, measured systems across four fields. Each operator is built from the named system's own published parameters and reproduces that system's measured signature; the figures are the output of running the code in [`experiments/`](experiments/), not illustrations.
 
-The machinery behind the walk — every claim named to its source, every derivation, every falsifier, and the ledger of what is settled versus what would move it — is one document and its companions:
+| Substrate | Field | Structure | Operator reproduces |
+|---|---|---|---|
+| DNA reaction network — [Nicholas et al. 2025](https://doi.org/10.1002/anie.202512967) | chemistry | ≥3 cycle | minted NESS circulation; collapse ~3 min after fuel-cut |
+| Electronic Brownian gyrator — [Chiang et al. 2017](https://doi.org/10.1103/PhysRevE.96.032123) | electronics | N=2 | measured optimal-coupling rotation peak |
+| Colloidal Brownian gyrator — [Argun et al. 2017](https://doi.org/10.1103/PhysRevE.96.052106) | fluidics | N=2 | measured-confirmed torque, to 3×10⁻¹⁶ |
+| Cell-free repressilator — [Niederholtmeyer et al. 2015](https://doi.org/10.7554/eLife.09771) | synthetic biology | ≥3 cycle | measured oscillation-period band |
 
-- **[`framework/character.md`](framework/character.md)** — the framework itself: the point, the manifold `ℭ`, the closure `⊗`.
-- **[`character_prior_art.md`](framework/character_prior_art.md)** — every imported result, named to its source.
-- **[`character_receipts.md`](framework/character_receipts.md)** — the derivation and falsifier behind each claim.
-- **[`character_frontier.md`](framework/character_frontier.md)** — the maturity ledger: what is settled, and what would move it.
-- **[`character_grounding_method.md`](framework/character_grounding_method.md)** and the depth treatments **[`character_fdr_treatment.md`](framework/character_fdr_treatment.md)** · **[`character_translation_method.md`](framework/character_translation_method.md)**.
+![Fuel-driven DNA reaction network](experiments/dna_ness_crosscheck.png)
 
-Runnable instances live in **[`experiments/`](experiments/)** — direct simulations on named substrates: the branch-survival barrier, the cycle affinity, and the **two-survivals plane** with all four corners instanced.
+*Chemistry, ≥3 cycle — the balanced reversible core; the enzyme fuel-drain mints a NESS circulation (reproduced by an N=3 reduction, center) that collapses ~3 min after fuel-cut (right).*
 
-The legacy corpus is frozen in [`mpa-atlas`](https://github.com/ronviers/mpa-atlas) (snapshot `character-v0.1`); all `mpa-*` repos are legacy. Licensed [CC-BY-4.0](LICENSE).
+![Electronic Brownian gyrator](experiments/gyrator_minting.png)
+
+*Electronics, N=2 — the Fokker–Planck operator from the measured RC parts reproduces the measured optimal-coupling rotation peak.*
+
+![Colloidal Brownian gyrator](experiments/colloidal_gyrator_crosscheck.png)
+
+*Fluidics, N=2 — the same method, from raw optics and fluidics, recovers the measured-confirmed torque to relative error 3×10⁻¹⁶.*
+
+![Cell-free repressilator](experiments/repressilator_minting.png)
+
+*Synthetic biology, ≥3 cycle — the frustrated gene ring mints a phase-ordered oscillation; the period from the measured biochemistry lands in the measured band and shortens with dilution.*
+
+## Documentation
+
+The framework and its supporting material live in [`framework/`](framework/):
+
+| File | Contents |
+|---|---|
+| [`character.md`](framework/character.md) | the framework: the point, the manifold `ℭ`, the closure `⊗` |
+| [`character_prior_art.md`](framework/character_prior_art.md) | every imported result, named to its source |
+| [`character_receipts.md`](framework/character_receipts.md) | the derivation and falsifier behind each claim |
+| [`character_frontier.md`](framework/character_frontier.md) | the maturity ledger: what is settled, what would move it |
+| [`character_substrate_ledger.md`](framework/character_substrate_ledger.md) | every substrate tested, with its verdict |
+| [`character_substrate_method.md`](framework/character_substrate_method.md) | how a viable real-data substrate is found |
+| [`character_grounding_method.md`](framework/character_grounding_method.md) · [`character_fdr_treatment.md`](framework/character_fdr_treatment.md) · [`character_translation_method.md`](framework/character_translation_method.md) | grounding method and depth treatments |
+
+## Experiments
+
+The scripts in [`experiments/`](experiments/) build each operator and run the protocol, printing a verdict and writing a figure. They require only Python 3 with NumPy, SciPy, and Matplotlib:
+
+```bash
+pip install numpy scipy matplotlib
+python experiments/repressilator_minting.py          # ≥3 frustrated-cycle instance (gene oscillator)
+python experiments/repressilator_crosscheck.py       # its independent FFT + Hopf cross-check
+python experiments/gyrator_minting.py                # electronic gyrator (N=2)
+python experiments/colloidal_gyrator_crosscheck.py   # colloidal gyrator (N=2)
+```
+
+Alongside the four real-substrate operators are direct simulations on synthetic substrates: the branch-survival barrier, the cycle affinity, and the two-survivals plane with all four corners instanced.
+
+## Status
+
+The reading is supported across four real substrates and a set of exactly-solvable synthetic ones, but its sharpest test is unrun: a single memory exponent `β` is required to govern three independent measurements at once — correlation aging, waiting-time tails, and the memory kernel. These have not been measured together on one substrate. If they fail to collapse onto one number, the reading is wrong.
+
+## License
+
+[CC-BY-4.0](LICENSE). The legacy corpus is frozen in [`mpa-atlas`](https://github.com/ronviers/mpa-atlas) (snapshot `character-v0.1`); all `mpa-*` repos are legacy.

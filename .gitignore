@@ -1,6 +1,7 @@
 __pycache__/
 *.pyc
 output/
+docs/temp/
 dev_profile.json
 
 # large third-party CT image set (Collins 2021 Dryad p5hqbzknw, redownloadable)
