@@ -51,10 +51,18 @@ deposit. Open, ranked, none blocking:
    proves its own limit (a device that needed r(δ) is a *memory*; a memory's current is its bit), and **r(δ) ≠
    the selection rule**. Two open items: **(a)** the **ring laser's** "one experiment away" status now needs the
    (θ,ψ) reduced-model derivation to settle transverse-vs-collinear *before* any lab pitch; **(b)** the corrected
-   *archive* search → **driven-NESS-with-transverse-circulation** (driven chemical/biochemical networks; driven
-   colloidal/single-particle NESS = the physical glass ring) — prompt at `docs/research_prompt_driven_ness_transverse.md`.
-   Method note: the external prompt-collection channel bloats + salience-matches; **primary-source agent scouts
-   are what worked** (they correctly killed shell / skyrmion / QHE / vortex by reading the actual papers).
+   *archive* search (prompt `docs/research_prompt_driven_ness_transverse.md`) **ran and converged on a live lead:
+   the driven colloid on a ring** (Bechinger/Seifert toroidal trap) — *the physical realization of our glass-ring
+   substrate*, now 🔵 live in the ledger. Primary-source verdict (6 papers read): **independent affinity confirmed**
+   (drive vs barrier are separate optical dials), **move 1 present in real measured data** (Blickle 2009
+   arXiv:0902.2650: λ₁ = relaxation + i·circulation, the Re/Im split), **move 2 confounded** (1D drive also tilts the
+   barrier — the clean current-at-fixed-barrier cut needs a radial/2D observable or sim), **move 3 missing but
+   software-only** (asymmetric SLM potential); trajectory data non-public (on request). **Live next step = Path A:**
+   calibrate our glass-ring simulator to Blickle 2009's real parameters → reproduce the measured λ₁ (move 1 vs real
+   data), do the clean move-2/3 in sim (which the 1D experiment can't), and emit the exact experiment to hand the
+   Bechinger group. Method note: the external prompt-collection channel bloats + salience-matches; **primary-source
+   agent scouts are what worked** (they killed shell / skyrmion / QHE / vortex and verified the colloid lead by
+   reading the actual papers).
 2. The standing open threads below (Tier-2 sgMAM #1; β-collapse R3 #3).
 **Consult the substrate ledger before proposing or hunting any new substrate** (affordance gate first).
 
