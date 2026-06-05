@@ -8,7 +8,9 @@ walk-through. This file is the only standing instruction beyond them.
   `framework/` is active, canonical source of truth: `character.md` (the
   framework), plus `character_prior_art.md`, `character_receipts.md`,
   `character_frontier.md`, `character_grounding_method.md`,
-  `character_fdr_treatment.md`, `character_translation_method.md`. Working
+  `character_fdr_treatment.md`, `character_translation_method.md`,
+  `character_substrate_ledger.md` (the substrate roster + verdicts),
+  `character_substrate_method.md` (how a viable real-data substrate is found). Working
   material — handoffs, drafts, research and review prompts, session notes — goes
   in [`docs/`](docs/), never `framework/`. A superseded canonical doc goes to
   `framework/archive/`; don't stage scratch in `framework/`.
