@@ -395,6 +395,14 @@ protected. So the complex pair is the spectral *onset signature*; the affinity `
 frustrated triad`, with protection inherited from the triad, not the spectrum (the two-frame
 derivation is in [`character_fdr_treatment.md`](character_fdr_treatment.md)).
 
+**Local geometry, bounded.** Local geometry — the quasipotential-saddle Hessian (the escape prefactor; the
+`current-aids-escape` reading), the spectral-sheet curvature (the exceptional-point onset), or the leading
+symmetry-allowed `O(𝒜²)` response coefficient above — modulates how strongly already-connected sectors
+communicate, biasing branch occupancy and transition rates; it does **not** generate the protected
+circulation: existence is fixed by the global frustrated topology, protection by the cycle affinity. Whether
+that surviving second-order coefficient is universally geometric rather than merely analytic remains open
+(`character_frontier.md` · `curvature-as-coupling-bias`).
+
 ## Branch membership
 
 The protected observable is not a property of one character read in isolation; it is a **relation

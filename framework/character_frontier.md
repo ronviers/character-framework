@@ -56,6 +56,7 @@ verbatim. The table is lossy by design (one-line verdicts), the doc lossless. Ru
 | `cascade-ledger-split` | the conjugate cascade's two ledgers are one coarse-graining entropy-production split (σ_tot = σ_res + σ_hid) |
 | `qec-transverse-decomposition` | **the TDT** — metric⊥topological computed in the surface code + glass + triad: the protected current is barred from *all* metric observables; symmetry-protected, not generic |
 | `cross-stratum-transduction` | a coupling tower transduces the topological sector faithfully while the metric carrier is fungible — *shell; its T2 lead was the dead-end* |
+| `curvature-as-coupling-bias` | local geometry (prefactor / EP / leading symmetry-allowed O(𝒜²)) modulates coupling strength but does not generate the protected current; is the surviving 2nd-order coefficient geometric or merely analytic? |
 
 ### Battery — executable falsifier specs
 
@@ -370,6 +371,25 @@ before committing a sentence. Promotion is a deliberate later event, never autom
   (between-specimen sector independence) returned **messy / weak-against-strict** — *Amphidromus inversus*
   dextral/sinistral not exact mirrors, *Partula* weak chirality pleiotropy (~0.2–1% variance, human-sized data);
   prediction A demoted to a logged near-miss, the test moved into the native within-shell trajectory register.
+* `curvature-as-coupling-bias` **[sharpening]** — *verdict:* local geometry — the quasipotential-saddle
+  Hessian (escape prefactor), the spectral-sheet curvature (exceptional-point onset), or the leading
+  symmetry-allowed $O(\mathcal{A}^2)$ response coefficient — **modulates** how strongly already-connected
+  sectors communicate (biasing branch occupancy and transition rates) but does **not** generate the
+  protected circulation (existence = global frustrated topology, protection = cycle affinity). The surviving
+  second-order coefficient is *measured* (the driven colloid — receipts §Colloid ring transverse) but its
+  status as a **geometric** curvature (a Hessian / reduced-manifold curvature) rather than **merely the
+  leading analytic coefficient** of the response is unestablished — the one open leap. · **↑** a
+  forced-not-fitted derivation identifying the surviving $O(\mathcal{A}^2)$ coefficient with a geometric
+  curvature *universally* (not case-by-case), or a second real-substrate instance of the same geometric
+  identity → `battery`. · **✗** a substrate whose surviving second-order coefficient carries no curvature
+  interpretation (purely analytic) — then "curvature" is dropped and the claim reduces to its safe form
+  ("the leading allowed coupling is a second-order response coefficient"). · **→** `character.md`
+  §Motion and proximity (the cross-rule, "Local geometry, bounded") + §The two-survivals plane; receipts
+  §Colloid ring transverse, §Branch-survival barrier; `pa:transverse-decomposition`. *Raised 2026-06-07*
+  (from the gallery's saddle-susceptibility reading + an outside-channel curvature analysis). **Caveat
+  logged:** the gallery's connectedness-boundary "saddle" is a *parameter-space* bifurcation, distinct from
+  the *state-space* quasipotential saddle — both exhibit criticality → high susceptibility, but they are not
+  the same object; do not bridge them silently.
 
 ### Battery — executable falsifier specs
 

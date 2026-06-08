@@ -677,6 +677,20 @@ The supersession record — each retains the superseded form, the corrected form
 * **The binding — discharged by import**. The last floating node of the manifold lift closes by composing
   standing imports + one new one (`pa:reversible-spectrum`), not a bespoke theorem; corrects an outside
   three-way-iff overstatement to a 2-way carrier + 1-way spectral signature.
+* **Local geometry's coupling role, bounded** `composed`. Not a new theorem — three standing results
+  compose: the transverse-decomposition theorem ($\mathcal{A}$ barred from $\Delta V$, reaching only the
+  irreversible Eyring–Kramers prefactor — §Branch-survival barrier, the `current-aids-escape` tombstone),
+  the EP-onset-vs-affinity separation (§Topological-drain invariant; `pa:reversible-spectrum`), and the
+  cross-rule's surviving $O(\mathcal{A}^2)$ channel (§Colloid ring transverse). They bound to one statement:
+  **local geometry — saddle Hessian (prefactor), spectral-sheet curvature (EP onset), or the leading
+  symmetry-allowed $O(\mathcal{A}^2)$ coefficient — modulates coupling strength (branch occupancy, transition
+  rates) but does not generate the protected circulation** (existence = global frustrated topology, protection
+  = cycle affinity). The verb is *modulates*, not *governs*: the rate is barrier-dominated
+  ($k\sim A\,e^{-\Delta V/\varepsilon}$) and local curvature reaches only the prefactor $A$, so "governs"
+  would re-attribute the rate to local geometry and undo the transverse theorem. **Open leap** (frontier
+  `curvature-as-coupling-bias`): whether the surviving $O(\mathcal{A}^2)$ coefficient is *universally a
+  geometric curvature* or *merely the leading analytic coefficient* of the response — the colloid measures it,
+  does not certify it geometric. Crossed to `character.md` §Motion and proximity ("Local geometry, bounded").
 * **Promotions** `promoted`. The central commitment and two-frame construction crossed to the core on the
   rock-paper-scissors instance; the deformation chart and homochirality on rock-paper-scissors and the
   homochiral triad respectively; composite branch on the DNA reaction network. Each records a real
