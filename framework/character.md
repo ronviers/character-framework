@@ -9,8 +9,8 @@ threshold, the log branching ratio of Malthusian growth, and a log-likelihood ra
 framework maps these well-understood quantities — each measured independently — onto the single
 axis `a`.
 
-Read closely, a steady state carries two independent bits: a soft, erasable population bit, and
-a hard circulation bit — a probability current locked on a frustrated cycle, changeable only by
+Read closely, a steady state carries two irreducible kinds of information: a soft, continuous population magnitude, erasable at the
+Landauer bound, and a hard circulation bit — a probability current locked on a frustrated cycle, changeable only by
 rewiring. Coupling two systems can mint a protected circulation neither carried alone, sustained
 only while driven; that minted bit is the system's protected branch. It is checked on synthetic
 substrates (a rock-paper-scissors replicator, a homochiral triad, a distance-3 surface code) and
@@ -30,7 +30,9 @@ magnitude, erasable at the Landauer bound, relaxing by ordinary fluctuation-diss
 The other is hard: the orientation of a probability current circulating around a frustrated
 cycle — a signed 3-cycle no relabeling can unwind. The soft bit can be nudged anywhere; the hard
 one changes only by rewiring. A steady state, looked at closely, is doing two unrelated things at
-once.
+once. These two are *irreducible* — neither reduces to the other — and they are the whole of it:
+the framework's other observables are coordinates, responses, or dual readings of one sector or
+the other, never a third independent kind of information.
 
 Lift from the point to the space. All characters together form a morphospace `ℭ`, and the
 deformation algebra that linearizes the dynamics — scaling, rotation, shear — is its tangent
@@ -56,6 +58,10 @@ gain rate `G₀` to the loss rate `L`:
 ```
 a ≡ ln(G₀ / L)
 ```
+
+Equivalently `a = ln G₀ − ln L` — the *drop* between two log-reservoir levels: equal levels
+give `a = 0` and no flow however high both sit, the same number read as a difference rather
+than a ratio (the ratio form is the recognition handle for the four imports below).
 
 `a` is, simultaneously, four established quantities:
 
@@ -289,7 +295,16 @@ A character is a point `χ ∈ ℭ`; the sections above describe the structure *
 driven-dissipative structure (Raup, theoretical morphology). It is **stratified by `n`**:
 3-state triads sit on `gl(3, ℝ)`, larger substrates on `gl(n, ℝ)`; "two systems are close"
 means two points in a common stratum — the case the proximity laws below treat. There is no
-single global tangent space, and comparison across strata (embedding one in another) is open.
+single global tangent space. The **metric** proximity laws below require a common stratum — a
+shared tangent space to average in — so metric comparison across strata (embedding one in
+another) remains open. The **topological** minting does not: the cross-term holonomy
+`∮ Γ_AB · dx` (§The minting claim) is defined on a joint cycle regardless of `n`, and its
+protection inherits from the stratum-agnostic signed-graph balance, so coupling can mint a
+protected bit *across* strata (a derivation from the holonomy and balance imports — no
+cross-stratum substrate has yet instanced it). What is open is whether a coupling can be made
+*selectively* topological — suppressing the metric channel while preserving the holonomy — and
+how far such a hierarchy reaches before the metric leak closes the gap
+([`character_frontier.md`](character_frontier.md) · `selective-coupling-class`).
 
 Read as geometry, **the deformation algebra above is the tangent space `T_χ ℭ`**: the affinity
 `a` is the radial coordinate (distance from equilibrium, `a = 0`), chirality is
@@ -330,7 +345,12 @@ prefactors (the irreversible Eyring–Kramers rate; Bouchet–Reygner): it sets 
 is crossed, not the *cost*. This is the decoherence-free split read as a large-deviation statement — the
 protected sector decoupled from the metric sector's dissipative dynamics by symmetry, not by smallness,
 and exactly (Schur) while the substrate is isolated. Coupling is what can mix the irreps and let a current
-reach a barrier (the cross-rule below; the Maier–Stein boundary).
+reach a barrier (the cross-rule below; the Maier–Stein boundary). This exactness is the
+`V_AB = 0` end of a spectrum: where a symmetry only approximately separates the sectors, the
+metric channel reopens but can remain parametrically weak relative to the transverse coupling
+(`|V_AB| ≪ |Γ_AB|`). Whether that smallness-protected regime sustains a hierarchy — as opposed
+to the exact symmetry-protected one — is open
+([`character_frontier.md`](character_frontier.md) · `selective-coupling-class`).
 
 ## Motion and proximity
 
@@ -369,6 +389,10 @@ metric sector stays smooth). The generative rule is **union-graph frustration**:
 balance on the *union* graph including the coupling edges, and two balanced (non-circulating)
 systems can couple into a frustrated joint triad neither had (Harary; Cartwright;
 Antal–Krapivsky–Redner). Proximity is then a creation operator for protected current.
+Entrainment is not minting: a coupling that merely phase-locks two existing currents is the
+metric `so(3)` locking rule above, and a two-body union cycle is gauge-removable (`N = 2`);
+minting requires the *union* cycle to be frustrated (`N ≥ 3` in the union graph), creating a
+bit neither part carried — not the alignment of bits both already had.
 
 **The cross-rule.** The invariant is not flatness but a **symmetry-protected selection rule** — the
 linear-response face of the transverse decomposition (`pa:transverse-decomposition`). Because the
@@ -598,6 +622,23 @@ spectrum as the one-way signature — Andrieux; Potoyan–Wolynes). The existenc
 structure is imported (signed-graph theory); its protection lives in the affinity, and it is
 sustained only while the drive runs.
 
+In continuous form the minted bit is a **holonomy of the coupling** — the cycle affinity of the
+joint drift split `b = −a∇V + l`:
+
+```
+𝒜_union = ∮ (l_A + l_B + Γ_AB) · dx
+```
+
+When the parts are individually non-circulating (`𝒜_A = 𝒜_B = 0`, each drift a gradient), the
+part integrals vanish around any joint cycle and it reduces *exactly* to the cross term,
+`𝒜_union = ∮ Γ_AB · dx` — the minted circulation is carried entirely by the coupling's
+non-gradient part. A purely transverse (skew-symmetric) coupling, `ρᵀΓρ = 0`, does no work on
+the population magnitudes — the form a coupling must take to mint without metric mixing — but
+skew structure is **necessary, not sufficient**: a conservative skew flow (a Hamiltonian
+rotation `ẋ = J∇H`) is reversible, with `𝒜 = 0`. Minting requires the cross-term holonomy
+itself to be nonzero, and that — like all of the affinity — is supplied by the drive, not by
+the coupling's antisymmetry.
+
 The two faces mint differently. Chirality and topology flow with the NESS affinity, so coupling
 mints them. A self-sourced amplitude gain has no intrinsic referent — it can only track an
 external pump or coupling constant, and the dissipation identity `⟨σ⟩ = J · 𝒜` carries no
@@ -684,7 +725,12 @@ One confirmed *family*, not a population: four measured substrates, two structur
 
 ## Cascade, convergence, and the self-referential limit
 
-The cascade is a path `ℭ_n → ℭ_{n+1} → …` through strata. Each up-step *may* add a protected
+The cascade is a path `ℭ_n → ℭ_{n+1} → …` through strata. Because `ℭ` is closed under `⊗` and
+every character is the same two sectors, the cascade introduces no new *kind* of protected
+information — each level is the `⊗`-composite of the one below, the two sectors recomposed; what a
+successful up-step adds is minted topological structure (the metric sector is forced from the
+parts, §Composition), so the tower accumulates organization within the two sectors, not new
+sectors. Each up-step *may* add a protected
 bit, but only when the frustration / cross-rule fires, so minting is **not guaranteed per
 level** — most couplings add metric structure only, each minted bit paid for downward (§The
 conjugate cascade). Below the marginal point the strata telescope to a finite effective
@@ -715,6 +761,9 @@ limit. Each claim is a predicted measurement on a named substrate with a kill co
 - *The dual ledger*: a substrate whose `I_pred` scaling departs from its thermodynamic dual.
 - *The deformation chart*: a substrate whose linear response cannot be composed from the chart's
   generators.
+- *The two-sector compression*: a sustained, *irreducible* observable reducible to neither the
+  metric magnitude nor the topological sign nor their dual ledger — a third independent kind of
+  information would make character a catalog, not a compression.
 
 **The space — proximity protection.** Couple a frustrated-union system and ask whether the
 minted chirality is protected against **all** continuous deformations (dies only on rewiring),

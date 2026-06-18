@@ -194,6 +194,20 @@ record.
   wrongly placed on a reversible flip, definable only at the never-attained $\mathcal{A}=0$ boundary
   (a $0/0$). `pa:landauer`, `pa:bennett-reversible`, `pa:topological-memory`, `pa:signed-balance`,
   `pa:cycle-affinity`.
+* **Two irreducible sectors (compression)** `composition` [Two degrees of freedom; Object]. The
+  protected information of a character is exhausted by two non-interconvertible sectors: the
+  continuous **metric** sector (the Cartan tangent directions of $\mathfrak{gl}(n)$ — §The
+  deformation chart) and the discrete **topological** sector (the winding of $\mathcal{A}$,
+  $\pi_1\ne0$ — §Homotopy obstruction). Other observables factor through them: $\beta$, $X$,
+  $\Delta V$, $J$ read the metric sector, $\mathcal{A}$ the topological, $I_{\text{pred}}$ the dual
+  of both; the operating point $a$ is the coordinate along which all vary, not a third sector.
+  **Cascade consequence:** $\mathcal{C}$ closed under $\otimes$ + the two-sector exhaustion ⇒ the
+  tower introduces no new *kind* of protected information (each level is the $\otimes$-composite of
+  the one below); minting adds topological organization, the metric sector forced from the parts
+  (§The minting claim). Closes by composing the deformation-chart exhaustiveness, the homotopy
+  obstruction, and the closure. Falsify: a third irreducible kind — a sustained observable
+  reducible to neither sector nor their dual. `pa:cycle-affinity`, `pa:topological-memory`,
+  `pa:info-geometry`.
 * **Chirality protection** `bespoke` (synthetic) [The minting claim]. The protected carrier of a
   minted circulation is the **gauge-irremovable affinity** (the antisymmetric/non-gradient part of the
   drift), read as $\operatorname{sign}(\mathcal{A})$ — **not** the exceptional pair (suppressible) and
@@ -342,6 +356,26 @@ record.
   (alignment-independent, survives $r\to0$); $P_{\text{active}}=\frac{nv_0^2\tau_R}{d}[1+Cr^2]$, sign $C$
   contractile/extensile; $\tau_R=\int_0^\infty\langle\mathbf u(t)\cdot\mathbf u(0)\rangle\,dt$ (Green–Kubo).
   `pa:swim-pressure`, `pa:mips`, `pa:toner-tu`, `pa:green-kubo`.
+* **Union-cycle holonomy / minting localization** `composition` [The minting claim; Composition
+  under coupling]. The minted affinity is the holonomy of the joint drift,
+  $\mathcal{A}_{\text{union}}=\oint(l_A+l_B+\Gamma_{AB})\cdot dx$ (split $b=-a\nabla V+l$); with
+  each part non-circulating ($\mathcal{A}_A=\mathcal{A}_B=0$, gradient drift) the part
+  loop-integrals vanish around any joint cycle, so $\mathcal{A}_{\text{union}}=\oint\Gamma_{AB}\cdot dx$
+  — the minted bit lives entirely in the cross term. The holonomy needs only a joint cycle, not a
+  common stratum, so minting is **stratum-agnostic**; protection inherits from the stratum-agnostic
+  signed-graph balance. The $N{=}2$ union is gauge-removable (two-body coupling phase-locks —
+  metric $\mathfrak{so}(3)$ — rather than mints; $N{\ge}3$ in the union mints). Closes by composing
+  the cycle-affinity and signed-balance imports. Falsify: a minted protected bit with
+  $\oint\Gamma_{AB}\cdot dx=0$, or a cross-stratum frustrated union carrying no protected sign.
+  `pa:cycle-affinity`, `pa:signed-balance`, `pa:kolmogorov-reversibility`.
+* **Skew coupling — torque necessary, not sufficient** `proven` [The minting claim]. A
+  skew-symmetric coupling does no work on the population quadratic form ($\rho^\top\Gamma\rho\equiv0$
+  for $\Gamma^\top=-\Gamma$) — the pure-transverse conduit — but is not sufficient for minting: a
+  conservative skew flow ($\dot x=J\nabla H$, $J^\top=-J$) is time-reversible with $\mathcal{A}=0$
+  and zero entropy production. Minting needs broken detailed balance around the union cycle
+  ($\oint\Gamma\cdot dx\neq0$, equivalently $\prod k_+\neq\prod k_-$), supplied by the drive.
+  Falsify: a detailed-balanced ($\mathcal{A}=0$) skew coupling shown to mint a protected current.
+  `pa:kolmogorov-reversibility`, `pa:cycle-affinity`, `pa:ness-currents`.
 
 ## Stability and control
 
