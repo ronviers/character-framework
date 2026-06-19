@@ -376,6 +376,37 @@ record.
   ($\oint\Gamma\cdot dx\neq0$, equivalently $\prod k_+\neq\prod k_-$), supplied by the drive.
   Falsify: a detailed-balanced ($\mathcal{A}=0$) skew coupling shown to mint a protected current.
   `pa:kolmogorov-reversibility`, `pa:cycle-affinity`, `pa:ness-currents`.
+* **Templating — the offspring-sign kernel is degenerate** `calibration` [The minting claim;
+  `character_frontier.md` · `self-referential-closure`]. Synthetic recursive-$\otimes$ on the standard
+  driven 3-node OU triad ($M=-\gamma I+gA_{\text{cyc}}$, $\mathrm{sign}\,\mathcal{A}=\mathrm{sign}\,g$,
+  $\mathcal{A}=3Dg/\gamma$ so $\mathcal{A}\propto D$ — cut the noise drive, the current vanishes:
+  sustained-not-stored). A child = 3 fresh nodes ($g_{\text{child}}{=}0$, $\mathcal{A}_{\text{child}}{=}0$
+  by detailed balance) coupled **only through a single shared stirred field** (Viedma/Kondepudi analog,
+  no edge-sign copy): the medium sets the child's $\mathfrak{so}(3)$ deformation
+  $g_{\text{child}}=\kappa\,m+Z+\eta$, $m$ the parent's net handedness (a **rank-1** scalar projection
+  of its $k$ currents), $Z$ the shared bath's own fluctuation, $\eta$ local readout noise. **Results
+  (run 2026-06-19, `experiments/templating_kernel.py`):** *(i)* the single-step kernel
+  $M_{\text{kernel}}=P(\mathrm{sign}\,\mathcal{A}_{\text{child}}\mid\mathrm{sign}\,\mathcal{A}_{\text{parent}})$
+  is assortative field-ON ($P_{\text{same}}=\Phi(\kappa/\sqrt{\sigma_b^2+\sigma_\eta^2})=0.89$),
+  **parity-equivariant to machine precision** (residual $0$; the $\kappa{=}0$ field-OFF control is exactly
+  $50/50$ by symmetry, not sampled), and **drive-independent** (sign invariant across $D$; flips only on
+  rewiring the seed). *(ii)* The von Neumann discriminator — $I(s_{\text{parent}};s_{\text{child}})$ vs
+  string length $k$, reduced **exactly** (no Monte-Carlo) to $I(m;r)$ ($m$ parent net handedness, $r$ child
+  $+$-count, the equiprobable-within-$r$ combinatorial terms cancel) — **saturates** at
+  $C=\tfrac12\log_2(1+\kappa^2/\sigma_b^2)=1.0$ bit, **independent of $k$** ($I/k\to0$: $0.50,0.26,\dots,0.014$
+  for $k{=}1\dots64$), against the open-ended tape reference $I=k$ and the field-OFF null $I=0$ (to
+  $10^{-15}$). *(iii)* The lineage $\langle s_0 s_n\rangle=(2p-1)^n$ **decays** (corr. length $\sim4$ gens) —
+  no Pólya lock-in to the seed; the symmetric kernel's Perron vector gives no seed-fixation. **Reading
+  (outcome (b), pre-registered):** a low-dimensional physical field templates sign($\mathcal{A}$)
+  *faithfully but degenerately* — one shared stirred field of fixed capacity $C\sim1$ bit whatever $k$ is,
+  not $k$ independent registers. The von Neumann threshold is **real and located**: physics buys
+  self-maintenance + $\sim$1 bit of degenerate faithful templating; **open-ended heredity is
+  sub-threshold without a copyable tape.** Synthetic ⇒ **calibration, not vindication** (it measures where
+  the threshold sits, does not ease abiogenesis; no `character.md` edit). Falsify the degeneracy: $I\sim k$
+  with a provably rank-$<k$ medium and a clean field-OFF null surviving the smuggled-tape audit (handoff §8)
+  — the escalation case, not a quiet win. `pa:multitype-branching`, `pa:channel-capacity`,
+  `pa:von-neumann-automata`, `pa:frank-autocatalysis`, `pa:kondepudi`, `pa:polya-urn`, `pa:cairns-smith`,
+  `pa:quasispecies`.
 
 ## Stability and control
 
