@@ -86,6 +86,22 @@ record.
   `experiments/thm6_associator.py` (slopes $2.00/4.03$; even-ness exact;
   leading-coeff residual $\sim\varepsilon^2$, forced; $\rho\to1$ at $\kappa\approx\gamma$). `pa:anf-ring`,
   `pa:kato-perturbation`, `pa:gerstenhaber-deformation`.
+* **Hold-both threshold (Thm 7 / $\vee$) — soft** `derived` *(ahead)* [Boolean limit]. The hold-both gate
+  $\vee$ keeps two characters coexisting; its threshold is competitive exclusion. Sharp limit ($D\to\infty$):
+  a **transcritical** bifurcation, the loser amplitude $\to0$ **linearly** at $c_*$ — the framework's own
+  LINEAR competitive-exclusion onset (§Branch-survival barrier), *not* the exactly-symmetric Lotka–Volterra
+  (a non-generic degenerate first-order jump, the reports' confusion). Finite drive $=$ a **maintenance floor**
+  $h\sim1/D$ (the open-interior "never extinguished" term), which **unfolds** the transcritical
+  (`pa:imperfect-bifurcation`, Golubitsky–Schaeffer): the loser is **pinned** at $x_{\min}\sim h^{1/2}\sim
+  D^{-1/2}$ ($p{=}\tfrac12$), the threshold **rounds** over width $w\sim D^{-1/2}$ ($q{=}\tfrac12$), with the
+  scaling collapse $x_{\min}/\sqrt h=M((c-c_*)/\sqrt h)$. So the threshold is **$1/D$-soft**, $\vee$ is
+  **everywhere-defined (total)**, the apparent obstruction **dissolves** — the open-interval discipline
+  vindicated, Thm 9's rounded-crossover precedent matched. **Hard iff** (the residual $\times$) finite drive
+  *preserves* the absorbing boundary $x{=}0$ (coefficient renormalization / amplitude-vanishing multiplicative
+  noise) **or** the competition is exactly symmetric — both outside the framework's open-interior reading. The
+  exponent is normal-form-set ($\tfrac12$ transcritical; an SSB pitchfork unfolds at $p{=}\tfrac13,q{=}\tfrac23$).
+  Verified `experiments/thm7_holdboth.py` ($p{=}0.50$, $q{=}0.53$, collapse holds, continuous-vs-jump, $h{=}0$
+  hard / $h{>}0$ soft). `pa:imperfect-bifurcation`, `pa:bifurcation-normal-forms`, `pa:lotka-volterra`.
 * **The deformation chart** `proven` (real-instanced) [Boolean limit and the deformation algebra].
   The linear deformation space of $M=-\gamma I+g\,A_{\text{CYC}}$ is $\mathfrak{gl}(3,\mathbb{R})$,
   Cartan-decomposed $\mathbb{R}I\oplus\mathfrak{so}(3)\oplus\mathrm{Sym}_0$ — exhaustive
