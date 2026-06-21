@@ -90,7 +90,7 @@ record.
   $\vee$ keeps two characters coexisting; its threshold is competitive exclusion. Sharp limit ($D\to\infty$):
   a **transcritical** bifurcation, the loser amplitude $\to0$ **linearly** at $c_*$ — the framework's own
   LINEAR competitive-exclusion onset (§Branch-survival barrier), *not* the exactly-symmetric Lotka–Volterra
-  (a non-generic degenerate first-order jump, the reports' confusion). Finite drive $=$ a **maintenance floor**
+  (a non-generic degenerate first-order jump). Finite drive $=$ a **maintenance floor**
   $h\sim1/D$ (the open-interior "never extinguished" term), which **unfolds** the transcritical
   (`pa:imperfect-bifurcation`, Golubitsky–Schaeffer): the loser is **pinned** at $x_{\min}\sim h^{1/2}\sim
   D^{-1/2}$ ($p{=}\tfrac12$), the threshold **rounds** over width $w\sim D^{-1/2}$ ($q{=}\tfrac12$), with the
@@ -121,10 +121,9 @@ record.
   $19347$ stable $\mathfrak{gl}(3)$ deformations sign($\mathcal{A}$) never flips and never disagrees with
   sign($g$); it **survives the exceptional point** (the complex pair coalesces and dies under shear while the
   affinity's sign lives — *protection is the affinity, not the spectrum*); it flips **only** across the
-  $g\to0$ / $\mathcal{A}=0$ seam (rewiring). The apparent flip under strong shear was the current read
-  **outside the operating space** (an unstable $M$ has no NESS — the interior-only / NaN-tripwire discipline:
-  a malformed falsifier, not a counterexample). The residual kill that *would* still fire: a flip by a
-  deformation that keeps $M$ **stable** and $\mathcal{A}\ne0$ — none found. `pa:singularity-stratification`,
+  $g\to0$ / $\mathcal{A}=0$ seam (rewiring). The current's sign is defined only on the stable operating space
+  (an unstable $M$ has no NESS — interior-only / NaN-tripwire); the residual kill — a flip with $M$ **stable**
+  and $\mathcal{A}\ne0$ — is none found. `pa:singularity-stratification`,
   `pa:signed-balance`, `pa:bifurcation-normal-forms`.
 * **The deformation chart** `proven` (real-instanced) [Boolean limit and the deformation algebra].
   The linear deformation space of $M=-\gamma I+g\,A_{\text{CYC}}$ is $\mathfrak{gl}(3,\mathbb{R})$,
