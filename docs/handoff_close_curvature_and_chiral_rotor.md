@@ -28,9 +28,13 @@ drive-locked** (flips under `δ → −δ`, the achiral point `δ = 0, π`; inva
 shape is **genuinely chiral** (a chiral-symmetry-measure check, not mere inversion-asymmetry).
 
 **The correction Triskele forced — carry it; do not re-import the clean preconception.** Both the prior
-session and its operator walked in with a mental model of how character would show up here, and the build
-demonstrated it **way off**. The intuitive picture — a *deterministic protected circulation*, a wheel turning
-under the drive — is **wrong on this substrate**:
+session and its operator walked in **over-engineering the construction**, and the build showed it **way off**.
+The biggest miss: **how little it takes to construct frustration — a hole with a protrusion is really all you
+need.** The elaborate chiral-shape grammar (mixed-parity spherical harmonics, the pseudoscalar
+`χ = ε₂ε₃ sin δ`, the Clebsch–Gordan `2⊗3⊃1` selection rule) was a *sufficient demonstration*, **not** the
+essential requirement; if you picture something more complicated, you are overdoing it
+(`feedback_frustration_is_minimal`). Treat that as the lead caution. Three further subtleties the build forced
+(do not re-import the *wheel*):
 - **(i)** the **deterministic** phase-reduced (Kuramoto) triad **phase-locks** — no net circulation. The
   parity-locked protected current is **noise-activated**: stochastic hopping around the three symmetry-broken
   configurations `A-leads → B-leads → C-leads` — a May–Leonard cyclic-dominance loop with **no stable fixed
