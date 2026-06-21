@@ -53,13 +53,32 @@ record.
   own form; conjugating isometry $\phi=\Pi_{\text{slow}}$. Proven at $\beta=1$; $\beta<1$ via
   fractional RG. Open: the per-class $\beta$-function. `pa:functional-rg`, `pa:mz-projection`,
   `pa:slaving`.
-* **Deformation calculus — Thms 6/7/9** `bespoke` (bounds-only) *(ahead)* [Boolean limit]. With
-  $\kappa/\Phi^*=1/D$: Thm 6 (associator) $\|\alpha_C\|\lesssim\tfrac{1}{D}\sum|\gamma|\to0$; Thm 7
+* **Deformation calculus — Thms 6/7/9** `derived` (Thm 6, Thm 7) / `bespoke` (Thm 9) *(ahead)* [Boolean
+  limit]. With $\kappa/\Phi^*=1/D$: Thm 6 (associator) $\|\alpha_C\|\lesssim\tfrac{1}{D}\sum|\gamma|$; Thm 7
   (distributivity defect) $\to0$ likewise; Thm 9 (Boolean deviation) $\Delta_C=1$ iff
-  $\gamma_{AB}>0\land D<\gamma_{AB}$. Thm 6 is a genuine $1/D$ bulk series; Thm 9 is **not** a series
-  but a singular threshold crossover — the owed object is a scaling collapse $z=(\gamma-D)/w(D)$ with
-  width exponent $\alpha$ and profile class ($\alpha$ tracks the input-noise closure; forcing it needs
-  the noise law from a substrate FDR). `pa:anf-ring`.
+  $\gamma_{AB}>0\land D<\gamma_{AB}$ — **not** a series but a singular threshold crossover, the owed object a
+  scaling collapse $z=(\gamma-D)/w(D)$ with width exponent $\alpha$ and profile class ($\alpha$ tracks the
+  input-noise closure; forcing it needs the noise law from a substrate FDR — `battery:seam-collapse`).
+  **Thm 6 — derived, forced-not-fitted (2026-06-21).** The composition $\otimes$ is the one-sided Schur
+  complement of coupled driven-OU triads, $A\otimes B=M_A-\Gamma_{AB}M_B^{-1}\Gamma_{BA}$ (= adiabatic
+  elimination = Mori–Zwanzig in the gapped regime). Its associator $\alpha_C=(A\otimes B)\otimes
+  C-A\otimes(B\otimes C)$ is a **genuine, convergent, forced** power series in $\varepsilon=\kappa/\Phi^*=1/D$,
+  **even powers only** ($\otimes$ is even in $\kappa$ — two coupling factors per merge), starting at
+  $\boldsymbol{\varepsilon^2}$ (free/binary universal coupling; leading $-\Gamma M_C^{-1}\Gamma$) or
+  $\boldsymbol{\varepsilon^4}$ (chain $\Gamma_{AC}{=}0$; leading $\Gamma_{AB}M_B^{-1}\Gamma_{BC}M_C^{-1}
+  \Gamma_{CB}M_B^{-1}\Gamma_{BA}$) — so **$c_1=0$ and the $O(1/D)$ bound is loose**, not the true scaling. The
+  "smooth-merge closures" are the **Neumann/Schur resolvent recursion** — forced, no free constant; the
+  $\mathfrak{gl}(3,\mathbb R)$-drift / $\mathrm{Sym}^+$-noise type-closure is automatic ($\mathfrak{gl}(3)$ is
+  all real $3\times3$; the eliminated-block noise correction is PSD by construction). **Convergent** (Kato
+  resolvent analyticity), not merely asymptotic, on the open set where the eliminated block stays invertible;
+  the radius is the eliminated-block **gap closure** (Neumann $\rho\to1$ at $\kappa\sim\gamma$) — the
+  $D\sim\kappa$ threshold *derived not posited*, and exactly the boundary of Thm 9's separate crossover. Thm 7
+  follows from the same recursion. Algebraically the associator is the unobstructed obstruction tower of a
+  deformation of the $\varepsilon{=}0$ associative Boolean-ring product (Schur is an explicit section). The
+  open knob is which $\otimes$-topology is canonical (universal $\Rightarrow\varepsilon^2$ / chain
+  $\Rightarrow\varepsilon^4$). Verified `experiments/thm6_associator.py` (slopes $2.00/4.03$; even-ness exact;
+  leading-coeff residual $\sim\varepsilon^2$, forced; $\rho\to1$ at $\kappa\approx\gamma$). `pa:anf-ring`,
+  `pa:kato-perturbation`, `pa:gerstenhaber-deformation`.
 * **The deformation chart** `proven` (real-instanced) [Boolean limit and the deformation algebra].
   The linear deformation space of $M=-\gamma I+g\,A_{\text{CYC}}$ is $\mathfrak{gl}(3,\mathbb{R})$,
   Cartan-decomposed $\mathbb{R}I\oplus\mathfrak{so}(3)\oplus\mathrm{Sym}_0$ — exhaustive
