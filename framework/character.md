@@ -130,7 +130,9 @@ The order parameter for this face is the **Schnakenberg cycle affinity**
 𝒜 = ∮ v/D = ln(∏₊ k / ∏₋ k)   (gauge-invariant)
 ```
 
-nonzero iff the Jacobian spectrum has a complex-conjugate pair. The steady state is
+nonzero whenever the Jacobian spectrum has a complex-conjugate pair — a *one-way* spectral signature (a
+complex pair ⟹ `𝒜 ≠ 0`; the converse can fail, a real overdamped circulation carrying `𝒜 ≠ 0` with no
+complex pair — `character_receipts.md` §The binding). The steady state is
 then an irreducibly circulating NESS with broken detailed balance. Drive-independence
 lives in `𝒜` (forced nonzero at any drive); the current *magnitude* `J_ss` varies
 with `a`.
@@ -420,8 +422,9 @@ degeneracy. In the *uniform* biased ring (degenerate slow modes) the protection 
 spectrum is flat to machine precision across a wide affinity sweep — a degenerate limit of the
 operator (receipts §Glass aging transverse). In the *generic* driven colloid (non-degenerate slow
 modes; the Bechinger Fokker–Planck operator) the same rule resolves into its perturbative form: the
-forbidden linear channel reopens `∝ δ` in the symmetry-breaking (slope 1 over seven decades), only
-`O(𝒜²)` curvature surviving while the symmetry holds (receipts §Colloid ring transverse). The robust
+forbidden linear channel reopens `∝ δ` in the symmetry-breaking (slope 1 over seven decades), only the
+`O(𝒜²)` response coefficient surviving while the symmetry holds (receipts §Colloid ring transverse; that
+coefficient is analytic, not a geometric curvature — §Motion and proximity). The robust
 invariant across both is the **forbidden linear channel** (exactly zero iff the symmetry holds);
 flatness, linear onset, and step are only how the slow subspace resolves under the generator's
 symmetry class. Proximity couples them: the exceptional-point locus of the metric rule is where
@@ -431,8 +434,9 @@ Kunst). **But the EP is not the source of protection** — a generic coupling-cr
 pair deforms back through `ω = 0`, reversing chirality, with no singularity required.
 Protection re-routes to the union-graph frustration, which is gauge-irremovable and robustly
 protected. So the complex pair is the spectral *onset signature*; the affinity `𝒜` carries the
-*invariant*. This is the iff-chain read in its falsifiable direction: `𝒜 ≠ 0 ⟺ complex pair ⟺
-frustrated triad`, with protection inherited from the triad, not the spectrum (the two-frame
+*invariant*. This is the chain read in its falsifiable direction: `𝒜 ≠ 0 ⟺ frustrated triad` (the two-way carrier),
+with a complex pair ⟹ `𝒜 ≠ 0` the one-way spectral signature (not its converse — a real overdamped
+circulation carries `𝒜 ≠ 0` with no complex pair), and protection inherited from the triad, not the spectrum (the two-frame
 derivation is in [`character_fdr_treatment.md`](character_fdr_treatment.md)).
 
 **Local geometry, bounded.** Local geometry — the quasipotential-saddle Hessian (the escape prefactor; the
@@ -591,8 +595,12 @@ remaining sections give that closure law.
 
 A point at this level is a **composite** character `A ⊗ B`; the new primitive is the coupling
 map `⊗ : ℭ × ℭ → ℭ` — propinquity, then rewiring, then a composite character. The form — a
-space closed under a composition law, read at two scales — is imported (monoidal / operad /
-PROP closure; the renormalization semigroup; effective-theory "integrating out"). Its output
+space closed under a composition law, read at two scales — borrows its *template* from established
+structure (monoidal / operad / PROP closure; the renormalization semigroup; effective-theory "integrating
+out"), and the **metric**-sector composition is genuinely imported (RG / integrating-out). For the
+**protected** sector, however — minting as a fusion/monoidal product — no such composition algebra is
+established (the outbound returns found no named precedent); that closure is the framework's *candidate*,
+owed a build ([`character_frontier.md`](character_frontier.md) · `universal-invariant-classification`). Its output
 is **computed by the proximity rules** above: coupling resolves into locking, competition,
 exceptional-point coalescence, fusion, and union-graph frustration.
 
