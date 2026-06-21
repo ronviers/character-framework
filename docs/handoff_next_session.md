@@ -74,8 +74,9 @@ current collinear with `B`'s coordinate ⇒ fails (iii) (the bistable-memory tra
    (`cos≈0`, or zero syndrome, or a Re/Im split).
 2. **Invariance (the selection rule)** — the *linear* coupling of `B` to the current is symmetry-forbidden:
    `∂B/∂𝒜|₀ = 0`. In the degenerate/special case (QEC, glass) `B` is flat to machine precision across the whole
-   𝒜-sweep; generically (the colloid) only the linear coupling vanishes, leaving `O(𝒜²)` curvature. The current
-   rides the prefactor / the imaginary part / the conjugate sector.
+   𝒜-sweep; generically (the colloid) only the linear coupling vanishes, leaving the surviving `O(𝒜²)` response
+   coefficient (analytic, **not** a geometric curvature — `curvature-as-coupling-bias` tombstoned 2026-06-21).
+   The current rides the prefactor / the imaginary part / the conjugate sector.
 3. **Selection rule onset** — turn on δ (break the symmetry / add proximity); `B` becomes 𝒜-sensitive, reopening
    `∝ δ` (the onset power is parity-dependent; the **threshold** — zero iff symmetric — is the robust invariant).
 
