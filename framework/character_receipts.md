@@ -116,9 +116,16 @@ record.
   hold-both transcritical). The **singularity layer is the middle** fixing which metric quantities vanish
   smoothly (codim-1 seam) vs which change only across a seam (the topological bit) — the
   metric→singularity→topology layering. **Forced** (names the mechanism of an existing protection claim).
-  Falsify: a protected sign shown to flip under a smooth stratum-interior deformation — then it is not a
-  topological invariant and the non-unfoldable-stratum reading (and the protection re-derivation) fails.
-  `pa:singularity-stratification`, `pa:signed-balance`, `pa:bifurcation-normal-forms`.
+  **Falsifier run \+ SURVIVED** (`experiments/kill_protected_sign.py`, 2026-06-21): the kill — *a protected
+  sign flips under a smooth stratum-interior deformation* — was attempted adversarially and **failed**. Over
+  $19347$ stable $\mathfrak{gl}(3)$ deformations sign($\mathcal{A}$) never flips and never disagrees with
+  sign($g$); it **survives the exceptional point** (the complex pair coalesces and dies under shear while the
+  affinity's sign lives — *protection is the affinity, not the spectrum*); it flips **only** across the
+  $g\to0$ / $\mathcal{A}=0$ seam (rewiring). The apparent flip under strong shear was the current read
+  **outside the operating space** (an unstable $M$ has no NESS — the interior-only / NaN-tripwire discipline:
+  a malformed falsifier, not a counterexample). The residual kill that *would* still fire: a flip by a
+  deformation that keeps $M$ **stable** and $\mathcal{A}\ne0$ — none found. `pa:singularity-stratification`,
+  `pa:signed-balance`, `pa:bifurcation-normal-forms`.
 * **The deformation chart** `proven` (real-instanced) [Boolean limit and the deformation algebra].
   The linear deformation space of $M=-\gamma I+g\,A_{\text{CYC}}$ is $\mathfrak{gl}(3,\mathbb{R})$,
   Cartan-decomposed $\mathbb{R}I\oplus\mathfrak{so}(3)\oplus\mathrm{Sym}_0$ — exhaustive
