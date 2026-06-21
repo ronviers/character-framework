@@ -74,9 +74,16 @@ record.
   the radius is the eliminated-block **gap closure** (Neumann $\rho\to1$ at $\kappa\sim\gamma$) — the
   $D\sim\kappa$ threshold *derived not posited*, and exactly the boundary of Thm 9's separate crossover. Thm 7
   follows from the same recursion. Algebraically the associator is the unobstructed obstruction tower of a
-  deformation of the $\varepsilon{=}0$ associative Boolean-ring product (Schur is an explicit section). The
-  open knob is which $\otimes$-topology is canonical (universal $\Rightarrow\varepsilon^2$ / chain
-  $\Rightarrow\varepsilon^4$). Verified `experiments/thm6_associator.py` (slopes $2.00/4.03$; even-ness exact;
+  deformation of the $\varepsilon{=}0$ associative Boolean-ring product (Schur is an explicit section).
+  **Topology pinned:** $\otimes$ is the **monoidal product** $\mathfrak{C}\times\mathfrak{C}\to\mathfrak{C}$
+  (§Composition under coupling — monoidal/operad/PROP; the cascade is a tower of $\otimes$-composites), so
+  Thm 6 *is* the **monoidal-category associator** $(A\otimes B)\otimes C\to A\otimes(B\otimes C)$ — the
+  composite couples to the next unit by the canonical $\otimes$, **universal $\Rightarrow$ leading
+  $\varepsilon^2=1/D^2$**; the $\varepsilon^4$ case is the non-generic fixed-graph chain ($\Gamma_{AC}{=}0$),
+  not the associator. **Consequence:** $\mathfrak{C}$ is a *weak monoidal category* whose associator is
+  $O(1/D^2)$, even powers — **associative to $O(1/D)$ (coherent in the Boolean limit)**, the first defect at
+  $1/D^2$, so the cascade tower is assembly-order-robust to that order (bears on the cascade-depth law,
+  `selective-coupling-class`). Verified `experiments/thm6_associator.py` (slopes $2.00/4.03$; even-ness exact;
   leading-coeff residual $\sim\varepsilon^2$, forced; $\rho\to1$ at $\kappa\approx\gamma$). `pa:anf-ring`,
   `pa:kato-perturbation`, `pa:gerstenhaber-deformation`.
 * **The deformation chart** `proven` (real-instanced) [Boolean limit and the deformation algebra].

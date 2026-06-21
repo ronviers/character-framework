@@ -190,7 +190,10 @@ def main():
         print(f"   [{'PASS' if ok else 'FAIL'}]  {label}")
     if all(ok for _, ok in bar):
         print("\n  ==> CONFIRMED. The Thm-6 associator IS a genuine, CONVERGENT, FORCED series in eps=kappa/Phi*,")
-        print("      but it starts at eps^2 (universal binary coupling) / eps^4 (chain), EVEN POWERS ONLY -- the")
+        print("      CANONICAL reading: (X) is the MONOIDAL product C x C -> C (character.md S.Composition), so")
+        print("      alpha is the monoidal-category associator -> UNIVERSAL coupling -> leading eps^2 = 1/D^2.")
+        print("      (chain Gamma_AC=0 -> eps^4 is a non-generic fixed-graph special case, not the associator.)")
+        print("      It starts at eps^2 (universal) / eps^4 (chain), EVEN POWERS ONLY -- the")
         print("      current O(eps) bound is a loose norm bound, not the true scaling. The 'smooth-merge closures'")
         print("      are the Neumann/Schur resolvent recursion: forced, no free constant (and the gl(3) drift /")
         print("      Sym+ noise type-closure is automatic). Imports: Kato analytic perturbation theory (resolvent")
