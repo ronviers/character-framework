@@ -333,7 +333,7 @@ topological invariant is **constant on each stratum**, changing only when a seam
 sector's quantities are smooth *within* a stratum — they average and vanish continuously, and where a
 metric configuration is lost the seam is a generic low-codimension unfolding that **rounds smoothly** at
 finite drive (the hold-both/coexistence threshold is a codim-1 transcritical, unfolded by the drive;
-[`character_frontier.md`](character_frontier.md) · `thm7-bracket`). The circulation bit is the **stratum
+[`character_frontier.md`](character_frontier.md) · `seam-classification`). The circulation bit is the **stratum
 label** — the gauge-irremovable frustration class — so **no smooth deformation moves it** (it is the
 *non-unfoldable* stratum), and "changes only by rewiring" is exactly "changes only across a seam," rewiring
 being the edge-sign passage that carries the coupling into a different frustration class. The protection is
