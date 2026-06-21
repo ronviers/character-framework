@@ -284,6 +284,33 @@ record.
   without rewiring; or a substrate where overdamping the exceptional pair also erases $\mathcal{A}$.
   Owed: a real second instance. `pa:cycle-affinity`, `pa:kolmogorov-reversibility`, `pa:signed-balance`,
   `pa:nonhermitian-ep`, `pa:harada-sasa`, `pa:reversible-spectrum`.
+* **Chiral-rotor triad (Triskele) — mechanical calibration instance** `synthetic` [The minting claim]. A
+  computed minimal mechanical realization of the protected sign — three identical chiral rotors in a driven
+  ring ($\Delta\varphi = 2\pi/3$), the circulating NESS current's sign locked to the shape-chirality
+  pseudoscalar $\chi = \varepsilon_2\varepsilon_3\sin\delta$. **All three armed kill-switches pass.** (1) The
+  single-body propeller coupling $C \approx 3.4\,\chi$ by a validated regularized-Stokeslet BEM (Cortez 2001),
+  isolated by the **parity-odd projection** $D = \tfrac12[R^{TR}(\delta) - R^{TR}(-\delta)]$ (any
+  grid-handedness or achiral coupling is $\delta$-even and cancels), **nonzero** by the selection rule
+  $2\otimes3\supset1$ at **SNR $\approx 450$** above the numerical floor; the bare $6\times6$ mobility is
+  symmetric (reciprocal/Lorentz) to $1.6\times10^{-13}$. (2) The sign is **parity-locked, not drive-locked** —
+  set by $\chi$ at fixed drive sense, flipped only by $\delta\to-\delta$ through the achiral point, with **no
+  drive-*amplitude* escape** (honestly $J \propto \chi\Omega$ is odd in the drive *arrow* — reversing $\Omega$
+  reverses $J$ — but that is time-reversal, not a metric tuning). (3) The shape is **genuinely chiral** — a
+  continuous chirality measure $0.75$ vs $7.8\times10^{-16}$ at $\delta=0$. The activation envelope
+  $F(\Delta\varphi)$ vanishes at the mirror orientations $0,\pi$ and is nonzero at the ring's $2\pi/3$
+  ($F_e \approx 0.87$; the pair mobility is reciprocal there to $5\times10^{-16}$). **The mechanism, corrected
+  (carry it — do not re-import the wheel):** the *deterministic* phase-reduced (non-reciprocal Kuramoto) triad
+  does **not** circulate — it phase-locks (synchronized/splay); the protected current is **noise-activated
+  stochastic hopping** among the three lead-arrangements $\{A,B,C\}$-leads, a May–Leonard cyclic-dominance loop
+  with no stable fixed point; the non-reciprocity is **drive-generated** (the even-in-$(\theta_2-\theta_1)$
+  phase coupling $\propto C\chi\Omega F(\Delta\varphi)$), not bare-mobility; and the current lives in the
+  **collective configuration** (which body leads), not the individual co-rotating bodies. And **frustration is
+  minimal** — the harmonic grammar / Clebsch–Gordan was a *sufficient demonstration, not the essential
+  requirement* (a hole with a protrusion suffices). **Scope: synthetic = calibration, never vindication** —
+  imported fluid mechanics (Stokes BEM) read through the protected-sign lens; the **physical build remains the
+  owed real second instance** and this does **not** discharge it. Build: `H:\triskele`
+  (`github.com/ronviers/character-triskele`; live builder dashboard `ronviers.github.io/character-triskele`).
+  `pa:cycle-affinity`, `pa:ness-currents`.
 * **The binding** `composition` [The minting claim]. graph-frustration $\Leftrightarrow\mathcal{A}\Leftarrow$
   spectral, one carrier — closes by composing standing imports, not a bespoke theorem. Two-way carrier:
   the gauge-irremovable frustrated cycle $\Leftrightarrow$ nonzero cycle affinity (`pa:signed-balance`/`pa:frustration`
@@ -817,10 +844,28 @@ The supersession record — each retains the superseded form, the corrected form
   rates) but does not generate the protected circulation** (existence = global frustrated topology, protection
   = cycle affinity). The verb is *modulates*, not *governs*: the rate is barrier-dominated
   ($k\sim A\,e^{-\Delta V/\varepsilon}$) and local curvature reaches only the prefactor $A$, so "governs"
-  would re-attribute the rate to local geometry and undo the transverse theorem. **Open leap** (frontier
-  `curvature-as-coupling-bias`): whether the surviving $O(\mathcal{A}^2)$ coefficient is *universally a
-  geometric curvature* or *merely the leading analytic coefficient* of the response — the colloid measures it,
-  does not certify it geometric. Crossed to `character.md` §Motion and proximity ("Local geometry, bounded").
+  would re-attribute the rate to local geometry and undo the transverse theorem. **Resolved — clean negative**
+  (2026-06-21; retired frontier `curvature-as-coupling-bias`). Three independent outbound derivations converge:
+  the surviving $O(\mathcal{A}^2)$ coefficient $\kappa = \tfrac12 \partial_{\mathcal{A}}^2 O|_0$ is the
+  **leading analytic response coefficient, not a universal geometric curvature**. Model-independent
+  obstructions: (i) $\kappa$ is *observable-dependent* — two observables on one process give different
+  $\kappa$, a curvature scalar would not; (ii) the FW quasipotential is $\mathcal{A}$-invariant (the transverse
+  theorem), so every curvature built from it is $\mathcal{A}$-invariant while $\kappa \ne 0$ — hence
+  $\kappa \ne \mathrm{curv}(W)$, the strongest single obstruction; (iii) each named candidate fails
+  structurally — Berry/pumping curvature needs a *cyclic loop* in $\ge 2$ parameters (here one static
+  $\mathcal{A}$, vanishing at a point), no exceptional point exists at $\mathcal{A}=0$ (the generator is
+  analytic there), $\mathcal{A}=0$ is a regular point not a bifurcation (no unfolding), and the thermodynamic
+  (Sivak–Crooks/Ruppeiner) object is a *metric component* $g_{\mathcal{A}\mathcal{A}}$, not its curvature $R$,
+  and governs slow-driving dissipation not static response. Closed form (forced, not fitted):
+  $\kappa \propto \mathrm{Tr}(H^{-1}LH^{-1}L)$ = the Rayleigh–Schrödinger resolvent sum
+  $\sum_{j\ne+}\langle\psi_+^L|\Omega|\psi_j^R\rangle\langle\psi_j^L|\Omega|\psi_+^R\rangle/(\mu_+-\mu_j)$,
+  i.e. the equilibrium covariance $\kappa = (1/2D^2)\,\mathrm{Cov}_{\mathrm{eq}}[O,(x-\langle x\rangle)^2]$ on
+  the driven ring (Bouchet–Reygner irreversible-EK prefactor; Sivak–Crooks; Sinitsyn–Nemenman). The negative
+  **drops "curvature"** and *reinforces* the transverse theorem — the $\mathcal{A}$-invariance of $\Delta V$ is
+  exactly what bars the strongest geometric candidate. The state-space-vs-parameter-space caveat held (all
+  three kept them distinct; $\kappa$ is a cross-derivative living cleanly in neither as a curvature). Returns:
+  `docs/research_prompt_curvature_as_coupling_bias.md`. Crossed to `character.md` §Motion and proximity
+  ("Local geometry, bounded").
 * **Promotions** `promoted`. The central commitment and two-frame construction crossed to the core on the
   rock-paper-scissors instance; the deformation chart and homochirality on rock-paper-scissors and the
   homochiral triad respectively; composite branch on the DNA reaction network. Each records a real

@@ -439,9 +439,10 @@ derivation is in [`character_fdr_treatment.md`](character_fdr_treatment.md)).
 `current-aids-escape` reading), the spectral-sheet curvature (the exceptional-point onset), or the leading
 symmetry-allowed `O(𝒜²)` response coefficient above — modulates how strongly already-connected sectors
 communicate, biasing branch occupancy and transition rates; it does **not** generate the protected
-circulation: existence is fixed by the global frustrated topology, protection by the cycle affinity. Whether
-that surviving second-order coefficient is universally geometric rather than merely analytic remains open
-(`character_frontier.md` · `curvature-as-coupling-bias`).
+circulation: existence is fixed by the global frustrated topology, protection by the cycle affinity. That surviving second-order coefficient is the leading *analytic*
+response coefficient (an equilibrium covariance / a resolvent sum), **not** a geometric curvature — the
+quasipotential is `𝒜`-invariant, so no curvature built from it can equal the nonzero coefficient — which
+reinforces, rather than supplements, the transverse-decomposition theorem.
 
 ## Branch membership
 
