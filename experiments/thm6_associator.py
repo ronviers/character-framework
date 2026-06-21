@@ -189,11 +189,13 @@ def main():
     for label, ok in bar:
         print(f"   [{'PASS' if ok else 'FAIL'}]  {label}")
     if all(ok for _, ok in bar):
-        print("\n  ==> CONFIRMED. The Thm-6 associator IS a genuine, CONVERGENT, FORCED series in eps=kappa/Phi*,")
-        print("      CANONICAL reading: (X) is the MONOIDAL product C x C -> C (character.md S.Composition), so")
-        print("      alpha is the monoidal-category associator -> UNIVERSAL coupling -> leading eps^2 = 1/D^2.")
-        print("      (chain Gamma_AC=0 -> eps^4 is a non-generic fixed-graph special case, not the associator.)")
-        print("      It starts at eps^2 (universal) / eps^4 (chain), EVEN POWERS ONLY -- the")
+        print("\n  ==> CONFIRMED. The Thm-6 associator IS a genuine, CONVERGENT, FORCED series in eps=kappa/Phi*=1/D,")
+        print("      EVEN POWERS ONLY. Leading power = 2 x (Schur insertions in the leading term), set by the graph:")
+        print("        - DENSE / bare monoidal (X) (proximity regenerates the coupling): ONE insertion,")
+        print("          leading -Gamma inv(M_C) Gamma -> eps^2 = 1/D^2 (C is weak-monoidal, a = id + O(1/D^2)).")
+        print("        - SPARSE / local chain (Gamma_AC=0, the physical deep-tower case): TWO insertions,")
+        print("          the A->B->C->B->A excursion -> eps^4 = 1/D^4 (more coherent).")
+        print("      Bookkeeping fixed: kappa/Phi*=1/D, so eps^n = 1/D^n (no delta=kappa^2/Phi* rescaling). The")
         print("      current O(eps) bound is a loose norm bound, not the true scaling. The 'smooth-merge closures'")
         print("      are the Neumann/Schur resolvent recursion: forced, no free constant (and the gl(3) drift /")
         print("      Sym+ noise type-closure is automatic). Imports: Kato analytic perturbation theory (resolvent")

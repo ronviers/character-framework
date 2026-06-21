@@ -75,15 +75,25 @@ record.
   $D\sim\kappa$ threshold *derived not posited*, and exactly the boundary of Thm 9's separate crossover. Thm 7
   follows from the same recursion. Algebraically the associator is the unobstructed obstruction tower of a
   deformation of the $\varepsilon{=}0$ associative Boolean-ring product (Schur is an explicit section).
-  **Topology pinned:** $\otimes$ is the **monoidal product** $\mathfrak{C}\times\mathfrak{C}\to\mathfrak{C}$
-  (§Composition under coupling — monoidal/operad/PROP; the cascade is a tower of $\otimes$-composites), so
-  Thm 6 *is* the **monoidal-category associator** $(A\otimes B)\otimes C\to A\otimes(B\otimes C)$ — the
-  composite couples to the next unit by the canonical $\otimes$, **universal $\Rightarrow$ leading
-  $\varepsilon^2=1/D^2$**; the $\varepsilon^4$ case is the non-generic fixed-graph chain ($\Gamma_{AC}{=}0$),
-  not the associator. **Consequence:** $\mathfrak{C}$ is a *weak monoidal category* whose associator is
-  $O(1/D^2)$, even powers — **associative to $O(1/D)$ (coherent in the Boolean limit)**, the first defect at
-  $1/D^2$, so the cascade tower is assembly-order-robust to that order (bears on the cascade-depth law,
-  `selective-coupling-class`). Verified `experiments/thm6_associator.py` (slopes $2.00/4.03$; even-ness exact;
+  **Bookkeeping (fixed, no free small-parameter):** the framework *defines* $\kappa/\Phi^*=1/D$, so
+  $\varepsilon=\kappa/\Phi^*=1/D$ and $\varepsilon^n=1/D^n$ directly — **the leading power equals
+  $2\times$(number of Schur insertions in the leading term)**, set by the coupling graph among the composed
+  units (no $\delta\equiv\kappa^2/\Phi^*$ rescaling needed; that would mis-state the powers). **Two regimes,
+  both verified:** *(dense / bare monoidal $\otimes$)* — $\otimes$ is the monoidal product
+  $\mathfrak{C}\times\mathfrak{C}\to\mathfrak{C}$ (§Composition under coupling — monoidal/operad/PROP; proximity
+  *regenerates* the coupling, so the composite couples to the next unit), giving the **monoidal-category
+  associator** with **one** Schur insertion, leading $-\Gamma M_C^{-1}\Gamma$, $\varepsilon^2=1/D^2$; *(sparse
+  / local chain, $\Gamma_{AC}{=}0$)* — composites couple only along graph edges, so re-bracketing needs the
+  full $A\!\to\!B\!\to\!C\!\to\!B\!\to\!A$ excursion (**two** Schur insertions; leading $\Gamma_{AB}M_B^{-1}
+  \Gamma_{BC}M_C^{-1}\Gamma_{CB}M_B^{-1}\Gamma_{BA}$), $\varepsilon^4=1/D^4$. **Consequences:** $\mathfrak{C}$ is
+  a *weak monoidal category*, $a_{A,B,C}=\mathrm{id}+O(1/D^2)$ (coherent in the Boolean limit), and a
+  *physical local cascade* (sparse coupling — the relevant deep-tower case) is more coherent still,
+  $O(1/D^4)$. Coherence window $N_{\max}\sim D^2$ (dense) to $D^4$ (local) — exact exponent set by the
+  accumulation model (worst-case $\sum\alpha_n$ / random-walk $\sqrt{\sum\alpha_n^2}$ / contracting); and since
+  the cascade *contracts* ($\varepsilon_n\to0$, the RG modulus $<1$), $\sum_n\varepsilon_n^{2}$ (or
+  $\varepsilon_n^4$) converges where $\sum_n\varepsilon_n$ would not — strengthening (not proving) the
+  inductive-limit construction. (Bears on the cascade-depth law, `selective-coupling-class`.) Verified
+  `experiments/thm6_associator.py` (slopes $2.00/4.03$; even-ness exact;
   leading-coeff residual $\sim\varepsilon^2$, forced; $\rho\to1$ at $\kappa\approx\gamma$). `pa:anf-ring`,
   `pa:kato-perturbation`, `pa:gerstenhaber-deformation`.
 * **The deformation chart** `proven` (real-instanced) [Boolean limit and the deformation algebra].
