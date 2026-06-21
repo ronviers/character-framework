@@ -599,8 +599,13 @@ space closed under a composition law, read at two scales — borrows its *templa
 structure (monoidal / operad / PROP closure; the renormalization semigroup; effective-theory "integrating
 out"), and the **metric**-sector composition is genuinely imported (RG / integrating-out). For the
 **protected** sector, however — minting as a fusion/monoidal product — no such composition algebra is
-established (the outbound returns found no named precedent); that closure is the framework's *candidate*,
-owed a build ([`character_frontier.md`](character_frontier.md) · `universal-invariant-classification`). Its output
+established (the outbound returns found no named precedent); that closure was the framework's *candidate*, and
+the build (`experiments/composition_law.py`) resolves it — the protected-sector composition **is the
+cycle-space homology** (Schnakenberg/Polettini): substrate-general and forced for the *existence/frustration*
+bit (a genuine, if imported, fusion algebra), but rate-dependent for the *value* bit `sign(𝒜)` (no clean
+group fusion); metabolized imported structure, not novel machinery
+([`character_frontier.md`](character_frontier.md) · `universal-invariant-classification`; receipts
+§Composition-law build). Its output
 is **computed by the proximity rules** above: coupling resolves into locking, competition,
 exceptional-point coalescence, fusion, and union-graph frustration.
 

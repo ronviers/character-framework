@@ -357,6 +357,35 @@ record.
   killed; the per-substrate invariant is vindicated and named; the universal claim relocates from a classifying
   space (dead) to a composition law (unbuilt, candidate in hand). Crossed to `character_frontier.md` ·
   `universal-invariant-classification`. `pa:gauge-thermodynamics`, `pa:signed-balance`, `pa:cycle-affinity`.
+* **Composition-law build — minting is the cycle-space homology import (calibration)** `synthetic`
+  (2026-06-21) [The minting claim]. The runnable half of the universal-invariant make-or-break: is minting a
+  genuine monoidal/fusion algebra? Built on the framework's native representation — substrates as Markov-cycle
+  graphs, the protected bit \= the sign of the Schnakenberg cycle affinity
+  $\mathcal{A}(c)=\sum_{(i\to j)\in c}\ln(w_{ij}/w_{ji})$ (the Polettini gauge holonomy);
+  `experiments/composition_law.py`. **All mechanical conditions pass:** (i) one rule across three substrates
+  (dna 3-cycle, gyrator 4-cycle, repressilator 3-cycle), **forced-not-fitted** —
+  $\operatorname{sign}\mathcal{A}=\operatorname{sign}$(directly-solved NESS current) in every case
+  (Schnakenberg's theorem); (ii) minting $0\otimes0\to1$ — two non-circulating ($\mathcal{A}=0$) parts coupled
+  into a frustrated union ($\mathcal{A}\approx+2.20$, real current), the bit from the coupling alone; (iii)
+  **associativity** sign-exact ($|(A\otimes B)\otimes C-A\otimes(B\otimes C)|=0$); (iv) cross-substrate minting
+  (chem$\otimes$gyrator) obeys the identical rule. **The honest structure (the refinement the pre-registered ↑
+  missed):** the composition splits. The **existence/frustration bit** composes as a *clean linear algebra over
+  the cycle space* — affinities add, shared edges cancel
+  ($\mathcal{A}_{\text{outer}}=\mathcal{A}_{C_1}+\mathcal{A}_{C_2}$, exact) — a genuine substrate-general fusion
+  structure, **but precisely the signed-graph homology import** (Harary/Zaslavsky/Polettini), not novel
+  machinery. The **value bit**
+  $\operatorname{sign}\mathcal{A}=\operatorname{sign}(\mathcal{A}_{C_1}+\mathcal{A}_{C_2})$ is **not** a
+  function of the component signs — $(+,-)$ composes to $+$ or $-$ by *magnitude* — so the value is
+  $\mathbb{R}$-additive and coupling-dependent, **not a group/fusion**. **Verdict (C-middle, made precise):**
+  metaphor-collapse **averted** — minting composes by a real, computed, substrate-general, forced law (a second
+  cross-substrate structure beside the transverse theorem), not a shared name; physical-category **not won** —
+  the algebra is the cycle-space homology *import*, metabolized, and the value-composition is no algebra at all
+  (the novel-monoidal-algebra route to a new category is closed). **Synthetic \= calibration, never
+  vindication** (`project_killshot_synthetic_is_imported_math`): a graph computation verifying
+  Schnakenberg/Harary cannot vindicate a new category — it confirms substrate-general imported structure. The
+  one make-or-break piece still open is the colloid superselection premise on real data. Crossed to
+  `character_frontier.md` · `universal-invariant-classification`; `character.md` §Composition under coupling.
+  `pa:cycle-affinity`, `pa:gauge-thermodynamics`, `pa:signed-balance`.
 * **Amplitude autonomy — supplied, not minted** `proven` [The minting claim]. Continuous-amplitude
   autonomy (a collective amplitude carrying its own self-gain, $\mathrm{Re}\,a_{\text{eff}}>0$ surviving
   drive removal) lives on the external frame, whose reference is always external — so a self-sourced gain
