@@ -326,6 +326,22 @@ The two bits are the two sectors of `T_χ ℭ`, with categorically different law
 2. **Circulation bit → topological sector** (the discrete winding of `𝒜`). Protected; changes
    only by rewiring; two of them **fuse**, never average.
 
+**The middle layer — singularity.** What makes the two laws categorically different is itself a
+classification, imported (singularity / stratification theory — Thom; Arnold; Whitney–Mather): the
+operating space **stratifies** into smooth pieces joined at lower-dimensional **singular seams**, and a
+topological invariant is **constant on each stratum**, changing only when a seam is crossed. The metric
+sector's quantities are smooth *within* a stratum — they average and vanish continuously, and where a
+metric configuration is lost the seam is a generic low-codimension unfolding that **rounds smoothly** at
+finite drive (the hold-both/coexistence threshold is a codim-1 transcritical, unfolded by the drive;
+[`character_frontier.md`](character_frontier.md) · `thm7-bracket`). The circulation bit is the **stratum
+label** — the gauge-irremovable frustration class — so **no smooth deformation moves it** (it is the
+*non-unfoldable* stratum), and "changes only by rewiring" is exactly "changes only across a seam," rewiring
+being the edge-sign passage that carries the coupling into a different frustration class. The protection is
+then **re-derived, not separately posited**: the sign is protected *because* it is the non-unfoldable
+invariant. This is the **metric → singularity → topology** layering — the singularity layer fixes which
+metric quantities vanish smoothly (a codim-1 seam) versus which change only across a seam (the topological
+bit). ([`character_frontier.md`](character_frontier.md) · `seam-classification`.)
+
 Decoherence sits exactly across this split: it selects pointer states and erases the rest
 (Zurek einselection), so it is aligned with the metric sector and orthogonal to the
 topological one. The protected sector is a **decoherence-free subsystem** (Zanardi–Lidar;

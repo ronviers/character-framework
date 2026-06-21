@@ -102,6 +102,23 @@ record.
   exponent is normal-form-set ($\tfrac12$ transcritical; an SSB pitchfork unfolds at $p{=}\tfrac13,q{=}\tfrac23$).
   Verified `experiments/thm7_holdboth.py` ($p{=}0.50$, $q{=}0.53$, collapse holds, continuous-vs-jump, $h{=}0$
   hard / $h{>}0$ soft). `pa:imperfect-bifurcation`, `pa:bifurcation-normal-forms`, `pa:lotka-volterra`.
+* **Protection as the non-unfoldable stratum (metric→singularity→topology)** `composition` [The two tangent
+  sectors]. Composes two standing imports with a standing framework result, adding **no new invariant**:
+  *(i)* the protected circulation bit is the gauge-irremovable **discrete graph-flux sign** (Harary balance;
+  it flips only on rewiring — §Frustration and the protected current; verified sign $0/200$ graph-fixed
+  deformations, `battery:sign-interior`); *(ii)* in a **stratified** operating space (`pa:singularity-
+  stratification`) a **topological invariant is constant on each stratum**, changing only across a singular
+  seam. $\Rightarrow$ the protected sign is the **non-unfoldable stratum-label** of the coupling space: no
+  smooth (stratum-interior) deformation moves it — *re-deriving* "protected" — and **rewiring is precisely
+  the seam-crossing** (an edge-sign passage to a different frustration class) at which a topological invariant
+  can jump. The metric sector, by contrast, is smooth *within* a stratum (averages, vanishes continuously; a
+  lost metric configuration is a generic codim-1 unfolding that **rounds smoothly** at finite drive — the
+  hold-both transcritical). The **singularity layer is the middle** fixing which metric quantities vanish
+  smoothly (codim-1 seam) vs which change only across a seam (the topological bit) — the
+  metric→singularity→topology layering. **Forced** (names the mechanism of an existing protection claim).
+  Falsify: a protected sign shown to flip under a smooth stratum-interior deformation — then it is not a
+  topological invariant and the non-unfoldable-stratum reading (and the protection re-derivation) fails.
+  `pa:singularity-stratification`, `pa:signed-balance`, `pa:bifurcation-normal-forms`.
 * **The deformation chart** `proven` (real-instanced) [Boolean limit and the deformation algebra].
   The linear deformation space of $M=-\gamma I+g\,A_{\text{CYC}}$ is $\mathfrak{gl}(3,\mathbb{R})$,
   Cartan-decomposed $\mathbb{R}I\oplus\mathfrak{so}(3)\oplus\mathrm{Sym}_0$ — exhaustive
