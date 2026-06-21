@@ -63,10 +63,8 @@ record.
   complement of coupled driven-OU triads, $A\otimes B=M_A-\Gamma_{AB}M_B^{-1}\Gamma_{BA}$ (= adiabatic
   elimination = Mori–Zwanzig in the gapped regime). Its associator $\alpha_C=(A\otimes B)\otimes
   C-A\otimes(B\otimes C)$ is a **genuine, convergent, forced** power series in $\varepsilon=\kappa/\Phi^*=1/D$,
-  **even powers only** ($\otimes$ is even in $\kappa$ — two coupling factors per merge), starting at
-  $\boldsymbol{\varepsilon^2}$ (free/binary universal coupling; leading $-\Gamma M_C^{-1}\Gamma$) or
-  $\boldsymbol{\varepsilon^4}$ (chain $\Gamma_{AC}{=}0$; leading $\Gamma_{AB}M_B^{-1}\Gamma_{BC}M_C^{-1}
-  \Gamma_{CB}M_B^{-1}\Gamma_{BA}$) — so **$c_1=0$ and the $O(1/D)$ bound is loose**, not the true scaling. The
+  **even powers only** ($\otimes$ is even in $\kappa$), starting at $\boldsymbol{\varepsilon^2=1/D^2}$ (generic)
+  with **$c_1=0$ — so the $O(1/D)$ bound is loose**, not the true scaling. The
   "smooth-merge closures" are the **Neumann/Schur resolvent recursion** — forced, no free constant; the
   $\mathfrak{gl}(3,\mathbb R)$-drift / $\mathrm{Sym}^+$-noise type-closure is automatic ($\mathfrak{gl}(3)$ is
   all real $3\times3$; the eliminated-block noise correction is PSD by construction). **Convergent** (Kato
@@ -75,24 +73,16 @@ record.
   $D\sim\kappa$ threshold *derived not posited*, and exactly the boundary of Thm 9's separate crossover. Thm 7
   follows from the same recursion. Algebraically the associator is the unobstructed obstruction tower of a
   deformation of the $\varepsilon{=}0$ associative Boolean-ring product (Schur is an explicit section).
-  **Bookkeeping (fixed, no free small-parameter):** the framework *defines* $\kappa/\Phi^*=1/D$, so
-  $\varepsilon=\kappa/\Phi^*=1/D$ and $\varepsilon^n=1/D^n$ directly — **the leading power equals
-  $2\times$(number of Schur insertions in the leading term)**, set by the coupling graph among the composed
-  units (no $\delta\equiv\kappa^2/\Phi^*$ rescaling needed; that would mis-state the powers). **Two regimes,
-  both verified:** *(dense / bare monoidal $\otimes$)* — $\otimes$ is the monoidal product
-  $\mathfrak{C}\times\mathfrak{C}\to\mathfrak{C}$ (§Composition under coupling — monoidal/operad/PROP; proximity
-  *regenerates* the coupling, so the composite couples to the next unit), giving the **monoidal-category
-  associator** with **one** Schur insertion, leading $-\Gamma M_C^{-1}\Gamma$, $\varepsilon^2=1/D^2$; *(sparse
-  / local chain, $\Gamma_{AC}{=}0$)* — composites couple only along graph edges, so re-bracketing needs the
-  full $A\!\to\!B\!\to\!C\!\to\!B\!\to\!A$ excursion (**two** Schur insertions; leading $\Gamma_{AB}M_B^{-1}
-  \Gamma_{BC}M_C^{-1}\Gamma_{CB}M_B^{-1}\Gamma_{BA}$), $\varepsilon^4=1/D^4$. **Consequences:** $\mathfrak{C}$ is
-  a *weak monoidal category*, $a_{A,B,C}=\mathrm{id}+O(1/D^2)$ (coherent in the Boolean limit), and a
-  *physical local cascade* (sparse coupling — the relevant deep-tower case) is more coherent still,
-  $O(1/D^4)$. Coherence window $N_{\max}\sim D^2$ (dense) to $D^4$ (local) — exact exponent set by the
-  accumulation model (worst-case $\sum\alpha_n$ / random-walk $\sqrt{\sum\alpha_n^2}$ / contracting); and since
-  the cascade *contracts* ($\varepsilon_n\to0$, the RG modulus $<1$), $\sum_n\varepsilon_n^{2}$ (or
-  $\varepsilon_n^4$) converges where $\sum_n\varepsilon_n$ would not — strengthening (not proving) the
-  inductive-limit construction. (Bears on the cascade-depth law, `selective-coupling-class`.) Verified
+  **Default (generic) scaling:** $\otimes$ is the monoidal product $\mathfrak{C}\times\mathfrak{C}\to\mathfrak{C}$
+  (§Composition under coupling — monoidal/operad/PROP), so $\alpha_C$ is the **monoidal-category associator**,
+  leading $-\Gamma M_C^{-1}\Gamma$ (**one** Schur insertion) $\Rightarrow\varepsilon^2=1/D^2$; $\mathfrak{C}$ is
+  a *weak monoidal category*, $a_{A,B,C}=\mathrm{id}+O(1/D^2)$, coherent in the Boolean limit. Bookkeeping is
+  fixed: $\kappa/\Phi^*=1/D\Rightarrow\varepsilon^n=1/D^n$, leading power $=2\times$(Schur insertions); no
+  $\delta=\kappa^2/\Phi^*$ rescaling. A *sparse/local* sub-cascade ($\Gamma_{AC}{=}0$, two insertions →
+  $\varepsilon^4=1/D^4$, leading $\Gamma_{AB}M_B^{-1}\Gamma_{BC}M_C^{-1}\Gamma_{CB}M_B^{-1}\Gamma_{BA}$) is the
+  special case, more coherent — broken out only when locality is assumed; **the generic $1/D^2$ is the default.**
+  Coherence window $N_{\max}\gtrsim D^2$ (vs the bound's loose $D$); the contracting cascade ($\varepsilon_n\to0$)
+  makes $\sum\varepsilon_n^2$ converge, aiding the inductive limit (`selective-coupling-class`). Verified
   `experiments/thm6_associator.py` (slopes $2.00/4.03$; even-ness exact;
   leading-coeff residual $\sim\varepsilon^2$, forced; $\rho\to1$ at $\kappa\approx\gamma$). `pa:anf-ring`,
   `pa:kato-perturbation`, `pa:gerstenhaber-deformation`.
