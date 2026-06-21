@@ -321,7 +321,42 @@ record.
   gauge; the topological bit = sign parity = gauge-irremovable sign of $\mathcal{A}$). Corrects an
   outside three-way-iff overstatement down to a 2-way carrier + 1-way signature. Falsify: a frustrated
   cycle with $\mathcal{A}=0$ away from balance, or a sustained $\mathcal{A}\ne0$ on a gauge-balanceable
-  graph. `pa:reversible-spectrum` + the carrier keys.
+  graph. `pa:reversible-spectrum` + the carrier keys. **Per-substrate, the carrier is named established
+  math** (`pa:gauge-thermodynamics`: $\mathcal{A}$ the gauge potential, detailed balance $=$ flat connection,
+  $\operatorname{sign}(\mathcal{A})$ the Wilson-loop sign; Harary/Zaslavsky balance) — but that classification
+  is *intra-substrate*; there is **no** single cross-substrate classifying structure (the universal-invariant
+  question, §Universal-invariant classification below).
+* **Universal-invariant classification — bounded (clean negative)** `composed` (2026-06-21) [The minting
+  claim]. Three independent outbound passes (`docs/universal_invariant returns.md`) converge: there is **no
+  established, model-independent classifying structure under which $\operatorname{sign}(\mathcal{A})$ is a
+  universal invariant** with substrate-independent equivalence classes. What exists is **substrate-bound**:
+  gauge cohomology / Wilson-loop flatness (`pa:gauge-thermodynamics`, Polettini 2012) on a *fixed* state-space
+  graph; Harary/Zaslavsky signed-graph balance (`pa:signed-balance`) — combinatorial, no dynamics;
+  large-deviation cycle theory (Andrieux–Gaspard 2007; `pa:cycle-affinity`, `pa:gc-ft`) — a representation
+  within one generator. None unify across substrates. **Range:** the bit is $\mathbb{Z}_2$ (a sign),
+  **sub-integer** — the thermodynamic gauge group is $(\mathbb{R}^+,\times)$, non-compact, so no integer
+  winding (Chern / K-theory is the wrong import; confirmed). **Manifold:** the established classification lives
+  on **state space** (the connection on the transition graph), *not* parameter space; conflating them is the
+  standard error. **The deformation framing is obstructed** (the minimal counterexample): a discrete 3-state
+  chemical cycle and a driven colloid on a ring both carry $\operatorname{sign}(\mathcal{A})=+1$ yet cannot be
+  placed in one class — different state spaces (3 points vs $S^1$), bounded vs unbounded generators, a singular
+  continuum limit. So "*same character $=$ deformable in one space*" is dead. **But the negative is precise,
+  not flat.** (i) The *construction* — gauge-irremovable sign of a cycle holonomy — **is** substrate-independent
+  (the same recipe everywhere: Polettini on graphs, de Rham on manifolds), so character is more than a loose
+  analogy; (ii) the counterexample over-reads — both systems have first Betti number 1 and the same sign, so it
+  kills the single classifying-*space* framing, not a universal *invariant/functor*; what fails is a complete
+  classifying space, not the per-substrate invariant. **The residue — the live make-or-break:** universality,
+  if it exists, is a **composition law**, not a shared space. The literature has *no* monoidal / fusion /
+  cobordism algebra of protected circulations (all three passes; the most original, unbuilt part). The framework
+  already derived the candidate: the union-cycle holonomy
+  $\mathcal{A}_{\text{union}} = \oint(l_A+l_B+\Gamma_{AB})\,dx = \oint\Gamma_{AB}\,dx$ when the parts do not
+  circulate (§Composition; `selective-coupling-class`) — minting two non-circulating parts into a circulating
+  union is $0\otimes0\to1$, a *non-trivial* product whose new generator is the coupling edge, not a
+  $\mathbb{Z}_2$ sum of the factors. Whether that is a genuine monoidal/fusion structure (associative, unital,
+  substrate-independent) is the owed build (`docs/build_composition_law.md`). **Verdict:** the *import* is
+  killed; the per-substrate invariant is vindicated and named; the universal claim relocates from a classifying
+  space (dead) to a composition law (unbuilt, candidate in hand). Crossed to `character_frontier.md` ·
+  `universal-invariant-classification`. `pa:gauge-thermodynamics`, `pa:signed-balance`, `pa:cycle-affinity`.
 * **Amplitude autonomy — supplied, not minted** `proven` [The minting claim]. Continuous-amplitude
   autonomy (a collective amplitude carrying its own self-gain, $\mathrm{Re}\,a_{\text{eff}}>0$ surviving
   drive removal) lives on the external frame, whose reference is always external — so a self-sourced gain
