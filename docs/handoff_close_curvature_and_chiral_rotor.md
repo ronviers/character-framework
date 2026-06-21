@@ -27,12 +27,24 @@ not recompute from scratch — read it and sync:
 drive-locked** (flips under `δ → −δ`, the achiral point `δ = 0, π`; invariant under drive direction); the
 shape is **genuinely chiral** (a chiral-symmetry-measure check, not mere inversion-asymmetry).
 
-**The one nuance to record (do not skip it):** the **deterministic** phase-reduced (Kuramoto) triad
-**phase-locks** — it does *not* deterministically circulate. The parity-locked protected current is
-**noise-activated**: stochastic hopping around the three symmetry-broken configurations
-`A-leads → B-leads → C-leads`. The kill-switches pass on that **stochastic** current. State this plainly —
-the protection lives in the affinity/graph-flux sign of the hopping current, not in a deterministic limit
-cycle (consistent with `pa:cycle-affinity` and the framework's "current = a hopping, not a wheel" readings).
+**The correction Triskele forced — carry it; do not re-import the clean preconception.** Both the prior
+session and its operator walked in with a mental model of how character would show up here, and the build
+demonstrated it **way off**. The intuitive picture — a *deterministic protected circulation*, a wheel turning
+under the drive — is **wrong on this substrate**:
+- **(i)** the **deterministic** phase-reduced (Kuramoto) triad **phase-locks** — no net circulation. The
+  parity-locked protected current is **noise-activated**: stochastic hopping around the three symmetry-broken
+  configurations `A-leads → B-leads → C-leads` — a May–Leonard cyclic-dominance loop with **no stable fixed
+  point**, the current carried by the *hopping*, not by a limit cycle.
+- **(ii)** the **non-reciprocity is drive-generated, not bare-mobility** — the instantaneous Stokes mobility is
+  reciprocal (Lorentz); the antisymmetric coupling is manufactured by drive + phase-reduction.
+- **(iii)** the current lives in the **collective configuration** (which body leads), **not** in the individual
+  rotations (which co-rotate trivially under the drive).
+
+Sync the *corrected* mechanism, not the wheel. The protection is the affinity / graph-flux sign of the
+**hopping** current (`pa:cycle-affinity`); the kill-switches pass on *that* current. **Discipline note for the
+new session: arrive without a settled picture of how the protected current "should" look mechanically — on a
+real substrate it has repeatedly been subtler than the clean reading** (`feedback_prepared_for_invalidation`,
+`feedback_dont_project_away_geometry`).
 
 **Job (no outbound input needed):**
 1. Skim Triskele (`results.json` + `HANDOFF.md` + `self_assembly.py`); re-run one verification if you want the
