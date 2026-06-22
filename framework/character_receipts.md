@@ -386,6 +386,40 @@ record.
   one make-or-break piece still open is the colloid superselection premise on real data. Crossed to
   `character_frontier.md` · `universal-invariant-classification`; `character.md` §Composition under coupling.
   `pa:cycle-affinity`, `pa:gauge-thermodynamics`, `pa:signed-balance`.
+* **Readability battery — the reading transition as an order parameter (calibration)** `synthetic`
+  (2026-06-21) [The reading transition]. The runnable instance of the abiogenesis arc's load-bearing beam
+  ("define reading before heredity"). On the same Markov-cycle machinery (`experiments/readability.py`, 3-cell
+  protected loop, $\mathcal{A}=b\,\Omega_0$ the bit's carrier), couple the loop to a tunable **ecological
+  field** $d$ entered as a **gradient** (a metric potential $d\,(U_i-U_j)$, curl-free by construction) and
+  measure two response coefficients. **(1) Metric reading turns on generically** within a lifetime —
+  $\partial(\text{occupancy})/\partial d=+0.21$, $\partial|J|/\partial d=-0.019$: the ecology reshapes the
+  loop's throughput/occupancy (the cross-rule; cheap, instantaneous, pre-heredity). **(2) Bit reading within a
+  lifetime is barred** — $\mathcal{A}$ is **invariant to machine precision** across the whole $d$-sweep (spread
+  $6.7\times10^{-16}$; the gradient telescopes to exactly $0$ around the cycle), so
+  $\partial(\operatorname{sign}\mathcal{A})/\partial d=0$. This is the **superselection null / kill-switch**: an
+  ecological (metric) field *cannot* continuously deform the protected sign — the transverse theorem
+  (`pa:transverse-decomposition`) forbidding the instantaneous route. Forced-not-fitted
+  ($\operatorname{sign}\mathcal{A}=\operatorname{sign}$ NESS current) holds throughout. **(3) The order
+  parameter is over a LINEAGE, not a lifetime.** Define $R_{\text{hard}}=\partial\langle\operatorname{sign}
+  \mathcal{A}\rangle/\partial d$ at a selection–replacement fixed point of a population of $\pm$ loops, fitness
+  $=$ metric work-harvest $\exp(\delta\,J(b;d)\,d)$ (overlap of the loop's current with the ecological flux;
+  $\delta$ $=$ the geometric overlap / **symmetry-break** knob). Result: **$R_{\text{hard}}=0$ below threshold
+  ($\delta=0$, current transverse to the flux — $\langle b\rangle$ flat in $d$: ecology modulates the metric
+  only); $R_{\text{hard}}\neq0$ above ($\delta>0$ — $\langle b\rangle$ tracks $d$, $\pm0.93$).** The bit becomes
+  readable **only across replacement, never instantaneously** — selection is the unique channel from the metric
+  sector into the topological one, acting as a projection operator (metric ecology $\to$ population replacement
+  $\to$ bit retention). $R_{\text{hard}}(\delta)$ **turns on continuously at $\delta=0$, $\sim$ linear near
+  threshold** ($R_{\text{hard}}/\delta\to$ const) — the same zero-iff-symmetric onset as TDT move 3. **(4)
+  Co-emergence:** over the four corners (replacement on/off $\times$ symmetry-break on/off), $R_{\text{hard}}\neq
+  0$ **only when both** the heritable-replacement channel **and** the symmetry break are open — so hard reading
+  and (proto-)heredity are the **same bridge** seen from opposite sides: from ecology, "a distinction becomes
+  able to affect a protected bit"; from the lineage, "a protected bit becomes able to survive replacement."
+  This mirrors the reproduction split exactly — **degenerate reproduction : pattern :: metric reading : state**,
+  and **heritable reproduction : bit :: bit reading : sign**. **Scope: synthetic $=$ calibration, never
+  vindication** (`project_killshot_synthetic_is_imported_math`) — a graph computation instancing the metric/bit
+  split as a measured order parameter; the reader instanced on a **real** dissipative medium remains owed (the
+  `escape-degenerate-replication` bootstrap). Crossed to `character_frontier.md` · `battery:readability`,
+  `reading-transition`. `pa:cycle-affinity`, `pa:transverse-decomposition`, `pa:von-neumann-automata`.
 * **Amplitude autonomy — supplied, not minted** `proven` [The minting claim]. Continuous-amplitude
   autonomy (a collective amplitude carrying its own self-gain, $\mathrm{Re}\,a_{\text{eff}}>0$ surviving
   drive removal) lives on the external frame, whose reference is always external — so a self-sourced gain

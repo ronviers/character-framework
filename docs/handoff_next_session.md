@@ -45,10 +45,20 @@ pattern-replication everywhere); the substrate ladder **object → dissipative m
 degeneracy*); the **scale-of-character** prediction + **gravity-contingent carbon** (gravity sets the strata
 window → casts which assembly scale, hence which chemistry, participates); the `battery:strata-current`
 sort-vs-mint discriminator (built, `strata_sort.py`); and the **`reading-transition`** — *reading splits like
-reproduction*: cheap (metric, the cross-rule, pre-heredity) vs hard (bit-level, superselection-gated, only via
-rewiring = **proto-heredity**), so reader and heredity co-emerge at the bit and the tape stays unforced. The
-strong-model read named the load-bearing beam: **"define reading before heredity — the framework lives or
-dies there."** It can be — and `battery:readability` is the spec to measure it.
+reproduction*: cheap (metric, the cross-rule, pre-heredity) vs hard (bit-level, superselection-gated, only
+across replacement = **proto-heredity**), so reader and heredity co-emerge at the bit and the tape stays
+unforced. The strong-model read named the load-bearing beam: **"define reading before heredity — the framework
+lives or dies there."** **`battery:readability` is now built and run (`experiments/readability.py`) and puts a
+number on that beam** (receipts §Readability battery): metric readability turns on generically; the
+within-lifetime bit-readability null is machine-exact (the gradient is curl-free — superselection holds); and
+the order parameter `R_hard = ∂⟨sign 𝒜⟩/∂d` evaluated **over a lineage** is 0 below the symmetry-break and
+turns on ∼linearly above it. **Strong-model sharpening (this session, folded into `reading-transition`):** the
+two readings sit in different superselection sectors and mirror the two reproductions exactly (metric:state ::
+degenerate:pattern; bit:sign :: heritable:bit); **selection is the unique channel from the metric into the
+topological sector** (a projection operator: metric ecology → replacement → bit retention, no instantaneous
+route); so the framework predicts a kingdom of **metric readers** (responsiveness, `∂M/∂E≠0` with `∂𝒜/∂E=0`
+in a lifetime), and the threshold is the **appearance of ecological access to the protected sector** — reader
+and heredity, same bridge, opposite projections.
 
 **Two believing-mode generators (LOCAL, untracked, fenced):** `docs/character_credo.md` (the framework as
 settled science) and `docs/character_abiogenesis.md` (origins as if vindicated). For generating ideas from,
@@ -56,28 +66,28 @@ not at; each carries the credo's prohibitions so scenarios stay viable. Not comm
 
 ## ► PICK UP HERE (ranked; none blocking)
 
-1. **`battery:readability` — build it (the most generative new move).** Extend the `strata_sort` /
-   `composition_law` machinery: a 3-cell protected loop coupled to an external **ecological field** d; sweep d;
-   read off **metric readability** `∂(rate)/∂d` (should turn on generically — cheap reading) and **bit
-   readability** `∂(sign 𝒜)/∂d` (should be **0** until the loop is allowed to *rewire*, then turn on =
-   proto-heredity). Confirms the metric/bit split and makes the bound→active "reading transition" an order
-   parameter. Cheap, runnable, and it puts a number on the one beam the framework hangs from.
-2. **The colloid superselection premise on real data — the one remaining real-data make-or-break.** On an
+0. **DONE this session — `battery:readability` built + run** (`experiments/readability.py`; receipts
+   §Readability battery; `character_frontier.md` `battery:readability` + `reading-transition` updated). All
+   kill-switches pass synthetically (metric reading on; within-lifetime bit-readability null machine-exact;
+   `R_hard` over a lineage 0→nonzero at the symmetry break, ∼linear onset; co-emergence needs both channels).
+   Synthetic = calibration: the **real-substrate reader is the owed instance** (→ item 3, the bootstrap).
+1. **The colloid superselection premise on real data — the one remaining real-data make-or-break.** On an
    SLM/EOM ring-trap rig (Bechinger/Seifert lineage) sweep the optical potential through *exact* reflection
    symmetry and measure the relaxation rate's linear-in-current coefficient `c₁` crossing zero **linearly** —
    software-only on existing hardware. Draft the one-page proposal from `experiments/colloid_ring_transverse.py`
    (we can write the proposal; the rig isn't ours). This tests the premise the whole composition/classification
    edifice rests on.
-3. **`battery:strata-current` — scan engineering separation data.** Centrifuges, fluidized beds, granular
+2. **`battery:strata-current` — scan engineering separation data.** Centrifuges, fluidized beds, granular
    segregation, distillation trays, sedimentation: abundant real data, all on the sorting axis (`𝒜=0`) — a free
    **✗-harvest** ruling out a salient class as *stage*. The **↑-scan** is the rare exception: a sort-independent
    inter-strata circulation (oscillatory/cyclic segregation; a granular rock-paper-scissors) at the
    Batchelor–Ozmidov scale.
-4. **The `escape-degenerate-replication` bootstrap (hard, open).** Generate from `character_abiogenesis.md`, but
+3. **The `escape-degenerate-replication` bootstrap (hard, open).** Generate from `character_abiogenesis.md`, but
    the owed instance is the genuinely hard one: a protected bit minted on a *real* dissipative medium that
-   *reads* its ecology (breaks degeneracy). The framework's current best is the templating result (degenerate,
+   *reads* its ecology (breaks degeneracy) — i.e. the **real-substrate reader** `battery:readability` calls for
+   (`R_hard≠0` over a lineage on real data). The framework's current best is the templating result (degenerate,
    ~1 bit, needs a tape).
-5. **Standing threads (low priority):** Tier-2 sgMAM (μ≈3 barrier-invariance corner); β-collapse R3 sum-rule;
+4. **Standing threads (low priority):** Tier-2 sgMAM (μ≈3 barrier-invariance corner); β-collapse R3 sum-rule;
    the nudge corpus (HELD). See below.
 
 **Discipline (carry):** synthetic = calibration, never vindication (the build + batteries calibrate; the
@@ -115,15 +125,18 @@ measured one; each substrate broadens the class of `B` shown to exclude the curr
 
 - **Frontier (`character_frontier.md`):** tombstone `curvature-as-coupling-bias`; `battery:chiral-rotor-triad`;
   `universal-invariant-classification` [sharpening, resolved → C-middle]; `escape-degenerate-replication`
-  [sharpening, + scale prediction + gravity-contingent-carbon corollary]; `reading-transition` [sharpening];
-  `battery:strata-current`; `battery:readability` [spec'd, build next].
+  [sharpening, + scale prediction + gravity-contingent-carbon corollary]; `reading-transition` [sharpening, +
+  the `R_hard`-over-a-lineage / selection-as-projection sharpening folded in]; `battery:strata-current`;
+  `battery:readability` [**built + run 2026-06-21**; all kill-switches pass synthetically].
 - **Receipts (`character_receipts.md`):** §Universal-invariant classification (clean negative); §Composition-law
-  build (C-middle); §Chiral-rotor triad (Triskele calibration); strengthened §The binding (per-substrate carrier
-  named). **Prior-art:** new `gauge-thermodynamics` (Polettini 2012).
+  build (C-middle); §Readability battery (the reading transition as an order parameter — metric/bit split,
+  machine-exact superselection null, `R_hard` over a lineage); §Chiral-rotor triad (Triskele calibration);
+  strengthened §The binding (per-substrate carrier named). **Prior-art:** `gauge-thermodynamics` (Polettini 2012).
 - **Core (`character.md`):** §Composition under coupling resolved (the build); §The cross-rule, §Frustration,
-  §Motion and proximity aligned (curvature + iff fixes).
+  §Motion and proximity aligned (curvature + iff fixes). *(readability is calibration → stays in frontier +
+  receipts; not promoted to core — synthetic ≠ vindication.)*
 - **`experiments/` (new this session):** `composition_law.py` (the C-middle build), `strata_sort.py`
-  (the sort-vs-mint battery). [`readability` battery is the next to write.] Prior clusters
+  (the sort-vs-mint battery), `readability.py` (the reading-transition order parameter). Prior clusters
   (colloid / QEC+glass / gMAM / minting instances) unchanged — see git.
 - **`docs/`:** `roadmap_universal_invariant.md` (Phase A resolved), `build_composition_law.md`,
   `universal_invariant returns.md`, `research_prompt_curvature_as_coupling_bias.md` (returns folded);
