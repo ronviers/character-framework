@@ -948,6 +948,46 @@ record.
   maintenance-through-turnover channel with unbounded keep at fixed capacity. `pa:topological-memory`,
   `pa:channel-capacity`, `pa:transverse-decomposition`.
 
+* **JCVI-Syn3A archive-term cut** `empirical` [The keep -- the archive-held term, first measurement]. The
+  first substrate with archive $\gg 0$ **and** a buildable circulation, so the second term of
+  *Organization $=$ circulation-held $K(C)$ $+$ archive-held* can be measured rather than assumed $\approx 0$
+  (as it is in the record-free anchors KaiABC/PO). Substrate: the minimal synthetic bacterium JCVI-Syn3A
+  (genome CP016816.2, 543,379 bp / 496 genes; metabolism + measured enzyme kinetics + per-gene essentiality
+  from Breuer et al. 2019, *eLife* 8:e36842). `experiments/syn3a_archive_term.py`, all data via the verified
+  loader `experiments/syn3a_data.py`. **The cut, operationalized.** Archive $\to$ the **essential** genes (the
+  irreducible store the circulation cannot route around), $E$; circulation $\to$ the metabolic NESS's gene set,
+  $M$. Headline metric $\text{blur}=|E\setminus M|/|E|$ -- a set difference between two *given* datasets
+  ($E$ from the essentiality column, $M$ from the kinetics enzyme IDs $P_{xxxx}\!=$ locus
+  $\text{JCVISYN3A}\_{xxxx}$ and/or the "Metabolism" annotation), so the framework chooses neither set.
+  $\text{blur}\!\approx\!0$ would mean the cut is **well-posed** (the genome is the circulation's parameter
+  store); $\text{blur}\!\approx\!1$ means it **blurs** (the irreducible archive is *not* the metabolic
+  circulation). **Result: the cut BLURS, robustly.** Reading $M$ at three resolutions -- the built operator
+  (95 genes with measured rates), all annotated metabolism (167), metabolism $+$ cellular processes (174,
+  most generous) -- the blur runs $0.77\to0.62\to0.61$ ($E=$ essential$+$quasi) and stays a majority even
+  most-generously vs essential-only ($0.57$). The metabolic circulation accounts for under half of the
+  irreducible archive at every resolution. **Where the blur lives (located, not diffuse):** of the 294
+  unaccounted essential$+$quasi genes, the single largest block ($169$, $57\%$) is **Genetic Information
+  Processing** -- the transcription/translation/replication apparatus, i.e. the machinery that *reads* the
+  archive; the rest is residual metabolism ($63$, lacking kinetics) and "Unclear/generic-essential" ($59$).
+  By coding bits the irreducible archive ($8.30\times10^5$ bits) splits $\approx 44\%$ circulation / $41\%$
+  **reader** / $14\%$ unclear. **Reading.** The reader is stored (essential, irreducible) yet is itself an
+  active maintained process -- neither cleanly term-1 (it is not the metabolic NESS the SBML/kinetics models)
+  nor term-2 (it is not passive storage). It is the **self-referential seam**: the archive read by machinery
+  the archive specifies. So *Organization $=$ circulation $+$ archive* as a clean **sum** is disfavored at high
+  archive -- the two terms **overlap irreducibly at the reader**. **Honest scope (the skeptic).** The framework
+  did **not** discover the biology -- that a minimal genome is dominated by expression machinery is a known
+  minimal-cell fact (Breuer 2019 states it). What is the framework's is the *prediction of the shape*: the
+  self-referential-closure / `reading-transition` threads predicted, before this substrate, that on a
+  high-archive substrate the two-term decomposition would fail by an irreducible cross-term that is *both*
+  stored and active -- and Syn3A confirms that shape and **locates** it (the reader) and **numbers** it (the
+  first archive-term measurement). This is a **sharpening of the object** (the keep needs a third, cross term;
+  the "alive loop" north-star is exactly this seam), not a tidy $\uparrow$ -- the make-or-break "is the archive
+  term cleanly separable?" came out **no**. **The falsifier that did not trigger:** $\text{blur}$ could have
+  been $\approx 0$ (a purely metabolic autocatalytic substrate with no template would give it -- the KaiABC/PO
+  regime); it is $\approx0.6$-$0.77$. **Falsify the reading:** a high-archive substrate whose essential archive
+  *is* its maintained circulation ($\text{blur}\to0$), or a demonstration that the reader's gene set is fully
+  inside the metabolic NESS's flux modes. `pa:channel-capacity`, `pa:transverse-decomposition`.
+
 ---
 
 ## Falsifier formalizations
