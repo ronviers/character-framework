@@ -1016,6 +1016,32 @@ record.
   where Pattee/Rosen/Kolchinsky--Wolpert put a concept. Kept, not erased; not inflated.
   `pa:semantic-information`, `pa:rosen-mr-systems`, `pa:pattee-semantic-closure`, `pa:chemoton`,
   `pa:von-neumann-automata`, `pa:channel-capacity`, `pa:transverse-decomposition`.
+* **JCVI-Syn3A reader-upkeep -- the energy axis of the seam** `empirical` [frontier `reader-by-overreach`:
+  disconfirmer #3, the upkeep side]. Companion to the archive-term cut: that measured the reader on the **bit**
+  axis (stored information, $\approx41\%$ of the irreducible archive); this measures it on the **energy/upkeep**
+  axis (the running maintenance budget). `experiments/syn3a_reader_upkeep.py`, same loader/data. **The measure**
+  (forced, no boundary chosen): reader-upkeep share $=\sum_{\text{GIP}}(\text{copies}\times\text{aa})/
+  \sum_{\text{all}}(\text{copies}\times\text{aa})$ -- the reader's (Genetic Information Processing) share of the
+  proteome-synthesis budget, from the 4DWCM per-protein copy numbers $\times$ genome CDS lengths; reported beside
+  gene count, archive bits, and standing copies so the trend across weightings shows. **Result: reader-upkeep
+  $\approx46\%$, co-equal with the metabolic circulation ($43\%$) -- not dominant.** The reader leads on raw
+  protein **copies** ($50\%$, half of all molecules) but the lead erodes under length-weighting (r-proteins are
+  short, high-copy); the reader/circulation ratio **crosses 1** across axes -- storage favors the circulation
+  (bits $0.90$), upkeep favors the reader (copies $1.27$, budget $1.07$). **Cross-check:** on the essential$+$quasi
+  subset reader-bits $=40.9\%\approx$ the archive-term's $41\%$ -- the two scripts agree, and the energy axis sits
+  beside the bit axis consistently. **The witness (disconfirmer #3).** The audit's sharpest disconfirmer is "the
+  crossover dies once the reader's own upkeep is included." On real parameters it does **not**: the cell spends
+  $\approx$half its proteome maintenance on the reader **and still reads** (the reader is selected), so
+  $\text{re-mint}\ge\text{read}+\text{upkeep}$ -- a large reader-upkeep **witnesses a steep maintenance wall**, not
+  a dead crossover. **Honest scope.** This measures the **upkeep side only**; the re-mint counterfactual (the
+  $\sim N\log N$ wall) the cell never runs and remains owed (capacity item 5a), so it constrains but does not
+  decide the crossover. On the running energy budget the reader and circulation are **co-equal, not
+  reader-dominated** -- a deflation of the bit-axis "reader dominates"; dominance returns only once the ribosome's
+  rRNA is counted (the standard largest synthesis sink, excluded here -- so $46\%$ is a lower bound). A snapshot
+  with $\sim$uniform turnover (upkeep $\sim$ standing amount). **Falsify:** reader-upkeep a *small* fraction (a
+  cheap reader -- crossover trivially robust, the seam bit-only), or a high-archive substrate whose reader-upkeep
+  dwarfs its re-mint cost. Imports unchanged (crossover $=$ Still/England/Kolchinsky--Wolpert; the wall owed); see
+  `docs/research/research_prompt_reader_by_overreach.md`.
 * **Archive form: rate-independent symbol; the digital/aperiodic limb deliberately omitted** `derived` [The keep
   and the archive]. Core adds one clause -- the archive is **rate-independent** (a symbol stable against the rates
   it specifies, not swept along by them), crediting **Pattee** (`pa:pattee-semantic-closure`). The *further* claim

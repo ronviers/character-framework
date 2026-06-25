@@ -7,7 +7,12 @@ All canonical work below is committed + pushed. The two believing-mode docs are 
 
 ## Where things stand (current — 2026-06-25)
 
-**This continuation (2026-06-25) — five landings, all committed+pushed (`main` @ `78d2a7c`).**
+**Latest (this continuation) — the Syn3A substrate-navigation thread worked: reader-upkeep LANDED, metabolic
+`K(C)` probed-and-declined.** Both live in the ★ Syn3A thread under PICK UP HERE (the metabolic deflation + the
+reader-upkeep witness). New artifacts: `experiments/syn3a_reader_upkeep.py`, receipt §JCVI-Syn3A reader-upkeep,
+frontier `reader-by-overreach` updated. The five landings of the prior continuation below still hold.
+
+**Prior continuation (2026-06-25) — five landings, committed+pushed (`main` @ `78d2a7c`).**
 1. **`reader-by-overreach` [sharpening] landed** (Ron's conjecture: the dynamical path keep-ceiling→reader —
    overreach→failure→trace→archive→reader; reader = a metric→topological back-channel). 3-model **deferral audit**
    (`docs/research/research_prompt_reader_by_overreach.md`) → **deferred in pieces** (Still/England/Bennett/KW
@@ -89,24 +94,32 @@ not at; each carries the credo's prohibitions so scenarios stay viable. Not comm
 
 ## ► PICK UP HERE (ranked; none blocking)
 
-**★ NEWEST (2026-06-25 cont.) — the Syn3A open-access substrate-navigation thread (Ron: "get good at navigating
-that world").** What in the JCVI-Syn3A open-access universe *affords* a Character substrate (not just
-illustrates/cites)? Scouted + grounded (WebSearch):
-- **Breuer kinetic metabolic model** ([eLife 36842](https://elifesciences.org/articles/36842v1) /
-  [PMC6609329](https://pmc.ncbi.nlm.nih.gov/articles/PMC6609329/); 338 rxns / 304 metabolites / 155 genes;
-  *kinetic, not FBA*; **already loaded** via `syn3a_data.py`). **Near-term, low-effort:** compute
-  `K(C)=b₁+K_metric` of the Syn3A metabolic NESS (same move as KaiABC `K=2` / PO `K=4`) ⇒ the **first
-  capacity-curve point with archive ≫ 0** (the others sit at archive≈0). Also check for a frustrated protected
-  cycle (a Syn3A *minting* instance). **Highest-value next step.**
-- **Luthey-Schulten 4D whole-cell model** (`github.com/Luthey-Schulten-Lab/Minimal_Cell_4DWCM` + `/Minimal_Cell`;
-  Lattice Microbes; ~100-min cell cycle with transcription/translation/replication = the reader **explicitly
-  ATP-costed**). **Higher ceiling, heavier, gate first:** the only open substrate that runs the reader *with its
-  energy budget* ⇒ affords the **`reader-by-overreach` ↑** (estimate reader-upkeep vs re-specification on real
-  modeled parameters, not hand-set — does a crossover region survive?). *Maximally salient* — run the affordance
-  gate.
-- **Navigation rule (the skill to build):** run the affordance gate (`character_substrate_method.md`) on the
-  **(substrate × question)** pair, not on "is it minimal-cell" (salience ≠ affordance); prefer **runnable models**
-  (generate) over **datasets** (hunt) — both above are models, the good kind.
+**★ Syn3A substrate-navigation thread — WORKED (2026-06-25 cont.): reader-upkeep landed, metabolic `K(C)`
+declined.** (Ron: "get good at navigating that world." The gate, run per (substrate × question) pair, did its job —
+one clean negative declined, one real witness landed.)
+- **Breuer metabolic model × the `K(C)` capacity point — PROBED → deflated → DECLINED (Ron's call). DON'T re-walk.**
+  Honest `K_topo` = internal cycle-space dim = **37** (whole_cell) / **18** (iMB155) — *not* the archive-script's
+  `null(S)`=70/53 (which over-counts open input→output throughput). **Reversible internal cycle dim = 0 in both
+  models** ⇒ **no minting instance** (every metabolic cycle runs through an irreversible committed step =
+  drive-locked, PO-type count, no protected sign-bit) and `K_metric`=0 (the metabolic NESS is a fixed point, no
+  phase). A clean, forced negative — but a thin/deflated "capacity point", so Ron pivoted rather than bank it.
+  (Probe: scratchpad `syn3a_probe.py`, uncommitted, intentionally not canonized.)
+- **Luthey-Schulten 4DWCM × the reader — the reader-upkeep SIDE LANDED** (`experiments/syn3a_reader_upkeep.py`;
+  receipt §JCVI-Syn3A reader-upkeep; frontier `reader-by-overreach` updated). Gate verdict: the 4DWCM data affords
+  the **reader-upkeep side** (real per-protein copies × genome lengths) but **NOT the re-mint counterfactual** (the
+  cell never re-mints without its genome). So measured the upkeep side — the energy-axis companion to the
+  archive-term's bit-axis 41%: reader-upkeep ≈ **46% of the proteome-synthesis budget, co-equal with the
+  circulation (43%) — not dominant**. The cell pays ~half its maintenance on the reader and still reads ⇒
+  re-mint ≥ read+upkeep, a **steep-wall witness**; **disconfirmer #3 (reader-upkeep kills the crossover) NOT
+  triggered**. rRNA/tRNA excluded ⇒ 46% is a lower bound. **The full Lattice-Microbes run was NOT needed/feasible
+  locally — the protein-count table sufficed.** **Still owed (the other half of the crossover):** the re-mint
+  counterfactual = the **`N log N` maintenance wall** (capacity item 5a); and the **coordination⊥reading**
+  anti-correlation (the audit's offline-read corollary). These two + the audit's "two integrations" are the
+  reader-by-overreach residue — writing/derivation moves, **not synthetic builds** (frontier gate: don't build synthetic).
+- **Navigation rule (validated twice this session):** run the affordance gate (`character_substrate_method.md`) on
+  the **(substrate × question)** pair, not on "is it minimal-cell" (salience ≠ affordance); prefer **runnable
+  models** (generate) over **datasets** (hunt). The *maximally salient* 4DWCM afforded only half the crossover; the
+  metabolic NESS afforded a clean negative but not the rich capacity structure.
 
 **★ NEWEST (2026-06-25) — capacity arc: QEC keep-as-capacity anchor landed; engine→character build gated out.**
 *(This arc absorbed the former `handoff_circulation_held_capacity.md`, now retired — its depth lives in canon:
@@ -262,7 +275,8 @@ measured one; each substrate broadens the class of `B` shown to exclude the curr
   archive sentence. *(readability stays frontier-only — synthetic ≠ vindication — unchanged.)*
 - **`experiments/` (capacity arc + recent):** `kaiabc_capacity.py` (K=2), `bfso_capacity.py` (PO, K=4),
   `qec_keep_capacity.py` (the §wall anchor: keep=b₁ literal, wall=channel-capacity); **`syn3a_archive_term.py`
-  (the archive-term cut, blurs at the reader) + `syn3a_data.py` (the verified Syn3A loader)**; `composition_law.py`
+  (the archive-term cut, blurs at the reader) + `syn3a_reader_upkeep.py` (the energy axis: reader-upkeep ≈46%,
+  co-equal with circulation, disconfirmer #3 not triggered) + `syn3a_data.py` (the verified Syn3A loader)**; `composition_law.py`
   (the C-middle build), `strata_sort.py` (sort-vs-mint), `readability.py` (the reading-transition order
   parameter). Prior clusters (colloid / QEC+glass / gMAM / minting instances) unchanged — see git.
 - **`docs/`:** `roadmap_universal_invariant.md` (Phase A resolved), `build_composition_law.md`,
