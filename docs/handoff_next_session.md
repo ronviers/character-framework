@@ -109,21 +109,30 @@ expression-dominated — known, Breuer 2019). Falsifier that did **not** trigger
 templateless metabolic substrate — the KaiABC/PO regime). Data layer = `experiments/syn3a_data.py` (verified loader;
 data gitignored at `docs/sources/minimal_cell/`).
 
-**► NEXT SESSION (pick one; none blocking).** The blur *is* the parked north-star's object (`self-referential-closure`
-/ the ALIVE LOOP) showing up in data, so the choices are about what to do with a measured seam:
-- **(a) Formalize the cross-term.** If the clean sum fails, what's the right object? Test whether the reader is a
-  genuine *third* block or the *overlap* `circulation ∩ archive` — i.e. is `Organization = circ + archive − reader`
-  (inclusion–exclusion) the better decomposition, with the reader = the self-referential `⊗`-fixed-point made
-  quantitative? This is the theory move; lands directly on core §Cascade/self-referential limit.
-- **(b) Harden the cut (cheap, real).** Replace the annotation-based M with **FBA gene-essentiality** on the iMB155
-  model (knock out each reaction, test steady-flux feasibility) so "the circulation can route around it" is a
-  computed call, not a label. Confirms the blur survives a harder circulation definition. (iMB155 is a published FBA
-  model; needs a biomass objective + exchange bounds — check the SBML carries them before committing; keep < 1 hr.)
-- **(c) Generality (gated).** Is the blur a Syn3A quirk or general? A second high-archive substrate would test it —
-  but run the **affordance gate** (`character_substrate_method.md`, salience ≠ affordance) before any data hunt.
-- **Route to core, behind the capacity arc:** 5(a) the `O(N log N)` tightening (completes the finite-wall `staked`);
-  K_metric≥2 (an `[O2]eq` sweep on PO); class-generality (the inorganic Oregonator, in hand); K_topo uniformity
-  (KaiABC's affinity-sign vs PO's cycle-count, one definition). Reproduction is a different framework
+**► NEXT SESSION = the DEFERRAL AUDIT comes first (Ron's steer, 2026-06-25).** The blur *is* the parked
+north-star's object (`self-referential-closure` / the ALIVE LOOP) in data — but the build moves below are
+**substantially already done by experts**, so the next move is **import + defer, not build.** Both gated behind a
+research-channel return:
+- **The archive-held term is almost certainly Kolchinsky–Wolpert "stored semantic information"** (2018, *Interface
+  Focus*; arXiv:1806.08053 — information causally necessary for persistence), the reader-produces-reader cross-term
+  is **Rosen's closure to efficient causation** ((M,R) systems), and the metabolism/template coupling is **Gánti's
+  chemoton**. All three now registered in `character_prior_art.md` §"Metabolic closure & the archive-held term"
+  (`semantic-information`, `rosen-mr-systems`, `chemoton`). **Run the deferral-audit prompt**
+  (`docs/research/research_prompt_archive_term_formalization.md`) on the outbound channel **before** any cross-term
+  claim — it asks: is our blur an instance of a KW measure someone already computed on biological data? what does a
+  topological/transverse reading add over Rosen/KW, if anything? Honest expected verdict: the archive-term reading
+  is import-re-description (the framework's settled "constraint-language" value), residue TBD by the channel.
+- **(gated) Formalize the cross-term** — only *after* the channel: is it `circ + archive − reader` (inclusion–
+  exclusion), the `⊗`-fixed-point quantified? — and *in the imported vocabulary* (stored-semantic-information / (M,R)
+  closure), not reinvented.
+- **(don't bother) FBA gene-essentiality on iMB155** — this is **Breuer 2019's own published analysis** (iMB155 was
+  built to compare FBA vs experimental essentiality: 79% in-silico vs 92% in-vivo); re-running it adds nothing. Cite,
+  don't rebuild. The blur metric is already a re-description of their gene-category split.
+- **(gated) Generality** — a 2nd high-archive substrate would test if the blur is a Syn3A quirk; run the **affordance
+  gate** (`character_substrate_method.md`) first. Lower priority than the audit.
+- **Route to core, behind the capacity arc (unchanged):** 5(a) the `O(N log N)` tightening (completes the finite-wall
+  `staked`); K_metric≥2 (an `[O2]eq` sweep on PO); class-generality (the inorganic Oregonator, in hand); K_topo
+  uniformity (KaiABC's affinity-sign vs PO's cycle-count, one definition). Reproduction is a different framework
   (von Neumann/Eigen), write-bar = TDT.
 
 **Settled — do not re-walk** (the capacity arc's dead reasoning, mapped where each now lives): the 9-definers /
