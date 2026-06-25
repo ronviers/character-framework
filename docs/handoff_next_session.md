@@ -5,7 +5,7 @@ git + canon (`character.md` / `character_receipts.md` / `character_frontier.md` 
 **do not accrete dated session-history blocks** — *rewrite* the current-state section each session, don't append.
 All canonical work below is committed + pushed. The two believing-mode docs are deliberately local (untracked).
 
-## Where things stand (current — 2026-06-21)
+## Where things stand (current — 2026-06-25)
 
 **The make-or-break has resolved toward the C-middle.** Two independent results now bound the framework's
 ceiling:
@@ -92,24 +92,39 @@ topology = the archived part); the wall = the code's **channel capacity** (hashi
 DKLP 2002), replacing the derivation's `O(N log N)` heuristic. *Scope:* does item **5(b)**; **5(a)** still owed,
 so the finite-wall `staked` entry is not yet earned.
 
-**► NEXT SESSION = the archive-held term** — the **deepest** blocker, the never-measured second half of the
-decomposition (both anchors archive≈0). Prompt **+ research return in hand** (`docs/research/research_prompt_archive_term.md`,
-open-access-only — the report is appended); prime lead **JCVI-Syn3A** (Breuer 2019 *eLife* e36842), where the cut
-may *blur* (itself the test). **Data + loader READY (2026-06-25):** all fetched and machine-readable. Entry point =
-**`experiments/syn3a_data.py`** (verified loader + data dictionary; run it for the summary card). Data local at
-`docs/sources/minimal_cell/` (gitignored, from the Luthey-Schulten Minimal_Cell_4DWCM repo): `syn3A.gb` (genome,
-**CP016816.2**, 543,379 bp / 496 genes → the **archive**, ~1.09e6 bits raw / 9.6e5 coding); `Syn3A_updated.xml`
-+ `iMB155_…xml` (SBML, 308 species / 356 & 340 rxns → the **circulation** network); `kinetic_params.xlsx`
-(Michaelis-Menten enzyme kinetics, 13 subsystems → the operator rates); `initial_concentrations.xlsx` (the
-per-gene-product **essentiality/protein-count map** — the archive↔circulation bridge). So the build is: metabolic
-operator (circulation `K(C)`) vs genome (archive), measure the cut, watch whether it stays well-posed or **blurs**.
-**Tooling ready (2026-06-25):** PDF text/tables via `pdfplumber`/`fitz`/`pdftotext`; visual page-read via `fitz`
-page→PNG then Read the PNG (the native Read-PDF path is dead — no `pdftoppm` in the minimal Git-Bash poppler — but
-`fitz` needs no poppler); `openpyxl`+`pandas` (xlsx), `python-libsbml`+`lxml` (SBML), `biopython` (the `.gb` →
-archive-bit count) all installed; OCR (`tesseract`) not installed and not needed (born-digital). **Route to core, behind it:** 5(a) the `O(N log N)` tightening (completes the
-finite-wall `staked`); K_metric≥2 (an `[O2]eq` sweep on PO); class-generality (the inorganic Oregonator, in hand);
-K_topo uniformity (KaiABC's affinity-sign vs PO's cycle-count, one definition). Sits on `escape-degenerate-
-replication` / `self-referential-closure`; reproduction is a different framework (von Neumann/Eigen), write-bar = TDT.
+**✓ DONE (2026-06-25) — the archive-held term MEASURED; the cut BLURS at the reader.**
+(`experiments/syn3a_archive_term.py`; receipts §JCVI-Syn3A archive-term cut; frontier `circulation-held-capacity`
++ `reading-transition` updated. Committed + pushed.) On JCVI-Syn3A — the first substrate with archive ≫ 0 AND a
+buildable circulation — the cut `blur = |E\M|/|E|` (E = essential genes, M = metabolic-NESS gene set; both *given*
+datasets, set difference, framework chooses neither) **BLURS robustly**: 0.77 (built kinetic operator, 95 genes) →
+0.61 (all annotated metabolism, 167) → majority even vs essential-only (0.57). The metabolic circulation accounts
+for **under half** the irreducible archive at every resolution. The unaccounted block is **dominated by the READER**
+(Genetic Information Processing — the transcription/translation/replication apparatus, 57% of it; ≈41% of the
+8.3e5 archive bits): **stored yet active**, neither term-1 (not the metabolic NESS) nor term-2 (not passive storage)
+— the **self-referential seam**. So `Organization = circulation + archive` as a clean **sum** is disfavored at high
+archive; the terms **overlap irreducibly at the reader**. *Honest read:* the make-or-break "is the archive term
+cleanly separable?" came out **no** — a **sharpening** (the keep needs a cross-term), not a tidy ↑. The framework
+predicted the *shape* (a both-stored-and-active cross-term), **not** the biology (minimal genomes are
+expression-dominated — known, Breuer 2019). Falsifier that did **not** trigger: blur could have been ~0 (a
+templateless metabolic substrate — the KaiABC/PO regime). Data layer = `experiments/syn3a_data.py` (verified loader;
+data gitignored at `docs/sources/minimal_cell/`).
+
+**► NEXT SESSION (pick one; none blocking).** The blur *is* the parked north-star's object (`self-referential-closure`
+/ the ALIVE LOOP) showing up in data, so the choices are about what to do with a measured seam:
+- **(a) Formalize the cross-term.** If the clean sum fails, what's the right object? Test whether the reader is a
+  genuine *third* block or the *overlap* `circulation ∩ archive` — i.e. is `Organization = circ + archive − reader`
+  (inclusion–exclusion) the better decomposition, with the reader = the self-referential `⊗`-fixed-point made
+  quantitative? This is the theory move; lands directly on core §Cascade/self-referential limit.
+- **(b) Harden the cut (cheap, real).** Replace the annotation-based M with **FBA gene-essentiality** on the iMB155
+  model (knock out each reaction, test steady-flux feasibility) so "the circulation can route around it" is a
+  computed call, not a label. Confirms the blur survives a harder circulation definition. (iMB155 is a published FBA
+  model; needs a biomass objective + exchange bounds — check the SBML carries them before committing; keep < 1 hr.)
+- **(c) Generality (gated).** Is the blur a Syn3A quirk or general? A second high-archive substrate would test it —
+  but run the **affordance gate** (`character_substrate_method.md`, salience ≠ affordance) before any data hunt.
+- **Route to core, behind the capacity arc:** 5(a) the `O(N log N)` tightening (completes the finite-wall `staked`);
+  K_metric≥2 (an `[O2]eq` sweep on PO); class-generality (the inorganic Oregonator, in hand); K_topo uniformity
+  (KaiABC's affinity-sign vs PO's cycle-count, one definition). Reproduction is a different framework
+  (von Neumann/Eigen), write-bar = TDT.
 
 **Settled — do not re-walk** (the capacity arc's dead reasoning, mapped where each now lives): the 9-definers /
 "thickened seam" is **not a hole** (boundary-malformation → tombstones `flip-cost-across-zero`,
