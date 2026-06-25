@@ -7,6 +7,29 @@ All canonical work below is committed + pushed. The two believing-mode docs are 
 
 ## Where things stand (current — 2026-06-25)
 
+**This continuation (2026-06-25) — five landings, all committed+pushed (`main` @ `78d2a7c`).**
+1. **`reader-by-overreach` [sharpening] landed** (Ron's conjecture: the dynamical path keep-ceiling→reader —
+   overreach→failure→trace→archive→reader; reader = a metric→topological back-channel). 3-model **deferral audit**
+   (`docs/research/research_prompt_reader_by_overreach.md`) → **deferred in pieces** (Still/England/Bennett/KW
+   crossover; Keim *Memory formation in matter* RMP 2019 = trace; SHY/Hopfield/CLS = alternation; Eigen/Pattee =
+   form); **residue = two integrations** (the `N log N` vs `N` maintenance wall as the *reader-selection pressure*;
+   the metric→topological *sector reading* predicting Syn3A) **+ the generalized coordination⊥reading
+   anti-correlation**. Offline-read corollary folded in; the ↑ is the real-substrate reader-upkeep crossover +
+   trace re-readability (gated against synthetic).
+2. **`engine-character-onset` transition-kind CROSSED to core** — §Motion onset-kind sentence (continuous
+   drive-set bifurcation at N=2 / discontinuous gauge-irremovable rewiring at N≥3; minting = topological onset, not
+   a ramp), receipt §Onset kind. Only the *occurrence* residual remains (→ the bootstrap).
+3. **Archive-form** — core §The keep gains one clause: the archive is **rate-independent** (Pattee). The
+   **digital/aperiodic limb kept OUT** (Ron's catch + audit Q4: bounded selective pressure, *not* necessity;
+   specific form = `n=1` frozen accident, Crick/Gould). Memory `feedback_n1_frozen_accident_not_forced`.
+4. **Over-walk-back cleanup pass** on core (Ron's precise term for self-inflicted crawl-out-then-retract) —
+   verdict **mostly disciplined** (~2 real instances in 29 §§): cut the "identity" aside (§Branch membership),
+   abstract "fixed by"→"organized by", §Capacity↔keep distinction. Memory `feedback_over_walk_back_editing_lens`.
+5. **Believing docs converged** (LOCAL, untracked) — abiogenesis §threshold + a credo forbid now carry the
+   `reading-transition` metric/bit split (cheap metric reading vs bit-reading-only-across-replacement = proto-heredity).
+
+**The earlier make-or-break state below still holds.**
+
 **The make-or-break has resolved toward the C-middle.** Two independent results now bound the framework's
 ceiling:
 - **Universal-invariant classification — clean negative** (receipts §Universal-invariant classification;
@@ -65,6 +88,25 @@ settled science) and `docs/character_abiogenesis.md` (origins as if vindicated).
 not at; each carries the credo's prohibitions so scenarios stay viable. Not committed (repo is public).
 
 ## ► PICK UP HERE (ranked; none blocking)
+
+**★ NEWEST (2026-06-25 cont.) — the Syn3A open-access substrate-navigation thread (Ron: "get good at navigating
+that world").** What in the JCVI-Syn3A open-access universe *affords* a Character substrate (not just
+illustrates/cites)? Scouted + grounded (WebSearch):
+- **Breuer kinetic metabolic model** ([eLife 36842](https://elifesciences.org/articles/36842v1) /
+  [PMC6609329](https://pmc.ncbi.nlm.nih.gov/articles/PMC6609329/); 338 rxns / 304 metabolites / 155 genes;
+  *kinetic, not FBA*; **already loaded** via `syn3a_data.py`). **Near-term, low-effort:** compute
+  `K(C)=b₁+K_metric` of the Syn3A metabolic NESS (same move as KaiABC `K=2` / PO `K=4`) ⇒ the **first
+  capacity-curve point with archive ≫ 0** (the others sit at archive≈0). Also check for a frustrated protected
+  cycle (a Syn3A *minting* instance). **Highest-value next step.**
+- **Luthey-Schulten 4D whole-cell model** (`github.com/Luthey-Schulten-Lab/Minimal_Cell_4DWCM` + `/Minimal_Cell`;
+  Lattice Microbes; ~100-min cell cycle with transcription/translation/replication = the reader **explicitly
+  ATP-costed**). **Higher ceiling, heavier, gate first:** the only open substrate that runs the reader *with its
+  energy budget* ⇒ affords the **`reader-by-overreach` ↑** (estimate reader-upkeep vs re-specification on real
+  modeled parameters, not hand-set — does a crossover region survive?). *Maximally salient* — run the affordance
+  gate.
+- **Navigation rule (the skill to build):** run the affordance gate (`character_substrate_method.md`) on the
+  **(substrate × question)** pair, not on "is it minimal-cell" (salience ≠ affordance); prefer **runnable models**
+  (generate) over **datasets** (hunt) — both above are models, the good kind.
 
 **★ NEWEST (2026-06-25) — capacity arc: QEC keep-as-capacity anchor landed; engine→character build gated out.**
 *(This arc absorbed the former `handoff_circulation_held_capacity.md`, now retired — its depth lives in canon:
@@ -204,7 +246,9 @@ measured one; each substrate broadens the class of `B` shown to exclude the curr
   `universal-invariant-classification` [sharpening, resolved → C-middle]; `escape-degenerate-replication`
   [sharpening, + scale prediction + gravity-contingent-carbon corollary]; `reading-transition` [sharpening, +
   the `R_hard`-over-a-lineage / selection-as-projection sharpening folded in]; `battery:strata-current`;
-  `battery:readability` [**built + run 2026-06-21**; all kill-switches pass synthetically].
+  `battery:readability` [**built + run 2026-06-21**; all kill-switches pass synthetically]; **`reader-by-overreach`
+  [sharpening]** (2026-06-25, audit-deferred-in-pieces; residue = 2 integrations + the coordination⊥reading
+  anti-correlation); **`engine-character-onset` transition-kind crossed** (occurrence residual only).
 - **Receipts (`character_receipts.md`):** §Universal-invariant classification (clean negative); §Composition-law
   build (C-middle); §Readability battery (the reading transition as an order parameter — metric/bit split,
   machine-exact superselection null, `R_hard` over a lineage); §Chiral-rotor triad (Triskele calibration);
