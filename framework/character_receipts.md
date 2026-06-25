@@ -913,6 +913,40 @@ record.
   is the protected cycle **count** (the number of independent circulations the NESS carries), each loop's
   direction drive-locked -- a generalization of KaiABC's reversible-cycle affinity sign-bit, not the identical
   object (the open $K_{\text{topo}}$-uniformity item). `pa:ness-currents`, `pa:cycle-affinity`.
+* **QEC keep-as-capacity anchor** `derived` [The wall, and the deepest keep]. The §wall claim -- maintenance
+  through complete part-turnover *is* error correction, the deepest keep is **topological** ($K_{\text{topo}}=b_1$),
+  and a record is forced past the code's capacity -- anchored on the surface/toric code already in canon
+  (§QEC transverse decomposition), where every step is an exact code property or an established QEC theorem
+  rather than the keep-derivation's one heuristic (the $O(N\log N)$ wiring re-specification;
+  `docs/research_prompt_keep_derivation.md`, 3/3 outside models agree, that step flagged). The dictionary is
+  literal: physical qubits continuously decohere $=$ parts turn over; the running stabilizer cycle $=$ the
+  self-correcting dynamics; $k$ logical qubits $=$ the keep. `experiments/qec_keep_capacity.py`.
+  **(1) keep $=b_1=k$, LITERAL.** The number of logical qubits a topological code protects through continuous
+  physical-qubit turnover *is* the first Betti number of the code surface: $k=2-\chi$, computed two independent
+  ways and shown equal -- $k$ by GF(2) stabilizer rank, $b_1=2-\chi$ by Euler count of the cellulation. Toric
+  (closed torus, $\chi=V-E+F=0$): $k=2=b_1$, verified $L=2,3,4$. Planar $[[9,1,3]]$ (disk, relative homology):
+  $k=1=b_1$. So the canon's "$b_1$ = topological capacity" (§Two bits) is **not an analogy** -- on a real code
+  the protected count *is* the homology, and the keep-derivation's $K_{\text{topo}}=b_1$ term is literal.
+  **(2) the distance-vs-keep SPLIT** (the §wall's crystal escape, made exact). Grow the toric lattice $L$: the
+  keep $k=b_1=2$ stays **fixed** while the distance $d=L$ **grows** ($d$ exact by min-weight-logical enumeration
+  for $L\le3$, $=L$ structurally above). A regular (translationally uniform) code spends extra resource on
+  **protection depth** (the metric register), never on **keep** (the topological count); the keep grows only
+  with added topology (handles/holes), whose heterogeneous arrangement is exactly the **archived** part. This is
+  the §wall's two regimes, exact: crystal $\to$ holds repetition (depth), needs no record; heterogeneous topology
+  $\to$ grows keep, forces the record. **(3) the wall $=$ channel capacity, RIGOROUS.** The keep *rate* $k/n$ a
+  code holds through turnover obeys the hashing bound $k/n\le 1-H_2(p)$ (Shannon coding theorem), and the error
+  **threshold** $p_{\text{th}}\approx0.109$ (Dennis-Kitaev-Landau-Preskill 2002; the random-bond Ising Nishimori
+  point) is the maintenance wall: below it the keep is held through *unbounded* turnover (logical error $\to0$ as
+  $n$ grows at fixed rate), above it it collapses to 0. The metric/distance register returns only
+  **sub-extensively** -- at fixed $k$, extra qubits buy $d\sim\sqrt n$ and logical error $\sim e^{-cd}$, so
+  protection deepens but the bit count does not (topological register free/non-decaying below threshold; metric
+  register a logarithm -- exactly the derivation's split). **Scope (honest):** an *existence proof + mechanism
+  anchor*, not a closure of the wiring-cost item -- it makes $K_{\text{topo}}=b_1$ and the wall's logic exact on
+  a real in-canon substrate, but the general biological $O(N\log N)$ step (a *heterogeneous* network vs. QEC's
+  *regular* lattice) remains the owed tightening. Falsify: a topological code whose logical-qubit count is not
+  its first Betti number; a regular code whose keep (logical count) grows with size at fixed topology; or a
+  maintenance-through-turnover channel with unbounded keep at fixed capacity. `pa:topological-memory`,
+  `pa:channel-capacity`, `pa:transverse-decomposition`.
 
 ---
 

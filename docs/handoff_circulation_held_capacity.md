@@ -1,12 +1,15 @@
 # Handoff — circulation-held capacity `K(C)`, anchored on KaiABC
 
 *Working doc. Pick up here. The test is kill-gated: run the make-or-break before the build.*
-*Status (2026-06-24): **two curve points landed + folded into canon.** (1) KaiABC — `K = b₁(1)+phase(1) = 2`,
-forced-not-fitted (`experiments/kaiabc_capacity.py`; both kill-gates cleared). (2) Peroxidase-oxidase (BFSO
-model) — `K = b₁(3)+phase(1) = 4`, the first **distinct** point, via two coupled enzyme redox loops
-(`experiments/bfso_capacity.py`). Receipts + frontier updated. **The `2nd-point` gate is met; → core is NOT —
-blocked on four deeper items (see "Where it lands").** Source PDFs in `docs/rust/`, `docs/second_capacity_substrate/`
-(gitignored, copyrighted).*
+*Status (2026-06-25): **two curve points + the QEC keep-as-capacity anchor landed, all folded into canon.**
+(1) KaiABC — `K = b₁(1)+phase(1) = 2`, forced-not-fitted (`experiments/kaiabc_capacity.py`; both kill-gates
+cleared). (2) Peroxidase-oxidase (BFSO model) — `K = b₁(3)+phase(1) = 4`, the first **distinct** point, via two
+coupled enzyme redox loops (`experiments/bfso_capacity.py`). (3) **QEC keep-as-capacity anchor**
+(`experiments/qec_keep_capacity.py`, 2026-06-25): the core §The wall anchored on the surface/toric code — keep
+= b₁ = #logical-qubits **literal** (k=2−χ), distance-vs-keep split exact, the wall = the code's **channel
+capacity** (rigorous), replacing the derivation's `O(N log N)` heuristic (does item 5b; 5a still owed). Receipts
++ frontier updated. **The `2nd-point` gate is met; → core is NOT — blocked on the deeper items (see "Where it
+lands").** Source PDFs in `docs/rust/`, `docs/second_capacity_substrate/` (gitignored, copyrighted).*
 
 ## The object
 
@@ -79,37 +82,42 @@ Compute on KaiABC: build the operator → confirm the phospho-cycle is a genuine
 
 Then — and only then — the program has legs: port the method to a **second** substrate for point 2 of the curve. The affordance scan this session nominated same-modality candidates: **cardiac SA node**, the **CDK/APC cell-cycle oscillator**, **yeast glycolytic oscillation** (all genuine protected currents with published operator-buildable kinetics).
 
-## ► NEXT SESSION — start here: the engine→character transition (Stage 2→3)
+## ► NEXT SESSION — start here: the archive-held term (the deepest blocker)
 
-**Reframe (Ron, 2026-06-24):** character is **not an add-on to engines — it is a *phase* available to
-sufficiently structured engines.** The research question parallels the classic one: origin-of-life asks *can
-such an engine generate **metabolism**?*; we ask *can such an engine generate **character**?* The ordering
-engine → (character phase) → keep → archive is fixed (no character without a running engine), but character is
-the engine's own phase, not a layer bolted on. (Folded into the believing docs: `character_credo.md` §The
-object; `character_abiogenesis.md` §Before the reader, the engine.)
+**The engine→character transition was gated this session (2026-06-25) and resolved to: DON'T BUILD IT.**
+Ron's reframe (character is a *phase* available to sufficiently structured engines — folded into
+`character_credo.md` §The object, `character_abiogenesis.md` §Before the reader, the engine) is right, but a
+*synthetic* engine→character phase-boundary sweep is a **demonstration, not a test**: `𝒜` is algebraically
+pinned to the wiring by cycle-space homology (`strata_sort.py` run: `𝒜 = Ω` exactly, drive-independent;
+`𝒜 ≡ 0` to machine zero at `Ω=0`), so it can only re-trace §Frustration + imported Schnakenberg — it **cannot
+come out otherwise** (the `feedback_no_synthetic_sidequests` gate: works→nothing new, fails→nothing dies,
+could-it-be-otherwise→no). And **the crossing is already instanced on real substrates**: KaiABC (ATP-engine,
+the current is feedback-generated and collapses at drive-off) and PO (redox-engine, b₁=3) are engine→character
+unities *past* the crossing. The only un-instanced piece is a **real pure-metric engine at `𝒜=0`** — an
+affordance-poor substrate hunt (a Bénard cell *displays* a metric engine but can't afford the topological
+sector; salience ≠ affordance), **not a build**. If the crossing is ever pursued it is a *real-substrate*
+instance/proposal (Lane–Martin alkaline-vent bioenergetics, affordance-gated), parked. **Do NOT re-attempt the
+synthetic engine→character sweep.**
 
-**The task — make the engine→character transition a *measured phase boundary*.** Take a **metric engine** (a
-driven, self-maintaining flux-capture with **no protected bit**: `𝒜 = 0`, b₁ carries no current) and find the
-structural threshold at which a **protected circulation turns on** (`𝒜 ≠ 0`, a bit minted). The order parameter
-is the protected current; it should go 0 → nonzero as the engine is structured past the boundary — the
-character phase transition.
+**Landed instead: the QEC keep-as-capacity anchor** (`experiments/qec_keep_capacity.py`; receipts §QEC
+keep-as-capacity; frontier `circulation-held-capacity` + dashboard). The core §The wall anchored on the
+surface/toric code already in canon, replacing the derivation's one heuristic with exact code properties +
+established QEC theorems: **(1)** keep = b₁ = #logical-qubits **literal** (`k = 2−χ`, two ways — GF(2) rank vs
+Euler count; toric `k=2=b₁`, planar `[[9,1,3]]` `k=1=b₁`); **(2)** distance-vs-keep split **exact** (toric: keep
+`b₁=2` fixed, distance `d=L` grows — a regular code scales protection-depth, never keep; keep grows only with
+heterogeneous topology = the archived part — the §wall's crystal-escape made precise); **(3)** the wall = the
+code's **channel capacity** (hashing `k/n ≤ 1−H₂(p)` + threshold `p_th≈0.109`, DKLP 2002), rigorous. *Scope:*
+this does item **5(b)** (anchor on QEC), NOT **5(a)** — the general biological `O(N log N)` heterogeneous-wiring
+cost is still the owed tightening, so the finite-wall `staked` entry is **not yet earned** (needs both).
 
-- **Seed apparatus (in hand):** `battery:strata-current` already runs the sort-vs-mint question (it found
-  `𝒜≡0` for pure sorting); the transition is the *onset*. Reuse that machinery + the symmetry-break onset
-  pattern from `battery:readability` / TDT move 3 (`𝒜 ∝ δ` past a break): build a tunable engine, sweep its
-  structure, watch `𝒜` turn on.
-- **Both current anchors are already *past* the crossing** (engine-character unities: PO = a redox engine with
-  b₁=3; KaiABC = an ATP engine with a protected clock). So the un-instanced piece is a **pure metric engine**
-  and the **crossing itself**, not the character phase.
-- **Origin-relevant substrate:** chemiosmotic / alkaline-vent bioenergetics (Lane–Martin) — where the
-  primordial engine is located; the natural home of the crossing.
-- **Discipline:** a real test, not a demonstration — pre-register what minting looks like vs a sorting null
-  (run the `feedback_no_synthetic_sidequests` gate); the metric engine at `𝒜=0` is the kill side.
-
-**Do NOT lose the deeper blockers behind this** — they remain the route to core (see "Where it lands"): the
-**archive-held term** (the deepest, still unmeasured) and the **QEC keep-as-capacity anchor** (the in-canon
-surface-code instance whose logical-bit count *is* a measured keep — the bridge from the finite-wall derivation
-to a real number), plus K_metric≥2, class-generality, and the K_topo-uniformity item.
+**► NEXT SESSION STARTS WITH the archive-held term** — the **deepest** blocker (item 1 below), the second half
+of *Organization = circulation-held K(C) + archive-held*, never measured (both anchors sit at archive≈0). The
+research prompt is written (`research_prompt_archive_term.md`, open-access-only); the prime lead is **JCVI-Syn3A**
+(Breuer 2019 *eLife* e36842 + the Luthey-Schulten Minimal_Cell repo) — a measurable archive (genome bits) + a
+buildable metabolic NESS (circulation), where the cut may *blur* (itself the test). Dispatch it / work the
+substrate where circulation-held capacity *fails* and a record is required. Behind it: **5(a)** the `O(N log N)`
+tightening (completes the finite-wall `staked`); K_metric≥2 (an `[O2]eq` sweep on PO); class-generality (the
+inorganic Oregonator, in hand); K_topo uniformity.
 
 ## Where it lands
 
@@ -133,12 +141,16 @@ to a real number), plus K_metric≥2, class-generality, and the K_topo-uniformit
      resolution); a physical/mechanical oscillator would be stronger.
   4. **K_topo is not uniformly defined** — KaiABC's reversible-cycle affinity sign-bit vs PO's irreversible
      cycle-*count*. One definition spanning both is owed.
-  5. **Anchor the finite-wall derivation.** An outside-model derivation (3/3 models agree, main steps verified;
-     the `O(N log N)` wiring-cost step is the load-bearing heuristic) found the keep ceiling is **FINITE** — the
-     keep is a self-correcting code, the deepest keep is topological (max b₁), the archive is forced past the
-     code's capacity (`research_prompt_keep_derivation.md`). To earn a frontier `staked` entry: (a) tighten the
-     wiring-cost step, (b) **anchor it on the QEC instance in canon** — whose logical-bit count is a measured
-     keep-as-code-capacity. Believing docs carry the resolved framing.
+  5. **The finite-wall — 5(b) DONE (QEC anchor, 2026-06-25), 5(a) still owed.** An outside-model derivation
+     (3/3 models agree, main steps verified; the `O(N log N)` wiring-cost step is the load-bearing heuristic)
+     found the keep ceiling is **FINITE** — the keep is a self-correcting code, the deepest keep is topological
+     (max b₁), the archive is forced past the code's capacity (`research_prompt_keep_derivation.md`). **5(b) done
+     — anchored on the QEC instance in canon** (`experiments/qec_keep_capacity.py`; receipts §QEC
+     keep-as-capacity): keep = b₁ = #logical-qubits **literal** (`k=2−χ`), the wall = the code's **channel
+     capacity** (rigorous), the crystal-escape exact (a regular code scales protection-depth, not keep). **5(a)
+     still owed** for a frontier `staked` entry: tighten the `O(N log N)` wiring-cost step for a *heterogeneous*
+     biological network — QEC is the *regular* (crystal) case where the bound is clean; the heterogeneous cost is
+     the heuristic. Believing docs carry the resolved framing.
 - The big version — progressively substituting archive-supported functions with circulation-supported ones and measuring where they fail (the "best self-specifying circulation," the Ship-of-Theseus Syn3A) — is **north-star-adjacent, parked-deep**. The near-term deliverable is only: *is `K` a real number on KaiABC, and is it `> b₁`?* Work the substrate, not the manifesto.
 
 ## Pointers

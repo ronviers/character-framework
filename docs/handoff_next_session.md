@@ -66,25 +66,28 @@ not at; each carries the credo's prohibitions so scenarios stay viable. Not comm
 
 ## ► PICK UP HERE (ranked; none blocking)
 
-**★ NEWEST (2026-06-24) — circulation-held capacity `K(C)`: two curve points landed + folded into canon.**
-Own handoff: [`handoff_circulation_held_capacity.md`](handoff_circulation_held_capacity.md). Decomposition —
-*Organization = circulation-held `K(C)` + archive-held* (DNA = the distinctions whose fidelity exceeds the
-circulation's self-specifying capacity), `K(C) = K_topo(b₁) + K_metric`. **(1) KaiABC** `K=2` (Rust 2007
-phosphoform model, `kaiabc_capacity.py`; both kill-gates cleared, forced-not-fitted). **(2) Peroxidase-oxidase**
-`K=4` — the first **distinct** point, via b₁=3 (two coupled enzyme redox loops; BFSO model, `bfso_capacity.py`).
-Receipts + frontier (`circulation-held-capacity`, `battery:circulation-capacity`) updated. The cut is shown
-substrate-general across two enzyme modalities. **► NEXT SESSION STARTS WITH the engine→character transition**
-(Stage 2→3): character is **not an add-on to engines — it is a *phase* available to sufficiently structured
-engines**, so the question parallels "can an engine generate metabolism?" → *can an engine generate character?*
-Task = make the crossing a **measured phase boundary**: a metric engine (`𝒜=0`) structured past a threshold
-turns on a protected current (`𝒜≠0`); seed apparatus = `battery:strata-current` (sort-vs-mint) + the
-symmetry-break onset from `battery:readability`/TDT. See `handoff_circulation_held_capacity.md` ► NEXT SESSION.
-**Deeper blockers preserved behind it (route to core):** the **archive term** (deepest, unmeasured —
-`docs/research_prompt_archive_term.md`, in-hand candidate = embryonic cell-cycle); the **QEC keep-as-capacity
-anchor** for the derived **finite-wall** result (`research_prompt_keep_derivation.md`, 3/3 models agree —
-heuristic flagged); plus K_metric≥2, class-generality, K_topo-uniformity. Sits on the
-`escape-degenerate-replication` / `self-referential-closure` line; reproduction is a different framework
-(von Neumann/Eigen), the write-bar = TDT.
+**★ NEWEST (2026-06-25) — the QEC keep-as-capacity anchor landed; the engine→character build was gated out.**
+Own handoff: [`handoff_circulation_held_capacity.md`](handoff_circulation_held_capacity.md).
+**(A) The engine→character transition was gated and resolved to DON'T BUILD.** A *synthetic* engine→character
+phase-boundary sweep is a **demonstration, not a test**: `𝒜` is algebraically pinned to the wiring by
+cycle-space homology (`strata_sort.py`: `𝒜=Ω` exactly, drive-independent; `𝒜≡0` at `Ω=0`) — it can't come out
+otherwise (the `feedback_no_synthetic_sidequests` gate). And the crossing is **already instanced on real
+substrates** (KaiABC, PO are engine→character unities past it); the only un-instanced piece is a real
+pure-metric engine at `𝒜=0`, an affordance-poor hunt, not a build. **Do NOT re-attempt the synthetic sweep.**
+**(B) Landed instead: the QEC keep-as-capacity anchor** (`experiments/qec_keep_capacity.py`; receipts §QEC
+keep-as-capacity; frontier `circulation-held-capacity` + dashboard). The core §The wall anchored on the
+surface/toric code already in canon: keep = b₁ = #logical-qubits **literal** (`k=2−χ`, two ways; toric `k=2=b₁`,
+planar `k=1`); distance-vs-keep split **exact** (regular code scales protection-depth `d=L`, never keep `b₁=2` —
+the crystal-escape made precise; keep grows only with heterogeneous topology = the archived part); the wall = the
+code's **channel capacity** (hashing + threshold `p_th≈0.109`, DKLP 2002), rigorous — replacing the
+derivation's `O(N log N)` heuristic. *Scope:* does item **5(b)**; **5(a)** (the biological `O(N log N)`
+tightening) still owed, so the finite-wall `staked` entry is not yet earned. **► NEXT SESSION STARTS WITH the
+archive-held term** — the **deepest** blocker, the never-measured second half of *Organization = circulation-held
+`K(C)` + archive-held* (both anchors sit at archive≈0). Prompt written (`docs/research_prompt_archive_term.md`,
+open-access-only); prime lead **JCVI-Syn3A** (Breuer 2019 *eLife* e36842 + Luthey-Schulten Minimal_Cell repo),
+where the cut may *blur* (itself the test). Behind it: 5(a) the `O(N log N)` tightening; K_metric≥2; class-
+generality (Oregonator); K_topo uniformity. Sits on the `escape-degenerate-replication` /
+`self-referential-closure` line; reproduction is a different framework (von Neumann/Eigen), the write-bar = TDT.
 
 0. **DONE this session — `battery:readability` built + run** (`experiments/readability.py`; receipts
    §Readability battery; `character_frontier.md` `battery:readability` + `reading-transition` updated). All
