@@ -3,7 +3,7 @@
 ## Abstract
 
 Every steady state held off equilibrium by a throughput of energy carries a structure we call
-*character*, fixed by a single dimensionless ratio: the log affinity `a = ln(G₀/L)`, gain over
+*character*, organized by a single dimensionless ratio: the log affinity `a = ln(G₀/L)`, gain over
 loss. This one quantity is at once the de Donder affinity, the laser pump parameter above
 threshold, the log branching ratio of Malthusian growth, and a log-likelihood ratio. The
 framework maps these well-understood quantities — each measured independently — onto the single
@@ -230,7 +230,10 @@ budget:
 ```
 
 (sparse coupling scales as `D`, dense as `√D`; `d_avg` the mean degree, `γ_min` the least
-coupling cost), a budget count whose sharp ceiling is the Hopfield-class capacity cliff. The dynamical conjugate is an occupancy `η = 1 − B(c, ρ)` set by the
+coupling cost), a budget count whose sharp ceiling is the Hopfield-class capacity cliff. (This bounds the
+**maintained-mode count** against interaction cost — distinct from the **keep** `K(C)` of §The keep
+and the archive, which counts the organization a running NESS recovers through complete
+part-turnover: one is how many modes coexist, the other what survives replacement.) The dynamical conjugate is an occupancy `η = 1 − B(c, ρ)` set by the
 Erlang loss formula `B(c, ρ) = (ρ^c/c!) / Σ_{k≤c} ρ^k/k!`, with `η → 0` at the `√D` ceiling. A
 frustrated cycle has no such bound — it is unsustainable at any drive. Soft substrates cross the
 ceiling smoothly (Erlang tails); hard-wall substrates snap (`η = 1 − 𝟙[n ≥ c]`).
@@ -415,7 +418,15 @@ Antal–Krapivsky–Redner). Proximity is then a creation operator for protected
 Entrainment is not minting: a coupling that merely phase-locks two existing currents is the
 metric `so(3)` locking rule above, and a two-body union cycle is gauge-removable (`N = 2`);
 minting requires the *union* cycle to be frustrated (`N ≥ 3` in the union graph), creating a
-bit neither part carried — not the alignment of bits both already had.
+bit neither part carried — not the alignment of bits both already had. The **kind** of this
+onset is set by carrier depth: a bare two-body current (the Brownian gyrator, §The real
+instances) comes on through a continuous bifurcation with a **drive-set** sense — definite while
+driven, but vanishing at the detailed-balanced baseline and reversing with the drive's sign,
+never gauge-protected — whereas an `N ≥ 3` frustrated union mints its bit **discontinuously at
+the rewiring**, the sign thereafter gauge-irremovable and drive-independent. Minting is a
+topological onset, not a harder-driven ramp ([`character_frontier.md`](character_frontier.md)
+· `engine-character-onset`); whether a real primordial engine ever crossed it is a separate,
+open question (the bootstrap of §Status).
 
 **The cross-rule.** The invariant is not flatness but a **symmetry-protected selection rule** — the
 linear-response face of the transverse decomposition (`pa:transverse-decomposition`). Because the
@@ -459,8 +470,7 @@ The protected observable is not a property of one character read in isolation; i
 between a point and the manifold** — which coordinates the boundary conditions leave free, and the
 trajectory taken through them. Concretely it is **branch membership**: the system occupies one of
 several symmetry-related branches — the **circulation-bit / topological sector** the reservoir
-configuration permits but does not force. *(In broader language, persistent branch membership plays
-the role often informally attributed to "identity"; the formal content is entirely the branch.)*
+configuration permits but does not force.
 
 Hold two things apart. The bit's **reality** — an actually-circulating current — is always
 *sustained*: no drive, no current, and at zero drive the sector dissolves. Its **value** — which

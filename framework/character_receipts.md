@@ -762,6 +762,17 @@ record.
   2-mode Gaussian current-only — the generic selection rule (drive-locked sign), not a frustrated
   cycle. `experiments/gyrator_minting.py`, `gyrator_crosscheck.py`, `colloidal_gyrator_crosscheck.py`.
   `pa:cycle-affinity`, `pa:ness-currents`, `pa:ness-fdr`.
+* **Onset kind — topological, not a ramp** `derived` [Motion and proximity · Topological proximity]. The
+  onset's *kind* is set by carrier depth — a reconciliation of content already in core, **no new
+  derivation**: the bare $N=2$ gyrator (above) comes on by a continuous bifurcation with a **drive-set**
+  sense (current vanishes at $T_1{=}T_2$, sign reverses with $\Delta T$, never gauge-irremovable), while an
+  $N\ge3$ frustrated union rewires **discontinuously** (§Topological proximity: "at threshold they rewire
+  discontinuously, first-order in the topological sector"), the sign thereafter gauge-irremovable and
+  drive-independent. Settled by import: $\mathcal{A}$ is a function on the cycle space $H_1$ (Schnakenberg;
+  Polettini gauge-thermodynamics), identically zero / gauge-removable until a driven frustrated cycle closes
+  — so the transition is a topological onset, not harder driving. The *occurrence* on a real primordial
+  engine is **not** settled (the §Status bootstrap). `pa:cycle-affinity`, `pa:gauge-thermodynamics`.
+  `character_frontier.md` · `engine-character-onset`.
 * **Cell-free repressilator** `empirical` [The real instances]. The second *frustrated-cycle*
   ($\ge3$) instance, on a synthetic gene network (Niederholtmeyer et al., eLife 4:e09771, 2015 — Eq. 6
   + measured Table 2: Hill $n{=}2$, $K{=}5$nM, $\beta g{=}2.0$nM/min, $c{=}0.5$/min, mRNA $t_{1/2}{=}8$min,
