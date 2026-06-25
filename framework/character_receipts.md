@@ -1016,6 +1016,16 @@ record.
   where Pattee/Rosen/Kolchinsky--Wolpert put a concept. Kept, not erased; not inflated.
   `pa:semantic-information`, `pa:rosen-mr-systems`, `pa:pattee-semantic-closure`, `pa:chemoton`,
   `pa:von-neumann-automata`, `pa:channel-capacity`, `pa:transverse-decomposition`.
+* **Archive form: rate-independent symbol; the digital/aperiodic limb deliberately omitted** `derived` [The keep
+  and the archive]. Core adds one clause -- the archive is **rate-independent** (a symbol stable against the rates
+  it specifies, not swept along by them), crediting **Pattee** (`pa:pattee-semantic-closure`). The *further* claim
+  that the archive must be **digital and aperiodic** is **kept out of core**: the reader-by-overreach deferral
+  audit (`docs/research/research_prompt_reader_by_overreach.md`, 3 models converge, Q4) finds error-correctable
+  discrete encoding is a **bounded selective pressure** as information load grows (**Eigen's error threshold**;
+  **von Neumann** reliable computation) -- *not* a necessity -- while the specific aperiodic-polymer form is an
+  **n=1 frozen accident** (**Crick**; **Gould** contingency, undecidable at n=1). The modal force is a gradient,
+  not a law (`feedback_n1_frozen_accident_not_forced`); only the near-tautological rate-independence crosses.
+  `pa:pattee-semantic-closure`.
 
 ---
 

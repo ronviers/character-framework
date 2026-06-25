@@ -788,7 +788,9 @@ protection-depth `d`, never the keep `b₁`; the keep grows only with **heteroge
 specification is exactly the part that must be archived, and the wall is the code's channel capacity and error
 threshold (rigorous; Dennis–Kitaev–Landau–Preskill — receipts §QEC keep-as-capacity). Past the wall,
 organization must be **stored**: an archive — distinctions whose fidelity exceeds the circulation's
-self-specifying capacity, a standing record the running dynamics consult but cannot regenerate (DNA).
+self-specifying capacity, a standing record the running dynamics consult but cannot regenerate, and
+necessarily **rate-independent**: a symbol stable against the rates it specifies rather than swept along
+by them (Pattee; DNA).
 
 The archive-held term is **not the framework's object**; it is owned by established work, imported and credited.
 The standing information causally necessary to persist is **stored semantic information** (Kolchinsky–Wolpert);
