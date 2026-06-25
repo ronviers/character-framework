@@ -74,6 +74,10 @@ cycle-space homology (`strata_sort.py`: `𝒜=Ω` exactly, drive-independent; `�
 otherwise (the `feedback_no_synthetic_sidequests` gate). And the crossing is **already instanced on real
 substrates** (KaiABC, PO are engine→character unities past it); the only un-instanced piece is a real
 pure-metric engine at `𝒜=0`, an affordance-poor hunt, not a build. **Do NOT re-attempt the synthetic sweep.**
+*But the gate forbids the rigged build, not the claim:* the imported reading — the crossing is a **topological
+onset, not a bifurcation** (`𝒜` on `H₁`, gauge-irremovable, minted discontinuously at the rewiring;
+Schnakenberg/Polettini) — was **landed in frontier `engine-character-onset`** (already in core as §Minting; only
+the *occurrence* on a real engine is open). Held out of core only by the gyrator carrier-depth nuance.
 **(B) Landed instead: the QEC keep-as-capacity anchor** (`experiments/qec_keep_capacity.py`; receipts §QEC
 keep-as-capacity; frontier `circulation-held-capacity` + dashboard). The core §The wall anchored on the
 surface/toric code already in canon: keep = b₁ = #logical-qubits **literal** (`k=2−χ`, two ways; toric `k=2=b₁`,

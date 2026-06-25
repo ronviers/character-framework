@@ -97,7 +97,13 @@ unities *past* the crossing. The only un-instanced piece is a **real pure-metric
 affordance-poor substrate hunt (a Bénard cell *displays* a metric engine but can't afford the topological
 sector; salience ≠ affordance), **not a build**. If the crossing is ever pursued it is a *real-substrate*
 instance/proposal (Lane–Martin alkaline-vent bioenergetics, affordance-gated), parked. **Do NOT re-attempt the
-synthetic engine→character sweep.**
+synthetic engine→character sweep.** **But the gate forbids the rigged *build*, not the *claim* (Ron, 2026-06-25):**
+the imported reading — the engine→character crossing is a **topological onset, not a bifurcation** (`𝒜` lives on
+`H₁`, gauge-irremovable, minted discontinuously at the rewiring; Schnakenberg/Polettini) — was **landed in the
+frontier** (`engine-character-onset`, sharpening). It's settled-by-import (already in core as §Minting); the only
+open piece is the *occurrence* on a real engine (= the abiogenesis bootstrap). Held in frontier, not core, only
+because the **gyrator carrier-depth nuance** (bare 2-mode = continuous bifurcation, drive-set sense) must be
+cleaned up first → then a core sentence in §Minting/§The object.
 
 **Landed instead: the QEC keep-as-capacity anchor** (`experiments/qec_keep_capacity.py`; receipts §QEC
 keep-as-capacity; frontier `circulation-held-capacity` + dashboard). The core §The wall anchored on the
