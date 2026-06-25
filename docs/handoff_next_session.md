@@ -66,6 +66,26 @@ not at; each carries the credo's prohibitions so scenarios stay viable. Not comm
 
 ## ► PICK UP HERE (ranked; none blocking)
 
+**★ NEWEST (2026-06-24) — circulation-held capacity `K(C)`: two curve points landed + folded into canon.**
+Own handoff: [`handoff_circulation_held_capacity.md`](handoff_circulation_held_capacity.md). Decomposition —
+*Organization = circulation-held `K(C)` + archive-held* (DNA = the distinctions whose fidelity exceeds the
+circulation's self-specifying capacity), `K(C) = K_topo(b₁) + K_metric`. **(1) KaiABC** `K=2` (Rust 2007
+phosphoform model, `kaiabc_capacity.py`; both kill-gates cleared, forced-not-fitted). **(2) Peroxidase-oxidase**
+`K=4` — the first **distinct** point, via b₁=3 (two coupled enzyme redox loops; BFSO model, `bfso_capacity.py`).
+Receipts + frontier (`circulation-held-capacity`, `battery:circulation-capacity`) updated. The cut is shown
+substrate-general across two enzyme modalities. **► NEXT SESSION STARTS WITH the engine→character transition**
+(Stage 2→3): character is **not an add-on to engines — it is a *phase* available to sufficiently structured
+engines**, so the question parallels "can an engine generate metabolism?" → *can an engine generate character?*
+Task = make the crossing a **measured phase boundary**: a metric engine (`𝒜=0`) structured past a threshold
+turns on a protected current (`𝒜≠0`); seed apparatus = `battery:strata-current` (sort-vs-mint) + the
+symmetry-break onset from `battery:readability`/TDT. See `handoff_circulation_held_capacity.md` ► NEXT SESSION.
+**Deeper blockers preserved behind it (route to core):** the **archive term** (deepest, unmeasured —
+`docs/research_prompt_archive_term.md`, in-hand candidate = embryonic cell-cycle); the **QEC keep-as-capacity
+anchor** for the derived **finite-wall** result (`research_prompt_keep_derivation.md`, 3/3 models agree —
+heuristic flagged); plus K_metric≥2, class-generality, K_topo-uniformity. Sits on the
+`escape-degenerate-replication` / `self-referential-closure` line; reproduction is a different framework
+(von Neumann/Eigen), the write-bar = TDT.
+
 0. **DONE this session — `battery:readability` built + run** (`experiments/readability.py`; receipts
    §Readability battery; `character_frontier.md` `battery:readability` + `reading-transition` updated). All
    kill-switches pass synthetically (metric reading on; within-lifetime bit-readability null machine-exact;
