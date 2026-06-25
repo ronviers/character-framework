@@ -986,7 +986,25 @@ record.
   been $\approx 0$ (a purely metabolic autocatalytic substrate with no template would give it -- the KaiABC/PO
   regime); it is $\approx0.6$-$0.77$. **Falsify the reading:** a high-archive substrate whose essential archive
   *is* its maintained circulation ($\text{blur}\to0$), or a demonstration that the reader's gene set is fully
-  inside the metabolic NESS's flux modes. `pa:channel-capacity`, `pa:transverse-decomposition`.
+  inside the metabolic NESS's flux modes. **Deferral audit (2026-06-25; three independent models, convergent --
+  the prior-art credit, in full).** The *concepts* this result touches are owned, by name, by real researchers,
+  and the framework imports them: the **archive-held term** (information that must be consulted because the
+  dynamics cannot regenerate it) is **Kolchinsky--Wolpert's stored semantic information** (2018); the **reader
+  that produces the reader** is **Rosen's closure to efficient causation** / (M,R) systems ($\beta=B$ -- exactly
+  core's $\otimes$-fixed-point); the **seam** (symbol becoming dynamics at the expression apparatus) is
+  **Pattee's semantic closure / epistemic cut** (the sharpest antecedent); the archive/reader **dual-use** is
+  **von Neumann's** tape; the **non-separability** of metabolism and template is **Gánti's chemoton**; and the
+  **gene-category split itself** ($\approx$143 metabolic vs $\approx$212 information-processing) is **Breuer
+  2019 / Hutchison 2016** -- the number is theirs, not ours. So the *reading* is import-redescription, and the
+  framework claims none of the concepts. **The residue, at its true (small) size:** all three models
+  independently isolate the same unclaimed piece -- the **quantitative operationalization**: the first
+  computation partitioning a real minimal cell's irreducible archive against its metabolic circulation as a set
+  difference, the seam *located* (the expression apparatus, $\approx41\%$ of archive bits) and the circulation
+  anchored topologically ($K_{\text{topo}}=b_1+K_{\text{metric}}$). That is a **measurement on top of
+  fully-credited concepts** -- the framework's settled constraint-language value, instanced; we put a number
+  where Pattee/Rosen/Kolchinsky--Wolpert put a concept. Kept, not erased; not inflated.
+  `pa:semantic-information`, `pa:rosen-mr-systems`, `pa:pattee-semantic-closure`, `pa:chemoton`,
+  `pa:von-neumann-automata`, `pa:channel-capacity`, `pa:transverse-decomposition`.
 
 ---
 

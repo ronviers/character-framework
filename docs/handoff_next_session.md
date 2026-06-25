@@ -109,27 +109,26 @@ expression-dominated — known, Breuer 2019). Falsifier that did **not** trigger
 templateless metabolic substrate — the KaiABC/PO regime). Data layer = `experiments/syn3a_data.py` (verified loader;
 data gitignored at `docs/sources/minimal_cell/`).
 
-**► NEXT SESSION = the DEFERRAL AUDIT comes first (Ron's steer, 2026-06-25).** The blur *is* the parked
-north-star's object (`self-referential-closure` / the ALIVE LOOP) in data — but the build moves below are
-**substantially already done by experts**, so the next move is **import + defer, not build.** Both gated behind a
-research-channel return:
-- **The archive-held term is almost certainly Kolchinsky–Wolpert "stored semantic information"** (2018, *Interface
-  Focus*; arXiv:1806.08053 — information causally necessary for persistence), the reader-produces-reader cross-term
-  is **Rosen's closure to efficient causation** ((M,R) systems), and the metabolism/template coupling is **Gánti's
-  chemoton**. All three now registered in `character_prior_art.md` §"Metabolic closure & the archive-held term"
-  (`semantic-information`, `rosen-mr-systems`, `chemoton`). **Run the deferral-audit prompt**
-  (`docs/research/research_prompt_archive_term_formalization.md`) on the outbound channel **before** any cross-term
-  claim — it asks: is our blur an instance of a KW measure someone already computed on biological data? what does a
-  topological/transverse reading add over Rosen/KW, if anything? Honest expected verdict: the archive-term reading
-  is import-re-description (the framework's settled "constraint-language" value), residue TBD by the channel.
-- **(gated) Formalize the cross-term** — only *after* the channel: is it `circ + archive − reader` (inclusion–
-  exclusion), the `⊗`-fixed-point quantified? — and *in the imported vocabulary* (stored-semantic-information / (M,R)
-  closure), not reinvented.
-- **(don't bother) FBA gene-essentiality on iMB155** — this is **Breuer 2019's own published analysis** (iMB155 was
-  built to compare FBA vs experimental essentiality: 79% in-silico vs 92% in-vivo); re-running it adds nothing. Cite,
-  don't rebuild. The blur metric is already a re-description of their gene-category split.
-- **(gated) Generality** — a 2nd high-archive substrate would test if the blur is a Syn3A quirk; run the **affordance
-  gate** (`character_substrate_method.md`) first. Lower priority than the audit.
+**✓ DEFERRAL AUDIT DONE (2026-06-25, 3/3 models converge; Ron's steer = "honest but not wimpy — credit the
+researchers who earned it; keep a small thing as small").** The archive-term reading is **import-redescription** of
+owned concepts; the residue is the **measurement**, kept at its true small size. *Synthesis at the top of*
+`docs/research/research_prompt_archive_term_formalization.md`; imports landed in `character_prior_art.md` §"Metabolic
+closure & the archive-held term"; receipt + frontier carry the verdict.
+- **Credited (imported, defer):** archive-held term = **Kolchinsky–Wolpert** stored-semantic-information (2018);
+  reader-produces-reader = **Rosen** closure-to-efficient-causation / (M,R) (`β=B` = core's `⊗`-fixed-point); the
+  **seam** = **Pattee** semantic-closure / epistemic-cut (sharpest antecedent, audit-surfaced — now `pa:pattee-
+  semantic-closure`); dual-use = **von Neumann**; non-separability = **Gánti** chemoton; the gene-category split
+  (≈143 metabolic vs ≈212 info-processing, the 0.67 ratio) = **Breuer 2019 / Hutchison 2016** (the number is theirs).
+- **Residue (small, kept, not inflated):** the quantitative operationalization — the first set-difference blur
+  partitioning a real minimal cell's irreducible archive against its metabolic circulation + the topological K(C)
+  anchoring. A measurement on top of fully-credited concepts; "we put a number where they put a concept."
+- **(gated) Formalize the cross-term** — only if pursued, do it *in the imported vocabulary* (stored-semantic-
+  information / (M,R) closure / Pattee's cut), not reinvented; the honest add is at most a topological/transverse
+  reading of where the cut falls.
+- **(don't bother) FBA gene-essentiality on iMB155** — **Breuer 2019's own published analysis** (79% in-silico vs 92%
+  in-vivo). Cite, don't rebuild.
+- **(gated) Generality** — a 2nd high-archive substrate would test if the blur is a Syn3A quirk; **affordance gate**
+  (`character_substrate_method.md`) first. Low priority.
 - **Route to core, behind the capacity arc (unchanged):** 5(a) the `O(N log N)` tightening (completes the finite-wall
   `staked`); K_metric≥2 (an `[O2]eq` sweep on PO); class-generality (the inorganic Oregonator, in hand); K_topo
   uniformity (KaiABC's affinity-sign vs PO's cycle-count, one definition). Reproduction is a different framework
