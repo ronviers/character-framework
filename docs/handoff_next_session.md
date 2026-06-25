@@ -93,9 +93,15 @@ DKLP 2002), replacing the derivation's `O(N log N)` heuristic. *Scope:* does ite
 so the finite-wall `staked` entry is not yet earned.
 
 **► NEXT SESSION = the archive-held term** — the **deepest** blocker, the never-measured second half of the
-decomposition (both anchors archive≈0). Prompt written (`docs/research_prompt_archive_term.md`, open-access-only);
-prime lead **JCVI-Syn3A** (Breuer 2019 *eLife* e36842 + Luthey-Schulten Minimal_Cell repo), where the cut may
-*blur* (itself the test). **Route to core, behind it:** 5(a) the `O(N log N)` tightening (completes the
+decomposition (both anchors archive≈0). Prompt **+ research return in hand** (`docs/research/research_prompt_archive_term.md`,
+open-access-only — the report is appended); prime lead **JCVI-Syn3A** (Breuer 2019 *eLife* e36842), where the cut
+may *blur* (itself the test). **Data:** the paper PDFs are local at `docs/sources/minimal_cell/` (gitignored); the
+*buildable* kinetics live in the **Luthey-Schulten Minimal_Cell GitHub repo** — `kinetic_params.xlsx` +
+`Syn3A_updated.xml` (SBML) + `syn3A.gb` (genome) — **still to fetch** (`gh`/clone; only the PDFs are local so far).
+**Tooling ready (2026-06-25):** PDF text/tables via `pdfplumber`/`fitz`/`pdftotext`; visual page-read via `fitz`
+page→PNG then Read the PNG (the native Read-PDF path is dead — no `pdftoppm` in the minimal Git-Bash poppler — but
+`fitz` needs no poppler); `openpyxl`+`pandas` (xlsx), `python-libsbml`+`lxml` (SBML), `biopython` (the `.gb` →
+archive-bit count) all installed; OCR (`tesseract`) not installed and not needed (born-digital). **Route to core, behind it:** 5(a) the `O(N log N)` tightening (completes the
 finite-wall `staked`); K_metric≥2 (an `[O2]eq` sweep on PO); class-generality (the inorganic Oregonator, in hand);
 K_topo uniformity (KaiABC's affinity-sign vs PO's cycle-count, one definition). Sits on `escape-degenerate-
 replication` / `self-referential-closure`; reproduction is a different framework (von Neumann/Eigen), write-bar = TDT.
