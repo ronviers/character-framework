@@ -106,8 +106,14 @@ concept. That is worth keeping and worth not inflating.
 **Action taken:** imported `semantic-information`, `rosen-mr-systems`, `pattee-semantic-closure`, `chemoton`
 into `character_prior_art.md` §"Metabolic closure & the archive-held term" (von Neumann cross-referenced); the
 receipt §JCVI-Syn3A archive-term cut and frontier `circulation-held-capacity` record the deferral verdict.
-*(Raw model returns below as the appendix. Citation details from the models — esp. the modern-realization
-papers — should be verified against the open-access sources before any external/published use.)*
+*(Raw model returns below as the appendix. **Citations verified 2026-06-25** — all real: Kolchinsky &
+Wolpert 2018 (*Interface Focus* 8:20180041; arXiv:1806.08053); Rosen *Life Itself* 1991; Pattee 1995
+(*Communication and Cognition – AI* 12(1–2):9–27); von Neumann 1966; Gánti *The Principles of Life* (OUP 2003,
+orig. 1971); Breuer 2019 (*eLife* e36842); Hutchison 2016 (*Science*). Modern (M,R) realizations confirmed:
+Cornish-Bowden & Cárdenas, "The cell as a realization of the (M,R) system", *Biosystems* 2023; Hofmeyr's
+(F,A)-system, *Biosystems* 2021. Non-computability debate confirmed contested: Chu & Ho 2006 (*Artificial
+Life* 12(1):117); Gatherer & Galpin 2013 (*BMC Syst. Biol.* 7:128). Notably the (M,R) realizations place the
+translation apparatus at the closure's center — i.e. the literature already names the reader as the seam.)*
 
 ---
 

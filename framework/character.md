@@ -17,7 +17,12 @@ substrates (a rock-paper-scissors replicator, a homochiral triad, a distance-3 s
 on a small family of real instances — a fuel-driven DNA reaction network, two Brownian gyrators
 (electronic and colloidal), and a cell-free genetic ring oscillator; the sharpest test forces one memory
 exponent `β` to govern fluctuation-dissipation aging, queue-tail scaling, and the memory kernel
-at once. The collapse against laboratory data has not been run.
+at once. The collapse against laboratory data has not been run. A maintained steady state also has
+a finite *keep* — the organization it recovers through complete part-turnover, `K = b₁ + K_metric`,
+anchored on KaiABC and the peroxidase–oxidase reaction; past its topological ceiling organization
+must be archived, and on the minimal cell JCVI-Syn3A the cut between the running circulation and the
+stored archive is measured and seen to blur at the reading machinery — there the framework imports
+its archive-side concepts (Kolchinsky–Wolpert; Rosen; Pattee) and adds only the measurement.
 
 ## Object
 
@@ -753,6 +758,43 @@ band, not a point.
 
 One confirmed *family*, not a population: four measured substrates, two structural depths.
 
+## The keep and the archive
+
+A sustained branch is held by running, not by storage (§Composite branch) — which raises the question of its
+bound: how much organization can a driven NESS recover after **complete turnover of its constituent parts**,
+with no static record beyond replacement of generic components? This **circulation-held capacity** is
+`K(C) = K_topo + K_metric` — `K_topo = b₁`, the protected cycle count (reset-stable, digital), plus
+`K_metric`, the dimension of the turnover-stable slow manifold beyond the fixed point (reset-fragile, analog:
+a limit-cycle phase contributes 1, a torus 2). It is forced-not-fitted on record-free substrates: the KaiABC
+circadian clock gives `K = b₁ + phase = 2` from the measured Rust constants, and the peroxidase–oxidase
+reaction gives `K = b₁(3) + 1 = 4` through two coupled enzyme loops — a *distinct* point, the observable read
+across two enzyme modalities (receipts §Real-substrate instances; [`character_frontier.md`](character_frontier.md)
+· `circulation-held-capacity`).
+
+The keep has a **finite ceiling**. Maintenance through complete part-turnover *is* error correction, so the
+deepest keep is **topological**: on the surface/toric code the keep is `b₁` *literally* — the protected
+logical-qubit count is the first Betti number of the code surface (`k = 2 − χ`) — and a regular code scales
+protection-depth `d`, never the keep `b₁`; the keep grows only with **heterogeneous topology**, whose
+specification is exactly the part that must be archived, and the wall is the code's channel capacity and error
+threshold (rigorous; Dennis–Kitaev–Landau–Preskill — receipts §QEC keep-as-capacity). Past the wall,
+organization must be **stored**: an archive — distinctions whose fidelity exceeds the circulation's
+self-specifying capacity, a standing record the running dynamics consult but cannot regenerate (DNA).
+
+The archive-held term is **not the framework's object**; it is owned by established work, imported and credited.
+The standing information causally necessary to persist is **stored semantic information** (Kolchinsky–Wolpert);
+the machinery that reads the archive while being specified by it — the reader that produces the reader — is
+**closure to efficient causation** (Rosen's (M,R) systems, the `β = B` fixed point); and the seam where a
+stored symbol becomes running dynamics is the **epistemic cut** (Pattee's semantic closure). What the framework
+adds is the **measurement**. On JCVI-Syn3A (the minimal cell) the cut is drawn and **blurs**: partitioning the
+irreducible archive (essential genes `E`) against the metabolic circulation's gene set `M` gives a blur
+`|E ∖ M| / |E| ≈ 0.6–0.77` — the metabolic NESS accounts for under half, and the single largest unaccounted
+block (≈41% of archive bits) is the expression apparatus, the **reader**, which is stored yet active: neither
+the running circulation nor passive storage. So `Organization = circulation-held + archive-held` is **not a
+clean sum** — the two terms overlap irreducibly at the reader, the self-referential seam (Rosen's closure,
+instanced; receipts §JCVI-Syn3A archive-term cut). The open edges of the curve: `K_metric` is so far always 1,
+the anchors sit within one biochemical class, and `K_topo` is not yet uniformly defined across the
+reversible-affinity and irreversible-cycle-count readings.
+
 ## Cascade, convergence, and the self-referential limit
 
 The cascade is a path `ℭ_n → ℭ_{n+1} → …` through strata. Because `ℭ` is closed under `⊗` and
@@ -767,7 +809,9 @@ conjugate cascade). Below the marginal point the strata telescope to a finite ef
 character; at `ε → 1` the inductive limit of `{ℭ_n}` fails to converge (§Coarse-graining and the
 marginal point). A composite among its *own* constituents' drivers — a cycle in the directed
 system, a fixed point of `⊗` that re-enters its own input set — is a self-sustaining recursive
-circulation.
+circulation. This fixed point is **closure to efficient causation** (Rosen): the reader of §The keep and the
+archive — the expression apparatus the archive specifies and which in turn reads the archive — is its measured
+biological instance, and the locus where the circulation/archive cut blurs.
 
 ---
 
@@ -816,16 +860,25 @@ strata stop being populated by real substrates, or a stated claim never acquires
 
 Checked on simulated and analytically tractable substrates — a rock-paper-scissors replicator, a
 homochiral reaction triad, a distance-3 surface code — at the point and space layers. At the
-coupling layer there is one real-substrate instance: the fuel-driven DNA reaction network above,
-confirmed against the full nonlinear network, with the idealizations stated there. The `β`
-data-collapse test against measured laboratory data has not been run; it requires the data and
-the inversion pipeline.
+coupling layer minting is read on a **confirmed family** of real, measured substrates (§The real
+instances): the fuel-driven DNA reaction network (confirmed against the full nonlinear network),
+two Brownian gyrators (electronic and colloidal), and a cell-free repressilator — four substrates
+across two structural depths. The capacity arc adds record-free maintained substrates (KaiABC, the
+peroxidase–oxidase reaction), the surface/toric code (keep `= b₁` literal, wall `=` channel
+capacity), and the JCVI-Syn3A archive-term cut (§The keep and the archive). The `β` data-collapse
+test against measured laboratory data has not been run; it requires the data and the inversion
+pipeline.
 
-Open: the tangent-space identification is instanced only at `n = 3`, with larger strata
-unchecked; a second real instance of the minting and its protection is not yet in hand; the
-coupled-NESS thermodynamics of two interacting characters (Horowitz–Esposito;
-Parrondo–Horowitz–Sagawa) is not yet worked out; and the self-referential closure — a
-`⊗`-fixed-point among its own drivers — is open.
+Open: the tangent-space identification is instanced only at `n = 3`, with larger strata unchecked;
+the coupled-NESS thermodynamics of two interacting characters (Horowitz–Esposito;
+Parrondo–Horowitz–Sagawa) is not yet worked out; the capacity curve's metric axis is unexercised
+(`K_metric` always 1), its anchors lie within one biochemical class, and `K_topo` is not uniformly
+defined across the reversible-affinity and irreversible-cycle-count readings; and the
+self-referential closure — the `⊗`-fixed-point that re-enters its own input set — is open as a
+**recursive bootstrap** (Rosen's closure to efficient causation is its formal home, and its
+biological seam is measured on Syn3A, but a protected bit minted on a substrate that reads its own
+ecology, plus a copyable record, remain owed — reproduction/heredity is a separate framework: von
+Neumann; Eigen).
 
 ---
 

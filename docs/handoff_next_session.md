@@ -210,10 +210,15 @@ measured one; each substrate broadens the class of `B` shown to exclude the curr
   machine-exact superselection null, `R_hard` over a lineage); §Chiral-rotor triad (Triskele calibration);
   strengthened §The binding (per-substrate carrier named). **Prior-art:** `gauge-thermodynamics` (Polettini 2012).
 - **Core (`character.md`):** §Composition under coupling resolved (the build); §The cross-rule, §Frustration,
-  §Motion and proximity aligned (curvature + iff fixes). *(readability is calibration → stays in frontier +
-  receipts; not promoted to core — synthetic ≠ vindication.)*
+  §Motion and proximity aligned (curvature + iff fixes). **NEW (2026-06-25) — the capacity arc converged into
+  core**: §"The keep and the archive" added (K(C)=K_topo+K_metric; KaiABC K=2 / PO K=4 anchors; the wall =
+  QEC channel-capacity; the archive-held term **credited to imports** Kolchinsky–Wolpert / Rosen / Pattee, with
+  the Syn3A blur as the measured instance; open edges noted); §Cascade self-referential limit now names Rosen's
+  closure + the reader; §Status de-staled (was "one instance" → four-substrate family); abstract gained a keep/
+  archive sentence. *(readability stays frontier-only — synthetic ≠ vindication — unchanged.)*
 - **`experiments/` (capacity arc + recent):** `kaiabc_capacity.py` (K=2), `bfso_capacity.py` (PO, K=4),
-  `qec_keep_capacity.py` (the §wall anchor: keep=b₁ literal, wall=channel-capacity); `composition_law.py`
+  `qec_keep_capacity.py` (the §wall anchor: keep=b₁ literal, wall=channel-capacity); **`syn3a_archive_term.py`
+  (the archive-term cut, blurs at the reader) + `syn3a_data.py` (the verified Syn3A loader)**; `composition_law.py`
   (the C-middle build), `strata_sort.py` (sort-vs-mint), `readability.py` (the reading-transition order
   parameter). Prior clusters (colloid / QEC+glass / gMAM / minting instances) unchanged — see git.
 - **`docs/`:** `roadmap_universal_invariant.md` (Phase A resolved), `build_composition_law.md`,
