@@ -95,9 +95,14 @@ so the finite-wall `staked` entry is not yet earned.
 **► NEXT SESSION = the archive-held term** — the **deepest** blocker, the never-measured second half of the
 decomposition (both anchors archive≈0). Prompt **+ research return in hand** (`docs/research/research_prompt_archive_term.md`,
 open-access-only — the report is appended); prime lead **JCVI-Syn3A** (Breuer 2019 *eLife* e36842), where the cut
-may *blur* (itself the test). **Data:** the paper PDFs are local at `docs/sources/minimal_cell/` (gitignored); the
-*buildable* kinetics live in the **Luthey-Schulten Minimal_Cell GitHub repo** — `kinetic_params.xlsx` +
-`Syn3A_updated.xml` (SBML) + `syn3A.gb` (genome) — **still to fetch** (`gh`/clone; only the PDFs are local so far).
+may *blur* (itself the test). **Data + loader READY (2026-06-25):** all fetched and machine-readable. Entry point =
+**`experiments/syn3a_data.py`** (verified loader + data dictionary; run it for the summary card). Data local at
+`docs/sources/minimal_cell/` (gitignored, from the Luthey-Schulten Minimal_Cell_4DWCM repo): `syn3A.gb` (genome,
+**CP016816.2**, 543,379 bp / 496 genes → the **archive**, ~1.09e6 bits raw / 9.6e5 coding); `Syn3A_updated.xml`
++ `iMB155_…xml` (SBML, 308 species / 356 & 340 rxns → the **circulation** network); `kinetic_params.xlsx`
+(Michaelis-Menten enzyme kinetics, 13 subsystems → the operator rates); `initial_concentrations.xlsx` (the
+per-gene-product **essentiality/protein-count map** — the archive↔circulation bridge). So the build is: metabolic
+operator (circulation `K(C)`) vs genome (archive), measure the cut, watch whether it stays well-posed or **blurs**.
 **Tooling ready (2026-06-25):** PDF text/tables via `pdfplumber`/`fitz`/`pdftotext`; visual page-read via `fitz`
 page→PNG then Read the PNG (the native Read-PDF path is dead — no `pdftoppm` in the minimal Git-Bash poppler — but
 `fitz` needs no poppler); `openpyxl`+`pandas` (xlsx), `python-libsbml`+`lxml` (SBML), `biopython` (the `.gb` →
