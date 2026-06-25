@@ -314,7 +314,7 @@ model c (output garbled in transit — leaked raw tool-call scaffolding, truncat
 # RESOLVED (2026-06-24) — reduced parameter set extracted directly from the SOM
 
 All three models hit the same wall: no access to the Science SI tables. The SOM PDF was fetched to
-`docs/rust/` (`rust_som.pdf`) and the complete reduced-model set read out **directly** — so we use the
+`docs/sources/rust/` (`rust_som.pdf`) and the complete reduced-model set read out **directly** — so we use the
 source numbers, not a model reconstruction (model b's reconstruction was, for the record, essentially
 correct: additive form, `A_free = max(0, [KaiA] - 2S)`, `K1/2 = 0.43 uM`).
 

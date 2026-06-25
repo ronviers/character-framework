@@ -20,7 +20,7 @@ circulation. Parts (phosphate groups, hexamers) turn over; the collective phase/
 
 MODEL + MEASURED CONSTANTS (Rust, Markson, Lenz, Glass, O'Shea, "Ordered phosphorylation governs oscillation
 of a three-protein circadian clock," Science 318:809-812 (2007); reduced model = SOM Eqs. 1-5, Tables S1/S2,
-read directly from docs/rust/rust_som.pdf):
+read directly from docs/sources/rust/rust_som.pdf):
   Dynamical vars T, D(=ST), S (uM); U = [KaiC] - T - D - S (conservation).
   Network = the single 4-cycle U-T-D-S (edges U-T, T-D, D-S, S-U; no chords) -> b1 = 1.
   Rates  k_XY(S) = k0_XY + kA_XY * A/(K1/2 + A),  A = max(0, [KaiA] - 2*m*S), m = 1.

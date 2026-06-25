@@ -1,18 +1,15 @@
 __pycache__/
 *.pyc
 output/
-docs/temp/
 dev_profile.json
 
 # large third-party CT image set (Collins 2021 Dryad p5hqbzknw, redownloadable)
 data/shell/doi_10_5061_dryad_p5hqbzknw__v20210113/
 
-# copyrighted source papers (public repo) — extracted constants live in the experiment scripts/docs
-# Rust et al. 2007 Science + SOM + NIH figures (KaiABC)
-docs/rust/
-# BFSO/Olsen PO papers, Oregonator, embryonic cell-cycle papers + supplements (capacity point 2 + archive)
-docs/second_capacity_substrate/
-# any copyrighted source PDF dropped loose in docs/ (e.g. the BFSO paper)
+# copyrighted source papers (public repo) — all under docs/sources/; extracted constants live in scripts/docs
+# (KaiABC: Rust 2007 + SOM + figures; PO: BFSO/Olsen + Oregonator + embryonic cell-cycle; SRL/laser papers)
+docs/sources/
+# any copyrighted source PDF dropped loose in docs/
 docs/*.pdf
 
 # believing-mode generators — deliberately LOCAL (public repo); "as if true" speculation, not public claims
