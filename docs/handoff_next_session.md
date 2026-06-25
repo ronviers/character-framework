@@ -66,32 +66,48 @@ not at; each carries the credo's prohibitions so scenarios stay viable. Not comm
 
 ## ► PICK UP HERE (ranked; none blocking)
 
-**★ NEWEST (2026-06-25) — the QEC keep-as-capacity anchor landed; the engine→character build was gated out.**
-Own handoff: [`handoff_circulation_held_capacity.md`](handoff_circulation_held_capacity.md).
-**(A) The engine→character transition was gated and resolved to DON'T BUILD.** A *synthetic* engine→character
-phase-boundary sweep is a **demonstration, not a test**: `𝒜` is algebraically pinned to the wiring by
-cycle-space homology (`strata_sort.py`: `𝒜=Ω` exactly, drive-independent; `𝒜≡0` at `Ω=0`) — it can't come out
-otherwise (the `feedback_no_synthetic_sidequests` gate). And the crossing is **already instanced on real
-substrates** (KaiABC, PO are engine→character unities past it); the only un-instanced piece is a real
-pure-metric engine at `𝒜=0`, an affordance-poor hunt, not a build. **Do NOT re-attempt the synthetic sweep.**
-*But the gate forbids the rigged build, not the claim:* the imported reading — the crossing is a **topological
-onset, not a bifurcation** (`𝒜` on `H₁`, gauge-irremovable, minted discontinuously at the rewiring;
-Schnakenberg/Polettini) — was **landed in frontier `engine-character-onset`** (already in core as §Minting; only
-the *occurrence* on a real engine is open). Held out of core only by the gyrator carrier-depth nuance.
-**(B) Landed instead: the QEC keep-as-capacity anchor** (`experiments/qec_keep_capacity.py`; receipts §QEC
-keep-as-capacity; frontier `circulation-held-capacity` + dashboard). The core §The wall anchored on the
-surface/toric code already in canon: keep = b₁ = #logical-qubits **literal** (`k=2−χ`, two ways; toric `k=2=b₁`,
-planar `k=1`); distance-vs-keep split **exact** (regular code scales protection-depth `d=L`, never keep `b₁=2` —
-the crystal-escape made precise; keep grows only with heterogeneous topology = the archived part); the wall = the
-code's **channel capacity** (hashing + threshold `p_th≈0.109`, DKLP 2002), rigorous — replacing the
-derivation's `O(N log N)` heuristic. *Scope:* does item **5(b)**; **5(a)** (the biological `O(N log N)`
-tightening) still owed, so the finite-wall `staked` entry is not yet earned. **► NEXT SESSION STARTS WITH the
-archive-held term** — the **deepest** blocker, the never-measured second half of *Organization = circulation-held
-`K(C)` + archive-held* (both anchors sit at archive≈0). Prompt written (`docs/research_prompt_archive_term.md`,
-open-access-only); prime lead **JCVI-Syn3A** (Breuer 2019 *eLife* e36842 + Luthey-Schulten Minimal_Cell repo),
-where the cut may *blur* (itself the test). Behind it: 5(a) the `O(N log N)` tightening; K_metric≥2; class-
-generality (Oregonator); K_topo uniformity. Sits on the `escape-degenerate-replication` /
-`self-referential-closure` line; reproduction is a different framework (von Neumann/Eigen), the write-bar = TDT.
+**★ NEWEST (2026-06-25) — capacity arc: QEC keep-as-capacity anchor landed; engine→character build gated out.**
+*(This arc absorbed the former `handoff_circulation_held_capacity.md`, now retired — its depth lives in canon:
+receipts §KaiABC circadian clock / §Peroxidase-oxidase / §QEC keep-as-capacity; frontier
+`circulation-held-capacity`, `battery:circulation-capacity`, `engine-character-onset`; core §The keep + §The wall.)*
+
+**The object:** *Organization = circulation-held `K(C)` + archive-held*, with `K(C)=K_topo(b₁)+K_metric`. Two
+curve points landed, forced-not-fitted, both at archive≈0: **KaiABC `K=2`** (`kaiabc_capacity.py`) and
+**peroxidase-oxidase `K=4`** (`bfso_capacity.py`, distinct via b₁=3).
+
+**(A) engine→character — gated to DON'T BUILD; claim landed by import.** A *synthetic* phase-boundary sweep is a
+**demonstration, not a test**: `𝒜` is algebraically pinned to the wiring by cycle homology (`strata_sort.py`:
+`𝒜=Ω` exactly, `𝒜≡0` at `Ω=0` — can't come out otherwise; `feedback_no_synthetic_sidequests`), and the crossing
+is **already instanced** on real substrates (KaiABC/PO are engine→character unities past it). *But the gate
+forbids the rigged build, not the claim:* the imported reading — the crossing is a **topological onset, not a
+bifurcation** (`𝒜` on `H₁`, gauge-irremovable, minted discontinuously at the rewiring; Schnakenberg/Polettini) —
+is in **frontier `engine-character-onset`** (already in core as §Minting; held out of core only by the gyrator
+carrier-depth nuance; only the *occurrence* on a real engine is open). **Do NOT re-attempt the synthetic sweep.**
+
+**(B) QEC keep-as-capacity anchor — landed** (`experiments/qec_keep_capacity.py`; receipts §QEC keep-as-capacity).
+The core §The wall anchored on the surface/toric code already in canon: keep = b₁ = #logical-qubits **literal**
+(`k=2−χ`, two ways; toric `k=2=b₁`, planar `k=1`); distance-vs-keep split **exact** (regular code scales
+protection-depth `d=L`, never keep `b₁=2` — the crystal-escape made precise; keep grows only with heterogeneous
+topology = the archived part); the wall = the code's **channel capacity** (hashing + threshold `p_th≈0.109`,
+DKLP 2002), replacing the derivation's `O(N log N)` heuristic. *Scope:* does item **5(b)**; **5(a)** still owed,
+so the finite-wall `staked` entry is not yet earned.
+
+**► NEXT SESSION = the archive-held term** — the **deepest** blocker, the never-measured second half of the
+decomposition (both anchors archive≈0). Prompt written (`docs/research_prompt_archive_term.md`, open-access-only);
+prime lead **JCVI-Syn3A** (Breuer 2019 *eLife* e36842 + Luthey-Schulten Minimal_Cell repo), where the cut may
+*blur* (itself the test). **Route to core, behind it:** 5(a) the `O(N log N)` tightening (completes the
+finite-wall `staked`); K_metric≥2 (an `[O2]eq` sweep on PO); class-generality (the inorganic Oregonator, in hand);
+K_topo uniformity (KaiABC's affinity-sign vs PO's cycle-count, one definition). Sits on `escape-degenerate-
+replication` / `self-referential-closure`; reproduction is a different framework (von Neumann/Eigen), write-bar = TDT.
+
+**Settled — do not re-walk** (the capacity arc's dead reasoning, mapped where each now lives): the 9-definers /
+"thickened seam" is **not a hole** (boundary-malformation → tombstones `flip-cost-across-zero`,
+`sign-kill-bisection`); "drive-locked vs topology-locked" was a **mis-framing** — the axis is **carrier depth**
+(N=2 continuous Gaussian vs N≥3 discrete frustration), the *same* gyrator nuance now held in
+`engine-character-onset`; the ~1-bit templating cap is **capacity/rank (`b₁`), not copy-fidelity**; the mint→tape
+write factors `consolidate∘copy` and the direct topological→metric write is **TDT-barred** (a derived
+Weismann / Central-Dogma); **replication/heredity is a different framework** (von Neumann/Eigen) — Character owns
+the record-free regime + the boundary, not the archive theory.
 
 0. **DONE this session — `battery:readability` built + run** (`experiments/readability.py`; receipts
    §Readability battery; `character_frontier.md` `battery:readability` + `reading-transition` updated). All
@@ -162,9 +178,10 @@ measured one; each substrate broadens the class of `B` shown to exclude the curr
 - **Core (`character.md`):** §Composition under coupling resolved (the build); §The cross-rule, §Frustration,
   §Motion and proximity aligned (curvature + iff fixes). *(readability is calibration → stays in frontier +
   receipts; not promoted to core — synthetic ≠ vindication.)*
-- **`experiments/` (new this session):** `composition_law.py` (the C-middle build), `strata_sort.py`
-  (the sort-vs-mint battery), `readability.py` (the reading-transition order parameter). Prior clusters
-  (colloid / QEC+glass / gMAM / minting instances) unchanged — see git.
+- **`experiments/` (capacity arc + recent):** `kaiabc_capacity.py` (K=2), `bfso_capacity.py` (PO, K=4),
+  `qec_keep_capacity.py` (the §wall anchor: keep=b₁ literal, wall=channel-capacity); `composition_law.py`
+  (the C-middle build), `strata_sort.py` (sort-vs-mint), `readability.py` (the reading-transition order
+  parameter). Prior clusters (colloid / QEC+glass / gMAM / minting instances) unchanged — see git.
 - **`docs/`:** `roadmap_universal_invariant.md` (Phase A resolved), `build_composition_law.md`,
   `universal_invariant returns.md`, `research_prompt_curvature_as_coupling_bias.md` (returns folded);
   **`character_credo.md`** + **`character_abiogenesis.md`** (LOCAL believing-mode generators, untracked).

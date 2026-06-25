@@ -1,6 +1,6 @@
 r"""kaiabc_capacity.py -- the circulation-held capacity K(C) on KaiABC (the make-or-break, kill #2).
 
-THE OBJECT (handoff_circulation_held_capacity.md):
+THE OBJECT (core character.md SS The keep; receipts SS KaiABC circadian clock):
     Organization = circulation-held K(C) + archive-held.
     K(C) = K_topo (= b1, the protected topological cycle count, digital/reset-stable)
          + K_metric (dim of the turnover-stable slow manifold beyond the fixed point, analog).
