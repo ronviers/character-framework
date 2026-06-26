@@ -7,10 +7,26 @@ All canonical work below is committed + pushed. The two believing-mode docs are 
 
 ## Where things stand (current — 2026-06-25)
 
-**Latest (this continuation) — the Syn3A substrate-navigation thread worked: reader-upkeep LANDED, metabolic
-`K(C)` probed-and-declined.** Both live in the ★ Syn3A thread under PICK UP HERE (the metabolic deflation + the
-reader-upkeep witness). New artifacts: `experiments/syn3a_reader_upkeep.py`, receipt §JCVI-Syn3A reader-upkeep,
-frontier `reader-by-overreach` updated. The five landings of the prior continuation below still hold.
+**Latest (this continuation, 2026-06-26) — one measurement landed, a conceptual synthesis captured, then the
+session ran wide and was consolidated (honest flag).**
+- **LANDED (committed+pushed):** reader-upkeep on Syn3A ≈ **46%** of the proteome budget, co-equal with the
+  circulation — disconfirmer #3 NOT triggered (`syn3a_reader_upkeep.py`, receipt §JCVI-Syn3A reader-upkeep).
+  Metabolic `K(C)` probed → deflated (drive-locked count, zero reversible cycles = no minting, K_metric=0) →
+  **DECLINED** (Ron). Detail in the ★ Syn3A thread below.
+- **CAPTURED (this turn, conceptual/steeping):** the **accuracy-is-fitness** sharpening of `reader-by-overreach`
+  (frontier extended; memory `project_accuracy_is_fitness_reader`). The reader gets a *fitness function* (accuracy =
+  Eigen *sans reproduction*); the **passive/active × metric/topological correction grid**; **the archive is minted
+  at topological-active correction** (redundancy to correct an unmeasurable protected bit); reader-upkeep = the
+  *fidelity price*. Heavily import-credited (Eigen / Hopfield–Ninio / TUR / Waddington–Hsp90–Wagner / Shannon–vN).
+  Substrate map clarified: **KaiABC = the metric-clock half, Syn3A = the archive/topological half; the full
+  period→reader loop needs an intact clock-bearing cyanobacterium.**
+- **HONEST META:** the session drifted from measuring into wide lens-application (clock / fountains / wall-less /
+  armor taxonomy) — generative but **coverage-heavy**. The durable yield is the two bullets above; the
+  mundane-example coverage is *illustration, deliberately NOT canonized*. `notice-don't-build` is the right mode but
+  goes vacuous without a falsifiable edge — the next move re-anchors on ONE concrete reachable thing (see ◆ THE
+  BALANCE below).
+
+The five landings of the prior continuation below still hold.
 
 **Prior continuation (2026-06-25) — five landings, committed+pushed (`main` @ `78d2a7c`).**
 1. **`reader-by-overreach` [sharpening] landed** (Ron's conjecture: the dynamical path keep-ceiling→reader —
@@ -93,6 +109,32 @@ settled science) and `docs/character_abiogenesis.md` (origins as if vindicated).
 not at; each carries the credo's prohibitions so scenarios stay viable. Not committed (repo is public).
 
 ## ► PICK UP HERE (ranked; none blocking)
+
+**◆ THE BALANCE — where we need to get vs what's in reach (read first; the session drifted, this re-anchors).**
+
+*Where we need to get (the session's synthesis):* the **period→reader loop** on a real substrate holding BOTH
+halves — a **clock** (metric accuracy, passively corrected) → **replication/cell-cycle** (topological accuracy) →
+the **reader** (active correction needing a redundant archive). The reader is *born from a load-bearing period* via
+accuracy-is-fitness; reader-upkeep is the price of fidelity. The substrate that holds the whole loop is an **intact
+clock-bearing cyanobacterium** (`Synechococcus elongatus`, the circadian clock gates cell division).
+
+*What's actually in reach (honest, ranked):*
+1. **Cheap, now —** pin the **KaiABC zero-control** on the reader-upkeep test (in-vitro KaiABC: archive=0,
+   reader=0, vs Syn3A 46% — pins the axis; a one-line receipt add).
+2. **Standing real-data make-or-break (the cleanest concrete deliverable, unchanged) —** the **colloid
+   superselection proposal**: draft the one-page experiment from `experiments/colloid_ring_transverse.py`
+   (software-only on existing Bechinger/Seifert-lineage hardware). The one remaining real-data test of the premise
+   the whole composition/classification edifice rests on. *If you want a concrete next-session deliverable, this is it.*
+3. **Frontier experiment, gated —** the **BZ/Oregonator ↔ in-vitro KaiABC pair** (both in hand) brackets the
+   passive accuracy corrector (uncompensated Q10>2 vs compensated Q10≈1). BUT the compensation mechanism isn't in
+   our reduced KaiABC model → real modeling work, not a rerun. The first reachable handle on the corrector.
+4. **Out of easy reach (= the ambition, not the next step) —** the intact-cyanobacterium full loop (data fetch +
+   the clock-gates-division coupling; and accuracy-is-fitness is *already demonstrated* there by the Ouyang/Woelfle
+   resonance experiments, so re-measuring adds little). Park as the destination.
+
+*Discipline (carry):* the session went wide into coverage; the next move is **one concrete falsifiable thing**, not
+more lens-application. Capture-and-steep the theory; don't build on it (the gate forbids synthetic builds, and the
+reachable mechanisms — the corrector, the full loop — are hard or data-gated).
 
 **★ Syn3A substrate-navigation thread — WORKED (2026-06-25 cont.): reader-upkeep landed, metabolic `K(C)`
 declined.** (Ron: "get good at navigating that world." The gate, run per (substrate × question) pair, did its job —
