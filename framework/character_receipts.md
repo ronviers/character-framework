@@ -435,6 +435,32 @@ record.
 
 ## Coarse-graining, the tower, the marginal point
 
+* **Rejection-anchor — the "flow-resident" object resolves into the existing transverse / marginal machinery**
+  `composed` (2026-06-28) [retires the over-reach in `flow-resident-number`; sharpens `wall-as-type-boundary` +
+  `qec-transverse-decomposition`]. Two outbound rounds (`docs/research/research_prompt_flow_resident_rejection_invariant.md`,
+  `…_rejection_anchor_round2.md`; 3 models each) on the conjecture of a coordinate-free invariant built from a
+  flow's *rejected* (excluded) directions, stable while the bulk wanders. **Round 1 (boundary):** the barycenter
+  of the boundary rejection is a *derived coordinate statistic*, not an invariant (the measure/current is
+  fundamental); the proposed intrinsic form $\int_{\partial M}n\,d\sigma\equiv0$ identically (divergence theorem) —
+  a forced zero. The real boundary object is the **Freidlin–Wentzell exit measure** converging to the
+  quasipotential minimizer — *already imported* (`pa:transverse-decomposition` cites FW + Maier–Stein), the
+  framework's own `B-sep` machinery; Maier–Stein 1997's exit-location moments are universal in the saddle ratio
+  $\mu=|\lambda_s|/\lambda_u$. **Round 2 (interior):** moved off the boundary, the object is **not a current**
+  (contracting directions do not close into homological cycles) and **not the SRB measure** (smooth along the
+  *unstable* foliation = what survives); it is the **stable foliation / Oseledets bundle $E^s$** (`pa:oseledets-pesin`,
+  `pa:clv`) — a coordinate-free *frame*, the metric sector's intrinsic geometry **dual to the protected current**
+  (`pa:transverse-decomposition`). **Discriminator (the falsifiable crux):** $\tau_{\text{anchor}}\ll\tau_{\text{wander}}$
+  is real **iff a spectral gap / normal hyperbolicity** (`pa:ruelle-pollicott`, `pa:fenichel-nhim`); without it the
+  "anchor converges while the path wanders" is the bare ergodic theorem (no separation — the fake-NaN case). So the
+  anchor's existence-condition **is the marginal-point axis** (`wall-as-type-boundary`; §the marginal point): it
+  dissolves at $\varepsilon\to1$ (loss of normal hyperbolicity). **Net: no new object, no new physics, no new core
+  import** — the "rejection anchor" is the framework's existing stable-foliation / transverse-decomposition
+  structure; the *reading* (rejection = the metric sector's intrinsic contracting frame, dual to $\mathcal{A}$,
+  gated by the gap) is marked speculation, outbound-confirmed. **Over-reaches tombstoned**
+  (`rejection-anchor-as-new-invariant`): the barycenter-as-invariant, the $\int n\,d\sigma\equiv0$ form, and
+  rejection-as-Federer–Fleming-current. `pa:transverse-decomposition`, `pa:oseledets-pesin`, `pa:ruelle-pollicott`,
+  `pa:fenichel-nhim`, `pa:clv`.
+
 * **Heat-tax tower** `proven` [Coarse-graining]. $L_{n+1}=L_{n+1}^{(0)}+\alpha\langle\sigma_n\rangle$:
   level-$n$ entropy production becomes ambient noise to level $n{+}1$. The thermodynamic conjugate of
   the informational tower. `pa:harada-sasa`, `pa:dilution-structure`.
@@ -869,11 +895,19 @@ record.
   ratio and the onset collapses to a step — the discrete glass's exact flatness is this degenerate
   limit; a second harmonic ($V_2\cos 2x$, still reflection-symmetric) lifts the degeneracy and restores
   the linear law. Robust invariant: the **threshold** ($c_1=0$ iff symmetric); the onset power is
-  parity-dependent, not itself protected. Scope: synthetic = calibration on the real system's measured
-  structure (the Re/Im split), **not** a data measurement — real-data vindication is the owed experiment
-  (sweep a ring potential through exact reflection symmetry; watch $c_1$ cross zero linearly; software-
-  only on the SLM/EOM rig). Falsify: a reflection-symmetric driven ring whose relaxation linear-response
-  to the current is nonzero. `experiments/colloid_ring_transverse.py`. `pa:transverse-decomposition`.
+  parity-dependent, not itself protected. **Scope — calibration only; no real-data vindication is
+  available (corrected 2026-06-26).** A prior framing here called the lab run "the owed experiment / the
+  one remaining real-data make-or-break." That is **wrong and is retired**: $c_1=0$ at the symmetric point
+  is **forced by parity** ($\mathrm{Re}\,\lambda$ even, the current odd — Curie's principle), so for *any*
+  truly symmetric ring the linear response must vanish. A real sweep therefore measures whether the trap is
+  actually reflection-symmetric (a null test of the **apparatus**), not any nonequilibrium claim — it
+  cannot break the framework, only the rig. The non-forced content is either substrate-specific (the onset
+  slope $k$, not a protected invariant) or already tombstoned (the $O(\mathcal{A}^2)$ curvature,
+  `curvature-as-coupling-bias`). So this instance is a **fake-NaN**: a symmetry-forced zero, useful as
+  calibration on the real system's measured Re/Im split, **not** a test. (The only non-trivial door an
+  external review left open — recasting the decoupling as a thermodynamic-uncertainty / entropy-production
+  bound — is a *different* result needing new machinery; not pursued.) `experiments/colloid_ring_transverse.py`.
+  `pa:transverse-decomposition`.
 * **KaiABC circadian clock** `empirical` [Circulation-held capacity]. The first **capacity-curve anchor** for
   the decomposition *Organization = circulation-held $K(C)$ + archive-held*, with
   $K(C)=K_{\text{topo}}(=b_1)+K_{\text{metric}}$. In-vitro KaiA+KaiB+KaiC+ATP (no DNA / no transcription) read as

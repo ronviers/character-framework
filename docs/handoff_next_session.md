@@ -7,6 +7,218 @@ All canonical work below is committed + pushed. The two believing-mode docs are 
 
 ## Where things stand (current — 2026-06-25)
 
+**★ NEWEST (2026-06-26 cont.) — the gate over-fired into PARALYSIS; the real line is ESTABLISHED vs
+SPECULATION, and the fix is MARK-don't-GATE (Ron's reframe — this recontextualizes the colloid/test threads
+below).** Several turns of fake-NaN gating mistook *synthetic/forced* for *trivial/suspect*. Correction:
+**synthetic ≠ trivial.** The imported structures are a century of empirical physics/math we cite and do **not**
+own; stating them is **not** a discovery and carries **zero over-claim risk** — the framework only *assembles*,
+it cannot "discover." So the gate was guarding a non-problem and taxing every sentence for it. **The real (and
+only) danger is category leakage: our SPECULATION (the reading — reader / keep / minting / alive-loop) passing as
+an established result.** Fix: **mark, don't gate.** Established → cite, state freely. Speculation → MARK (a
+standing note + inline †), state freely, claim nothing. *Neither has to pass a test.* The gate shrinks to one
+narrow job: **don't dress a synthetic toy's forced output as EVIDENCE for the speculation** — that, and only
+that, is the genuine fake-NaN. (The colloid retirement stands on exactly this narrow ground: the colloid *law* is
+established → cite; the colloid *reading* is speculation → mark; building the sim "to prove the framework" was the
+one disallowed move. The parity-trivial framing below is correct but was over-generalized into dismissing the law.)
+**The criterion (when is physics talking vs us):** *strip the coined vocabulary* — if the sentence survives as the
+source field's own statement (Schnakenberg / Eigen / Rosen / Pattee), it's established; if it evaporates without
+*character / keep / minting / reader / seam*, it's our speculation.
+**LANDED (2026-06-28):**
+1. **"Mark, don't gate" is now repo discipline** — a standing bullet in `CLAUDE.md` (after "Bring nothing new"),
+   with the explicit guard that it *redirects* rigor, not relaxes it (receipts/frontier/core roles untouched:
+   core earned-only, receipts proof, frontier the register of un-earned live edges).
+2. **Standing "synthetic reading" note added atop `character.md`** (under the title, before the Abstract). The
+   inline † was **dropped as redundant** — the coined vocabulary (*character / keep / minting / reader / seam*)
+   already self-marks, so the note states it once and the words carry the mark thereafter (and daggers would
+   balloon + brush "no declared virtues"). Note's "claim no discovery" brushes the no-virtues line; kept factual,
+   open to veto.
+
+**THE FRONTIER RULE (proposed; NOT executed — see HOLD below).** Replaces the bogus "~4–5 paragraphs" target.
+*The frontier is the register of live edges — one marked line each; an entry earns its place only as an open
+operation (real test/hunt with a next move), a reading under active development, or a watch-list item; size
+follows the count of live edges, no target length.* The bloat was never the threads — it was the **gating
+apparatus** they accreted. Three things stop belonging in frontier: (a) settled claims (already in core, earned —
+don't shadow them); (b) the gating scaffolding (batteries, kill-switch ledgers, deferral-audit records,
+"what-would-falsify" dossiers — a live edge is a marked one-liner, not a dossier; proof shards live in receipts);
+(c) dead ends (one-line tombstone or gone). **Compression = strip the scaffolding, keep every thread** — nothing
+live removed, which is what makes it safe.
+
+**HOLD — do NOT compress the frontier yet.** Ron has break-work (built with other AI over the gap) that
+**depends on the frontier not being gutted**. Sequencing flipped: **introduce the break-work FIRST** (or have Ron
+name what it leans on — specific entries vs the whole doc read as context by the other AI), *then* clean up around
+it. Even the safe "strip-scaffolding-keep-threads" pass could move something the break-work assumes. **Open Q for
+Ron: what does the break-work lean on?** — that answer decides clean-then-build vs build-then-clean.
+
+**Syn3A blur-at-the-reader = reading-as-closure instance, mis-filed** (non-separability AT the reader is the
+closure signature / Rosen ⊗-fixpoint, not a failed separability test). Under the new rule it's a *reading under
+active development* → a keeper, and the natural spine of the frontier register. Likely dock point for the
+break-work if it's in the reader-as-closure / alive-loop neighborhood. Untouched, flagged.
+
+**BREAK-WORK SEEN (2026-06-28) — dependency resolved + two sharpenings proposed (NOT yet in frontier; Ron's go).**
+Ron's gap-work (mirroring / rejection-operator / rejection-centroid, developed with other AI) leans on FOUR
+existing entries → confirmed **load-bearing keepers, do not compress**: `flow-resident-number` [steeping] (the
+`[steeping]` Ron pointed at — its verdict ≈ his "constant stream, not a constant: identity is a non-terminating
+trajectory under the flow"), `predictor-soft-sector-blindness` [steeping] (the rejection thread's home),
+the seam / metric-topological core, and the reader cluster.
+**Discipline applied TWICE (both in force — mark-don't-gate does NOT loosen the anthropocentric guard):**
+(1) mark-don't-gate → established geometry cite, our reading mark; (2) **no anthropocentric steering** → the
+ethics / empathy / consciousness / mirror-neuron / transformer framing **cannot steer canon or enter as an
+example**; it may only *surface* a substrate-general structure (the AlphaFold precedent in
+`predictor-soft-sector-blindness`). Three-way split per idea: established (orthogonal projection `x=Px+(I−P)x`;
+parallel transport vs geodesic flow; barycenter/first-moment of a measure; interior `O(Vol)` vs boundary codim-1)
+/ our reading (topology = accumulated rejection; reader = a transport connection; the rejection-barycenter
+*trajectory* = a flow-resident number at the interface) / quarantined anthropocentric overlay.
+**PROPOSED (rung-formatted, await Ron):**
+- **S1 — `predictor-soft-sector-blindness`: steeping→sharpening.** Trigger = the missing mechanism: the
+  confident-and-false bias **is the absent persistent rejection operator** `(I−P)x` — the predictor learns the
+  interior `P` (`O(Vol)`) but discards the complement, so it never represents the codim-1 boundary where the
+  topological branch flips (narrow-but-wrong CI = reading-across a seam it can't carry). Keeps existing ↑/✗/→.
+- **S2 — `flow-resident-number`: instanced by the rejection centroid.** The rejection-barycenter trajectory
+  `μ(t)` (intrinsic form: boundary-normal first moment `J(t)=∫_∂M n dσ`) is a concrete flow-resident number —
+  identity = its trajectory under the flow (a conserved current, not a scalar). ↑ → universality across ≥2
+  substrates (→ candidate battery). ✗ → coordinate/architecture-specific = a statistic, not an invariant.
+- **Seam mechanism (marks the seam):** rejection lives *at the interface* → gives the missing mechanism for
+  seam-centricity (protected sector cheap because it's the codim-1 accumulated-rejection boundary; metric
+  interior `O(Vol)` expensive). Docks `seam-classification` / `post-threshold-universality`.
+- **Reader-as-connection (mirroring): STAYS steeping, most anthropocentric-risky.** Thin substrate-general
+  residue (similar driven NESS can share one transport rule); overlaps `reader-as-closure` (transport-connection
+  vs Rosen self-production — possible tension). Don't promote.
+- **Candidate battery (S2's universality):** does the rejection-barycenter trajectory converge
+  substrate-independently? Real + falsifiable, BUT (a) needs substrate-general translation off the transformer
+  framing (substrate-general "projecting system" = a relaxational NESS + its transient residual?); (b) **fake-NaN
+  watch** — a coarse-graining toy's barycenter may converge *because coarse-graining forces a fixed point*
+  (renormalization attractor); don't let that pose as evidence (the one gate that applies).
+**Frontier NOT edited** — on hold + break-work spine + S1/S2 are real rung promotions = Ron greenlights first.
+
+**DECIDED (2026-06-28) — anthropocentric residue OUT (consciousness/ethics/empathy: dropped, never canon);
+S1 GREENLIT; S2 is the priority.** S1 (rejection-operator / "topology = accumulated rejection" / seam =
+projection-failure-boundary) confirmed substrate-general — pop-science was only scaffolding. **S2
+(`flow-resident-number` via the rejection-barycenter) is the prize:** likely already characterized by the
+math/complexity community → **import + cite to core** (established), our reading stays marked. Mark-don't-gate
+makes this a *research task, not a build*.
+**SEQUENCE (locked): S2 outbound research FIRST → THEN one unified frontier pass.** Do NOT compress now —
+`flow-resident-number` is about to change state on the research return; compressing a moving target = double
+work + double-touching the on-hold frontier. The single later pass does all three: **land S1**, **fold in S2's
+import**, **compress** (per the frontier rule above) — on settled threads.
+**S2 prompt DRAFTED + ready to send:** `docs/research/research_prompt_flow_resident_rejection_invariant.md`
+(substrate-general; no ML/cognition framing). **Lead-candidate home flagged: Freidlin–Wentzell / quasipotential**
+(already in our toolkit via B-sep minimum-action) — the rejection field ≈ the exit-point/instanton distribution
+on the basin boundary; if its barycenter has established convergence, near-zero-friction import.
+**NEXT on resume:** (a) Ron runs the S2 prompt outbound; (b) on return, the unified frontier pass (S1 + S2-import
++ compress). Everything else (the frontier rule, the discipline, the break-work map) is above. Handoff complete.
+
+**S2 RESULTS IN + SYNTHESIZED (2026-06-28) — resolves by IMPORT, not discovery; a fake-NaN dodged.** All three
+outbound models converge (`docs/research/research_prompt_flow_resident_rejection_invariant.md`, model a/b/c):
+- **No new fundamental number.** The barycenter of accumulated rejection is a *derived coordinate statistic*,
+  not an invariant; the fundamental object is the **measure/current** (centroid converges only because the
+  measure does). Our "constant stream = new invariant" framing was over-reach (Ron's "above our paygrade"
+  instinct, vindicated).
+- **Fake-NaN caught by the literature:** our intrinsic form `J(t)=∫_∂M n dσ ≡ 0` *identically* (divergence
+  theorem, any closed body). Models a+b both flagged it. Drop it. (Nontrivial curvature-weighted version = the
+  **Steiner point**, Schneider *Convex Bodies* §1.7 — static convex geometry, not our flow.)
+- **What IS importable, and it's already ours:** the rejection-density-on-the-boundary = the **Freidlin–Wentzell
+  exit measure** → converges to the **quasipotential minimizer** (most-probable exit point / instanton) = exactly
+  our `B-sep` minimum-action machinery. **Citation upgrade: Maier–Stein 1997 (*J. Stat. Phys.*)** — exit-distribution
+  moments are **universal in the saddle eigenvalue ratio** `μ=|λ_s(H)|/λ_u(H)` (Weibull `2/μ` for μ<1, Gaussian-like
+  for μ>1). `μ` is framework-computable at the separatrix saddle.
+- **No follow-up outbound round needed** — the gap the models name (stochastic-fixed-domain vs deterministic-
+  time-varying) is against the *quarantined ML framing*; our substrates are noisy NESS and `B-sep` *is* stochastic
+  basin exit, so FW/Maier–Stein fits directly. (Optional self-sharpening: the `μ`↔framework-eigenvalue link.)
+- **S1 strengthened:** the rejection operator the predictor lacks = the exit-measure / quasipotential boundary it
+  can't represent — now a named established object, not a metaphor.
+**For the unified frontier pass (queued; NOT yet — S2 reopened, see below):** land S1; fold
+`flow-resident-number` into the quasipotential/`B-sep` cluster with FW + Maier–Stein prior-art entries; tombstone
+the centroid / `J≡0` over-reach (marked, with the divergence-theorem reason); then compress per the rule.
+
+**S2 REOPENED (2026-06-28) — Ron caught the too-fast close; the ANCHOR phenomenon is the real content.** My
+"resolves by import, deflating" framing threw away the actual object: **a small coordinate-independent thing
+freezes while enormous internal motion continues** (a separation of timescales). FW-as-ε→0 is a noise-limit, it
+does NOT capture "a sub-object converges faster than the bulk wanders at fixed drive." **Reframed object (better,
+and obeys our own discipline):** move rejection OFF the boundary (`∂M`, degenerate, `J≡0`) and INTO the interior —
+a **rejection vector field `V(x)`** (the contracting/excluding component of the flow), track its long-time
+**current / frame / support** (NOT a centroid — coordinate-independent; "the anchor is the flow itself, not where
+it passes"). This dodges the `J≡0` fake-NaN AND honors "character lives in the interior, not the collapse
+boundary." **Anchor reading (mark):** the framework anchors character in what's *preserved* (the protected bit);
+this adds a DUAL anchor in what's *refused* — via the transverse decomposition the rejection current is the
+**metric/relaxation sector**, so the claim is that the *time-averaged* metric current is a rigid coordinate-
+independent anchor even though instantaneous metric quantities are soft. **DISCIPLINE CATCH (do not fool
+ourselves):** "an averaged object converges while the path wanders" is GENERIC and FREE (Birkhoff / SRB) — NOT an
+anchor. The markable/falsifiable claim is the **separation of timescales** (`τ_anchor ≪ τ_wander`) + coordinate-
+independence + universality. That gap is the whole content. **ROUND-2 PROMPT DRAFTED + ready to send:**
+`docs/research/research_prompt_rejection_anchor_round2.md` — different question from round 1 (interior current/frame
++ the timescale-separation discriminator). Homes: SRB rates / Fenichel fast-slow / averaging / asymptotic-phase
+(isochrons) / COM-frame / currents. **Q2 is the discriminator + the fake-NaN guard: generic ergodic average vs a
+genuine separation.** NEXT: Ron runs round 2 → on return, decide if the anchor imports (real separation) or marks
+as the ergodic theorem (no gap); THEN the unified frontier pass.
+
+**S2 ROUND-2 RESULTS IN + SYNTHESIZED (2026-06-28) — the anchor is REAL but CONDITIONAL, and the condition is our
+own axis.** Three cold reads converge (`docs/research/research_prompt_rejection_anchor_round2.md`, model a/b/c):
+- **Discriminator (Q2) — clean trichotomy, governed by ONE thing: does the flow have a spectral gap / normal
+  hyperbolicity?** (i) bare ergodic/SRB, no structure → **NO separation** (free Birkhoff theorem, the fake-NaN
+  case); (ii) hyperbolic+mixing (Ruelle–Pollicott gap) → genuine, **generic-within-the-class** (exponential frame
+  alignment beats the `1/√t` ergodic average — model b via Oseledets/Lyapunov); (iii) fast-slow/NHIM (Fenichel) →
+  genuine but **TUNED** by `ε≪1`. **So the anchor is real iff spectral gap — NOT generic across all dissipative
+  flows.**
+- **The object (your "frame" intuition right, "current" the near-miss):** NOT a current (contracting directions
+  don't close into homological cycles → no Federer–Fleming stable current), NOT the SRB measure (smooth along the
+  *unstable* foliation = what survives, not what's refused), NOT a centroid. It's a **frame/foliation**: the
+  **stable foliation `W^s` / Oseledets stable bundle `E^s` / Covariant Lyapunov Vectors**; limit-cycle case =
+  **isochrons → isostables** (level sets of the dominant **Koopman eigenfunction**, "the surviving contraction
+  coordinate," model a's closest match).
+- **NOT a deflation — the existence-condition is `B-marginal`.** Normal hyperbolicity / CLV-angle-bounded-from-0 is
+  *verbatim* what `B-marginal` tracks (grounding_method: "loss of normal hyperbolicity → slow witness / fast content
+  decouple"). So the anchor folds into existing machinery: **(reading, well-grounded)** the rejection-anchor (fast
+  stable foliation) and the `B-marginal` witness (slow manifold) are the fast/slow halves of the SAME
+  normally-hyperbolic split; the **marginal point** (`ε→1`, gap closes) is where the anchor dissolves. **(reading)**
+  via the transverse decomposition the contracting frame = the **metric sector's intrinsic geometry**, dual to the
+  protected current `𝒜` (topological) — the metric sector is soft *pointwise* yet its contraction-frame is a rigid
+  coordinate-free anchor (Ron's "constant stream," made precise).
+- **Imports (cite):** Fenichel 1971 / Hirsch–Pugh–Shub 1977; Oseledets 1968 / Pesin 1977; Ruelle–Pollicott (Ruelle
+  1986, Pollicott 1985, Liverani 2004, Dyatlov–Zworski 2019); isochrons (Guckenheimer; Winfree) / isostables–Koopman.
+- **Dropped over-reaches:** "current" (no closed stable current); "generic/universal" (false — conditional on the
+  gap); centroid/barycenter (dead since round 1).
+- **NO round 3.** Object + discriminator + imports settled. Remaining = **internal self-sharpening** (not outbound):
+  verify the precise anchor↔`B-marginal` mapping (fast-foliation/slow-witness duality; sharpen-vs-dissolve at
+  marginality) against `B-marginal` + `character_fdr_treatment.md`; develop the anchor-as-metric-frame reading.
+- **UNIFIED PASS — CONTENT LANDED 2026-06-28** (Ron: "no more break-work; continue"). Key finding: the round-1+2
+  imports **already existed** (`pa:transverse-decomposition` cites FW + Maier–Stein; `pa:fenichel-nhim` + `pa:clv`
+  + `wall-as-type-boundary` + `B-marginal` are the normal-hyperbolicity machinery) → the rejection-anchor resolved
+  INTO existing structure: **no new object, no new core edit**. Done: (a) prior-art `oseledets-pesin` +
+  `ruelle-pollicott`; (b) receipts §Rejection-anchor (canonical S2-arc record); (c) tombstone
+  `rejection-anchor-as-new-invariant` (register + Dashboard) — the centroid / `J≡0` / rejection-as-current
+  over-reaches; (d) `flow-resident-number` resolved in place (the `consolidation-ascent` cross-ref preserved;
+  residue = the cyclic character) + Dashboard updated; (e) **S1 fired** — `predictor-soft-sector-blindness`
+  steeping→sharpening (tag + trigger = the absent `(I−P)` rejection operator; Dashboard moved steeping→sharpening).
+- **COMPRESSION — DONE 2026-06-28 (Ron delegated: "compress using your best judgement, recoverability is the
+  criterion, no need to loop me in").** Criterion held: each entry trims as far as a *future session* can still
+  recover the thread from {trimmed entry + its receipts §/`pa:` keys/core §/sibling pointers + git}; dated
+  chronology + receipt-held result-detail stripped, the verdict + live ↑/✗/→ gates + recovery pointers kept.
+  **Landed (frontier −27% bytes, all gates/pointers verified intact):** all 18 sharpening-register entries trimmed
+  (the 4 monsters + the 14 remaining); the bloated **Dashboard** sharpening rows collapsed to true one-liners
+  (the Register holds the detail); `predictor-soft-sector-blindness` physically relocated steeping→Sharpening
+  register (doubled verdict + relocation-note dropped); `engine-character-onset` given an explicit residual ↑
+  (occurrence-gate) for schema-completeness. Structure (Dashboard/rungs/Gates/Invariants) untouched; steeping
+  entries left as-is (allowed dense; pointers complete). **Method note (validated):** these are single very-long
+  LaTeX lines with *inconsistent* backslash escaping — manual exact-match is treacherous; the reliable path was a
+  Python script that finds each entry by a unique line-prefix anchor and rewrites the whole line with authored
+  compressed text (no transcription of the old LaTeX). One artifact to watch: Python raw-string `\"` retains the
+  backslash — strip stray `\"`→`"` after.
+  **The S2 arc + this compression are committed together as one unified pass.**
+
+**NEWEST (2026-06-26 cont.) — the colloid "real-data make-or-break" RETIRED as parity-trivial (a fake-NaN).**
+The colloid TDT instance was billed below (◆ THE BALANCE item 2 / PICK UP item 1) as the one remaining real-data
+make-or-break and a one-page proposal was drafted. It is **forced**, not a test: for any reflection-symmetric
+ring, `c₁ = ∂Re λ₁/∂f|₀ = 0` is *required by parity* (Re λ even, the current odd — Curie's principle), so a real
+run measures only whether the trap is actually symmetric (a null test of the **apparatus**) — it cannot break
+the framework, only the rig. The non-forced content is substrate-specific (the onset slope `k`, not a protected
+invariant) or already tombstoned (the `O(𝒜²)` curvature). Confirmed by an external physics review (independently
+called the zero-derivative "mathematically trivial") **and** the could-it-be-otherwise gate. Draft deleted;
+receipt §Colloid ring transverse corrected; the two forward-pointers below struck. **Lesson banked:** run the
+fake-NaN / could-it-be-otherwise gate on a proposed *test*, not just a proposed synthetic *build* — a
+symmetry-forced zero is calibration, never vindication. The colloid is now **calibration-only** (the Re/Im split);
+it is *not* a standing deliverable. The TDT keeps its non-forced instances (QEC topological protection ≠ a simple
+parity); only the colloid instance is demoted.
+
 **Latest (this continuation, 2026-06-26) — one measurement landed, a conceptual synthesis captured, then the
 session ran wide and was consolidated (honest flag).**
 - **LANDED (committed+pushed):** reader-upkeep on Syn3A ≈ **46%** of the proteome budget, co-equal with the
@@ -121,10 +333,10 @@ clock-bearing cyanobacterium** (`Synechococcus elongatus`, the circadian clock g
 *What's actually in reach (honest, ranked):*
 1. **Cheap, now —** pin the **KaiABC zero-control** on the reader-upkeep test (in-vitro KaiABC: archive=0,
    reader=0, vs Syn3A 46% — pins the axis; a one-line receipt add).
-2. **Standing real-data make-or-break (the cleanest concrete deliverable, unchanged) —** the **colloid
-   superselection proposal**: draft the one-page experiment from `experiments/colloid_ring_transverse.py`
-   (software-only on existing Bechinger/Seifert-lineage hardware). The one remaining real-data test of the premise
-   the whole composition/classification edifice rests on. *If you want a concrete next-session deliverable, this is it.*
+2. **~~Standing real-data make-or-break — the colloid superselection proposal~~ — RETIRED 2026-06-26
+   (parity-trivial / fake-NaN; see NEWEST at top).** Was billed as the cleanest concrete deliverable; it is not a
+   test — `c₁=0` is parity-forced, so a real run tests the rig's symmetry, not the framework. Colloid is now
+   calibration-only. Do **not** re-draft this proposal.
 3. **Frontier experiment, gated —** the **BZ/Oregonator ↔ in-vitro KaiABC pair** (both in hand) brackets the
    passive accuracy corrector (uncompensated Q10>2 vs compensated Q10≈1). BUT the compensation mechanism isn't in
    our reduced KaiABC model → real modeling work, not a rerun. The first reachable handle on the corrector.
@@ -245,12 +457,11 @@ the record-free regime + the boundary, not the archive theory.
    kill-switches pass synthetically (metric reading on; within-lifetime bit-readability null machine-exact;
    `R_hard` over a lineage 0→nonzero at the symmetry break, ∼linear onset; co-emergence needs both channels).
    Synthetic = calibration: the **real-substrate reader is the owed instance** (→ item 3, the bootstrap).
-1. **The colloid superselection premise on real data — the one remaining real-data make-or-break.** On an
-   SLM/EOM ring-trap rig (Bechinger/Seifert lineage) sweep the optical potential through *exact* reflection
-   symmetry and measure the relaxation rate's linear-in-current coefficient `c₁` crossing zero **linearly** —
-   software-only on existing hardware. Draft the one-page proposal from `experiments/colloid_ring_transverse.py`
-   (we can write the proposal; the rig isn't ours). This tests the premise the whole composition/classification
-   edifice rests on.
+1. **~~The colloid superselection premise on real data~~ — RETIRED 2026-06-26 (parity-trivial; see NEWEST at
+   top).** Not a real-data make-or-break: `c₁=0` at the symmetric point is forced by reflection parity, so the lab
+   run is a null test of the apparatus, not of the framework. Colloid `colloid_ring_transverse.py` stays as
+   calibration on the measured Re/Im split only. **Do not re-draft the proposal.** The genuine make-or-breaks are
+   the *contingent* real-substrate measurements (outcome could come out otherwise) — see the discipline note below.
 2. **`battery:strata-current` — scan engineering separation data.** Centrifuges, fluidized beds, granular
    segregation, distillation trays, sedimentation: abundant real data, all on the sorting axis (`𝒜=0`) — a free
    **✗-harvest** ruling out a salient class as *stage*. The **↑-scan** is the rare exception: a sort-independent

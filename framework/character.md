@@ -1,5 +1,12 @@
 # Character: finite-drive structure in driven-dissipative steady states
 
+*A synthetic reading. The structures below are established physics and mathematics, cited to their
+sources and not ours; assembling them into an account of character is ours and speculative. We claim
+the assembly, never the parts, and claim no discovery. Where a sentence rests on a named import
+(Schnakenberg, Eigen, Rosen, Pattee, …) it is established; where it rests on the framework's coined
+terms — character, the keep, minting, the reader, the seam — it is our reading. The coined vocabulary
+is the mark.*
+
 ## Abstract
 
 Every steady state held off equilibrium by a throughput of energy carries a structure we call

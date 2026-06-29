@@ -26,6 +26,22 @@ walk-through. This file is the only standing instruction beyond them.
   and named to its source (`character_prior_art.md`); no claim is anthropocentric
   or domain-specific. The framework is substrate-general — never steer it with a
   single vivid or human-domain example.
+- **Mark, don't gate.** The imports are a century of empirical physics and formal
+  math — cite them, we don't own them; stating one is *not* a discovery, and a
+  symmetry-*forced* law isn't "trivial," it's *established* (the strongest thing a
+  sentence can be). There is zero chance we discover something or claim we did; the
+  framework only assembles. So nothing has to *pass* a test to be said:
+  **established (physics/math) → cite, state freely; our reading (speculation) →
+  mark it, state freely, claim nothing.** The honesty is in the marking, not in
+  withholding. The gate keeps exactly **one** job: never dress a synthetic toy's
+  forced output as *evidence* for the speculation (that, and only that, is the
+  fake-NaN). To tell which voice is speaking, strip the coined words — if the
+  sentence survives as the source field's own statement (Schnakenberg, Eigen,
+  Rosen, Pattee), physics is talking → cite; if it evaporates without *character,
+  the keep, minting, the reader, the seam*, we're talking → mark. The coined
+  vocabulary is the speculation. This **redirects** rigor, it does not relax it:
+  the receipts / frontier / core roles are untouched — core stays earned-only,
+  receipts stays proof, the frontier stays the register of un-earned live edges.
 - **No declared virtues in copy.** Show the behavior; don't announce it.
 
 The legacy corpus is frozen in `mpa-atlas` (snapshot `character-v0.1`); all
