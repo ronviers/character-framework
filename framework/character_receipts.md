@@ -1049,7 +1049,11 @@ record.
   fully-credited concepts** -- the framework's settled constraint-language value, instanced; we put a number
   where Pattee/Rosen/Kolchinsky--Wolpert put a concept. Kept, not erased; not inflated.
   `pa:semantic-information`, `pa:rosen-mr-systems`, `pa:pattee-semantic-closure`, `pa:chemoton`,
-  `pa:von-neumann-automata`, `pa:channel-capacity`, `pa:transverse-decomposition`.
+  `pa:von-neumann-automata`, `pa:channel-capacity`, `pa:transverse-decomposition`. **Core landing
+  (2026-06-28):** the degeneracy-break *reading* -- this closure is what makes the protected bit
+  **load-bearing** (a bit nothing consults vs a bit read to sustain the reader that reads it), lifting the
+  circulation out of *degenerate* replication -- now stated in core §Cascade; marked speculation (the closure
+  Rosen's, the cut Pattee's), the pre-biotic **origin** of the loop left open in §Status.
 * **JCVI-Syn3A reader-upkeep -- the energy axis of the seam** `empirical` [frontier `reader-by-overreach`:
   disconfirmer #3, the upkeep side]. Companion to the archive-term cut: that measured the reader on the **bit**
   axis (stored information, $\approx41\%$ of the irreducible archive); this measures it on the **energy/upkeep**

@@ -830,7 +830,10 @@ marginal point). A composite among its *own* constituents' drivers — a cycle i
 system, a fixed point of `⊗` that re-enters its own input set — is a self-sustaining recursive
 circulation. This fixed point is **closure to efficient causation** (Rosen): the reader of §The keep and the
 archive — the expression apparatus the archive specifies and which in turn reads the archive — is its measured
-biological instance, and the locus where the circulation/archive cut blurs.
+biological instance, and the locus where the circulation/archive cut blurs. This closure is what breaks
+the **degeneracy** of mere replication: a fixed form copied for free carries a bit nothing consults, whereas a
+circulation whose protected bit is read to sustain the reader that reads it has made that bit **load-bearing**
+(the closure Rosen's, the cut Pattee's).
 
 ---
 
