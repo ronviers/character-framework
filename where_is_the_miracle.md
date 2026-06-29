@@ -4,40 +4,44 @@
 sources; assembling them into an account of where life begins is the contribution, and it is a
 reading — it claims no discovery, and the one step it cannot supply is named at the end.*
 
-Origin-of-life research carries a hidden assumption, inherited from the textbooks: that the hard
-step — the miracle, the thing that needs explaining — is the **first self-replicator**. A molecule
-that copies itself, arising by chance in a warm pond, and life follows. The mystery sits there, at
-the threshold of reproduction.
+Origin-of-life research largely agrees on the facts but disagrees about where the **explanatory
+burden** lies — which step is the one that genuinely demands an account, and which steps merely follow
+once that step is granted. The textbooks assign the burden to the **first self-replicator**: a
+molecule that copies itself, arising by chance in a warm pond, and life follows. This essay argues the
+burden has been assigned to the wrong step.
 
-This is a reframing that relocates the miracle. It argues that reproduction and persistent
-information are the *cheap* parts — abundant, even forced, on any driven planet — and that the genuine
-threshold lies one step further in, at something the textbooks never name. The relocation does not
-solve the origin of life. It moves the mystery to a smaller, better-placed spot, with borrowed rigor
-rather than hand-waving. Four moves, each demoting something usually treated as miraculous.
+The argument is a relocation, not a chemistry. It holds that reproduction and persistent information
+are the *cheap* parts — ubiquitous, even forced, in any driven medium — and that the step still
+requiring explanation lies one move further in, at something the textbooks never name. The relocation
+does not solve the origin of life; it moves the mystery to a smaller, better-placed spot, with
+borrowed rigor rather than hand-waving. Four moves follow, and each *subtracts* a mystery — leaving, at
+the end, a single load-bearing assumption.
 
-## 1. Reproduction is free
+## 1. Reproduction is cheap
 
 Long before any chemistry "tried" to copy itself, a driven medium copies its own structures for
 nothing. Convection lays down cells in rank; vents stack mineral compartments; precipitation fronts
 print bands; vortices shed their likenesses downstream. This is **degenerate pattern-replication** —
-a fixed form copied, carrying about one bit, with no description and no heredity — and it runs
+a fixed form copied, carrying about one bit, with no description and no heredity — and it appears
 wherever a gradient runs. Von Neumann drew the line decades ago between this *trivial* reproduction
 (copying a pattern) and the *non-trivial* kind (copying a description, open-ended). The young planet
-was drowning in the trivial kind. So the origin of life was never the origin of copying; copying is
-primordial and abundant. The hard problem was a copy that came to **matter** — one carrying a
+plausibly hosted innumerable instances of the trivial kind. So the origin of life was never the origin
+of copying; copying is primordial and abundant. The hard problem was a copy that came to **matter** — one carrying a
 difference forward. Everything below is the story of breaking that degeneracy.
 
 ## 2. A persistent distinction is forced, not lucky
 
-The next thing usually treated as a fortunate accident — the appearance of stable, heritable
-information — is, on a driven substrate, close to automatic. Couple a few reactions around a cycle,
+The next thing usually treated as a fortunate accident — the appearance of stable, protected
+information — is, on a driven substrate, cheap and generic. Couple a few reactions around a cycle,
 drive it with the local gradient, and let the loop close in a way that cannot be laid flat (a
 *frustrated* cycle). What appears is a **protected circulation**: a current whose direction is set by
 the wiring, not the drive, and whose sign is gauge-irremovable — you cannot smoothly deform it to
 zero without rewiring the loop. This is not exotic. It is the cycle affinity of stochastic
 thermodynamics (Schnakenberg), read as a topological invariant on the loop's cycle space (Polettini).
-Minting a protected bit is what a driven frustrated cycle *does*. So "the first persistent
-distinction" is demoted too: not a miracle, a consequence.
+Minting a protected distinction is a generic consequence of a frustrated cycle that closes under
+drive — not every coupling does it (most add only metric structure), but the ones that close a
+frustrated loop mint without further luck. So "the first persistent distinction" is demoted too: not a
+miracle, a consequence of the right wiring.
 
 ## 3. The miracle moves to closure
 
@@ -66,9 +70,13 @@ Then where does the genome come from — the copyable record the textbooks put f
 and it is forced by a wall, not chosen as a foundation. A running circulation can specify a great deal
 of itself in itself — phase, sequence, direction, which sub-loop feeds which — and for a long climb
 this self-specification is free, because keeping is cheaper than archiving. But the keep is bounded.
-Maintenance is error correction, and re-addressing a heterogeneous graph of many loops grows faster
-than the turnover channel can repair (∼N log N against ∼N), so past a finite complexity a standing
-record is forced — for anyone, on any planet. And forced to be **aperiodic**: a code, not a crystal. A
+Maintenance is error correction, and once the overhead of re-specifying a heterogeneous graph of many
+loops outgrows what the turnover channel can repair — as expected when re-specification scales faster
+(heuristically ∼N log N) than repair (∼N) — a standing record becomes first advantageous and
+eventually unavoidable, for anyone, on any planet. (The wall is rigorous in at least one setting: it
+is the channel capacity and error threshold of an error-correcting code; the general biological
+version is so far an expectation, not a theorem.) And the record is forced to be **aperiodic**: a
+code, not a crystal. A
 crystal escapes the wall but holds only repetition; what life had to store was heterogeneous, distinct
 organization. This is Schrödinger's aperiodic crystal, read forward — the genome as the inscription
 forced where circulation-held capacity gives out. Heredity follows as a *consequence*: copies now
@@ -88,8 +96,11 @@ is, in the established vocabulary, *stored semantic information* (Kolchinsky–W
 categories themselves are the cell biologists' (Breuer and colleagues). What the framework adds is the
 **measurement of where the cut falls** — and it falls on the reader. "The reading loop closing," in
 the extant cell, is the single largest thing the genome is *for*: the first thing an archive holds is
-the means of reading the archive. Keep and archive do not cleanly separate; they overlap, irreducibly,
-at the self-referential seam.
+the means of reading the archive. The claim is not that the reader *evolved* first — a separate and
+contested question the account does not touch — but the sharper, more measurable one: in extant life
+the archive is overwhelmingly devoted to **reconstructing the reader**. The largest single thing a
+minimal genome encodes is the apparatus that reads genomes. Keep and archive do not cleanly separate;
+they overlap, irreducibly, at the self-referential seam.
 
 ## What is granted, and what is not
 
@@ -102,6 +113,12 @@ degeneracy. That step — the closure itself — is granted, not demonstrated. T
 self-maintaining theft of free energy, a dissipative structure carving its niche) is the comparatively
 unmysterious part, the kind of thing driven chemistry does for free. What stays open is only that a
 *protected, reading* circulation arose inside such an engine.
+
+The hierarchy, compressed: **replication is abundant; protected distinctions are generic; archives are
+eventually forced; closure alone stays contingent.** The set of unexplained things shrinks at every
+step — from copying, to information, to the record — until, if the argument holds, a single assumption
+is left load-bearing. A reader who disagrees is left with a precise point of disagreement rather than a
+diffuse sense that something, somewhere, is being smuggled in.
 
 So this is a reframing, not a discovery, and it is plain about which beam is load-bearing-but-pretended.
 Its value is the relocation: it takes the mystery the textbooks place at reproduction — a step it shows
